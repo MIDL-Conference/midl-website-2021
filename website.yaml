@@ -4,6 +4,7 @@ theme: "midl-website-theme"
 primary-color: "#004B5A"
 content: "placeholder"
 
+www: "https://2021.midl.io"
 twitter: "midl_conference"
 youtube: "channel/UCd87UPUTt-oqTeGi8fQw-_w"
 github: "MIDL-Conference/midl-website-2021"
