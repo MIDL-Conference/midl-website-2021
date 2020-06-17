@@ -9,4 +9,4 @@ verify_ssl = true
 mwb = {editable = true,git = "https://github.com/MIDL-Conference/midl-website-builder.git",ref = "1.11"}
 
 [requires]
-python_version = "3.8"
+python_version = "3.7"
