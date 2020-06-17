@@ -6,6 +6,9 @@ title: "Call for papers"
 
 # Call for papers
 
+![Lübeck's Historic City Hall](/images/rathaus.jpg)
+*(c) LTM - Manfred Krellenberg*	
+
 ## Aim and Scope
 
 We welcome submissions, as full or short papers, for the 4th edition of Medical Imaging with Deep Learning.

@@ -7,7 +7,7 @@ title: "Venue"
 ## The Hanseatic City of Lübeck
 
 ![Panoramic view of the river Trave](/images/panorama.jpg)
-*(c) LTM - Uwe Freitag*
+*(c) LTM - Manfred Krellenberg*
 
 MIDL will be held in Lübeck, the Queen of the Hanseatic League. The city was founded in 1143 “as the first occidental city at the Baltic coast” and, with its exemplary character, stands for all Hanseatic cities of the Baltic countries. Medieval ambience and historic sites determine until today the cityscape and are monuments of the important history as a Free and Hanseatic City. The Old Town Peninsula, surrounded by water, with its historic town centre is one of the most famous relics of the brick-lined gothic culture. For more than seven hundred years, Lübeck’s seven church spires have been the signature of the city’s silhouette. The University of Lübeck is located in the south of the city, at the heart of the BioMedTec Campus, a thriving community of small and medium companies centred around the University of Lübeck, the University Hospital Schleswig-Holstein, and the adjacent Technical University of Lübeck.
  
@@ -40,4 +40,4 @@ The social event will take place in a very special location: we have secured the
 *(c) Roland Meinecke, licensed under [GFPL 1.2](http://www.gnu.org/licenses/old-licenses/fdl-1.2.html)*
 
 ![John Madejski Garden](/images/venue/marienkirche-innen.jpg)
-*(c) [André Leisner](https://photography-leisner.de/)*
+*(c) [Photography by André Leisner](https://photography-leisner.de/)*
