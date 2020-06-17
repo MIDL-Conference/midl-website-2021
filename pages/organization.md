@@ -19,11 +19,6 @@ title: "Organization"
 * [Jannis Hagenah](https://www.rob.uni-luebeck.de/index.php?id=422&L=1), Institute for Robotics and Cognitive Sciences, University of Lübeck, Germany
 * [Alessa Hering](https://www.mevis.fraunhofer.de/en/employees/alessa-hering.html), Fraunhofer MEVIS, Lübeck, Germany
 
-## Web & Social Media
-
-* Hoël Kervadec (ÉTS Montréal)
-* Nikolas Lessmann (Radboud University Medical Center, The Netherlands)
-
 ## Area Chairs
 
 * To be determined
