@@ -7,7 +7,7 @@ title: "Call for papers"
 # Call for papers
 
 ![Lübeck's Historic City Hall](/images/rathaus.jpg)
-*(c) LTM - Manfred Krellenberg*	
+<span class="credits">&copy; LTM - Manfred Krellenberg</span>	
 
 ## Aim and Scope
 
