@@ -3,7 +3,7 @@ title: "Sponsorship packages"
 page_class: "sponsors"
 ---
 
-# Sponsorship packages
+# Sponsorship Packages
 
 <p class="primary-photo centered">
     <img alt="City of Lübeck" src="/images/muk_bruecke.jpg">

@@ -1,6 +1,6 @@
----
-layout: "placeholder"
----
+<h1 class="midl">Medical&nbsp;Imaging with Deep&nbsp;Learning</h1>
+<h2 class="midl">Lübeck, 7 ‑ 9th July 2021</h2>
 
-<h1>Medical Imaging with Deep&nbsp;Learning</h1>
-<h3>Lübeck, 7 ‑ 9 July 2021</h3>
+<p class="primary-photo centered">
+    <img alt="City of Lübeck" src="/images/midl_2021_luebeck.jpg">
+</p>

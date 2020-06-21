@@ -4,7 +4,7 @@ title: "Call for papers"
 
 {% from "_macros.html" import button %}
 
-# Call for papers
+# Call for Papers
 
 ![Lübeck's Historic City Hall](/images/rathaus.jpg)
 <span class="credits">&copy; LTM - Manfred Krellenberg</span>	
