@@ -1,7 +1,6 @@
 ---
 title: "Venue"
 ---
-
 {% from "_macros.html" import map %}
 
 # Venue
@@ -19,7 +18,7 @@ Lübeck is well connected to the extensive German railway system, with regional 
 
 MIDL 2021 will take place in Lübeck's Music and Congress Hall (Musik- und Kongresshalle, MuK).
 
-{{ map('https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9409.98473606103!2d10.6813853!3d53.8696063!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b20955d6a2c11f%3A0x88fd82071a78645f!2sMusik-%20und%20Kongresshalle%20L%C3%BCbeck!5e0!3m2!1snl!2snl!4v1592469829566!5m2!1snl!2snl') }}
+{{ map('https://www.openstreetmap.org/export/embed.html?bbox=10.655837059020996%2C53.85819661651936%2C10.699610710144045%2C53.88054013527668&amp;layer=mapnik&amp;marker=53.869369867829136%2C10.67772388458252') }}
 
 The Musik- und Kongresshalle Lübeck hosts around 300 events every year. A total of 15 conference rooms, the VIP lounge, the gallery, the rotunda, the orchestra hall and the concert hall offer space for up to 3,500 people. The heart of the event house is the concert hall with its famous acoustics. A striking architectural feature is the white solitaire, created by the internationally renowned architect Meinhard von Gerkan, directly on the river Trave at the entrance to the historic Old Town Peninsula. The city centre and the railway station are within walking distance. Further information: [www.muk.de](www.muk.de) 
 
