@@ -9,7 +9,9 @@ page_class: "sponsors"
     <img alt="City of Lübeck" src="/images/muk_bruecke.jpg">
 </p>
 
-Please make inquiries about sponsorship packages to [sponsor@2021.midl.io](mailto:sponsor@2021.midl.io)
+Please make inquiries about sponsorship packages to [sponsor@2021.midl.io](mailto:sponsor@2021.midl.io). 
+
+All information about available sponsorship packages can also be downloaded [here](/resources/sponsorship_options.pdf).
 
 ## <span class="diamond">Diamond</span>
 ### <span class="amount">15,000 € (excl. VAT)</span>
