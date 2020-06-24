@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "e08346fd36f7ed714cbc3aae0c76780334cf3ae44620dacb3a341fff978b1b2c"
+            "sha256": "db264d5001ae6cd7d0b38ed839b5218c97e2a4c7d197caa232a0b8d9e8cbe43d"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -99,7 +99,7 @@
         "mwb": {
             "editable": true,
             "git": "https://github.com/MIDL-Conference/midl-website-builder.git",
-            "ref": "2f1fe68736b525f99444f3563d62c443952f0519"
+            "ref": "c885caabc0be72da796c5f46e66164a65352926b"
         },
         "pyscss": {
             "hashes": [
