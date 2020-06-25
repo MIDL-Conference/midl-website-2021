@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f7a83365-4dac-4743-8b75-940f941db337/deploy-status)](https://app.netlify.com/sites/midl-2021/deploys)
+![Netlify Status](https://api.netlify.com/api/v1/badges/f7a83365-4dac-4743-8b75-940f941db337/deploy-status)
 
 # MIDL 2021 (Lübeck) website
 
