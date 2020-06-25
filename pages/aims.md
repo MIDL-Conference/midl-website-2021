@@ -2,7 +2,7 @@
 title: "Aims and scope"
 ---
 
-# Aims and scope of MIDL
+# Aims and Scope of MIDL
 
 Imaging is a cornerstone of medicine. The number of medical imaging studies is growing rapidly, and so is the size and dimensionality of these images. Human experts interpret these images, which is time-consuming, expensive, and prone to errors because of visual fatigue. Advances in deep learning show that computers can extract more information from images, more reliably, and more accurately than ever before. However, most deep learning research in computer vision has focused on natural images. Adapting and further developing these techniques to the characteristics of medical images and medical data is an important and relevant research challenge.
 

@@ -9,7 +9,7 @@ title: "Call for papers"
 ![Lübeck's Historic City Hall](/images/rathaus.jpg)
 <span class="credits">&copy; LTM - Manfred Krellenberg</span>	
 
-## Aim and Scope
+## Aims and Scope
 
 We welcome submissions, as full or short papers, for the 4th edition of Medical Imaging with Deep Learning.
 The conference is a forum for deep learning researchers, clinicians and health-care companies working at the intersection of medical image analysis and machine learning for healthcare and medicine, including disease detection, diagnosis, staging, prognosis, intervention, treatment selection and monitoring of disease progression.
