@@ -5,9 +5,8 @@ page_class: "sponsors"
 
 # Sponsorship Packages
 
-<p class="primary-photo centered">
-    <img alt="City of Lübeck" src="/images/muk_bruecke.jpg">
-</p>
+![Bridge to MuK](/images/muk_bruecke.jpg)
+<span class="credits">&copy; LTM - Manfred Krellenberg</span>	
 
 Please make inquiries about sponsorship packages to [sponsor@2021.midl.io](mailto:sponsor@2021.midl.io). 
 
