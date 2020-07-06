@@ -30,9 +30,12 @@ The keynotes and oral sessions will be presented in the main concert hall.
 ![The Main Auditorium](/images/venue/muk_konzertsaal.jpg)
 <span class="credits">&copy; Olaf Malzahn</span>
 
-The poster sessions and the industry exhibition will be in the foyer, the galleries and the rotunda.
+The poster sessions and the industry exhibition will be in the foyer, the galleries and the Rotunda.
 
 ![Rotunda](/images/venue/muk_rotunde.jpg)
+<span class="credits">&copy; Olaf Malzahn</span>
+
+![Rotunda by night](/images/venue/muk_rotunde_2.jpg)
 <span class="credits">&copy; Olaf Malzahn</span>
 
 ## Gala Dinner
