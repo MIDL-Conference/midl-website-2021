@@ -4,3 +4,6 @@
 <p class="primary-photo centered">
     <img alt="City of Lübeck" src="/images/midl_2021_luebeck.jpg">
 </p>
+<p align=center> MIDL 2021 at a <a href="/resources/teaser_slides.pdf">glance</a></p>
+
+
