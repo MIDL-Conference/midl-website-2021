@@ -6,4 +6,8 @@
 </p>
 <p align=center> MIDL 2021 at a <a href="/resources/teaser_slides.pdf">glance</a></p>
 
+---
 
+[% .logos %]
+[![EU.SH](/sponsors/efre.jpg){: width="200"}](https://www.schleswig-holstein.de/EN/)
+[% / %]
