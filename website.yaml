@@ -15,6 +15,11 @@ show_twitter_feed: no
 num_tweets_in_feed: 1
 show_platform_icons: yes
 
+summary: "The Medical Imaging with Deep Learning conference will be held from 7 to 9 July 2021 in Lübeck, Germany"
+opengraph:
+  description: "Medical Imaging with Deep Learning conference, 7-9 July 2021"
+  image: "/images/midl_2021_luebeck.jpg"
+
 nav:
   - title: "Home"
     path: "/"
