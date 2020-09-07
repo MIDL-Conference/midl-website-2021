@@ -9,5 +9,5 @@
 ---
 
 [% .logos %]
-[![EU.SH](/sponsors/efre.jpg){: width="200"}](https://www.schleswig-holstein.de/EN/)
+[![Land SH](/sponsors/land_sh.png){: width="200"}](https://www.schleswig-holstein.de/EN/)
 [% / %]
