@@ -9,7 +9,7 @@ page_class: "keynotes"
 # Keynote speakers
 
 
-## Prof. Bernhard Schölkopf ![Portrait of Bernhard Schoelkopf](/images/keynotes/schoelkopf.jpg){: width="180" }
+## Prof. Bernhard Schölkopf ![Portrait of Bernhard Schoelkopf](/images/keynotes/schoelkopf.png){: width="180" }
 ### Max Planck Institute for Intelligent Systems
 #### 
 
