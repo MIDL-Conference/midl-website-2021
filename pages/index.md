@@ -4,9 +4,17 @@
 <p class="primary-photo centered">
     <img alt="City of Lübeck" src="/images/midl_2021_luebeck.jpg">
 </p>
-<p align=center> MIDL 2021 at a <a href="/resources/teaser_slides.pdf">glance</a></p>
+
+In 2021, MIDL will come to Lübeck, Germany! [Take a first glance](/resources/teaser_slides.pdf)</a>.
 
 ---
+
+{% from "_macros.html" import newsletter %}
+{{ newsletter(inline=true) }}
+
+---
+
+<h4>Supported by</h4>
 
 [% .logos %]
 [![Land SH](/sponsors/land_sh.png){: width="200"}](https://www.schleswig-holstein.de/EN/)
