@@ -10,7 +10,7 @@ In 2021, MIDL will come to Lübeck, Germany! [Take a first glance](/resources/te
 ---
 
 {% from "_macros.html" import newsletter %}
-{{ newsletter(inline=true) }}
+{{ newsletter("2021.midl.io") }}
 
 ---
 
