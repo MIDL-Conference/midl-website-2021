@@ -7,7 +7,7 @@ title: "Author instructions"
 
 # Author instructions
 
-MIDL 2021 submissions follow two tracks: *full* and *short* papers. All accepted full papers will be published as a volume in the [Proceedings of Machine Learning Research](http://proceedings.mlr.press/). We will be using [openreview.net](https://openreview.net) as a submission and reviewing platform, with a two-week period for author rebuttal and discussion for full-paper submissions.
+<!--MIDL 2021 submissions follow two tracks: *full* and *short* papers. All accepted full papers will be published as a volume in the [Proceedings of Machine Learning Research](http://proceedings.mlr.press/). We will be using [openreview.net](https://openreview.net) as a submission and reviewing platform, with a two-week period for author rebuttal and discussion for full-paper submissions.
 
 <!-- To submit a paper, authors need to have an updated OpenReview account. Visit [http://openreview.net/profile](http://openreview.net/profile) after logging in. 
 
@@ -15,13 +15,13 @@ MIDL 2021 submissions follow two tracks: *full* and *short* papers. All accepted
 
 After the registration period is over the Submission button will be inactive. To upload your pdf, select your paper and press “Revision”. -->
 
-**Inquiries to the program chairs can be addressed directly to [pcs@2021.midl.io](mailto:pcs@2021.midl.io).**
+<!--**Inquiries to the program chairs can be addressed directly to [pcs@2021.midl.io](mailto:pcs@2021.midl.io).**
 
----
+--- -->
 
-## Full papers
+<!--## Full papers
 
-Full papers contain well-validated applications or methodological contributions of deep learning algorithms in medical imaging. There is no strict limit on paper length. However, we strongly recommend keeping full papers at 8 pages (excluding references and acknowledgements). An appendix section can be added if needed with additional details but must be compiled into a single PDF. The appropriateness of using pages over the recommended page length will be judged by reviewers. Full papers will go through a **double-blind** peer-reviewing process via OpenReview, with a two-week period for author rebuttal and discussion. All accepted papers will be presented as posters with a selection of these papers will also be invited for oral presentation.
+Full papers contain well-validated applications or methodological contributions of deep learning algorithms in medical imaging. The paper length is strictly limited to 8 pages with as many pages as needed for the references and appendix section (all in a single pdf). Full papers will go through a **single-blind** peer-reviewing process via OpenReview, with a two-week period for author rebuttal and discussion. All accepted papers will be presented as posters with a selection of these papers will also be invited for oral presentation.-->
 
 <!--
 [% .deadlines %]
@@ -34,9 +34,9 @@ Full papers contain well-validated applications or methodological contributions 
 [% / %] -->
 
 
-## Short papers
+<!--## Short papers
 
-Short papers are up to 3 pages (excluding references and acknowledgements) and can, for example, focus on preliminary novel methodological ideas without extensive validation. We also specifically accept short papers of recently published or submitted journal contributions to give authors the opportunity to present their work and obtain feedback from the community. Selection of short papers is based on a light **double-blind** review process via OpenReview, without a rebuttal/discussion period. All accepted abstracts will be presented as posters at the conference.
+Short papers are up to 3 pages and can, for example, focus on preliminary novel methodological ideas without extensive validation. We also specifically accept short papers of recently published or submitted journal contributions to give authors the opportunity to present their work and obtain feedback from the community. Selection of short papers is based on a light **single-blind** review process via OpenReview, without a rebuttal/discussion period. All accepted abstracts will be presented as posters at the conference.-->
 
 <!--
 [% .deadlines %]
@@ -46,11 +46,9 @@ Short papers are up to 3 pages (excluding references and acknowledgements) and c
 * **<s>Short-paper decisions released to authors</s>** <s>April 10th 2020</s>
 [% / %] -->
 
----
-
 ## Paper registration step (important)
 
-To be able to upload the PDF of a paper (full and short) before January 30th, authors have to create a submission on openreview with title, abstract and author information by January 24th (paper registration deadline).
+To be able to upload the PDF of a full or short paper before the submission deadlines, authors have to create a submission on openreview with title, abstract and author information a week in advance (paper registration deadline).
 
 
 ## Latex template
@@ -58,7 +56,7 @@ To be able to upload the PDF of a paper (full and short) before January 30th, au
 To prepare your submission to MIDL 2021 either as a full or short paper, please use the LaTeX style files provided at:
 [https://github.com/MIDL-Conference/MIDLLatexTemplate](https://github.com/MIDL-Conference/MIDLLatexTemplate).
 
-**Make sure that the submitted PDF is anonymous**. Only the final, accepted version should have author names.
+<!--**Make sure that the submitted PDF is anonymous**. Only the final, accepted version should have author names.-->
 
 
 ## Dual submission policy
@@ -75,16 +73,16 @@ In both cases, dual submission of your paper to a non-peer reviewed website like
 The policy is enforced during the whole reviewing process period.
 
 
-## Withdrawing policy and rejected papers
+<!--## Withdrawing policy and rejected papers
 Authors have the right to withdraw papers from consideration at any time until the paper submission deadline.
 After the submission deadline and during the paper review/rebuttal/discussion process, it will not be possible to withdraw a paper.
 After the decisions are announced, it will be possible for authors to withdraw a rejected paper.
 If an author withdraws the paper, it will be deleted from the OpenReview hosting site.
 
-<!-- ## Discussion period
+<--- ## Discussion period
 
 The discussion period is a time when reviewers, area chairs and authors can have an open discussion about the paper.
-We encourage all participants to ..................... -->
+We encourage all participants to ..................... -.->
 
 ---
 
@@ -99,4 +97,4 @@ We encourage all participants to ..................... -->
 1. During the rebuttal/discussion period, authors cannot update the pdf of a paper. To submit your rebuttal and/or answer specific comments by the reviewers, please use the “official comments” button in OpenReview.
 1. On April 10th, authors will be notified about the acceptance or rejection of their paper (both full and short papers).
 1. Once the process is complete and a final decision is reached, the authors can choose to delete rejected submissions from the OpenReview hosting site.
-1. Papers that are not accepted will be considered non-archival, and may be submitted elsewhere at the discretion of the authors. We strongly encourage taking into account the reviewers comments before resubmitting. During submission, the authors will have the option to indicate whether to have their submissions, the reviews, and the comments to be deleted from the OpenReview site, in case their submission is rejected.
+1. Papers that are not accepted will be considered non-archival, and may be submitted elsewhere at the discretion of the authors. We strongly encourage taking into account the reviewers comments before resubmitting. During submission, the authors will have the option to indicate whether to have their submissions, the reviews, and the comments to be deleted from the OpenReview site, in case their submission is rejected.-->
