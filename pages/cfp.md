@@ -62,7 +62,7 @@ For submission deadlines and the schedule of the review process, see [Important 
 
 ## Author Instructions
 
-Full author instructions can be found on the [dedicated page]('https://2021.midl.io/author-instructions.html').
+Full author instructions can be found on [the dedicated page](https://2021.midl.io/author-instructions.html).
 
 <!--
 ## Special issue
