@@ -30,4 +30,4 @@ Bernhard co-founded the series of Machine Learning Summer Schools, and currently
 ### De Montfort University Leicester
 #### 
 
-**Biography:** Bernd Carsten Stahl is Professor of Critical Research in Technology and Director the Centre for Computing and Social Responsibility at De Montfort University, Leicester, UK. His interests cover philosophical issues arising from the intersections of business, technology, and information. This includes the ethics of ICT and critical approaches to information systems.
+**Biography:** Bernd Carsten Stahl is Professor of Critical Research in Technology and Director of the Centre for Computing and Social Responsibility at De Montfort University, Leicester, UK. His interests cover philosophical issues arising from the intersections of business, technology, and information. This includes the ethics of information and communications technology and critical approaches to information systems.
