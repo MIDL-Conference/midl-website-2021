@@ -6,8 +6,10 @@ title: "Call for papers"
 
 # Call for Papers
 
-![Lübeck's Historic City Hall](/images/rathaus.jpg)
-<span class="credits">&copy; LTM - Manfred Krellenberg</span>	
+<p align="center">
+  <img width="350" src="/images/cfp/midl2021_cfp_p1.png" style="margin:2px">
+  <img width="350" src="/images/cfp/midl2021_cfp_p2.png" style="margin:2px">
+</p>
 
 ## Aims and Scope
 
