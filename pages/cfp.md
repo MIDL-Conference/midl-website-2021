@@ -47,16 +47,13 @@ Topics of interest include but are not limited to:
 
 Conference submissions follow two tracks: full conference papers and short papers.
 
-Full papers contain methodological developments or well-validated applications of deep learning algorithms in medical imaging.
-The paper length is strictly **limited to 8 pages** with as many pages as needed for the references and appendix section (all in a single pdf).
-The papers will go through a full, **single-blind** reviewing process via OpenReview, with a two-week period for author rebuttal and discussion.
-A selection of full papers will be invited for oral presentation, whereas the rest will be assigned a poster presentation.
-All accepted full papers will be published as a volume in the [Proceedings of Machine Learning Research](http://proceedings.mlr.press/).
+Full papers contain methodological developments or well-validated applications of deep learning algorithms in medical imaging. The paper length is strictly ***limited to 8*** pages with as many pages as needed for the references and appendix section (all in a single pdf). The papers will go through a full, ***single-blind*** reviewing process via OpenReview, with a two-week period for author rebuttal and discussion. A selection of full papers will be invited for oral presentation. All accepted full papers will be published as a volume in the [Proceedings of Machine Learning Research](http://proceedings.mlr.press/).
 
-Short papers are **up to 3 pages** and can, for example, focus on novel methodological ideas without extensive validation.
-We also specifically accept short papers discussing recently published or submitted journal contributions to give authors the opportunity to present their work and obtain feedback from conference attendees.
-Selection of short papers is based on a light **single-blind** review process via OpenReview, without a discussion period.
-All accepted short papers will be presented as posters at the conference.
+Short papers are ***up to 3 pages*** and can, for example, focus on novel methodological ideas without extensive validation. We also specifically accept short papers discussing recently published or submitted journal contributions to give authors the opportunity to present their work and obtain feedback from conference attendees. Selection of short papers is based on a light ***single-blind*** review process via OpenReview, without a discussion period. All accepted short papers will be presented at the conference.
+
+## Special Issue
+
+MIDL is going to have a Special Issue in [MedIA](https://www.journals.elsevier.com/medical-image-analysis) (Medical Image Analysis). A selection of best full and short papers is going to be invited to submit an extended version of their work there.
 
 ## Timeline
 
