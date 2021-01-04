@@ -25,6 +25,14 @@ All information about available sponsorship packages can also be downloaded [her
 * Five registrations for the entire conference
 * Optional: double page advert in conference program book (+1,000 €)
 
+Additional components for the virtual part of the conference
+
+* Virtual conference room for each sponsor
+* Virtual bulletin board for messages from the sponsors like job adverts, etc.
+* Special sessions for virtual participants, held during the lunch and coffee breaks, where sponsors can present their company, their product(s) or talk about job openings. Announced in the program.
+* Short commercials shown during the breaks in our YouTube live stream, the corresponding virtual rooms and on the main stage.
+* Five additional registrations for virtual participation
+
 ---
 
 ## <span class="platinum">Doctoral Symposium (one only)</span>
@@ -49,6 +57,14 @@ All information about available sponsorship packages can also be downloaded [her
 * Optional: single page advert in conference program book (+1,000 €)
 * Optional: booth in the exhibition space co-located with posters (+1,750 €)
 
+Additional components for the virtual part of the conference
+
+* Virtual conference room for each sponsor
+* Virtual bulletin board for messages from the sponsors like job adverts, etc.
+* Special sessions for virtual participants, held during the lunch and coffee breaks, where sponsors can present their company, their product(s) or talk about job openings. Announced in the program.
+* Short commercials shown during the breaks in our YouTube live stream, the corresponding virtual rooms and on the main stage.
+* Three additional registrations for virtual participation
+
 ---
 
 ## <span class="silver">Silver</span>
@@ -58,6 +74,13 @@ All information about available sponsorship packages can also be downloaded [her
 * Company name and logo on the conference banners and in the conference program book
 * One registration for the entire conference
 
+Additional components for the virtual part of the conference
+
+* Virtual conference room for each sponsor
+* Virtual bulletin board for messages from the sponsors like job adverts, etc.
+* Special sessions for virtual participants, held during the lunch and coffee breaks, where sponsors can present their company, their product(s) or talk about job openings. Announced in the program.
+* One additional registration for virtual participation
+
 ---
 
 ## <span class="bronze">Bronze</span>
@@ -65,3 +88,9 @@ All information about available sponsorship packages can also be downloaded [her
 
 * Company name and logo on the conference website
 * Optional: one registration for the entire conference (+250 €)
+
+Additional components for the virtual part of the conference
+
+* Virtual conference room for each sponsor
+* Virtual bulletin board for messages from the sponsors like job adverts, etc.
+* One registration for virtual participation
