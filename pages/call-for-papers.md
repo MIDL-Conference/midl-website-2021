@@ -11,6 +11,12 @@ title: "Call for papers"
   <img width="350" src="/images/cfp/midl2021_cfp_p2.png" style="margin:2px">
 </p>
 
+## Paper Registration 
+
+Paper registration is now open on OpenReview, please register your manuscript using the below button.
+
+{{ button("OpenReview conference website", "https://openreview.net/group?id=MIDL.io/2021/Conference") }}
+
 ## Aims and Scope
 
 We welcome submissions, as full or short papers, for the 4th edition of Medical Imaging with Deep Learning.

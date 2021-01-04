@@ -7,17 +7,17 @@ title: "Author instructions"
 
 # Author instructions
 
-<!--MIDL 2021 submissions follow two tracks: *full* and *short* papers. All accepted full papers will be published as a volume in the [Proceedings of Machine Learning Research](http://proceedings.mlr.press/). We will be using [openreview.net](https://openreview.net) as a submission and reviewing platform, with a two-week period for author rebuttal and discussion for full-paper submissions.
+MIDL 2021 submissions follow two tracks: *full* and *short* papers. All accepted full papers will be published as a volume in the [Proceedings of Machine Learning Research](http://proceedings.mlr.press/). We will be using [openreview.net](https://openreview.net) as a submission and reviewing platform, with a two-week period for author rebuttal and discussion for full-paper submissions.
 
-<!-- To submit a paper, authors need to have an updated OpenReview account. Visit [http://openreview.net/profile](http://openreview.net/profile) after logging in. 
+To submit a paper, authors need to have an updated OpenReview account. Visit [http://openreview.net/profile](http://openreview.net/profile) after logging in. 
 
 {{ button("OpenReview conference website", "https://openreview.net/group?id=MIDL.io/2021/Conference") }}
 
-After the registration period is over the Submission button will be inactive. To upload your pdf, select your paper and press “Revision”. -->
+After the registration period is over the Submission button will be inactive. To upload your pdf, select your paper and press “Revision”.
 
 <!--**Inquiries to the program chairs can be addressed directly to [pcs@2021.midl.io](mailto:pcs@2021.midl.io).**
 
---- -->
+--- 
 
 <!--## Full papers
 
