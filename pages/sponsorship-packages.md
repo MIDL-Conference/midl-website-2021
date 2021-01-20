@@ -35,17 +35,6 @@ Additional components for the virtual part of the conference
 
 ---
 
-## <span class="platinum">Doctoral Symposium (one only)</span>
-### <span class="amount">5,000 € (excl. VAT)</span>
-
-* Exclusive branding of young researcher's satellite event "Doctoral Symposium"
-* Named sponsor for best presentation award
-* Company name and logo on the Doctoral Symposium website
-* Acknowledgment during event
-* Company flyer in young researcher's welcome package
-
----
-
 ## <span class="gold">Gold</span>
 ### <span class="amount">5,000 € (excl. VAT)</span>
 
