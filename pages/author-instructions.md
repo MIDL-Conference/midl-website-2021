@@ -7,17 +7,15 @@ title: "Author instructions"
 
 # Author instructions
 
-<!--MIDL 2021 submissions follow two tracks: *full* and *short* papers. All accepted full papers will be published as a volume in the [Proceedings of Machine Learning Research](http://proceedings.mlr.press/). We will be using [openreview.net](https://openreview.net) as a submission and reviewing platform, with a two-week period for author rebuttal and discussion for full-paper submissions.
+MIDL 2021 submissions follow two tracks: *full* and *short* papers. All accepted full papers will be published as a volume in the [Proceedings of Machine Learning Research](http://proceedings.mlr.press/). We will be using [openreview.net](https://openreview.net) as a submission and reviewing platform, with a two-week period for author rebuttal and discussion for full-paper submissions.
 
-<!-- To submit a paper, authors need to have an updated OpenReview account. Visit [http://openreview.net/profile](http://openreview.net/profile) after logging in. 
+To submit a paper, authors need to have an updated OpenReview account. Visit [http://openreview.net/profile](http://openreview.net/profile) after logging in. 
 
 {{ button("OpenReview conference website", "https://openreview.net/group?id=MIDL.io/2021/Conference") }}
 
-After the registration period is over the Submission button will be inactive. To upload your pdf, select your paper and press “Revision”. -->
+After the registration period is over the Submission button will be inactive. To upload your pdf, select your paper and press “Revision”.
 
-<!--**Inquiries to the program chairs can be addressed directly to [pcs@2021.midl.io](mailto:pcs@2021.midl.io).**
-
---- -->
+**Inquiries to the program chairs can be addressed directly to [pcs@2021.midl.io](mailto:pcs@2021.midl.io).**
 
 <!--## Full papers
 
@@ -85,16 +83,27 @@ The discussion period is a time when reviewers, area chairs and authors can have
 We encourage all participants to ..................... -.->
 
 ---
-
-## Reviewing process
+-->
+## Review Process
 1. Submissions can be made either as a full or short paper.
-1. Submissions are uploaded on OpenReview. The official reviews will be private during the review period, and will become publicly visible only after the reviews become available to authors. Comments that are posted by reviewers will remain anonymous.
-1. Public commenting (i.e. anybody who is logged in can post comments) becomes possible only after the decisions have been released reviews are made available to authors. The author of a public comment can decide to post anonymously or not. Login is required before posting any comment.
-1. Submissions to MIDL will be **double-blind** (Reviewers cannot see author names when conducting reviews, and authors cannot see reviewer names).
+1. Submissions are uploaded on OpenReview. The official reviews will be private during the review period, and will become publicly visible only after the reviews become available to authors.
+1. Public commenting (i.e. anybody who is logged in can post comments) becomes possible only after the decisions have been released and reviews are made available to authors. The author of a public comment can decide to post anonymously or not. Login is required before posting any comment.
+1. Submissions to MIDL will be single-blind (Reviewers can see author names when conducting reviews, but authors cannot see reviewer names), but reviewers have the option to sign the review.
 1. Short-paper submissions will undergo a lighter review, and do not have a period for rebuttal and author discussion.
-1. Reviews of full papers will be made available to authors on March 20th, and the authors have until March 27th to submit a rebuttal.
-1. The period from March 27th  to April 3rd will be for open discussion between the authors and reviewers (full paper only), with the Area Chair guiding the discussion towards essential points.
-1. During the rebuttal/discussion period, authors cannot update the pdf of a paper. To submit your rebuttal and/or answer specific comments by the reviewers, please use the “official comments” button in OpenReview.
-1. On April 10th, authors will be notified about the acceptance or rejection of their paper (both full and short papers).
+1. Reviews of full papers will be made available to authors on March 10th.
+1. The period from March 10th to March 22nd will be for open discussion between the authors and reviewers (full paper only), with the Area Chair guiding the discussion towards essential points.
+1. To submit your rebuttal and/or answer specific comments by the reviewers, please use the “official comments” button in OpenReview. During the rebuttal/discussion period, authors can update the pdf of a paper to highlight changes.
+1. On March 31st, authors will be notified about the acceptance or rejection of their paper (full paper). For short papers the decisions will be made available on May 12th.
 1. Once the process is complete and a final decision is reached, the authors can choose to delete rejected submissions from the OpenReview hosting site.
-1. Papers that are not accepted will be considered non-archival, and may be submitted elsewhere at the discretion of the authors. We strongly encourage taking into account the reviewers comments before resubmitting. During submission, the authors will have the option to indicate whether to have their submissions, the reviews, and the comments to be deleted from the OpenReview site, in case their submission is rejected.-->
+1. Papers that are not accepted will be considered non-archival, and may be submitted elsewhere at the discretion of the authors. We strongly encourage taking into account the reviewers comments before resubmitting. During submission, the authors will have the option to indicate whether to have their submissions, the reviews, and the comments to be deleted from the OpenReview site, in case their submission is rejected.
+
+## Review Guidelines
+
+We are committed to openness and transparency. We perform an open review process, have open access for all papers presented at MIDL, are transparent with regard to sponsorship packages and involvement from industry at the conference, provide freely available recordings of all presentations on the MIDL website, and we will urge MIDL contributors to use an open access policy as much as possible for the data and code. Reviews should be conducted with these guiding principles in mind.
+
+1. Reviewers should always provide positive, contructive reviews and be as open as possible.
+1. The review should include a short summary, a list of pros and cons and preferably ideas regarding related and future work.
+1. Comments regarding lack of novelty need to be substantiated, e.g. by providing reference(s) to previous work.
+1. Reviewers can be anonymous but they are eligible for the outstanding reviewer award only if they sign the review.
+1. Reviewers should engage in discussion with the authors during the rebuttal period.
+
