@@ -12,7 +12,7 @@ All deadlines are at 23:59, [UTC -12](https://www.timeanddate.com/time/map/) ([A
 
 [% .deadlines %]
 ### Full Papers
-* **Paper registration open** 1 January 2021
+* **<s>Paper registration open</s>** <s>1 January 2021</s>
 * **Paper registration deadline** 10 February 2021
 * **Paper submission deadline** 17 February 2021
 * **Reviews available** 10 March 2021

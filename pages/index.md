@@ -7,6 +7,13 @@
 
 In 2021, MIDL will come to Lübeck, Germany! [Take a first glance](/resources/teaser_slides.pdf)</a>.
 
+## Paper Registration 
+
+Paper registration is now open on OpenReview, please register your manuscript using the below button.
+
+{% from "_macros.html" import button %}
+{{ button("OpenReview conference website", "https://openreview.net/group?id=MIDL.io/2021/Conference") }}
+
 ---
 
 {% from "_macros.html" import newsletter %}
