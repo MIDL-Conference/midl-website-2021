@@ -21,8 +21,47 @@ Paper registration is now open on OpenReview, please register your manuscript us
 
 ---
 
-<h4>Supported by</h4>
+#### Supported by
+
+[% .institutions %]
+[![Land SH](/sponsors/land_sh.png){: height="120"}](https://www.schleswig-holstein.de/EN/)
+[% / %]
+
+---
+
+#### Diamond sponsors
 
 [% .logos %]
-[![Land SH](/sponsors/land_sh.png){: width="200"}](https://www.schleswig-holstein.de/EN/)
 [% / %]
+
+---
+
+#### Gold sponsors
+
+[% .logos %]
+[% / %]
+
+---
+
+#### Silver sponsors
+
+[% .logos %]
+[![BioMedTec Wissenschaftscampus](/sponsors/bio_med_tec.eps){: height="120"}](https://bio-med-tec.de)
+[% / %]
+
+---
+
+#### Bronze sponsors
+
+
+[% .logos %]
+[![ZAP Surgical Inc.](/sponsors/zap_surgical.png){: height="60"}](https://zapsurgical.com)&nbsp;&nbsp;
+[![Pie Medical Imaging](/sponsors/pie_medical_imaging.eps){: height="60"}](https://www.piemedicalimaging.com)
+
+[% / %]
+
+---
+
+<p class="small">
+    All logos are trademarks and property of their respective owners.
+</p>
