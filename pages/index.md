@@ -1,3 +1,7 @@
+---
+page_class: "sponsors"
+---
+
 <h1 class="midl">Medical&nbsp;Imaging with Deep&nbsp;Learning</h1>
 <h2 class="midl">Lübeck, 7 ‑ 9 July 2021</h2>
 
