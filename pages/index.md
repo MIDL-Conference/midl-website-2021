@@ -51,6 +51,7 @@ Paper registration is now open on OpenReview, please register your manuscript us
 
 [% .logos %]
 [![BioMedTec Wissenschaftscampus](/sponsors/bio_med_tec.png){: height="120"}](https://bio-med-tec.de)
+[![SnkeOS](/sponsors/snke_os.png){: height="120"}](https://www.snkeos.com)
 [% / %]
 
 ---
@@ -59,8 +60,9 @@ Paper registration is now open on OpenReview, please register your manuscript us
 
 
 [% .logos %]
-[![ZAP Surgical Inc.](/sponsors/zap_surgical.png){: height="60"}](https://zapsurgical.com)&nbsp;&nbsp;
+[![ZAP Surgical Inc.](/sponsors/zap_surgical.png){: height="60"}](https://zapsurgical.com)
 [![Pie Medical Imaging](/sponsors/pie_medical_imaging.png){: height="60"}](https://www.piemedicalimaging.com)
+
 
 [% / %]
 
