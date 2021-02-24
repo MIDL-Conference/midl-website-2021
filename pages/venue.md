@@ -16,7 +16,7 @@ Lübeck is well connected to the extensive German railway system, with regional 
 
 Air travel to Lübeck is mostly provided via Hamburg International Airport, with non-stop services to major cities in Europe, North America and Asia. Hamburg Airport is just a short distance from Lübeck (67 km), with at least two train connections per hour (city light rail from the airport to Hamburg Central Station and regional train to Lübeck from Hamburg Central Station). More information: [Hamburg Airport](https://www.hamburg-airport.de/en)
 
-Recently, new-founded carrier Lübeck Air launched near-daily services from Munich and Stuttgart to Lübeck. This service is likely going to be extended to include Zurich and Vienna in 2021. Lübeck's Airport - built in 1916/17 - is conveniently located just 6 km south of the city center and can be reached by local bus lines and regional trains. More information: [Lübeck Air](https://www.luebeck-air.de/home.html) and [Lübeck Airport](https://www.flughafen-luebeck.de/home.html)
+Recently, new-founded carrier Lübeck Air launched near-daily services from Munich and Stuttgart to Lübeck. This service is likely going to be extended to include Zurich and Vienna in 2021. Lübeck's Airport - built in 1916/17 - is conveniently located just 6 km south of the city center and can be reached by local bus lines and regional trains. In addition, Lübeck Air offers participants of congress events an exclusive discount of 10% for travel to and from Lübeck. More information: [Lübeck Air](https://www.luebeck-air.de/home.html), [Lübeck Airport](https://www.flughafen-luebeck.de/home.html) and [Lübeck Air Discount](/resources/Infos_Veranstaltungsticket_Lübeck_Air_2021.pdf).
 
 ## Congress location
 
