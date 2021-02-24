@@ -27,8 +27,9 @@ Paper registration is now open on OpenReview, please register your manuscript us
 
 #### Supported by
 
-[% .institutions %]
+[% .logos %]
 [![Land SH](/sponsors/land_sh.png){: height="120"}](https://www.schleswig-holstein.de/EN/)
+[![MICCAI](/sponsors/miccai.jpeg){: height="90"}](http://www.miccai.org)
 [% / %]
 
 ---
@@ -62,6 +63,7 @@ Paper registration is now open on OpenReview, please register your manuscript us
 [% .logos %]
 [![ZAP Surgical Inc.](/sponsors/zap_surgical.png){: height="60"}](https://zapsurgical.com)
 [![Pie Medical Imaging](/sponsors/pie_medical_imaging.png){: height="60"}](https://www.piemedicalimaging.com)
+[![who Ingenieurgesellschaft](/sponsors/who.png){: height="60"}](https://who-ing.de/en/)
 
 
 [% / %]
