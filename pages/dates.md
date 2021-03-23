@@ -43,6 +43,11 @@ All deadlines are at 23:59, [UTC -12](https://www.timeanddate.com/time/map/) ([A
 * **Main event** 7-9 July 2021
 * **Doctoral Symposium** 6 & 10 July 2021
 <!-- * **Challenges** 9 July 2021 //-->
+
+### MedIA Special Issue
+* **Paper submission deadline** August 2021
+* **Publication** January/February 2022 (if no major revisions are required)
+
 [% / %]
 
 ---

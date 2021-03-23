@@ -59,7 +59,7 @@ Short papers are ***up to 3 pages*** and can, for example, focus on novel method
 
 ## Special Issue
 
-MIDL is going to have a Special Issue in [MedIA](https://www.journals.elsevier.com/medical-image-analysis) (Medical Image Analysis). A selection of best full and short papers is going to be invited to submit an extended version of their work there.
+MIDL is going to have a Special Issue in [MedIA](https://www.journals.elsevier.com/medical-image-analysis) (Medical Image Analysis). A selection of best full and short papers is going to be invited to submit an extended version of their work there. Papers will be pre-selected based on area chair recommendations during the review process; final decisions are made by the program chairs. Extended papers may still be rejected during the peer-review process of MedIA. The submission deadline for invited papers will be in August 2021 with expected publication in January/February 2022 (if no major revisions are required).
 
 ## Timeline
 
