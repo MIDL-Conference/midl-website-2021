@@ -1,3 +1,3 @@
 #!/bin/bash
 
-pipenv run python -m mwb . ./output/
+poetry run python -m mwb . ./output/
