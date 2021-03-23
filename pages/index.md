@@ -53,6 +53,7 @@ Paper registration is now open on OpenReview, please register your manuscript us
 [% .logos %]
 [![BioMedTec Wissenschaftscampus](/sponsors/bio_med_tec.png){: height="120"}](https://bio-med-tec.de)
 [![SnkeOS](/sponsors/snke_os.png){: height="120"}](https://www.snkeos.com)
+[![Robovision](/sponsors/robovision.png){: height="120"}](https://robovision.ai)
 [% / %]
 
 ---
