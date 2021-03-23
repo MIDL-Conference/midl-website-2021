@@ -1,5 +1,5 @@
 [build]
-  command = "python -m mwb . output/"
+  command = "poetry install && poetry run python -m mwb . output/"
   publish = "output/"
 
 [[redirects]]
