@@ -4,15 +4,13 @@ title: "Registration"
 
 # Registration
 
-Registration for MIDL 2021 will open soon, stay tuned!
+The Covid-19 pandemig is ongoing and we are closely monitoring the situation. A final decision wether the MIDL 2021 in Lübeck will be a hybrid or a purely virtual conference will be made on **May 17**. The registration fees are announced on the same day. Due to the special situation this year we wont be able to offer an early-bird discount. Any updates will be posted on the website and for further questions please send an email to [2021@midl.io](mailto:2021@midl.io).
 
 ## Accommodation
 
 We have reserved rooms and arranged special rates for several hotels in central Lübeck. A booking link will be posted shortly.
 
 ## Registration Fees
-
-Registration fees will be posted shortly.
 
 <!-- <table class="grid offset centered">
     <tr>
@@ -51,9 +49,8 @@ Registration fees will be posted shortly.
 </table> //-->
 
 * **On-site registration:** If you register for on-site participation, you will also be registered for participation in the virtual part of the conference. 
-* **Early-bird:** The early-bird ticket sales will end at midnight on 17 May 2021.
 * **Students:** We offer student discounts. To prove your student status, please provide a signed letter from supervisor (or other official) or a copy of your student ID. You need to be a full-time student at the time of registration.
-* **PostDocs:** We offer a discount for early-career postdoctoral researchers (max. two years after degree conferral) when registering for virtual participation. To prove your status, please provide an official document stating the date your degree was conferred.
+<!--* **PostDocs:** We offer a discount for early-career postdoctoral researchers (max. two years after degree conferral) when registering for virtual participation. To prove your status, please provide an official document stating the date your degree was conferred.-->
 
 <!-- break lists -->
 
@@ -64,9 +61,11 @@ Registration fees will be posted shortly.
 
 If you are interested in booking childcare or require nursing space during the conference, please get in touch via [2021@midl.io](mailto:2021@midl.io).
 
+<!--
 ## Cancellation policy
 
 Cancellations will be accepted in writing until March 24th. Please send an email to [2021@midl.io](mailto:2021@midl.io). Until that time a refund of 70% of the total value will be made. There will be no refunds for cancellations received after this date.
+-->
 
 ## Invitation letters
 
