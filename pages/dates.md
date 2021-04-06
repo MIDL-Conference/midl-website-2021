@@ -19,7 +19,7 @@ All deadlines are at 23:59, [UTC -12](https://www.timeanddate.com/time/map/) ([A
 * **<s>Rebuttal / discussion period</s>** <s>10 March to 22 March 2021</s>
 * **<s>Rebuttals due</s>** <s>17 March 2021</s>
 * **<s>Discussion phase</s>** <s>18 to 22 March 2021</s>
-* **Notification of acceptance** 31 March 2021
+* **<s>Notification of acceptance</s>** <s>31 March 2021</s>
 <!-- * **Camera ready deadline** 28 May 2020 //-->
 <!-- * **Deadline to submit the recording** 26 June 2020 //-->
 
@@ -31,8 +31,8 @@ All deadlines are at 23:59, [UTC -12](https://www.timeanddate.com/time/map/) ([A
 * **Notification of acceptance** 21 February 2020 //-->
 
 ### Short Papers
-* **Paper registration open** 1 January 2021
-* **Paper registration deadline** 6 April 2021
+* **<s>Paper registration open</s>** <s>1 January 2021</s>
+* **Paper registration deadline** <s>6 April 2021</s> 9 April 2021
 * **Paper submission deadline** 13 April 2021
 * **Notification of acceptance** 12 May 2021
 <!-- * **Camera ready deadline** 28 May 2020 //-->
