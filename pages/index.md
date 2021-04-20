@@ -54,6 +54,7 @@ Paper registration is now open on OpenReview, please register your manuscript us
 [![BioMedTec Wissenschaftscampus](/sponsors/bio_med_tec.png){: height="120"}](https://bio-med-tec.de)
 [![SnkeOS](/sponsors/snke_os.png){: height="120"}](https://www.snkeos.com)
 [![Robovision](/sponsors/robovision.png){: height="120"}](https://robovision.ai)
+[![GE](/sponsors/ge.png){: height="120"}](https://www.gehealthcare.com)
 [% / %]
 
 ---
@@ -65,6 +66,17 @@ Paper registration is now open on OpenReview, please register your manuscript us
 [![ZAP Surgical Inc.](/sponsors/zap_surgical.png){: height="60"}](https://zapsurgical.com)
 [![Pie Medical Imaging](/sponsors/pie_medical_imaging.png){: height="60"}](https://www.piemedicalimaging.com)
 [![who Ingenieurgesellschaft](/sponsors/who.png){: height="60"}](https://who-ing.de/en/)
+
+
+[% / %]
+
+---
+
+#### Doctoral Symposium sponsored by
+
+
+[% .logos %]
+<center>[![Euroimmun](/sponsors/euroimmun.png){: height="120"}](https://euroimmun.de/en)</center>
 
 
 [% / %]
