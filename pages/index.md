@@ -44,6 +44,7 @@ Paper registration is now open on OpenReview, please register your manuscript us
 #### Gold sponsors
 
 [% .logos %]
+[![UKSH](/sponsors/uksh.png){: height="180"}](https://www.uksh.de/en/)
 [% / %]
 
 ---
