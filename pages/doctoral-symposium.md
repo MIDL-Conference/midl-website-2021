@@ -10,7 +10,7 @@ page_class: "keynotes"
 
 We proudly present the first MIDL satellite event, specifically designed for young researchers: the MIDL Doctoral Symposium 2021. Develop and train your scientific skill set, get to know fellow PhD students from all over the world and enjoy participating in the MIDL conference while already knowing some colleagues.
 
-The Doctoral Symposium will take place on 02.07.2021 as a virtual event. We will use Zoom and Gather.Town for optimal interaction during the day.
+The Doctoral Symposium will take place on 02.07.2021 as a virtual event. We will use Zoom and Gather.Town for optimal interaction during the day. Thanks to our sponsor, the participation is free of charge.
 
 The number of participants is restricted to 50. The selection process will focus on the candidate’s motivation, the integration of candidates in the early stage of their PhD thesis without broad conference experience or network opportunities as well as diversity.
 
