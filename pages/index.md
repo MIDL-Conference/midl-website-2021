@@ -67,6 +67,7 @@ Paper registration is now open on OpenReview, please register your manuscript us
 [![ZAP Surgical Inc.](/sponsors/zap_surgical.png){: height="60"}](https://zapsurgical.com)
 [![Pie Medical Imaging](/sponsors/pie_medical_imaging.png){: height="60"}](https://www.piemedicalimaging.com)
 [![who Ingenieurgesellschaft](/sponsors/who.png){: height="60"}](https://who-ing.de/en/)
+[![MeVis Medical Solution AG](/sponsors/mevis.png){: height="60"}](https://www.mevis.de/en/)
 
 
 [% / %]
