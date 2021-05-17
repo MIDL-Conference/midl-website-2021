@@ -41,7 +41,7 @@ All deadlines are at 23:59, [UTC -12](https://www.timeanddate.com/time/map/) ([A
 ### Conference dates
 * **MIDL 2021** 6-10 July 2021
 * **Main event** 7-9 July 2021
-* **Doctoral Symposium** 6 & 10 July 2021
+* **Doctoral Symposium** 2 July 2021
 <!-- * **Challenges** 9 July 2021 //-->
 
 ### MedIA Special Issue
