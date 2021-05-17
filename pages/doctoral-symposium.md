@@ -14,8 +14,10 @@ The Doctoral Symposium will take place on 02.07.2021 as a virtual event. We will
 
 The number of participants is restricted to 50. The selection process will focus on the candidate’s motivation, the integration of candidates in the early stage of their PhD thesis without broad conference experience or network opportunities as well as diversity.
 
-You can apply with the application form (will be uploaded soon) and your CV. The application deadline is 31.05.2021, 23:59 CET. Please send your application to [doctoral.symposium@2021.midl.io](mailto:doctoral.symposium@2021.midl.io)
-The decision notification will be sent via email within two weeks after the deadline.
+You can apply with the application form and your CV. The application deadline is 04 June 2021, 23:59 CET. Please send your application to [doctoral.symposium@2021.midl.io](mailto:doctoral.symposium@2021.midl.io)
+The decision notification will be sent via email by 14 June 2021.
+
+{{ button("Apply for participation", "https://docs.google.com/forms/d/e/1FAIpQLSfHRXWWj0YFKKAbHG-7QGmWleb5-JJzmgIdl7dQd6bkm6fCEg/viewform") }}
 
 ## Program Schedule
 
