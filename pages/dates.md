@@ -38,10 +38,14 @@ All deadlines are at 23:59, [UTC -12](https://www.timeanddate.com/time/map/) ([A
 <!-- * **Camera ready deadline** 28 May 2020 //-->
 <!-- * **Deadline to submit the recording** 26 June 2020 //-->
 
+### Doctoral Symposium
+* **Application deadline** 4 June 2021
+* **Notification of acceptance** 14 June 2021
+* **Doctoral Symposium** 2 July 2021
+
 ### Conference dates
 * **MIDL 2021** 6-10 July 2021
 * **Main event** 7-9 July 2021
-* **Doctoral Symposium** 2 July 2021
 <!-- * **Challenges** 9 July 2021 //-->
 
 ### MedIA Special Issue
