@@ -69,7 +69,7 @@ Paper registration is now closed. Thank you for all your submissions!
 [![Pie Medical Imaging](/sponsors/pie_medical_imaging.png){: height="60"}](https://www.piemedicalimaging.com)
 [![who Ingenieurgesellschaft](/sponsors/who.png){: height="60"}](https://who-ing.de/en/)
 [![MeVis Medical Solution AG](/sponsors/mevis.png){: height="60"}](https://www.mevis.de/en/)
-[![ThinkSono GmbH](/sponsors/thinksono.png){: height="60"}](https://thinksono.com)
+[![ThinkSono GmbH](/sponsors/thinksono.png){: height="90"}](https://thinksono.com)
 
 
 [% / %]
