@@ -13,10 +13,11 @@ In 2021, MIDL will come to Lübeck, Germany! [Take a first glance](/resources/te
 
 ## Paper Registration 
 
-Paper registration is now open on OpenReview, please register your manuscript using the below button.
+Paper registration is now closed. Thank you for all your submissions!
+<!-- open on OpenReview, please register your manuscript using the below button.
 
 {% from "_macros.html" import button %}
-{{ button("OpenReview conference website", "https://openreview.net/group?id=MIDL.io/2021/Conference") }}
+{{ button("OpenReview conference website", "https://openreview.net/group?id=MIDL.io/2021/Conference") }} //-->
 
 ---
 
@@ -68,6 +69,7 @@ Paper registration is now open on OpenReview, please register your manuscript us
 [![Pie Medical Imaging](/sponsors/pie_medical_imaging.png){: height="60"}](https://www.piemedicalimaging.com)
 [![who Ingenieurgesellschaft](/sponsors/who.png){: height="60"}](https://who-ing.de/en/)
 [![MeVis Medical Solution AG](/sponsors/mevis.png){: height="60"}](https://www.mevis.de/en/)
+[![ThinkSono GmbH](/sponsors/thinksono.png){: height="60"}](https://thinksono.com)
 
 
 [% / %]
