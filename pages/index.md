@@ -9,7 +9,7 @@ page_class: "sponsors"
     <img alt="City of Lübeck" src="/images/midl_2021_luebeck.jpg">
 </p>
 
-In 2021, MIDL will come to Lübeck, Germany! [Take a first glance](/resources/teaser_slides.pdf)</a>.
+In 2021, MIDL will come to Lübeck, Germany! [Take a first glance](/resources/teaser_slides.pdf)</a>. Due to the state of the pandemic, **MIDL 2021 will have to be a fully virtual event**.
 
 ## Paper Registration 
 
