@@ -4,9 +4,10 @@ title: "Important Dates"
 
 # Important Dates
 
-[![Short program](/images/MIDL2021_schedule.png)](/images/MIDL2021_schedule.png)
  
-
+<p class="Programme at a glance">
+    <img alt="Short program" src="/images/MIDL2021_schedule.png">
+</p>
 ---
 
 All deadlines are at 23:59, [UTC -12](https://www.timeanddate.com/time/map/) ([AoE](https://en.wikipedia.org/wiki/Anywhere_on_Earth) timezone).
