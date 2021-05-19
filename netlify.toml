@@ -6,3 +6,8 @@
   from = "/cfp*"
   to = "/call-for-papers.html"
   status = 301
+
+[[headers]]
+  for = "/secret/*"
+  [headers.values]
+  Basic-Auth = "someuser:somepassword test:test123"
