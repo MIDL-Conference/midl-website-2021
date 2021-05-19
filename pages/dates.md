@@ -4,7 +4,8 @@ title: "Important Dates"
 
 # Important Dates
 
-[![Short program](images/MIDL2021_schedule.png)](images/MIDL2021_schedule.png)
+[![Short program](/images/MIDL2021_schedule.png)](/images/MIDL2021_schedule.png)
+ 
 
 ---
 
