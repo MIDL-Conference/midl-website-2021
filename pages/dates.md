@@ -6,7 +6,7 @@ title: "Important Dates"
 
  
 <p class="Programme at a glance">
-    <img alt="Short program" src="/images/MIDL2021_schedule.png">
+ [![Short program](images/MIDL2021_schedule.png)](images/MIDL2021_schedule.png)
 </p>
 ---
 
