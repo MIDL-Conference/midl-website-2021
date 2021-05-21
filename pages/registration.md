@@ -42,6 +42,7 @@ If you are interested in booking childcare or require nursing space during the c
 ## Job fair and CV exchange
 
 This year, you can make your CV available to our sponsors for potential match-making. Should you like to do so, please submit your CV as a pdf file during the registration process. Please be aware that, by submitting your CV, you agree to the following:
+
 * We store your CV until the end of the conference, when it is deleted
 * Your CV will be provided to our sponsors, who, in turn, agree to delete your CV after the conference and will not use it for any other purpose
 * You grant permission to the sponsors to contact you using the means listed in the CV
