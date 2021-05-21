@@ -4,7 +4,7 @@ title: "Registration"
 
 # Registration
 
-The Covid-19 pandemig is ongoing and we are closely monitoring the situation. Unfortunately, it will not be possible to host MIDL as a hybrid event. Our location will still be in use as a vaccination centre. Furthermore, current regulations do not allow any conference-like meetings. Consequently, MIDL 2021 will take place as a **fully virtual meeting**. Registration will open in a few days. Any updates will be posted on the website and for further questions please send an email to [2021@midl.io](mailto:2021@midl.io).
+The Covid-19 pandemig is ongoing and we are closely monitoring the situation. Unfortunately, it will not be possible to host MIDL as a hybrid event. Our location will still be in use as a vaccination centre. Furthermore, current regulations do not allow any conference-like meetings. Consequently, MIDL 2021 will take place as a **fully virtual meeting**. Registration will open in a few days once a few remaining technical issues with our payment service provider have been solved. Any updates will be posted on the website and for further questions please send an email to [2021@midl.io](mailto:2021@midl.io).
 
 <!-- ## Accommodation
 
