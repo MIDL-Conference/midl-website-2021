@@ -70,7 +70,7 @@ Paper registration is now closed. Thank you for all your submissions!
 [![who Ingenieurgesellschaft](/sponsors/who.png){: height="60"}](https://who-ing.de/en/)
 [![MeVis Medical Solution AG](/sponsors/mevis.png){: height="60"}](https://www.mevis.de/en/)
 [![ThinkSono GmbH](/sponsors/thinksono.png){: height="90"}](https://thinksono.com)
-
+[![Carl Zeiss AG](/sponsors/zeiss.png){: height="90"}](https://www.zeiss.de)
 
 [% / %]
 
