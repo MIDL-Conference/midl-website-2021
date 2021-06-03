@@ -33,9 +33,9 @@ All deadlines are at 23:59, [UTC -12](https://www.timeanddate.com/time/map/) ([A
 
 ### Short Papers
 * **<s>Paper registration open</s>** <s>1 January 2021</s>
-* **Paper registration deadline** <s>6 April 2021</s> 9 April 2021
-* **Paper submission deadline** 13 April 2021
-* **Notification of acceptance** 12 May 2021
+* **<s>Paper registration deadline</s>** <s>6 April 2021</s> <s>9 April 2021</s>
+* **<s>Paper submission deadline</s>** <s>13 April 2021</s>
+* **<s>Notification of acceptance</s>** <s>12 May 2021</s>
 <!-- * **Camera ready deadline** 28 May 2020 //-->
 <!-- * **Deadline to submit the recording** 26 June 2020 //-->
 
@@ -45,9 +45,10 @@ All deadlines are at 23:59, [UTC -12](https://www.timeanddate.com/time/map/) ([A
 * **Doctoral Symposium** 2 July 2021
 
 ### Conference dates
-* **MIDL 2021** 6-10 July 2021
-* **Main event** 7-9 July 2021
-<!-- * **Challenges** 9 July 2021 //-->
+* **Doctoral Symposium** 2 July 2021
+* **MIDL 2021** 7-9 July 2021
+<!-- * **Main event** 7-9 July 2021
+* **Challenges** 9 July 2021 //-->
 
 ### MedIA Special Issue
 * **Paper submission deadline** August 2021
