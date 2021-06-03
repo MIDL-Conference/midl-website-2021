@@ -21,6 +21,7 @@ All deadlines are at 23:59, [UTC -12](https://www.timeanddate.com/time/map/) ([A
 * **<s>Rebuttals due</s>** <s>17 March 2021</s>
 * **<s>Discussion phase</s>** <s>18 to 22 March 2021</s>
 * **<s>Notification of acceptance</s>** <s>31 March 2021</s>
+* **Deadline for uploading videos** 28 June 20201
 <!-- * **Camera ready deadline** 28 May 2020 //-->
 <!-- * **Deadline to submit the recording** 26 June 2020 //-->
 
