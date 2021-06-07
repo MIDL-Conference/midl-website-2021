@@ -26,7 +26,7 @@ Paper registration is now closed. Thank you for all your submissions!
 
 ---
 
-#### Supported by
+## Supported by
 
 [% .logos %]
 [![Land SH](/sponsors/land_sh.png){: height="120"}](https://www.schleswig-holstein.de/EN/)
@@ -35,14 +35,14 @@ Paper registration is now closed. Thank you for all your submissions!
 
 ---
 
-#### Diamond sponsors
+### Diamond sponsors
 
 [% .logos %]
 [% / %]
 
 ---
 
-#### Gold sponsors
+### Gold sponsors
 
 [% .logos %]
 [![UKSH](/sponsors/uksh.png){: height="180"}](https://www.uksh.de/en/)
@@ -50,7 +50,7 @@ Paper registration is now closed. Thank you for all your submissions!
 
 ---
 
-#### Silver sponsors
+### Silver sponsors
 
 [% .logos %]
 [![BioMedTec Wissenschaftscampus](/sponsors/bio_med_tec.png){: height="120"}](https://bio-med-tec.de)
@@ -61,7 +61,7 @@ Paper registration is now closed. Thank you for all your submissions!
 
 ---
 
-#### Bronze sponsors
+### Bronze sponsors
 
 
 [% .logos %]
@@ -76,7 +76,7 @@ Paper registration is now closed. Thank you for all your submissions!
 
 ---
 
-#### Doctoral Symposium sponsored by
+### Doctoral Symposium sponsored by
 
 
 [% .logos %]
