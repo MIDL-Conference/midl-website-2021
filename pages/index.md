@@ -57,6 +57,7 @@ Paper registration is now closed. Thank you for all your submissions!
 [![SnkeOS](/sponsors/snke_os.png){: height="120"}](https://www.snkeos.com)
 [![Robovision](/sponsors/robovision.png){: height="120"}](https://robovision.ai)
 [![GE](/sponsors/ge.png){: height="120"}](https://www.gehealthcare.com)
+[![qualcomm](/sponsors/qc_logo_dml_rgb_blu_pos.png){: height="120"}](https://www.qualcomm.com/ai-research)
 [% / %]
 
 ---
