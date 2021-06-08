@@ -11,6 +11,13 @@ page_class: "sponsors"
 
 In 2021, MIDL will come to Lübeck, Germany! [Take a first glance](/resources/teaser_slides.pdf)</a>. Due to the state of the pandemic, **MIDL 2021 will have to be a fully virtual event**.
 
+## Registration is now open!
+
+Registration has now opened. Please register for the conference using the below button.
+
+{% from "_macros.html" import button %}
+{{ button("Register for MIDL 2021 here!", "https://srk-online.de/Buchungssystem/Buchungen") }}
+
 ## Paper Registration 
 
 Paper registration is now closed. Thank you for all your submissions!
