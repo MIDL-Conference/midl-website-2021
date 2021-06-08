@@ -4,7 +4,7 @@ title: "Registration"
 
 # Registration is now open!
 
-The Covid-19 pandemig is ongoing and we are closely monitoring the situation. Unfortunately, it will not be possible to host MIDL as a hybrid event. Our location will still be in use as a vaccination centre. Furthermore, current regulations do not allow any conference-like meetings. Consequently, MIDL 2021 will take place as a **fully virtual meeting**. For further questions please send an email to [2021@midl.io](mailto:2021@midl.io).
+The Covid-19 pandemig is ongoing and we are closely monitoring the situation. Unfortunately, it will not be possible to host MIDL as a hybrid event. Our location will still be in use as a vaccination centre. Furthermore, current regulations do not allow any conference-like meetings. Consequently, MIDL 2021 will take place as a **fully virtual meeting**. For further questions please send an email to [registration@2021.midl.io](mailto:registration@2021.midl.io).
 
 {% from "_macros.html" import button %}
 {{ button("Register for MIDL 2021 here!", "https://srk-online.de/Buchungssystem/Buchungen") }}
@@ -41,6 +41,10 @@ We have reserved rooms and arranged special rates for several hotels in central 
 <!-- ## Childcare
 
 If you are interested in booking childcare or require nursing space during the conference, please get in touch via [2021@midl.io](mailto:2021@midl.io). //-->
+
+## Group registrations
+
+Thanks to our sponsors, we can offer special rates for group registrations. For attendees coming from the same research group, we can offer a discount of 30% from the sixth registration onwards. Group registrations cannot be done through our website but need to be made by email via [registration@2021.midl.io](mailto:registration@2021.midl.io).
 
 ## Job fair and CV exchange
 
