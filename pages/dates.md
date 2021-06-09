@@ -41,7 +41,7 @@ All deadlines are at 23:59, [UTC -12](https://www.timeanddate.com/time/map/) ([A
 <!-- * **Deadline to submit the recording** 26 June 2020 //-->
 
 ### Doctoral Symposium
-* **Application deadline** 4 June 2021
+* **<s>Application deadline</s>** <s>4 June 2021</s>
 * **Notification of acceptance** 14 June 2021
 * **Doctoral Symposium** 2 July 2021
 
