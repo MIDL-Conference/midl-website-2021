@@ -13,7 +13,7 @@ title: "Call for papers"
 
 ## Paper Registration 
 
-Paper registration is now open on OpenReview, please register your manuscript using the below button.
+Paper registration has closed. You can still visit the OpenReview website using the below button.
 
 {{ button("OpenReview conference website", "https://openreview.net/group?id=MIDL.io/2021/Conference") }}
 
