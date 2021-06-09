@@ -13,10 +13,7 @@ In 2021, MIDL will come to Lübeck, Germany! [Take a first glance](/resources/te
 
 ## Registration is now open!
 
-Registration has now opened. Please register for the conference using the below button.
-
-{% from "_macros.html" import button %}
-{{ button("Register for MIDL 2021 here!", "https://srk-online.de/Buchungssystem/Buchungen") }}
+Registration has now opened. Please register for the conference on the [registration page](/registration.html).
 
 ## Paper Registration 
 
