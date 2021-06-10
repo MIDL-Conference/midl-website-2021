@@ -1,0 +1,244 @@
+---
+title: "Conference Program"
+---
+
+# Program at a Glance / Session overview
+please refer to the Author presentation Guidelines for further information of the format
+
+<html>
+    
+<head>
+<style>
+form {
+    font-family:    Helvetica Neue   , Helvetica, Arial, sans-serif;
+    font-size: 130%;
+}
+table, th, td {
+  font-family:    Helvetica Neue   , Helvetica, Arial, sans-serif;
+  border: 1px solid gray;
+  border-collapse: separate;
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+}
+th, td {
+  padding: 9px;
+  text-align: left;
+}
+#r00{
+      background-color: #96B6BD;
+ /*   -webkit-appearance: none;*/
+    -webkit-box-shadow: 0 0 0px 8px gold; 
+
+  -webkit-clip-path: polygon(-20% 0%, 100% 0%, 100% 100%, -20% 100%); /*left*/
+
+}
+#r00t{
+      background-color: #96B6BD;
+        -webkit-box-shadow: 0 0 0px 8px gold; 
+        -webkit-clip-path: polygon(-20% -20%, 100% -20%, 100% 100%, -20% 100%); /*top-left*/
+    }
+
+#r03t {
+    -webkit-box-shadow: 0 0 0px 8px gold; 
+      -webkit-clip-path: polygon(0% -20%, 120% -20%, 120% 100%, 0% 100%); /*top-right*/
+    border: 1px;
+  background-color: #CDDFF0;         
+} 
+      
+#r06b {
+    -webkit-box-shadow: 0 0 0px 8px gold; 
+      -webkit-clip-path: polygon(0% 0%, 120% 0%, 120% 120%, 0% 120%); /*bottom-right*/
+      border: 1px;
+  background-color: #F9D368;         
+}
+
+#t01b {
+  background-color: #BDC0BF;
+    -webkit-box-shadow: 0 0 0px 8px gold; 
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 120%, 0% 120%); /*bottom*/
+  font-weight: 350
+}
+    
+#t01t {
+  background-color: #BDC0BF;
+    -webkit-box-shadow: 0 0 0px 8px gold; 
+      -webkit-clip-path: polygon(0% -20%, 100% -20%, 100% 100%, 0% 100%); /*top*/
+  font-weight: 350
+}
+#r00b{
+      background-color: #96B6BD;
+        -webkit-box-shadow: 0 0 0px 8px gold; 
+  -webkit-clip-path: polygon(-20% 0%, 100% 0%, 100% 120%, -20% 120%); /*bottom--*/
+    }
+    
+#r01 {
+    -webkit-box-shadow: 0 0 0px 8px gold; 
+      -webkit-clip-path: polygon(0% 0%, 120% 0%, 120% 100%, 0% 100%); /*right*/
+      border: 1px;
+  background-color: #BDC0BF;
+  font-weight: 350
+            
+}
+
+#r05 {
+    -webkit-box-shadow: 0 0 0px 8px gold; 
+      -webkit-clip-path: polygon(0% 0%, 120% 0%, 120% 100%, 0% 100%); /*right*/
+      border: 1px;
+  background-color: #C4DFB3;         
+}
+    
+#r06 {
+    -webkit-box-shadow: 0 0 0px 8px gold; 
+      -webkit-clip-path: polygon(0% 0%, 120% 0%, 120% 100%, 0% 100%); /*right*/
+      border: 1px;
+  background-color: #F9D368;         
+}
+    
+#r02 {
+    -webkit-box-shadow: 0 0 0px 8px gold; 
+      -webkit-clip-path: polygon(0% 0%, 120% 0%, 120% 100%, 0% 100%); /*right*/
+      border: 1px;
+  background-color: #D9A9BC;         
+}
+#r03 {
+    -webkit-box-shadow: 0 0 0px 8px gold; 
+      -webkit-clip-path: polygon(0% 0%, 120% 0%, 120% 100%, 0% 100%); /*right*/
+      border: 1px;
+  background-color: #CDDFF0;         
+}
+#t00 {
+  background-color: #96B6BD;
+}
+#t01 {
+  background-color: #BDC0BF;
+  font-weight: 350
+}
+    
+#t02 {
+  background-color: #D9A9BC;
+}
+#t03 {
+  background-color: #CDDFF0;
+}
+#t04 {
+  background-color: #E6B8AF;
+}    
+#t05 {
+  background-color: #C4DFB3;
+}      
+#t06 {
+  background-color: #F9D368;
+}   
+        
+#t07 {
+  background-color: #FFFFFF;
+}    
+    input.largerCheckbox {
+            -webkit-transform : scale(2);
+        }
+    
+</style>
+    
+    <script src= http://code.jquery.com/jquery-latest.js ></script>
+<script>
+$(document).ready(function() {
+    $('input[type= checkbox ]').click(function() {
+        var index = $(this).attr('name').substr(3);
+        index--;
+        $('table tr').each(function() { 
+            $('td:eq(' + index + ')',this).toggle();
+        });
+        $('th.' + $(this).attr('name')).toggle();
+    });
+});
+</script>
+</head>
+
+<!--
+
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 120%, 0% 120%); /*bottom*/
+      -webkit-clip-path: polygon(0% -20%, 100% -20%, 100% 120%, 0% 120%); /*bottom-top*/
+
+      -webkit-clip-path: polygon(0% -20%, 100% -20%, 100% 100%, 0% 100%); /*top*/
+      -webkit-clip-path: polygon(0% 0%, 120% 0%, 120% 100%, 0% 100%); /*right*/
+  -webkit-clip-path: polygon(0% 0%, 120% 0%, 120% 120%, 0% 120%); /*bottom-right*/
+-->
+
+<body>
+    
+<table><thead><tr><th class='col1' id='t01'>West Coast UCT-7</th><th class='col2' id='t01'>East Coast UCT-4</th><th class='col3' id='t00'>L&uuml;beck UCT+2</th><th class='col4' id='t01'>China UCT+8</th><th colspan='2' id='t01'></th></thead>
+ <tr><th id='t01' class='col1'>00:00</th><th id='t01' class='col2'>3:00</th><th id='t00' class='col3'>9:00</th><th id='t01' class='col4'>15:00</th><th id='t02'>Short Oral S1a</th><th id='t02'>S1b (9 x 4-6 min)
+</th> 
+
+<tr><th id='t01' class='col1' >00:45</th><th id='t01' class='col2'>3:45</th><th id='t00' class='col3'>9:45</th><th id='t01' class='col4'>15:45</th><th colspan='2' id='t03'>Long Orals Videos L1 (3 x 10-13 min)</th>
+<tr><th id='t01' class='col1' >01:20</th><th id='t01' class='col2'>4:20</th><th id='t00' class='col3'>10:20</th><th id='t01' class='col4'>16:20</th><th colspan='2' id='t01'>Break / GatherTown</th>
+ <tr><th id='t01' class='col1'>01:30</th><th id='t01' class='col2'>4:30</th><th id='t00' class='col3'>10:30</th><th id='t01' class='col4'>16:30</th><th id='t02'>Short Oral S2a (9 papers x 4-6 min Video)</th><th id='t02'>S2b (9 papers x 4-6 min)
+</th> 
+
+<tr><th id='t01' class='col1' >02:15</th><th id='t01' class='col2'>5:15</th><th id='t00' class='col3'>11:15</th><th id='t01' class='col4'>17:15</th><th colspan='2' id='t03'>Long Orals Videos L2 (3 x 10-13 min)</th>
+<tr ><th id='t01' class='col1' >02:45</th><th id='t01' class='col2'>5:45</th><th id='t00' class='col3'>11:45</th><th id='t01' class='col4'>17:45</th><th colspan='2' id='t04'>Study groups with Mentors (optional)</th>
+<tr ><th id='t01' class='col1' >03:30</th><th id='t01' class='col2'>6:30</th><th id='t00' class='col3'>12:30</th><th id='t01' class='col4'>18:30</th><th colspan='2' id='t05'>Wed Opening / Thu Industry Event (from 12:15)</th>
+<tr ><th id='t01' class='col1' >04:00</th><th id='t01' class='col2'>7:00</th><th id='r00t' class='col3'>13:00</th><th id='t01t' class='col4'>19:00</th><th colspan='2' id='r03t'>Long Oral L1 Introduction (5 min each) and Panelist-Discussion (15min) (3 papers)</th>
+
+
+
+<tr><th id='t01' class='col1' >04:30</th><th id='t01' class='col2'>7:30</th><th id='r00' class='col3'>13:30</th><th id='t01' class='col4'>19:30</th><th colspan='2' id='r01'>Break / GatherTown</th>
+<tr><th id='t01' class='col1'>04:45</th><th id='t01' class='col2'>7:45</th><th id='r00' class='col3'>13:45</th><th id='t01' class='col4'>19:45</th><th id='t02'>Short Oral S1a: Spotlight and Discussion (3 papers)</th><th id='r02'>Short Oral S1b: Spotlight and Discussion (3 papers)</th>
+
+<tr><th id='t01' class='col1'></th><th id='t01' class='col2'></th><th id='r00' class='col3'></th><th id='t01' class='col4'></th><th id='t02'>(3 papers)</th><th id='r02'>(3 papers)</th>
+
+<tr><th id='t01' class='col1'></th><th id='t01' class='col2'></th><th id='r00' class='col3'></th><th id='t01' class='col4'></th><th id='t02'>(3 papers)</th><th id='r02'>(3 papers)</th>
+
+<tr><th id='t01' class='col1' >05:30</th><th id='t01' class='col2'>8:30</th><th id='r00' class='col3'>14:30</th><th id='t01' class='col4'>20:30</th><th colspan='2' id='r06'>Individual virtual poster rooms (21 papers)</th>
+
+
+
+
+
+<tr><th id='t01' class='col1' >06:00</th><th id='t01' class='col2'>9:00</th><th id='r00' class='col3'>15:00</th><th id='t01' class='col4'>21:00</th><th colspan='2' id='r01'>Break / GatherTown</th>
+<tr><th id='t01' class='col1' >06:15</th><th id='t01' class='col2'>9:15</th><th id='r00' class='col3'>15:15</th><th id='t01' class='col4'>21:15</th><th colspan='2' id='r05'>Keynote</th>
+
+
+
+
+<tr><th id='t01' class='col1' >07:00</th><th id='t01' class='col2'>10:00</th><th id='r00' class='col3'>16:00</th><th id='t01' class='col4'>22:00</th><th colspan='2' id='r03'>Long Oral L2: Introduction (5 min each) and Panelist-Discussion (3 papers)</th>
+
+
+
+<tr><th id='t01' class='col1' >07:30</th><th id='t01' class='col2'>10:30</th><th id='r00' class='col3'>16:30</th><th id='t01' class='col4'>22:30</th><th colspan='2' id='r01'>Break / GatherTown</th>
+<tr id='r02'><th id='t01' class='col1'>07:45</th><th id='t01' class='col2'>10:45</th><th id='r00' class='col3'>16:45</th><th id='t01' class='col4'>22:45</th><th id='t02'>Short Oral S2a: Spotlight and Discussion (3 papers)</th><th id='r02'>Short Oral S3b: Spotlight and Discussion  (3 papers)</th>
+
+<tr><th id='t01' class='col1'></th><th id='t01' class='col2'></th><th id='r00' class='col3'></th><th id='t01' class='col4'></th><th id='t02'>(3 papers)</th><th id='r02'>(3 papers)</th>
+
+<tr><th id='t01' class='col1'></th><th id='t01' class='col2'></th><th id='r00' class='col3'></th><th id='t01' class='col4'></th><th id='t02'>(3 papers)</th><th id='r02'>(3 papers)</th>
+
+<tr><th id='t01' class='col1' >08:30</th><th id='t01' class='col2'>11:30</th><th id='r00b' class='col3'>17:30</th><th id='t01b' class='col4'>23:30</th><th colspan='2' id='r06b'>Individual virtual poster rooms (21 papers)</th>
+
+
+
+
+
+<tr><th id='t01' class='col1' >09:00</th><th id='t01' class='col2'>12:00</th><th id='t00' class='col3'>18:00</th><th id='t01' class='col4'>0:00</th><th colspan='2' id='t05'>Industry and Sponsor Event / Thu Virtual Dinner / Fri Closing</th>
+
+<tr><th id='t01' class='col1' >09:45</th><th id='t01' class='col2'></th><th id='t00' class='col3'>18:45</th><th id='t01' class='col4'></th><th colspan='2' id='t01'>Break / GatherTown</th>
+<tr><th id='t01' class='col1' >10:00</th><th id='t01' class='col2'>13:00</th><th id='t00' class='col3'>19:00</th><th id='t01' class='col4'>1:00</th><th colspan='2' id=''>Virtual Social Event / Drinks</th>
+
+ <tr><th id='t01' class='col1'>12:00</th><th id='t01' class='col2'>15:00</th><th id='t00' class='col3'>21:00</th><th id='t01' class='col4'>3:00</th><th id='t02'>Short Oral S3a (9 papers x 4-6 min Video)</th><th id='t02'>S3b (9 x 4-6 min)
+</th> 
+
+<tr><th id='t01' class='col1' >12:45</th><th id='t01' class='col2'>15:45</th><th id='t00' class='col3'>21:45</th><th id='t01' class='col4'>3:45</th><th colspan='2' id='t03'>Long Orals Videos L3 (3 x 10-13 min)</th>
+<tr><th id='t01' class='col1' >13:20</th><th id='t01' class='col2'>16:20</th><th id='t00' class='col3'>22:20</th><th id='t01' class='col4'>4:20</th><th colspan='2' id='t01'>Break / GatherTown</th>
+ <tr><th id='t01' class='col1'>13:30</th><th id='t01' class='col2'>16:30</th><th id='t00' class='col3'>22:30</th><th id='t01' class='col4'>4:30</th><th id='t02'>Short Oral S4a (9 papers x 4-6 min Video)</th><th id='t02'>S4b (9 x 4-6 min)
+</th> 
+
+<tr><th id='t01' class='col1' >14:15</th><th id='t01' class='col2'>17:15</th><th id='t00' class='col3'>23:15</th><th id='t01' class='col4'>5:15</th><th colspan='2' id='t03'>Long Orals Videos L4 (3 x 10-13 min)</th>
+<tr><th id='t01' class='col1' >14:45</th><th id='t01' class='col2'>17:45</th><th id='t00' class='col3'>23:45</th><th id='t01' class='col4'>5:45</th><th colspan='2' id='t04'>Study groups with Mentors (optional) Americas (for 45 min)</th> </table>
+
+<form >
+    <input class="largerCheckbox" type= checkbox  name= col1  checked= checked  /> Hide/Show UCT-7 <br />
+    <input class="largerCheckbox" type= checkbox  name= col2  checked= checked  /> Hide/Show UCT-4 <br />
+    <input class="largerCheckbox" type= checkbox  name= col3  checked= checked  /> Hide/Show UCT+2 <br />
+    <input class="largerCheckbox" type= checkbox  name= col4  checked= checked  /> Hide/Show UCT+8 <br />
+</form>
+</body>
+</html>
+
