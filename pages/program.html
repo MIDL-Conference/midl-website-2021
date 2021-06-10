@@ -1,4 +1,3 @@
-
 <html>
     
 <head>
@@ -7,14 +6,17 @@ form {
     font-family:    Helvetica Neue   , Helvetica, Arial, sans-serif;
     font-size: 130%;
 }
- h2,h3 {
-  font-family:    Helvetica Neue   , Helvetica, Arial, sans-serif;
- }
 table, th, td {
   font-family:    Helvetica Neue   , Helvetica, Arial, sans-serif;
   border: 1px solid gray;
   border-collapse: separate;
   /* offset-x | offset-y | blur-radius | spread-radius | color */
+}
+   body{
+         font-family:    Helvetica Neue   , Helvetica, Arial, sans-serif;
+    }  
+h2,h3 {
+    font-family:    Helvetica Neue   , Helvetica, Arial, sans-serif;
 }
 th, td {
   padding: 9px;
@@ -110,28 +112,63 @@ th, td {
   font-weight: 350
 }
     
+    #t02_ {
+  background-color: #D9A9BC;
+  font-weight: 350
+}
+    
 #t02 {
   background-color: #D9A9BC;
 }
 #t03 {
   background-color: #CDDFF0;
 }
+#t03_ {
+  background-color: #CDDFF0;
+  font-weight: 350
+}
 #t04 {
   background-color: #E6B8AF;
-}    
+} 
+#t04_ {
+  background-color: #E6B8AF;
+      font-weight: 350
+
+}       
 #t05 {
   background-color: #C4DFB3;
-}      
+} 
+         
+#t05_ {
+  background-color: #C4DFB3;
+          font-weight: 350
+
+} 
 #t06 {
   background-color: #F9D368;
+} 
+    
+#t06_ {
+  background-color: #F9D368;
+              font-weight: 350
+
 }   
         
 #t07 {
   background-color: #FFFFFF;
 }    
+    
+#t07_ {
+  background-color: #FFFFFF;
+                  font-weight: 350
+
+}    
     input.largerCheckbox {
-            -webkit-transform : scale(2);
+            -webkit-transform : scale(1.5);
         }
+    a {
+  color: black;
+    }
     
 </style>
     
@@ -161,224 +198,224 @@ $(document).ready(function() {
 -->
 
 <body>
-    
-<h3 style="margin-top: 2cm, margin-bottom: 2cm">Program at a Glance</h3>
-<table><thead><tr><th class='col1' id='t01'>West Coast UCT-7</th><th class='col2' id='t01'>East Coast UCT-4</th><th class='col3' id='t00'>L&uuml;beck UCT+2</th><th class='col4' id='t01'>China UCT+8</th><th colspan='2' id='t01'></th></thead>
- <tr><th id='t01' class='col1'>00:00</th><th id='t01' class='col2'>3:00</th><th id='t00' class='col3'>9:00</th><th id='t01' class='col4'>15:00</th><th id='t02'>Short Oral S1a</th><th id='t02'>S1b (9 x 4-6 min)
-</th> 
+    <table><thead><tr><th class='col1' id='t01'>West Coast UCT-7</th><th class='col2' id='t01'>East Coast UCT-4</th><th class='col3' id='t00'>L&uuml;beck UCT+2</th><th class='col4' id='t01'>China UCT+8</th><th colspan='2' id='t00'><b>Wednesday 7th July</b></th><th colspan='2' id='t00'><b>Thursday 8th July</b></th><th colspan='2' id='t00'><b>Friday 9th July</b></th></thead>
+<tr><th id='t01' class='col1'>00:00</th><th id='t01' class='col2'>3:00</th><th id='t00' class='col3'>9:00</th><th id='t01' class='col4'>15:00</th><th id='t02'><a href='#shortA'><b>Short Oral A4-12 Segmentation</b></a> Videos</th><th id='t02'><a href='#shortB'><b>Short Oral B1-9 Histopathology</b></a>Videos</th><th id='t02'><a href='#shortE'><b>Short Oral E4-12 Image Registration / Synthesis</b></a> Videos</th><th id='t02'><a href='#shortF'><b>Short Oral F1-9 Imaging: Reconstruction and Clinical Data</b></a> Videos</th><th id='t02'><a href='#shortI'><b>Short Oral I4-12 Transfer Learning and Domain Adaptation </b></a> Videos</th><th id='t02'><a href='#shortJ'><b>Short Oral J1-9 Unsupervised and Representation Learning </b></a> Videos</th>
 
-<tr><th id='t01' class='col1' >00:45</th><th id='t01' class='col2'>3:45</th><th id='t00' class='col3'>9:45</th><th id='t01' class='col4'>15:45</th><th colspan='2' id='t03'>Long Orals Videos L1 (3 x 10-13 min)</th>
-<tr><th id='t01' class='col1' >01:20</th><th id='t01' class='col2'>4:20</th><th id='t00' class='col3'>10:20</th><th id='t01' class='col4'>16:20</th><th colspan='2' id='t01'>Break / GatherTown</th>
- <tr><th id='t01' class='col1'>01:30</th><th id='t01' class='col2'>4:30</th><th id='t00' class='col3'>10:30</th><th id='t01' class='col4'>16:30</th><th id='t02'>Short Oral S2a (9 papers x 4-6 min Video)</th><th id='t02'>S2b (9 papers x 4-6 min)
-</th> 
+<tr><th id='t01' class='col1' >00:45</th><th id='t01' class='col2'>3:45</th><th id='t00' class='col3'>9:45</th><th id='t01' class='col4'>15:45</th><th colspan='2' id='t03'><a href='#longA'><b>Long Oral A1-3 Segmentation</b></a> Videos</th><th colspan='2' id='t03'><a href='#longE'><b>Long Oral E1-3 Detection and Diagnosis</b></a> Videos</th><th colspan='2' id='t03'><a href='#longI'><b>Long Oral I1-3 Interpretability and Explainable AI</b></a> Videos</th>
+<tr><th id='t01' class='col1' >01:20</th><th id='t01' class='col2'>4:20</th><th id='t00' class='col3'>10:20</th><th id='t01' class='col4'>16:20</th><th colspan='2' id='t01'>Break / GatherTown</th><th colspan='2' id='t01'>Break / GatherTown</th><th colspan='2' id='t01'>Break / GatherTown</th>
+<tr><th id='t01' class='col1'>01:30</th><th id='t01' class='col2'>4:30</th><th id='t00' class='col3'>10:30</th><th id='t01' class='col4'>16:30</th><th id='t02'><a href='#shortC'><b>Short Oral C1-9 Endoscopy and Validation Studies</b></a> Videos</th><th id='t02'><a href='#shortD'><b>Short Oral D4-12 Detection and Diagnosis 1</b></a> Videos</th><th id='t02'><a href='#shortG'><b>Short Oral G1-9 Application: Radiology</b></a> Videos</th><th id='t02'><a href='#shortH'><b>Short Oral H4-12Interpretability and Explainable AI</b></a> Videos</th><th id='t02'><a href='#shortK'><b>Short Oral K1-9 Learning with Noisy Labels and Limited Data</b></a> Videos</th><th id='t02'><a href='#shortL'><b>Short Oral L4-9 Detection and Diagnosis 2</b></a> Videos</th>
 
-<tr><th id='t01' class='col1' >02:15</th><th id='t01' class='col2'>5:15</th><th id='t00' class='col3'>11:15</th><th id='t01' class='col4'>17:15</th><th colspan='2' id='t03'>Long Orals Videos L2 (3 x 10-13 min)</th>
-<tr ><th id='t01' class='col1' >02:45</th><th id='t01' class='col2'>5:45</th><th id='t00' class='col3'>11:45</th><th id='t01' class='col4'>17:45</th><th colspan='2' id='t04'>Study groups with Mentors (optional)</th>
-<tr ><th id='t01' class='col1' >03:30</th><th id='t01' class='col2'>6:30</th><th id='t00' class='col3'>12:30</th><th id='t01' class='col4'>18:30</th><th colspan='2' id='t05'>Wed Opening / Thu Industry Event (from 12:15)</th>
-<tr ><th id='t01' class='col1' >04:00</th><th id='t01' class='col2'>7:00</th><th id='r00t' class='col3'>13:00</th><th id='t01t' class='col4'>19:00</th><th colspan='2' id='r03t'>Long Oral L1 Introduction (5 min each) and Panelist-Discussion (15min) (3 papers)</th>
+<tr><th id='t01' class='col1' >02:15</th><th id='t01' class='col2'>5:15</th><th id='t00' class='col3'>11:15</th><th id='t01' class='col4'>17:15</th><th colspan='2' id='t03'><a href='#longD'><b>Long Oral D1-3 Unsupervised and Representation Learning</b></a> Videos</th><th colspan='2' id='t03'><a href='#longH'><b>Long Oral H1-3 Image Acquisition and Reconstruction</b></a> Videos</th><th colspan='2' id='t03'><a href='#longL'><b>Long Oral L1-3 Learning with Noisy Labels and Limited Data</b></a>  Videos</th>
+<tr><th id='t01' class='col1' >02:45</th><th id='t01' class='col2'>5:45</th><th id='t00' class='col3'>11:45</th><th id='t01' class='col4'>17:45</th><th colspan='2' id='t04'>Study groups with Mentors (optional)</th><th colspan='2' id='t04'>Study groups with Mentors (optional)</th><th colspan='2' id='t04'>Study groups with Mentors (optional)</th>
+<tr><th id='t01' class='col1' >03:30</th><th id='t01' class='col2'>6:30</th><th id='t00' class='col3'>12:30</th><th id='t01' class='col4'>18:30</th><th colspan='2' id='t05'>Conference Opening</th><th colspan='2' id='t05'>Industry and Sponsor Event</th><th colspan='2' id='t05'></th>
+<tr><th id='t01' class='col1' >04:00</th><th id='t01' class='col2'>7:00</th><th id='r00t' class='col3'>13:00</th><th id='t01t' class='col4'>19:00</th><th colspan='2' id='r03t'><a href='#longA'><b>Long Oral A1-3 Segmentation</b></a> Intro and Discussion</th><th colspan='2' id='r03t'><a href='#longE'><b>Long Oral E1-3 Detection and Diagnosis</b></a> Intro and Discussion</th><th colspan='2' id='r03t'><a href='#longE'><b>Long Oral I1-3 Interpretability and Explainable AI</b></a> Intro and Discussion</th>
 
 
 
-<tr><th id='t01' class='col1' >04:30</th><th id='t01' class='col2'>7:30</th><th id='r00' class='col3'>13:30</th><th id='t01' class='col4'>19:30</th><th colspan='2' id='r01'>Break / GatherTown</th>
-<tr><th id='t01' class='col1'>04:45</th><th id='t01' class='col2'>7:45</th><th id='r00' class='col3'>13:45</th><th id='t01' class='col4'>19:45</th><th id='t02'>Short Oral S1a: Spotlight and Discussion (3 papers)</th><th id='r02'>Short Oral S1b: Spotlight and Discussion (3 papers)</th>
-
-<tr><th id='t01' class='col1'></th><th id='t01' class='col2'></th><th id='r00' class='col3'></th><th id='t01' class='col4'></th><th id='t02'>(3 papers)</th><th id='r02'>(3 papers)</th>
-
-<tr><th id='t01' class='col1'></th><th id='t01' class='col2'></th><th id='r00' class='col3'></th><th id='t01' class='col4'></th><th id='t02'>(3 papers)</th><th id='r02'>(3 papers)</th>
-
-<tr><th id='t01' class='col1' >05:30</th><th id='t01' class='col2'>8:30</th><th id='r00' class='col3'>14:30</th><th id='t01' class='col4'>20:30</th><th colspan='2' id='r06'>Individual virtual poster rooms (21 papers)</th>
+<tr><th id='t01' class='col1' >04:30</th><th id='t01' class='col2'>7:30</th><th id='r00' class='col3'>13:30</th><th id='t01' class='col4'>19:30</th><th colspan='2' id='r01'>Break / GatherTown</th><th colspan='2' id='r01'>Break / GatherTown</th><th colspan='2' id='r01'>Break / GatherTown</th>
+<tr><th id='t01' class='col1'>04:45</th><th id='t01' class='col2'>7:45</th><th id='r00' class='col3'>13:45</th><th id='t01' class='col4'>19:45</th><th id='t02'><a href='#shortA'><b>Short Oral A4-12 Segmentation</b></a> Spotlight and Discussion</th><th id='r02'><a href='#shortB'><b>Short Oral B1-9 Histopathology</b></a> Spotlight and Discussion</th><th id='t02'><a href='#shortE'><b>Short Oral E4-12 Image Registration / Synthesis</b></a> Spotlight and Discussion</th><th id='r02'><a href='#shortF'><b>Short Oral F1-9 Imaging: Reconstruction and Clinical Data</b></a> Spotlight and Discussion</th><th id='t02'><a href='#shortI'><b>Short Oral I4-12 Transfer Learning and Domain Adaptation </b></a> Spotlight and Discussion</th><th id='r02'><a href='#shortJ'><b>Short Oral J1-9 Unsupervised and Representation Learning </b></a> Spotlight and Discussion</th>
 
 
 
 
 
-<tr><th id='t01' class='col1' >06:00</th><th id='t01' class='col2'>9:00</th><th id='r00' class='col3'>15:00</th><th id='t01' class='col4'>21:00</th><th colspan='2' id='r01'>Break / GatherTown</th>
-<tr><th id='t01' class='col1' >06:15</th><th id='t01' class='col2'>9:15</th><th id='r00' class='col3'>15:15</th><th id='t01' class='col4'>21:15</th><th colspan='2' id='r05'>Keynote</th>
-
-
-
-
-<tr><th id='t01' class='col1' >07:00</th><th id='t01' class='col2'>10:00</th><th id='r00' class='col3'>16:00</th><th id='t01' class='col4'>22:00</th><th colspan='2' id='r03'>Long Oral L2: Introduction (5 min each) and Panelist-Discussion (3 papers)</th>
-
-
-
-<tr><th id='t01' class='col1' >07:30</th><th id='t01' class='col2'>10:30</th><th id='r00' class='col3'>16:30</th><th id='t01' class='col4'>22:30</th><th colspan='2' id='r01'>Break / GatherTown</th>
-<tr id='r02'><th id='t01' class='col1'>07:45</th><th id='t01' class='col2'>10:45</th><th id='r00' class='col3'>16:45</th><th id='t01' class='col4'>22:45</th><th id='t02'>Short Oral S2a: Spotlight and Discussion (3 papers)</th><th id='r02'>Short Oral S3b: Spotlight and Discussion  (3 papers)</th>
-
-<tr><th id='t01' class='col1'></th><th id='t01' class='col2'></th><th id='r00' class='col3'></th><th id='t01' class='col4'></th><th id='t02'>(3 papers)</th><th id='r02'>(3 papers)</th>
-
-<tr><th id='t01' class='col1'></th><th id='t01' class='col2'></th><th id='r00' class='col3'></th><th id='t01' class='col4'></th><th id='t02'>(3 papers)</th><th id='r02'>(3 papers)</th>
-
-<tr><th id='t01' class='col1' >08:30</th><th id='t01' class='col2'>11:30</th><th id='r00b' class='col3'>17:30</th><th id='t01b' class='col4'>23:30</th><th colspan='2' id='r06b'>Individual virtual poster rooms (21 papers)</th>
+<tr><th id='t01' class='col1' >05:30</th><th id='t01' class='col2'>8:30</th><th id='r00' class='col3'>14:30</th><th id='t01' class='col4'>20:30</th><th colspan='2' id='r06'>Individual virtual poster rooms (21 papers)</th><th colspan='2' id='r06'>Individual virtual poster rooms (21 papers)</th><th colspan='2' id='r06'>Individual virtual poster rooms (21 papers)</th>
 
 
 
 
 
-<tr><th id='t01' class='col1' >09:00</th><th id='t01' class='col2'>12:00</th><th id='t00' class='col3'>18:00</th><th id='t01' class='col4'>0:00</th><th colspan='2' id='t05'>Industry and Sponsor Event / Thu Virtual Dinner / Fri Closing</th>
+<tr><th id='t01' class='col1' >06:00</th><th id='t01' class='col2'>9:00</th><th id='r00' class='col3'>15:00</th><th id='t01' class='col4'>21:00</th><th colspan='2' id='r01'>Break / GatherTown</th><th colspan='2' id='r01'>Break / GatherTown</th><th colspan='2' id='r01'>Break / GatherTown</th>
+<tr><th id='t01' class='col1' >06:15</th><th id='t01' class='col2'>9:15</th><th id='r00' class='col3'>15:15</th><th id='t01' class='col4'>21:15</th><th colspan='2' id='r05'>Keynote</th><th colspan='2' id='r05'>Keynote</th><th colspan='2' id='r05'>Keynote</th>
 
-<tr><th id='t01' class='col1' >09:45</th><th id='t01' class='col2'></th><th id='t00' class='col3'>18:45</th><th id='t01' class='col4'></th><th colspan='2' id='t01'>Break / GatherTown</th>
-<tr><th id='t01' class='col1' >10:00</th><th id='t01' class='col2'>13:00</th><th id='t00' class='col3'>19:00</th><th id='t01' class='col4'>1:00</th><th colspan='2' id=''>Virtual Social Event / Drinks</th>
 
- <tr><th id='t01' class='col1'>12:00</th><th id='t01' class='col2'>15:00</th><th id='t00' class='col3'>21:00</th><th id='t01' class='col4'>3:00</th><th id='t02'>Short Oral S3a (9 papers x 4-6 min Video)</th><th id='t02'>S3b (9 x 4-6 min)
-</th> 
 
-<tr><th id='t01' class='col1' >12:45</th><th id='t01' class='col2'>15:45</th><th id='t00' class='col3'>21:45</th><th id='t01' class='col4'>3:45</th><th colspan='2' id='t03'>Long Orals Videos L3 (3 x 10-13 min)</th>
-<tr><th id='t01' class='col1' >13:20</th><th id='t01' class='col2'>16:20</th><th id='t00' class='col3'>22:20</th><th id='t01' class='col4'>4:20</th><th colspan='2' id='t01'>Break / GatherTown</th>
- <tr><th id='t01' class='col1'>13:30</th><th id='t01' class='col2'>16:30</th><th id='t00' class='col3'>22:30</th><th id='t01' class='col4'>4:30</th><th id='t02'>Short Oral S4a (9 papers x 4-6 min Video)</th><th id='t02'>S4b (9 x 4-6 min)
-</th> 
 
-<tr><th id='t01' class='col1' >14:15</th><th id='t01' class='col2'>17:15</th><th id='t00' class='col3'>23:15</th><th id='t01' class='col4'>5:15</th><th colspan='2' id='t03'>Long Orals Videos L4 (3 x 10-13 min)</th>
-<tr><th id='t01' class='col1' >14:45</th><th id='t01' class='col2'>17:45</th><th id='t00' class='col3'>23:45</th><th id='t01' class='col4'>5:45</th><th colspan='2' id='t04'>Study groups with Mentors (optional) Americas (for 45 min)</th> </table>
+<tr><th id='t01' class='col1' >07:00</th><th id='t01' class='col2'>10:00</th><th id='r00' class='col3'>16:00</th><th id='t01' class='col4'>22:00</th><th colspan='2' id='r03'><a href='#longD'><b>Long Oral D1-3 Unsupervised and Representation Learning</b></a> Intro and Discussion</th><th colspan='2' id='r03'><a href='#longH'><b>Long Oral H1-3 Image Acquisition and Reconstruction</b></a> Intro and Discussion</th><th colspan='2' id='r03'><a href='#longL'><b>Long Oral L1-3 Learning with Noisy Labels and Limited Data</b></a> Intro and Discussion</th>
+
+
+
+<tr><th id='t01' class='col1' >07:30</th><th id='t01' class='col2'>10:30</th><th id='r00' class='col3'>16:30</th><th id='t01' class='col4'>22:30</th><th colspan='2' id='r01'>Break / GatherTown</th><th colspan='2' id='r01'>Break / GatherTown</th><th colspan='2' id='r01'>Break / GatherTown</th>
+<tr><th id='t01' class='col1'>07:45</th><th id='t01' class='col2'>10:45</th><th id='r00' class='col3'>16:45</th><th id='t01' class='col4'>22:45</th><th id='t02'><a href='#shortC'><b>Short Oral C1-9 Endoscopy and Validation Studies</b></a> Spotlight and Discussion</th><th id='r02'><a href='#shortD'><b>Short Oral D4-12 Detection and Diagnosis 1</b></a> Spotlight and Discussion</th><th id='t02'><a href='#shortG'><b>Short Oral G1-9 Application: Radiology</b></a> Spotlight and Discussion</th><th id='r02'><a href='#shortH'><b>Short Oral H4-12Interpretability and Explainable AI</b></a> Spotlight and Discussion</th><th id='t02'><a href='#shortK'><b>Short Oral K1-9 Learning with Noisy Labels and Limited Data</b></a> Spotlight and Discussion</th><th id='r02'><a href='#shortL'><b>Short Oral L4-9 Detection and Diagnosis 2</b></a> Spotlight and Discussion</th>
+
+
+
+
+
+<tr><th id='t01' class='col1' >08:30</th><th id='t01' class='col2'>11:30</th><th id='r00b' class='col3'>17:30</th><th id='t01b' class='col4'>23:30</th><th colspan='2' id='r06b'>Individual virtual poster rooms (21 papers)</th><th colspan='2' id='r06b'>Individual virtual poster rooms (21 papers)</th><th colspan='2' id='r06b'>Individual virtual poster rooms (21 papers)</th>
+
+
+
+
+
+<tr><th id='t01' class='col1' >09:00</th><th id='t01' class='col2'>12:00</th><th id='t00' class='col3'>18:00</th><th id='t01' class='col4'>0:00</th><th colspan='2' id='t05'>Industry and Sponsor Event</th><th colspan='2' id='t05'>Virtual Social Event / Gala Evening</th><th colspan='2' id='t05'>Closing</th>
+
+<tr><th id='t01' class='col1' >09:45</th><th id='t01' class='col2'></th><th id='t00' class='col3'>18:45</th><th id='t01' class='col4'></th><th colspan='2' id='t01'>Break / GatherTown</th><th colspan='2' id='t01'>Break / GatherTown</th><th colspan='2'></th>
+<tr><th id='t01' class='col1' >10:00</th><th id='t01' class='col2'>13:00</th><th id='t00' class='col3'>19:00</th><th id='t01' class='col4'>1:00</th><th colspan='2' id='t07'>Virtual Social Event / Drinks</th><th colspan='2' id='t07'>Virtual Social Event / Gala Evening</th><th colspan='2'></th>
+
+<tr><th id='t01' class='col1'>12:00</th><th id='t01' class='col2'>15:00</th><th id='t00' class='col3'>21:00</th><th id='t01' class='col4'>3:00</th><th id='t02'><a href='#shortE'><b>Short Oral E4-12 Image Registration / Synthesis</b></a>  Videos</th><th id='t02'><a href='#shortF'><b>Short Oral F1-9 Imaging: Reconstruction and Clinical Data</b></a> Videos</th><th id='t02'><a href='#shortI'><b>Short Oral Transfer Learning and Domain Adaptation </b></a> Videos</th><th id='t02'><a href='#shortJ'><b>Unsupervised and Representation Learning </b></a> Videos</th><th colspan='2'></th>
+
+<tr><th id='t01' class='col1' >12:45</th><th id='t01' class='col2'>15:45</th><th id='t00' class='col3'>21:45</th><th id='t01' class='col4'>3:45</th><th colspan='2' id='t03'><a href='#longE'><b>Long Oral E1-3 Detection and Diagnosis</b></a> Videos</th><th colspan='2' id='t03'><a href='#longI'><b>Long Oral I1-3 Interpretability and Explainable AI</b></a> Videos</th><th colspan='2'></th>
+<tr><th id='t01' class='col1' >13:20</th><th id='t01' class='col2'>16:20</th><th id='t00' class='col3'>22:20</th><th id='t01' class='col4'>4:20</th><th colspan='2' id='t01'>Break / GatherTown</th><th colspan='2' id='t01'>Break / GatherTown</th><th colspan='2'></th>
+<tr><th id='t01' class='col1'>13:30</th><th id='t01' class='col2'>16:30</th><th id='t00' class='col3'>22:30</th><th id='t01' class='col4'>4:30</th><th id='t02'><a href='#shortG'><b>Short Oral G1-9 Application: Radiology</b></a>  Videos</th><th id='t02'><a href='#shortH'><b>Short Oral H4-12Interpretability and Explainable AI</b></a>  Videos</th><th id='t02'><a href='#shortI'><b>Short Oral I4-12 Transfer Learning and Domain Adaptation </b></a> Videos</th><th id='t02'><a href='#shortL'><b>Short Oral L4-9 Detection and Diagnosis 2</b></a> Videos</th><th colspan='2'></th>
+
+<tr><th id='t01' class='col1' >14:15</th><th id='t01' class='col2'>17:15</th><th id='t00' class='col3'>23:15</th><th id='t01' class='col4'>5:15</th><th colspan='2' id='t03'><a href='#longH'><b>Long Oral H1-3 Image Acquisition and Reconstruction</b></a>   Videos</th><th colspan='2' id='t03'>Long Orals Videos L4 (3 x 10-13 min)</th><th colspan='2'></th>
+<tr><th id='t01' class='col1' >14:45</th><th id='t01' class='col2'>17:45</th><th id='t00' class='col3'>23:45</th><th id='t01' class='col4'>5:45</th><th colspan='2' id='t04'>Study groups with Mentors (optional) Americas (for 45 min)</th><th colspan='2' id='t04'>Study groups with Mentors (optional) Americas (for 45 min)</th><th colspan='2'></th>
+        </table>
 
 <form >
     <input class="largerCheckbox" type= checkbox  name= col1  checked= checked  /> Hide/Show UCT-7 <br />
     <input class="largerCheckbox" type= checkbox  name= col2  checked= checked  /> Hide/Show UCT-4 <br />
     <input class="largerCheckbox" type= checkbox  name= col3  checked= checked  /> Hide/Show UCT+2 <br />
     <input class="largerCheckbox" type= checkbox  name= col4  checked= checked  /> Hide/Show UCT+8 <br />
-</form><h2> Wednesday 7th July</h2>
-<h3>A1-3 (long): Segmentation - 13:00 - 13:30 (UCT+2)</h3>
-A1: Alessa Hering - "Whole-Body Soft-Tissue Lesion Tracking and Segmentation in Longitudinal CT Imaging Studies"<br>
-A2: Manan Lalit - "Embedding-based Instance Segmentation in Microscopy"<br>
-A3: Hoel Kervadec - "Beyond pixel-wise supervision: semantic segmentation with higher-order shape descriptors"<br>
-<h3>A4-12 (short): Segmentation - 13:45 - 14:30 (UCT+2)</h3>
-A4: Annika Reinke - "Common limitations of performance metrics in biomedical image analysis" - (full)<br>
-A5: Hoang Canh Nguyen - "VinDr-RibCXR: A Benchmark Dataset for Automatic Segmentation and Labeling of Individual Ribs on Chest X-rays" - (short)<br>
-A6: Christian Schiffer - "Learning to predict cutting angles from histological human brain sections" - (short)<br>
-A7: Markus Philipp - "Localizing neurosurgical instruments across domains and in the wild" - (full)<br>
-A8: Qian He - "Weakly Supervised Volumetric Segmentation via Self-taught Shape Denoising Model" - (full)<br>
-A9: Andreanne Lemay - "Benefits of Linear Conditioning for Segmentation using Metadata" - (full)<br>
-A10: Harsh Maheshwari - "Distill DSM: Computationally efficient method for segmentation of medical imaging volumes" - (full)<br>
-A11: Kimberly Amador - "Stroke Lesion Outcome Prediction Based on 4D CT Perfusion Data Using Temporal Convolutional Networks" - (full)<br>
-A12: Philipp Gruening - "Direct Inference of Cell Positions using Lens-Free Microscopy and Deep Learning" - (full)<br>
-<h3>B1-9 (short): Application: Histopathology - 13:45 - 14:30 (UCT+2)</h3>
-B1: Jeroen Vermazeren - "$\mu$PEN: Multi-class PseudoEdgeNet for PD-L1 assessment" - (full)<br>
-B2: Petr Kuritcyn - "Comparison of CNN models on a multi-scanner database in colon cancer histology" - (full)<br>
-B3: Loris Nanni - "Exploiting Adam-like Optimization Algorithms to Improve the Performance of Convolutional Neural Networks" - (full)<br>
-B4: Shana Beniamin - "Gated CNNs for Nuclei Segmentation in H&E Breast Images" - (short)<br>
-B5: Kristina Lynn Kupferschmidt - "Strength in Diversity: Understanding the impacts of diverse training sets in self-supervised pre-training for histology images" - (short)<br>
-B6: Nick Pawlowski - "Abnormality Detection in Histopathology via Density Estimation with Normalising Flows" - (full)<br>
-B7: Yinan Zhang - "Learning to Represent Whole Slide Images by Selecting Cell Graphs of Patches" - (short)<br>
-B8: Gijs Smit - "Quality control of whole-slide images through multi-class semantic segmentation of artifacts" - (short)<br>
-B9: Yash Sharma - "Cluster-to-Conquer: A Framework for End-to-End Multi-Instance Learning for Whole Slide Image Classification" - (full)<br>
-<h3>D1-3 (long): Unsupervised and Representation Learning - 16:00 - 16:30 (UCT+2)</h3>
-D1: Christian Abbet - "Self-Rule to Adapt: Learning Generalized Features from Sparsely-Labeled Data Using Unsupervised Domain Adaptation for Colorectal Cancer Tissue Phenotyping"<br>
-D2: Steffen Czolbe - "Semantic similarity metrics for learned image registration"<br>
-D3: Chao Feng - "Nuc2Vec: Learning Representations of Nuclei in Histopathology Images with Contrastive Loss"<br>
-<h3>C1-9 (short): Endoscopy and Validation Studies - 16:45 - 17:30 (UCT+2)</h3>
-C1: Andreas M Kist - "Efficient biomedical image segmentation on Edge TPUs" - (full)<br>
-C2: Alessandra Lumini - "Deep ensembles based on Stochastic Activation Selection for Polyp Segmentation" - (full)<br>
-C3: Javier Morlana - "Self-supervised Visual Place Recognition for Colonoscopy Sequences" - (short)<br>
-C4: Raghavendra Selvan - "Carbon footprint driven deep learning model selection for medical imaging" - (short)<br>
-C5: Bokai Zhang - "SWNet: Surgical Workflow Recognition with Deep Convolutional Network" - (full)<br>
-C6: Daniel Neimark - "“Train one, Classify one, Teach one” - Cross-surgery transfer learning for surgical step recognition" - (full)<br>
-C7: Aishik Konwer - "Predicting COVID-19 Lung Infiltrate Progression on Chest Radiographs Using Spatio-temporal LSTM based Encoder-Decoder Network" - (full)<br>
-C8: Andreas M Kist - "Feature-based image registration in structured light endoscopy" - (full)<br>
-C9: Oleh Dzyubachyk - "Intensity Correction and Standardization for Electron Microscopy Data" - (full)<br>
-<h3>D4-12 (short): Detection and Diagnosis 1 - 16:45 - 17:30 (UCT+2)</h3>
-D4: Tianyu Zhang - "Predicting molecular subtypes of breast cancer using multimodal deep learning and incorporation of the attention mechanism" - (full)<br>
-D5: Yuchen Yang - "Double adversarial domain adaptation for whole-slide-imageclassification" - (full)<br>
-D6: Francesco Caliva - "Virtual Bone Shape Aging" - (full)<br>
-D7: Ansh Kapil - "Breast cancer patient stratification using domain adaptation based lymphocyte detection in HER2 stained tissue sections" - (short)<br>
-D8: Bram de Wilde - "Cine-MRI detection of abdominal adhesions with spatio-temporal deep learning" - (short)<br>
-D9: Jonathan Rubin - "Efficient Video-Based Deep Learning for Ultrasound Guided Needle Insertion" - (short)<br>
-D10: Dominik Mairhöfer - "An AI-based Framework for Diagnostic Quality Assessment of Ankle Radiographs" - (full)<br>
-D11: Juan Carlos Prieto - "Image Sequence Generation and Analysis via GRU and Attention for Trachomatous Trichiasis Classification" - (full)<br>
-D12: Hari Sowrirajan - "MoCo Pretraining Improves Representation and Transferability of Chest X-ray Models" - (full)<br>
+</form>
+    
+    We gave our best to give every participant the opportunity for live interaction with the authors, regardless of the timezone. Therefore, each conference day is divided into two parts: The active part and the passive part.
+The active part takes place in the time frame that is most convenient across all time zones and is marked in yellow. During this active part, live spotlight presentations of and discussions with the authors of all accepted papers are scheduled. Additionally, the keynotes, virtual poster sessions as well as social events will take place during the active phase. Hence, participants from all over the world get the chance to discuss the presented research, meet new colleagues and old friends, and enjoy a live virtual event.
+In the passive part, the full presentation videos of all accepted papers are shown in moderated sessions. Each presentation is streamed twice to address the different time zones, once the day before after the active phase and once right before the active phase where the paper is discussed. Questions that arise during these sessions will be collected and answered in the corresponding discussion session during the active phase. All presentation videos will also be accessible on the homepage so that they can also be enjoyed outside the moderated sessions.
+   <h2> Wednesday 7th July</h2>
+<a id="longA"></a><h3>A1-3 (long): Segmentation - 13:00 - 13:30 (UCT+2)</h3>
+A1: Alessa Hering - <a href="https://openreview.net/forum?id=hzbuHGhU02Z" target="_blank">Whole-Body Soft-Tissue Lesion Tracking and Segmentation in Longitudinal CT Imaging Studies</a><br>
+A2: Manan Lalit - <a href="https://openreview.net/forum?id=JM6GuFGayL5" target="_blank">Embedding-based Instance Segmentation in Microscopy</a><br>
+A3: Hoel Kervadec - <a href="https://openreview.net/forum?id=nqe6e0oJ_fL" target="_blank">Beyond pixel-wise supervision: semantic segmentation with higher-order shape descriptors</a><br>
+<a id="shortA"></a><h3>A4-12 (short): Segmentation - 13:45 - 14:30 (UCT+2)</h3>
+A4: Annika Reinke - <a href="https://openreview.net/forum?id=76X9Mthzv4X" target="_blank">Common limitations of performance metrics in biomedical image analysis</a> - (short)<br>
+A5: Hoang Canh Nguyen - <a href="https://openreview.net/forum?id=oJi6xpSLdsj" target="_blank">VinDr-RibCXR: A Benchmark Dataset for Automatic Segmentation and Labeling of Individual Ribs on Chest X-rays</a> - (short)<br>
+A6: Christian Schiffer - <a href="https://openreview.net/forum?id=9CSM4yQmZiN" target="_blank">Learning to predict cutting angles from histological human brain sections</a> - (short)<br>
+A7: Markus Philipp - <a href="https://openreview.net/forum?id=21m0dBCMdd" target="_blank">Localizing neurosurgical instruments across domains and in the wild</a> - (short)<br>
+A8: Qian He - <a href="https://openreview.net/forum?id=Koyg3kvH-Mq" target="_blank">Weakly Supervised Volumetric Segmentation via Self-taught Shape Denoising Model</a> - (full)<br>
+A9: Andreanne Lemay - <a href="https://openreview.net/forum?id=fa176bQAbr" target="_blank">Benefits of Linear Conditioning for Segmentation using Metadata</a> - (full)<br>
+A10: Harsh Maheshwari - <a href="https://openreview.net/forum?id=_n48l6YKc6d" target="_blank">Distill DSM: Computationally efficient method for segmentation of medical imaging volumes</a> - (full)<br>
+A11: Kimberly Amador - <a href="https://openreview.net/forum?id=0YDEgvfwEW" target="_blank">Stroke Lesion Outcome Prediction Based on 4D CT Perfusion Data Using Temporal Convolutional Networks</a> - (full)<br>
+A12: Philipp Gruening - <a href="https://openreview.net/forum?id=2fpsTsvCgc0" target="_blank">Direct Inference of Cell Positions using Lens-Free Microscopy and Deep Learning</a> - (full)<br>
+<a id="shortB"></a><h3>B1-9 (short): Application: Histopathology - 13:45 - 14:30 (UCT+2)</h3>
+B1: Jeroen Vermazeren - <a href="https://openreview.net/forum?id=rHAiz2pnxkB" target="_blank">$\mu$PEN: Multi-class PseudoEdgeNet for PD-L1 assessment</a> - (short)<br>
+B2: Petr Kuritcyn - <a href="https://openreview.net/forum?id=CdQn5goh0E4" target="_blank">Comparison of CNN models on a multi-scanner database in colon cancer histology</a> - (short)<br>
+B3: Loris Nanni - <a href="https://openreview.net/forum?id=RFwhfWEMyzm" target="_blank">Exploiting Adam-like Optimization Algorithms to Improve the Performance of Convolutional Neural Networks</a> - (short)<br>
+B4: Shana Beniamin - <a href="https://openreview.net/forum?id=fQDGt0RJkMu" target="_blank">Gated CNNs for Nuclei Segmentation in H&E Breast Images</a> - (short)<br>
+B5: Kristina Lynn Kupferschmidt - <a href="https://openreview.net/forum?id=cA4VVWbNO-" target="_blank">Strength in Diversity: Understanding the impacts of diverse training sets in self-supervised pre-training for histology images</a> - (short)<br>
+B6: Nick Pawlowski - <a href="https://openreview.net/forum?id=-j7vnPsPWys" target="_blank">Abnormality Detection in Histopathology via Density Estimation with Normalising Flows</a> - (short)<br>
+B7: Yinan Zhang - <a href="https://openreview.net/forum?id=hPUnpHJHuy" target="_blank">Learning to Represent Whole Slide Images by Selecting Cell Graphs of Patches</a> - (short)<br>
+B8: Gijs Smit - <a href="https://openreview.net/forum?id=7EZ4JOtlRl" target="_blank">Quality control of whole-slide images through multi-class semantic segmentation of artifacts</a> - (short)<br>
+B9: Yash Sharma - <a href="https://openreview.net/forum?id=7i1-2oKIELU" target="_blank">Cluster-to-Conquer: A Framework for End-to-End Multi-Instance Learning for Whole Slide Image Classification</a> - (full)<br>
+<a id="longD"></a><h3>D1-3 (long): Unsupervised and Representation Learning - 16:00 - 16:30 (UCT+2)</h3>
+D1: Christian Abbet - <a href="https://openreview.net/forum?id=VO7asaS5GUk" target="_blank">Self-Rule to Adapt: Learning Generalized Features from Sparsely-Labeled Data Using Unsupervised Domain Adaptation for Colorectal Cancer Tissue Phenotyping</a><br>
+D2: Steffen Czolbe - <a href="https://openreview.net/forum?id=9M5cH--UdcC" target="_blank">Semantic similarity metrics for learned image registration</a><br>
+D3: Chao Feng - <a href="https://openreview.net/forum?id=uLtYvtWw8PH" target="_blank">Nuc2Vec: Learning Representations of Nuclei in Histopathology Images with Contrastive Loss</a><br>
+<a id="shortC"></a><h3>C1-9 (short): Endoscopy and Validation Studies - 16:45 - 17:30 (UCT+2)</h3>
+C1: Andreas M Kist - <a href="https://openreview.net/forum?id=HajxTQpPniD" target="_blank">Efficient biomedical image segmentation on Edge TPUs</a> - (short)<br>
+C2: Alessandra Lumini - <a href="https://openreview.net/forum?id=NJcszyl19PN" target="_blank">Deep ensembles based on Stochastic Activation Selection for Polyp Segmentation</a> - (short)<br>
+C3: Javier Morlana - <a href="https://openreview.net/forum?id=tgkEqYyA12p" target="_blank">Self-supervised Visual Place Recognition for Colonoscopy Sequences</a> - (short)<br>
+C4: Raghavendra Selvan - <a href="https://openreview.net/forum?id=1TPRpNyyj2L" target="_blank">Carbon footprint driven deep learning model selection for medical imaging</a> - (short)<br>
+C5: Bokai Zhang - <a href="https://openreview.net/forum?id=g1sESqlP214" target="_blank">SWNet: Surgical Workflow Recognition with Deep Convolutional Network</a> - (full)<br>
+C6: Daniel Neimark - <a href="https://openreview.net/forum?id=cTB4Qz3RzCl" target="_blank">“Train one, Classify one, Teach one” - Cross-surgery transfer learning for surgical step recognition</a> - (full)<br>
+C7: Aishik Konwer - <a href="https://openreview.net/forum?id=96BhL_MERil" target="_blank">Predicting COVID-19 Lung Infiltrate Progression on Chest Radiographs Using Spatio-temporal LSTM based Encoder-Decoder Network</a> - (full)<br>
+C8: Andreas M Kist - <a href="https://openreview.net/forum?id=MzC8X6cMF2r" target="_blank">Feature-based image registration in structured light endoscopy</a> - (full)<br>
+C9: Oleh Dzyubachyk - <a href="https://openreview.net/forum?id=MAUkVcDzDPA" target="_blank">Intensity Correction and Standardization for Electron Microscopy Data</a> - (full)<br>
+<a id="shortD"></a><h3>D4-12 (short): Detection and Diagnosis 1 - 16:45 - 17:30 (UCT+2)</h3>
+D4: Tianyu Zhang - <a href="https://openreview.net/forum?id=GHNGMR1EAtN" target="_blank">Predicting molecular subtypes of breast cancer using multimodal deep learning and incorporation of the attention mechanism</a> - (short)<br>
+D5: Yuchen Yang - <a href="https://openreview.net/forum?id=70gFxx5ytwh" target="_blank">Double adversarial domain adaptation for whole-slide-imageclassification</a> - (short)<br>
+D6: Francesco Caliva - <a href="https://openreview.net/forum?id=1JP1g5htY6K" target="_blank">Virtual Bone Shape Aging</a> - (short)<br>
+D7: Ansh Kapil - <a href="https://openreview.net/forum?id=IAuBCvaTKHr" target="_blank">Breast cancer patient stratification using domain adaptation based lymphocyte detection in HER2 stained tissue sections</a> - (short)<br>
+D8: Bram de Wilde - <a href="https://openreview.net/forum?id=-KI5qmKvhKQ" target="_blank">Cine-MRI detection of abdominal adhesions with spatio-temporal deep learning</a> - (short)<br>
+D9: Jonathan Rubin - <a href="https://openreview.net/forum?id=dVUHL5QhDhL" target="_blank">Efficient Video-Based Deep Learning for Ultrasound Guided Needle Insertion</a> - (short)<br>
+D10: Dominik Mairhöfer - <a href="https://openreview.net/forum?id=bj04hJss_xZ" target="_blank">An AI-based Framework for Diagnostic Quality Assessment of Ankle Radiographs</a> - (full)<br>
+D11: Juan Carlos Prieto - <a href="https://openreview.net/forum?id=umb5xsy1-zS" target="_blank">Image Sequence Generation and Analysis via GRU and Attention for Trachomatous Trichiasis Classification</a> - (full)<br>
+D12: Hari Sowrirajan - <a href="https://openreview.net/forum?id=LO7Su0-dPJl" target="_blank">MoCo Pretraining Improves Representation and Transferability of Chest X-ray Models</a> - (full)<br>
 <h2> Thursday 8th July</h2>
-<h3>E1-3 (long): Detection and Diagnosis - 13:00 - 13:30 (UCT+2)</h3>
-E1: David A. Wood - "Automated triaging of head MRI examinations using convolutional neural networks"<br>
-E2: Antoine Olivier - "Balanced sampling for an object detection problem - application to fetal anatomies detection"<br>
-E3: Walter Hugo Lopez Pinaya - "Unsupervised Brain Anomaly Detection and Segmentation with Transformers"<br>
-<h3>E4-12 (short): Image Registration / Synthesis - 13:45 - 14:30 (UCT+2)</h3>
-E4: Shibo Xing - "Cycle Consistent Embedding of 3D Brains with Auto-Encoding Generative Adversarial Networks" - (full)<br>
-E5: Hanna Siebert - "Learning a Metric without Supervision: Multimodal Registration using Synthetic Cycle Discrepancy" - (short)<br>
-E6: henrik skibbe - "Semi-supervised Image-to-Image translation for robust image registration" - (short)<br>
-E7: Mattias P Heinrich - "Rethinking the Design of Learning based Inter-Patient Registration using Deformable Supervoxels " - (short)<br>
-E8: Joshua Russell Astley - "A hybrid model- and deep learning-based framework for functional lung image synthesis from non-contrast multi-inflation CT" - (short)<br>
-E9: Leihao Wei - "Efficient and Accurate Spatial-Temporal Denoising Network for Low-dose CT Scans" - (short)<br>
-E10: Joon-Ho Son - "Synthesis of Diabetic Retina Fundus Images Using Semantic Label Generation" - (short)<br>
-E11: Junyu Chen - "ViT-V-Net: Vision Transformer for Unsupervised Volumetric Medical Image Registration" - (short)<br>
-E12: Huaqi Qiu - "Learning Diffeomorphic and Modality-invariant Registration using B-splines" - (full)<br>
-<h3>F1-9 (short): Imaging: Reconstruction and Clinical Data - 13:45 - 14:30 (UCT+2)</h3>
-F1: Alexander M. Zolotarev - "Ex-vivo - to - In-vivo Learning in Cardiology" - (short)<br>
-F2: Paul Weiser - "Reconstruction and coil combination of undersampled concentric-ring MRSI data using a Graph U-Net" - (short)<br>
-F3: Soumick Chatterjee - "ReconResNet: Regularised Residual Learning for MR Image Reconstruction of Undersampled Cartesian and Radial Data" - (short)<br>
-F4: Mikhail Bortnikov - "3D Scout Scans Using Projection Domain Denoising" - (short)<br>
-F5: Emanoel Ribeiro Sabidussi - "Recurrent Inference Machines as Inverse Problem Solvers for MR Relaxometry" - (short)<br>
-F6: Farah Shamout - "An artificial intelligence system for predicting the deterioration of COVID-19 patients in the emergency department" - (short)<br>
-F7: Ahmad Wisnu Mulyadi - "ProtoBrainMaps: Prototypical Brain Maps for Alzheimer's Disease Progression Modeling" - (short)<br>
-F8: Nele Blum - "Projection Domain Metal Artifact Reduction in Computed Tomography using Conditional Generative Adversarial Networks" - (short)<br>
-F9: Attila Tibor Simko - "Changing the Contrast of Magnetic Resonance Imaging Signals using Deep Learning" - (full)<br>
-<h3>H1-3 (long): Image Acquisition and Reconstruction - 16:00 - 16:30 (UCT+2)</h3>
-H1: Jinwei Zhang - "Hybrid optimization between iterative and network fine-tuning reconstructions for fast quantitative susceptibility mapping"<br>
-H2: Malte Tölle - "A Mean-Field Variational Inference Approach to Deep Image Prior for Inverse Problems in Medical Imaging"<br>
-H3: Carolin Pirkl - "Residual learning for 3D motion corrected quantitative MRI: Robust clinical T1, T2 and proton density mapping"<br>
-<h3>G1-9 (short): Application: Radiology - 16:45 - 17:30 (UCT+2)</h3>
-G1: Guanghui FU - "Me-NDT: Neural-backed Decision Tree for Visual Explainability of Deep Medical Models" - (short)<br>
-G2: Cher Bass - "ICAM-reg: Interpretable Classification and Regression with Feature Attribution for Mapping Neurological Phenotypes in Individual Scans" - (full)<br>
-G3: Lasse Hansen - "Radiographic Assessment of CVC Malpositioning: How can AI best support clinicians?" - (short)<br>
-G4: Hansang Lee - "Test-Time Mixup Augmentation for Uncertainty Estimation in Skin Lesion Diagnosis" - (short)<br>
-G5: Ke Yan - "Interpretable Medical Image Classification with Self-Supervised Anatomical Embedding and Prior Knowledge" - (short)<br>
-G6: Polina Druzhinina - "50 shades of overfitting:  towards MRI-based neurologicalmodels interpretation" - (short)<br>
-G7: Kangning Liu - "Weakly-supervised High-resolution Segmentation of Mammography Images for Breast Cancer Diagnosis" - (full)<br>
-G8: Matthäus Heer - "The OOD Blind Spot of Unsupervised Anomaly Detection" - (full)<br>
-G9: Hongrun Zhang - "A regularization term for slide correlation reduction in whole slide image analysis with deep learning" - (full)<br>
-<h3>H4-12 (short): Interpretability and Explainable AI - 16:45 - 17:30 (UCT+2)</h3>
-H4: Brennan Nichyporuk - "Optimizing Operating Points for High Performance Lesion Detection and Segmentation Using Lesion Size Reweighting" - (full)<br>
-H5: Junyu Chen - "Creating Anthropomorphic Phantoms via Unsupervised Convolutional Neural Networks" - (short)<br>
-H6: Lucas de Vries - "Transformers for Ischemic Stroke Infarct Core Segmentation from Spatio-temporal CT Perfusion Scans" - (short)<br>
-H7: Jueqi Wang - "Multichannel input pixelwise regression 3D U-Nets for medical image estimation with 3 applications in brain MRI" - (short)<br>
-H8: Mickael Tardy - "Morphology-based losses for weakly supervised segmentation of mammograms" - (short)<br>
-H9: Laura Hellwege - "Partial Convolution Network for Metal Artifact Reduction in CT Preprocessing: Preliminary Results" - (short)<br>
-H10: Rosana EL Jurdi - "A Surprisingly Effective Perimeter-based Loss for Medical Image Segmentation" - (full)<br>
-H11: Hang Zhang - "Memory U-Net: Memorizing Where to Vote for Lesion Instance Segmentation" - (full)<br>
-H12: Siyu Shi - "Unseen Disease Detection for Deep Learning Interpretation of Chest X-rays" - (full)<br>
+<a id="longE"></a><h3>E1-3 (long): Detection and Diagnosis - 13:00 - 13:30 (UCT+2)</h3>
+E1: David A. Wood - <a href="https://openreview.net/forum?id=gh8qD_lAADe" target="_blank">Automated triaging of head MRI examinations using convolutional neural networks</a><br>
+E2: Antoine Olivier - <a href="https://openreview.net/forum?id=ZGvtypAfHiA" target="_blank">Balanced sampling for an object detection problem - application to fetal anatomies detection</a><br>
+E3: Walter Hugo Lopez Pinaya - <a href="https://openreview.net/forum?id=Z1tlNqbCpp_" target="_blank">Unsupervised Brain Anomaly Detection and Segmentation with Transformers</a><br>
+<a id="shortE"></a><h3>E4-12 (short): Image Registration / Synthesis - 13:45 - 14:30 (UCT+2)</h3>
+E4: Mattias P Heinrich - <a href="https://openreview.net/forum?id=zZA5TpNdC4Z" target="_blank">Rethinking the Design of Learning based Inter-Patient Registration using Deformable Supervoxels </a> - (short)<br>
+E5: henrik skibbe - <a href="https://openreview.net/forum?id=GOhAojdaLg" target="_blank">Semi-supervised Image-to-Image translation for robust image registration</a> - (short)<br>
+E6: Junyu Chen - <a href="https://openreview.net/forum?id=h3HC1EU7AEz" target="_blank">ViT-V-Net: Vision Transformer for Unsupervised Volumetric Medical Image Registration</a> - (short)<br>
+E7: Hanna Siebert - <a href="https://openreview.net/forum?id=sua3vlnkmEv" target="_blank">Learning a Metric without Supervision: Multimodal Registration using Synthetic Cycle Discrepancy</a> - (short)<br>
+E8: Huaqi Qiu - <a href="https://openreview.net/forum?id=eSI9Qh2DJhN" target="_blank">Learning Diffeomorphic and Modality-invariant Registration using B-splines</a> - (full)<br>
+E9: Joshua Russell Astley - <a href="https://openreview.net/forum?id=_BIpUlEB6ff" target="_blank">A hybrid model- and deep learning-based framework for functional lung image synthesis from non-contrast multi-inflation CT</a> - (short)<br>
+E10: Shibo Xing - <a href="https://openreview.net/forum?id=jgBzGIG-kB" target="_blank">Cycle Consistent Embedding of 3D Brains with Auto-Encoding Generative Adversarial Networks</a> - (short)<br>
+E11: Leihao Wei - <a href="https://openreview.net/forum?id=XHWqF4DlRr0" target="_blank">Efficient and Accurate Spatial-Temporal Denoising Network for Low-dose CT Scans</a> - (short)<br>
+E12: Joon-Ho Son - <a href="https://openreview.net/forum?id=wiKDehhdnz" target="_blank">Synthesis of Diabetic Retina Fundus Images Using Semantic Label Generation</a> - (short)<br>
+<a id="shortF"></a><h3>F1-9 (short): Imaging: Reconstruction and Clinical Data - 13:45 - 14:30 (UCT+2)</h3>
+F1: Alexander M. Zolotarev - <a href="https://openreview.net/forum?id=Tz_X8xpgYsO" target="_blank">Ex-vivo - to - In-vivo Learning in Cardiology</a> - (short)<br>
+F2: Paul Weiser - <a href="https://openreview.net/forum?id=vNPQTZfPjFO" target="_blank">Reconstruction and coil combination of undersampled concentric-ring MRSI data using a Graph U-Net</a> - (short)<br>
+F3: Soumick Chatterjee - <a href="https://openreview.net/forum?id=KNEKu-W4Avz" target="_blank">ReconResNet: Regularised Residual Learning for MR Image Reconstruction of Undersampled Cartesian and Radial Data</a> - (short)<br>
+F4: Mikhail Bortnikov - <a href="https://openreview.net/forum?id=fanGydarIPF" target="_blank">3D Scout Scans Using Projection Domain Denoising</a> - (short)<br>
+F5: Emanoel Ribeiro Sabidussi - <a href="https://openreview.net/forum?id=h7t0cFuX0m4" target="_blank">Recurrent Inference Machines as Inverse Problem Solvers for MR Relaxometry</a> - (short)<br>
+F6: Farah Shamout - <a href="https://openreview.net/forum?id=9o6zjvbo7b0" target="_blank">An artificial intelligence system for predicting the deterioration of COVID-19 patients in the emergency department</a> - (short)<br>
+F7: Ahmad Wisnu Mulyadi - <a href="https://openreview.net/forum?id=O9EWFKXcXTU" target="_blank">ProtoBrainMaps: Prototypical Brain Maps for Alzheimer's Disease Progression Modeling</a> - (short)<br>
+F8: Nele Blum - <a href="https://openreview.net/forum?id=84NU3uAj1HW" target="_blank">Projection Domain Metal Artifact Reduction in Computed Tomography using Conditional Generative Adversarial Networks</a> - (short)<br>
+F9: Attila Tibor Simko - <a href="https://openreview.net/forum?id=lWeQH4Kpsys" target="_blank">Changing the Contrast of Magnetic Resonance Imaging Signals using Deep Learning</a> - (full)<br>
+<a id="longH"></a><h3>H1-3 (long): Image Acquisition and Reconstruction - 16:00 - 16:30 (UCT+2)</h3>
+H1: Jinwei Zhang - <a href="https://openreview.net/forum?id=LFaxozc7Awm" target="_blank">Hybrid optimization between iterative and network fine-tuning reconstructions for fast quantitative susceptibility mapping</a><br>
+H2: Malte Tölle - <a href="https://openreview.net/forum?id=DvV_blKLiB4" target="_blank">A Mean-Field Variational Inference Approach to Deep Image Prior for Inverse Problems in Medical Imaging</a><br>
+H3: Carolin Pirkl - <a href="https://openreview.net/forum?id=hxgQM71AuRA" target="_blank">Residual learning for 3D motion corrected quantitative MRI: Robust clinical T1, T2 and proton density mapping</a><br>
+<a id="shortG"></a><h3>G1-9 (short): Application: Radiology - 16:45 - 17:30 (UCT+2)</h3>
+G1: Guanghui FU - <a href="https://openreview.net/forum?id=pL_aFZKNO5N" target="_blank">Me-NDT: Neural-backed Decision Tree for Visual Explainability of Deep Medical Models</a> - (short)<br>
+G2: Cher Bass - <a href="https://openreview.net/forum?id=164F3ixC9Jc" target="_blank">ICAM-reg: Interpretable Classification and Regression with Feature Attribution for Mapping Neurological Phenotypes in Individual Scans</a> - (short)<br>
+G3: Lasse Hansen - <a href="https://openreview.net/forum?id=ImcP8kkqtfZ" target="_blank">Radiographic Assessment of CVC Malpositioning: How can AI best support clinicians?</a> - (short)<br>
+G4: Hansang Lee - <a href="https://openreview.net/forum?id=aGfL5C9wRx_" target="_blank">Test-Time Mixup Augmentation for Uncertainty Estimation in Skin Lesion Diagnosis</a> - (short)<br>
+G5: Ke Yan - <a href="https://openreview.net/forum?id=0wblcjbC2sN" target="_blank">Interpretable Medical Image Classification with Self-Supervised Anatomical Embedding and Prior Knowledge</a> - (short)<br>
+G6: Polina Druzhinina - <a href="https://openreview.net/forum?id=fnb58KJtYv" target="_blank">50 shades of overfitting:  towards MRI-based neurologicalmodels interpretation</a> - (short)<br>
+G7: Kangning Liu - <a href="https://openreview.net/forum?id=nBT8eNF7aXr" target="_blank">Weakly-supervised High-resolution Segmentation of Mammography Images for Breast Cancer Diagnosis</a> - (full)<br>
+G8: Matthäus Heer - <a href="https://openreview.net/forum?id=ZDD2TbZn7X1" target="_blank">The OOD Blind Spot of Unsupervised Anomaly Detection</a> - (full)<br>
+G9: Hongrun Zhang - <a href="https://openreview.net/forum?id=2vCFIoWDS6E" target="_blank">A regularization term for slide correlation reduction in whole slide image analysis with deep learning</a> - (full)<br>
+<a id="shortH"></a><h3>H4-12 (short): Interpretability and Explainable AI - 16:45 - 17:30 (UCT+2)</h3>
+H4: Brennan Nichyporuk - <a href="https://openreview.net/forum?id=yVYVzsNWvN" target="_blank">Optimizing Operating Points for High Performance Lesion Detection and Segmentation Using Lesion Size Reweighting</a> - (short)<br>
+H5: Junyu Chen - <a href="https://openreview.net/forum?id=xqZTapYnEcG" target="_blank">Creating Anthropomorphic Phantoms via Unsupervised Convolutional Neural Networks</a> - (short)<br>
+H6: Lucas de Vries - <a href="https://openreview.net/forum?id=CSNQMsxteqm" target="_blank">Transformers for Ischemic Stroke Infarct Core Segmentation from Spatio-temporal CT Perfusion Scans</a> - (short)<br>
+H7: Jueqi Wang - <a href="https://openreview.net/forum?id=JG895xlWsfA" target="_blank">Multichannel input pixelwise regression 3D U-Nets for medical image estimation with 3 applications in brain MRI</a> - (short)<br>
+H8: Mickael Tardy - <a href="https://openreview.net/forum?id=eehADvdlUa3" target="_blank">Morphology-based losses for weakly supervised segmentation of mammograms</a> - (short)<br>
+H9: Laura Hellwege - <a href="https://openreview.net/forum?id=XCRthDLsCXn" target="_blank">Partial Convolution Network for Metal Artifact Reduction in CT Preprocessing: Preliminary Results</a> - (short)<br>
+H10: Rosana EL Jurdi - <a href="https://openreview.net/forum?id=NDEmtyb4cXu" target="_blank">A Surprisingly Effective Perimeter-based Loss for Medical Image Segmentation</a> - (full)<br>
+H11: Hang Zhang - <a href="https://openreview.net/forum?id=JbWMYLN5Hba" target="_blank">Memory U-Net: Memorizing Where to Vote for Lesion Instance Segmentation</a> - (full)<br>
+H12: Siyu Shi - <a href="https://openreview.net/forum?id=i-zxSlqneRu" target="_blank">Unseen Disease Detection for Deep Learning Interpretation of Chest X-rays</a> - (full)<br>
 <h2> Friday 9th July</h2>
-<h3>I1-3 (long): Interpretability and Explainable AI - 13:00 - 13:30 (UCT+2)</h3>
-I1: Caner Ozer - "Explainable Image Quality Analysis of Chest X-Rays"<br>
-I2: Joseph Paul Cohen - "Gifsplanation via Latent Shift: A Simple Autoencoder Approach to Counterfactual Generation for Chest X-rays"<br>
-I3: Abhejit Rajagopal - "Understanding and Visualizing Generalization UNets"<br>
-<h3>I4-12 (short): Transfer Learning and Domain Adaptation - 13:45 - 14:30 (UCT+2)</h3>
-I4: Yassine Barhoumi - "Scopeformer: n-CNN-ViT hybrid model for Intracranial hemorrhage subtypes classification" - (short)<br>
-I5: Neerav Karani - "Robust medical image segmentation by adapting neural networks for each test image" - (short)<br>
-I6: Marc Aubreville - "Quantifying the Scanner-Induced Domain Gap in Mitosis Detection" - (short)<br>
-I7: Elisabeth Sarah Lane - "Echocardiographic Phase Detection Using Neural Networks" - (short)<br>
-I8: Saverio Vadacchino - "HAD-Net: A Hierarchical Adversarial Knowledge Distillation Network for Improved Enhanced Tumour Segmentation Without Post-Contrast Images" - (short)<br>
-I9: Mikael Brudfors - "An MRF-UNet Product of Experts for Image Segmentation" - (full)<br>
-I10: Fahdi Kanavati - "Partial transfusion: on the expressive influence of trainable batch norm parameters for transfer learning" - (short)<br>
-I11: Sobhan Hemati - "CNN and Deep Sets for End-to-End Whole Slide Image Representation Learning" - (full)<br>
-I12: Khrystyna Faryna - "Tailoring automated data augmentation to H&E-stained histopathology" - (full)<br>
-<h3>J1-9 (short): Unsupervised and Representation Learning - 13:45 - 14:30 (UCT+2)</h3>
-J1: Hendrik J. Klug - "Multimodal Generative Learning on the MIMIC-CXR Database" - (short)<br>
-J2: Simeon Emilov Spasov - "TG-DGM: Clustering Brain Activity using a Temporal Graph Deep Generative Model" - (full)<br>
-J3: Daniel Wulff - "Comparison of Representation Learning Techniques for Tracking in time resolved 3D Ultrasound" - (short)<br>
-J4: Weiyi Xie - "Deep Clustering Activation Maps for Emphysema Subtyping" - (short)<br>
-J5: Jannis Hagenah - "Discrete Pseudohealthy Synthesis: Aortic Root Shape Typification and Type Classification with Pathological Prior" - (short)<br>
-J6: Matteo Dunnhofer - "Improving MRI-based Knee Disorder Diagnosis with Pyramidal Feature Details" - (full)<br>
-J7: Umang Gupta - "Membership Inference Attacks on Deep Regression Models for Neuroimaging" - (full)<br>
-J8: Hristina Uzunova - "Guided Filter Regularization for Improved Disentanglement of Shape and Appearance in Diffeomorphic Autoencoders" - (full)<br>
-J9: Camila Gonzalez - "Self-supervised Out-of-distribution Detection for Cardiac CMR Segmentation" - (full)<br>
-<h3>L1-3 (long): Learning with Noisy Labels and Limited Data - 16:00 - 16:30 (UCT+2)</h3>
-L1: Louis van Harten - "Untangling the Small Intestine in 3D cine-MRI using Deep Stochastic Tracking"<br>
-L2: Niharika Shimona Dsouza - "M-GCN: A Multimodal Graph Convolutional Network to Integrate Functional and Structural Connectomics Data to Predict Multidimensional Phenotypic Characterizations"<br>
-L3: JUAN LIU - "Improved model-based deep learning for quantitative susceptibility mapping"<br>
-<h3>K1-9 (short): Learning with Noisy Labels and Limited Data - 16:45 - 17:30 (UCT+2)</h3>
-K1: Niamh Belton - "Semi-Supervised Siamese Network for Identifying Bad Data in Medical Imaging Datasets" - (full)<br>
-K2: Joshua Thomas Bridge - "mGEV: Extension of the GEV Activation to Multiclass Classification" - (short)<br>
-K3: Sonia Martinot - "Weakly supervised 3D ConvLSTMs for high precision Monte-Carlo radiotherapy dose simulations" - (short)<br>
-K4: Soumick Chatterjee - "DS6, Deformation-aware Semi-supervised Learning: Application to Small Vessel Segmentation with Noisy Training Data" - (short)<br>
-K5: Jan Mikolaj Kaminski - "Deep ensemble model for segmenting microscopy images in the presence of limited labeled data" - (short)<br>
-K6: Md Asadullah Turja - "Learning the Latent Heat Diffusion Process through Structural Brain Network from Longitudinal $\beta$-Amyloid Data" - (full)<br>
-K7: Lennart Bargsten - "Attention via Scattering Transforms for Segmentation of Small Intravascular Ultrasound Data Sets" - (full)<br>
-K8: Raouf Muhamedrahimov - "Learning Interclass Relations for Intravenous Contrast Phase Classification in CT" - (full)<br>
-K9: Tianshu Chu - "Improving Weakly Supervised Lesion Segmentation using Multi-Task Learning" - (full)<br>
-<h3>L4-9 (short): Detection and Diagnosis 2 - 16:45 - 17:30 (UCT+2)</h3>
-L4: Philippe Weitz - "Prediction of Ki67 scores from H&E stained breast cancer sections using convolutional neural networks" - (short)<br>
-L5: Xiaobin Hu - "Feedback Graph Attention Convolutional Network for MR Images Enhancement by Exploring Self-Similarity Features" - (full)<br>
-L6: Pauline Mouches - "Unifying Brain Age Prediction and Age-Conditioned Template Generation with a Deterministic Autoencoder" - (full)<br>
-L7: Chanh Nguyen - "GOAL: Gist-set Online Active Learning for Efficient Chest X-ray Image Annotation" - (full)<br>
-L8: Hassan Muhammad - "EPIC-Survival: End-to-end Part Inferred Clustering for Survival Analysis, with Prognostic Stratification Boosting" - (full)<br>
-L9: Soham Uday Gadgil - "CheXseg: Combining Expert Annotations with DNN-generated Saliency Maps for X-ray Segmentation" - (full)<br>
+<a id="longI"></a><h3>I1-3 (long): Interpretability and Explainable AI - 13:00 - 13:30 (UCT+2)</h3>
+I1: Caner Ozer - <a href="https://openreview.net/forum?id=ln797A8lAb0" target="_blank">Explainable Image Quality Analysis of Chest X-Rays</a><br>
+I2: Joseph Paul Cohen - <a href="https://openreview.net/forum?id=rnunjvgxAMt" target="_blank">Gifsplanation via Latent Shift: A Simple Autoencoder Approach to Counterfactual Generation for Chest X-rays</a><br>
+I3: Abhejit Rajagopal - <a href="https://openreview.net/forum?id=V-a5DJCh4Hk" target="_blank">Understanding and Visualizing Generalization UNets</a><br>
+<a id="shortI"></a><h3>I4-12 (short): Transfer Learning and Domain Adaptation - 13:45 - 14:30 (UCT+2)</h3>
+I4: Yassine Barhoumi - <a href="https://openreview.net/forum?id=M1VznPOV5jV" target="_blank">Scopeformer: n-CNN-ViT hybrid model for Intracranial hemorrhage subtypes classification</a> - (short)<br>
+I5: Neerav Karani - <a href="https://openreview.net/forum?id=tv_pkmFzdC" target="_blank">Robust medical image segmentation by adapting neural networks for each test image</a> - (short)<br>
+I6: Marc Aubreville - <a href="https://openreview.net/forum?id=OcATYbGIxv4" target="_blank">Quantifying the Scanner-Induced Domain Gap in Mitosis Detection</a> - (short)<br>
+I7: Elisabeth Sarah Lane - <a href="https://openreview.net/forum?id=uEuoKy2hUkm" target="_blank">Echocardiographic Phase Detection Using Neural Networks</a> - (short)<br>
+I8: Saverio Vadacchino - <a href="https://openreview.net/forum?id=48UgSFrNR2" target="_blank">HAD-Net: A Hierarchical Adversarial Knowledge Distillation Network for Improved Enhanced Tumour Segmentation Without Post-Contrast Images</a> - (full)<br>
+I9: Mikael Brudfors - <a href="https://openreview.net/forum?id=PoIV8EXQDjn" target="_blank">An MRF-UNet Product of Experts for Image Segmentation</a> - (full)<br>
+I10: Fahdi Kanavati - <a href="https://openreview.net/forum?id=TjwDWRdfZpg" target="_blank">Partial transfusion: on the expressive influence of trainable batch norm parameters for transfer learning</a> - (full)<br>
+I11: Sobhan Hemati - <a href="https://openreview.net/forum?id=BX0kKB1zB1Q" target="_blank">CNN and Deep Sets for End-to-End Whole Slide Image Representation Learning</a> - (full)<br>
+I12: Khrystyna Faryna - <a href="https://openreview.net/forum?id=JrBfXaoxbA2" target="_blank">Tailoring automated data augmentation to H&E-stained histopathology</a> - (full)<br>
+<a id="shortJ"></a><h3>J1-9 (short): Unsupervised and Representation Learning - 13:45 - 14:30 (UCT+2)</h3>
+J1: Hendrik J. Klug - <a href="https://openreview.net/forum?id=ZVqjoKVbYMl" target="_blank">Multimodal Generative Learning on the MIMIC-CXR Database</a> - (short)<br>
+J2: Simeon Emilov Spasov - <a href="https://openreview.net/forum?id=ULm4D5bsiaE" target="_blank">TG-DGM: Clustering Brain Activity using a Temporal Graph Deep Generative Model</a> - (short)<br>
+J3: Daniel Wulff - <a href="https://openreview.net/forum?id=XT40FwD5bV" target="_blank">Comparison of Representation Learning Techniques for Tracking in time resolved 3D Ultrasound</a> - (short)<br>
+J4: Weiyi Xie - <a href="https://openreview.net/forum?id=pOFGaVQeXAk" target="_blank">Deep Clustering Activation Maps for Emphysema Subtyping</a> - (short)<br>
+J5: Jannis Hagenah - <a href="https://openreview.net/forum?id=Fqmbjvawgt" target="_blank">Discrete Pseudohealthy Synthesis: Aortic Root Shape Typification and Type Classification with Pathological Prior</a> - (full)<br>
+J6: Matteo Dunnhofer - <a href="https://openreview.net/forum?id=7psPmlNffvg" target="_blank">Improving MRI-based Knee Disorder Diagnosis with Pyramidal Feature Details</a> - (full)<br>
+J7: Umang Gupta - <a href="https://openreview.net/forum?id=8lL_y9n-CV" target="_blank">Membership Inference Attacks on Deep Regression Models for Neuroimaging</a> - (full)<br>
+J8: Hristina Uzunova - <a href="https://openreview.net/forum?id=ILEMHPV_Lc2" target="_blank">Guided Filter Regularization for Improved Disentanglement of Shape and Appearance in Diffeomorphic Autoencoders</a> - (full)<br>
+J9: Camila Gonzalez - <a href="https://openreview.net/forum?id=E5CpgfwHBoC" target="_blank">Self-supervised Out-of-distribution Detection for Cardiac CMR Segmentation</a> - (full)<br>
+<a id="longL"></a><h3>L1-3 (long): Learning with Noisy Labels and Limited Data - 16:00 - 16:30 (UCT+2)</h3>
+L1: Louis van Harten - <a href="https://openreview.net/forum?id=cfYAFR6s6iJ" target="_blank">Untangling the Small Intestine in 3D cine-MRI using Deep Stochastic Tracking</a><br>
+L2: Niharika Shimona Dsouza - <a href="https://openreview.net/forum?id=ud-iBiED9zb" target="_blank">M-GCN: A Multimodal Graph Convolutional Network to Integrate Functional and Structural Connectomics Data to Predict Multidimensional Phenotypic Characterizations</a><br>
+L3: JUAN LIU - <a href="https://openreview.net/forum?id=Y7koM_09Cme" target="_blank">Improved model-based deep learning for quantitative susceptibility mapping</a><br>
+<a id="shortK"></a><h3>K1-9 (short): Learning with Noisy Labels and Limited Data - 16:45 - 17:30 (UCT+2)</h3>
+K1: Niamh Belton - <a href="https://openreview.net/forum?id=0bpkIn63sNG" target="_blank">Semi-Supervised Siamese Network for Identifying Bad Data in Medical Imaging Datasets</a> - (short)<br>
+K2: Joshua Thomas Bridge - <a href="https://openreview.net/forum?id=rKiYUGvII6" target="_blank">mGEV: Extension of the GEV Activation to Multiclass Classification</a> - (short)<br>
+K3: Sonia Martinot - <a href="https://openreview.net/forum?id=V4k0rNW7IG-" target="_blank">Weakly supervised 3D ConvLSTMs for high precision Monte-Carlo radiotherapy dose simulations</a> - (short)<br>
+K4: Soumick Chatterjee - <a href="https://openreview.net/forum?id=2t0_AxD1otB" target="_blank">DS6, Deformation-aware Semi-supervised Learning: Application to Small Vessel Segmentation with Noisy Training Data</a> - (short)<br>
+K5: Jan Mikolaj Kaminski - <a href="https://openreview.net/forum?id=PLSdnHPx-W6" target="_blank">Deep ensemble model for segmenting microscopy images in the presence of limited labeled data</a> - (short)<br>
+K6: Md Asadullah Turja - <a href="https://openreview.net/forum?id=S3QYCe74DPu" target="_blank">Learning the Latent Heat Diffusion Process through Structural Brain Network from Longitudinal $\beta$-Amyloid Data</a> - (full)<br>
+K7: Lennart Bargsten - <a href="https://openreview.net/forum?id=GDs7V3mS1h9" target="_blank">Attention via Scattering Transforms for Segmentation of Small Intravascular Ultrasound Data Sets</a> - (full)<br>
+K8: Raouf Muhamedrahimov - <a href="https://openreview.net/forum?id=B01pd5ot0w6" target="_blank">Learning Interclass Relations for Intravenous Contrast Phase Classification in CT</a> - (full)<br>
+K9: Tianshu Chu - <a href="https://openreview.net/forum?id=-9bAYexxLtN" target="_blank">Improving Weakly Supervised Lesion Segmentation using Multi-Task Learning</a> - (full)<br>
+<a id="shortL"></a><h3>L4-9 (short): Detection and Diagnosis 2 - 16:45 - 17:30 (UCT+2)</h3>
+L4: Philippe Weitz - <a href="https://openreview.net/forum?id=W9sz0zHk33h" target="_blank">Prediction of Ki67 scores from H&E stained breast cancer sections using convolutional neural networks</a> - (short)<br>
+L5: Xiaobin Hu - <a href="https://openreview.net/forum?id=k1BSWQqHoMV" target="_blank">Feedback Graph Attention Convolutional Network for MR Images Enhancement by Exploring Self-Similarity Features</a> - (full)<br>
+L6: Pauline Mouches - <a href="https://openreview.net/forum?id=9ClUQ2ELJap" target="_blank">Unifying Brain Age Prediction and Age-Conditioned Template Generation with a Deterministic Autoencoder</a> - (full)<br>
+L7: Chanh Nguyen - <a href="https://openreview.net/forum?id=boTEEpM8mu" target="_blank">GOAL: Gist-set Online Active Learning for Efficient Chest X-ray Image Annotation</a> - (full)<br>
+L8: Hassan Muhammad - <a href="https://openreview.net/forum?id=JSSwHS_GU63" target="_blank">EPIC-Survival: End-to-end Part Inferred Clustering for Survival Analysis, with Prognostic Stratification Boosting</a> - (full)<br>
+L9: Soham Uday Gadgil - <a href="https://openreview.net/forum?id=eA7PGMYmHFA" target="_blank">CheXseg: Combining Expert Annotations with DNN-generated Saliency Maps for X-ray Segmentation</a> - (full)<br>
 </body>
 </html>
