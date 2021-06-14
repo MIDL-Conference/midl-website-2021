@@ -12,9 +12,9 @@ title: "Author instructions"
 We ask authors to prepare and upload a video recording of their presentation by 26th of June (instructions on where to upload the files have been communicated by email).
 
 * **Full paper ("long oral")** 10-13 minute presentation video
- and PDF slide(s) that serve as virtual poster.
+ and **1-3 landscape** PDF slide(s) that serve as virtual poster.
 * **Full or Short paper ("short oral")** 4-6 minute presentation video,
- the  PDF slide(s) that serve as virtual poster.
+ and **1-3 landscape** PDF slide(s) that serve as virtual poster.
  no teaser is required this year.
 
 Try to keep it lively and avoid cramming in too many details, there will be time for discussion in the live sessions. Refer to the paper for numerical results and implementation detail and aim to convey the gist of the method you propose or application you want to solve.
@@ -45,7 +45,7 @@ During 'prime time', we will all meet live and discuss with the authors. Authors
 Long and short oral discussions are in groups of 3 papers. Authors will give a brief introduction of themselves and their work. Subsequently, a moderated panel discussion will take live questions and also answer questions taken during the viewing sessions.
 
 ### Poster Sessions (for Individual Discussion)
-Twice during prime time you will be able to connect to authors via GatherTown to discuss all the questions still open after the group discussions. You can walk around with your avatar and do casual live video/audio chats with people at their virtual posters. A poster can be a single-page PDF or a few slides and be visible to attendees throughout the conference. Discussions can be either individual (one-to-one) or with a group of people that dynamically gathers around the poster (just as in real live conferences).
+Twice during prime time you will be able to connect to authors via GatherTown to discuss all the questions still open after the group discussions. You can walk around with your avatar and do casual live video/audio chats with people at their virtual posters. A poster can be a single-page PDF or a few slides (**1-3  slides landscape**) and be visible to attendees throughout the conference. **Please note that the first slide will serve as preview in Gather.Town.** Discussions can be either individual (one-to-one) or with a group of people that dynamically gathers around the poster (just as in real live conferences).
 
 ### Study group sessions
 Study groups consisting of PhD students and a mentor meet before ‘prime time’ to warm-up for the discussions and to collect further questions.
