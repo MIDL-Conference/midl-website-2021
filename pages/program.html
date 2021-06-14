@@ -1,79 +1,88 @@
-<!DOCTYPE html>
-<html>
-    
-<head>
 <style>
-form {
-    font-family:    Helvetica Neue   , Helvetica, Arial, sans-serif;
-    font-size: 90%;
+#program, #program th, #program td {
+    border: 1px solid gray;
+    font-size: 85%;
+    border-collapse: separate;
+    border-spacing: 1px;
 }
-table, th, td {
-  font-family:    Helvetica Neue   , Helvetica, Arial, sans-serif;
-  border: 1px solid gray;
-       font-size: 87%;
-  border-collapse: separate;
-  /* offset-x | offset-y | blur-radius | spread-radius | color */
+@media (min-width: 1200px) {
+    #program {
+        margin-left: -50px;
+        margin-right: -50px;
+    }
 }
-   body{
-         font-family:    Helvetica Neue   , Helvetica, Arial, sans-serif;
-    }  
-h2,h3 {
-    font-family:    Helvetica Neue   , Helvetica, Arial, sans-serif;
-}
-th, td {
+#program th, #program td {
   padding: 5px;
   text-align: left;
 }
+#hide-show-timezones {
+    font-size: 90%;
+    margin-top: 1em;
+    padding: 0 6px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    white-space: nowrap;
+    justify-content: space-between;
+}
+#hide-show-timezones input.largerCheckbox {
+    transform : scale(1.5);
+}
+#hide-show-timezones label {
+    padding: 0 4px 0 8px;
+}
+
 #r00{
       background-color: #96B6BD;
- /*   -webkit-appearance: none;*/
-    -webkit-box-shadow: 0 0 0px 8px gold; 
+ /*   appearance: none;*/
+    box-shadow: 0 0 0px 8px gold; 
 
-  -webkit-clip-path: polygon(-20% 0%, 100% 0%, 100% 100%, -20% 100%); /*left*/
+  clip-path: polygon(-20% 0%, 100% 0%, 100% 100%, -20% 100%); /*left*/
 
 }
 #r00t{
       background-color: #96B6BD;
-        -webkit-box-shadow: 0 0 0px 8px gold; 
-        -webkit-clip-path: polygon(-20% -20%, 100% -20%, 100% 100%, -20% 100%); /*top-left*/
+        box-shadow: 0 0 0px 8px gold; 
+        clip-path: polygon(-20% -20%, 100% -20%, 100% 100%, -20% 100%); /*top-left*/
     }
 
 #r03t {
-    -webkit-box-shadow: 0 0 0px 8px gold; 
-      -webkit-clip-path: polygon(0% -20%, 120% -20%, 120% 100%, 0% 100%); /*top-right*/
+    box-shadow: 0 0 0px 8px gold; 
+      clip-path: polygon(0% -20%, 120% -20%, 120% 100%, 0% 100%); /*top-right*/
     border: 1px;
   background-color: #CDDFF0;         
 } 
       
 #r06b {
-    -webkit-box-shadow: 0 0 0px 8px gold; 
-      -webkit-clip-path: polygon(0% 0%, 120% 0%, 120% 120%, 0% 120%); /*bottom-right*/
+    box-shadow: 0 0 0px 8px gold; 
+      clip-path: polygon(0% 0%, 120% 0%, 120% 120%, 0% 120%); /*bottom-right*/
       border: 1px;
   background-color: #F9D368;         
 }
 
 #t01b {
   background-color: #BDC0BF;
-    -webkit-box-shadow: 0 0 0px 8px gold; 
-  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 120%, 0% 120%); /*bottom*/
+    box-shadow: 0 0 0px 8px gold; 
+  clip-path: polygon(0% 0%, 100% 0%, 100% 120%, 0% 120%); /*bottom*/
   font-weight: 350
 }
     
 #t01t {
   background-color: #BDC0BF;
-    -webkit-box-shadow: 0 0 0px 8px gold; 
-      -webkit-clip-path: polygon(0% -20%, 100% -20%, 100% 100%, 0% 100%); /*top*/
+    box-shadow: 0 0 0px 8px gold; 
+      clip-path: polygon(0% -20%, 100% -20%, 100% 100%, 0% 100%); /*top*/
   font-weight: 350
 }
 #r00b{
       background-color: #96B6BD;
-        -webkit-box-shadow: 0 0 0px 8px gold; 
-  -webkit-clip-path: polygon(-20% 0%, 100% 0%, 100% 120%, -20% 120%); /*bottom--*/
+        box-shadow: 0 0 0px 8px gold; 
+  clip-path: polygon(-20% 0%, 100% 0%, 100% 120%, -20% 120%); /*bottom--*/
     }
     
 #r01 {
-    -webkit-box-shadow: 0 0 0px 8px gold; 
-      -webkit-clip-path: polygon(0% 0%, 120% 0%, 120% 100%, 0% 100%); /*right*/
+    box-shadow: 0 0 0px 8px gold; 
+      clip-path: polygon(0% 0%, 120% 0%, 120% 100%, 0% 100%); /*right*/
       border: 1px;
   background-color: #BDC0BF;
   font-weight: 350
@@ -81,28 +90,28 @@ th, td {
 }
 
 #r05 {
-    -webkit-box-shadow: 0 0 0px 8px gold; 
-      -webkit-clip-path: polygon(0% 0%, 120% 0%, 120% 100%, 0% 100%); /*right*/
+    box-shadow: 0 0 0px 8px gold; 
+      clip-path: polygon(0% 0%, 120% 0%, 120% 100%, 0% 100%); /*right*/
       border: 1px;
   background-color: #C4DFB3;         
 }
     
 #r06 {
-    -webkit-box-shadow: 0 0 0px 8px gold; 
-      -webkit-clip-path: polygon(0% 0%, 120% 0%, 120% 100%, 0% 100%); /*right*/
+    box-shadow: 0 0 0px 8px gold; 
+      clip-path: polygon(0% 0%, 120% 0%, 120% 100%, 0% 100%); /*right*/
       border: 1px;
   background-color: #F9D368;         
 }
     
 #r02 {
-    -webkit-box-shadow: 0 0 0px 8px gold; 
-      -webkit-clip-path: polygon(0% 0%, 120% 0%, 120% 100%, 0% 100%); /*right*/
+    box-shadow: 0 0 0px 8px gold; 
+      clip-path: polygon(0% 0%, 120% 0%, 120% 100%, 0% 100%); /*right*/
       border: 1px;
   background-color: #D9A9BC;         
 }
 #r03 {
-    -webkit-box-shadow: 0 0 0px 8px gold; 
-      -webkit-clip-path: polygon(0% 0%, 120% 0%, 120% 100%, 0% 100%); /*right*/
+    box-shadow: 0 0 0px 8px gold; 
+      clip-path: polygon(0% 0%, 120% 0%, 120% 100%, 0% 100%); /*right*/
       border: 1px;
   background-color: #CDDFF0;         
 }
@@ -164,21 +173,13 @@ th, td {
   background-color: #FFFFFF;
                   font-weight: 350
 
-}    
-    input.largerCheckbox {
-            -webkit-transform : scale(1.5);
-        }
-    a {
-  color: black;
-    }
-    
+}
 </style>
     
-    <script src= http://code.jquery.com/jquery-latest.js ></script>
 <script>
-$(document).ready(function() {
+jQuery(document).ready(function($) {
     $('input[type= checkbox ]').click(function() {
-        var index = $(this).attr('name').substr(3);
+        let index = $(this).attr('name').substr(3);
         index--;
         $('table tr').each(function() { 
             $('td:eq(' + index + ')',this).toggle();
@@ -187,21 +188,19 @@ $(document).ready(function() {
     });
 });
 </script>
-</head>
 
 <!--
 
-  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 120%, 0% 120%); /*bottom*/
-      -webkit-clip-path: polygon(0% -20%, 100% -20%, 100% 120%, 0% 120%); /*bottom-top*/
+  clip-path: polygon(0% 0%, 100% 0%, 100% 120%, 0% 120%); /*bottom*/
+      clip-path: polygon(0% -20%, 100% -20%, 100% 120%, 0% 120%); /*bottom-top*/
 
-      -webkit-clip-path: polygon(0% -20%, 100% -20%, 100% 100%, 0% 100%); /*top*/
-      -webkit-clip-path: polygon(0% 0%, 120% 0%, 120% 100%, 0% 100%); /*right*/
-  -webkit-clip-path: polygon(0% 0%, 120% 0%, 120% 120%, 0% 120%); /*bottom-right*/
+      clip-path: polygon(0% -20%, 100% -20%, 100% 100%, 0% 100%); /*top*/
+      clip-path: polygon(0% 0%, 120% 0%, 120% 100%, 0% 100%); /*right*/
+  clip-path: polygon(0% 0%, 120% 0%, 120% 120%, 0% 120%); /*bottom-right*/
 -->
 
-<body>
-    <h2>Program at Glance</h2>
-    <table><thead><tr><th class='col1' id='t01'>West Coast UCT-7</th><th class='col2' id='t01'>East Coast UCT-4</th><th class='col3' id='t00'>L&uuml;beck UCT+2</th><th class='col4' id='t01'>China UCT+8</th><th colspan='2' id='t00'><b>Wednesday 7th July</b></th><th colspan='2' id='t00'><b>Thursday 8th July</b></th><th colspan='2' id='t00'><b>Friday 9th July</b></th></thead>
+<h1>Program at a Glance</h1>
+<table id="program"><thead><tr><th class='col1' id='t01'>West Coast UCT-7</th><th class='col2' id='t01'>East Coast UCT-4</th><th class='col3' id='t00'>L&uuml;beck UCT+2</th><th class='col4' id='t01'>China UCT+8</th><th colspan='2' id='t00'><b>Wednesday 7th July</b></th><th colspan='2' id='t00'><b>Thursday 8th July</b></th><th colspan='2' id='t00'><b>Friday 9th July</b></th></thead>
 <tr><th id='t01' class='col1'>00:00</th><th id='t01' class='col2'>3:00</th><th id='t00' class='col3'>9:00</th><th id='t01' class='col4'>15:00</th><th id='t02'><a href='#shortA'>A4-12</a> Videos</th><th id='t02'><a href='#shortB'>B1-9</a> Videos</th><th id='t02'><a href='#shortE'>E4-12</a> Videos</th><th id='t02'><a href='#shortF'>F1-9</a> Videos</th><th id='t02'><a href='#shortI'>I4-12</a> Videos</th><th id='t02'><a href='#shortJ'>J1-9</a> Videos</th>
 
 <tr><th id='t01' class='col1' >00:45</th><th id='t01' class='col2'>3:45</th><th id='t00' class='col3'>9:45</th><th id='t01' class='col4'>15:45</th><th colspan='2' id='t03'><a href='#longA'>A1-3</a> Long Videos</th><th colspan='2' id='t03'><a href='#longE'>E1-3</a> Long Videos</th><th colspan='2' id='t03'><a href='#longI'>I1-3</a> Long Videos</th>
@@ -265,24 +264,50 @@ $(document).ready(function() {
 <tr><th id='t01' class='col1' >14:15</th><th id='t01' class='col2'>17:15</th><th id='t00' class='col3'>23:15</th><th id='t01' class='col4'>5:15</th><th colspan='2' id='t03'><a href='#longH'>H1-3</a> Long Videos</th><th colspan='2' id='t03'><a href='#longL'>L1-3</a> Long Videos</th><th colspan='2'></th>
 <tr><th id='t01' class='col1' >14:45</th><th id='t01' class='col2'>17:45</th><th id='t00' class='col3'>23:45</th><th id='t01' class='col4'>5:45</th><th colspan='2' id='t04'>Study groups with Mentors (optional) Americas (for 45 min)</th><th colspan='2' id='t04'>Study groups with Mentors (optional) Americas (for 45 min)</th><th colspan='2'></th> </table>
 
-<form >
-    <input class="largerCheckbox" type= checkbox  name= col1  checked= checked  /> Hide/Show UCT-7 <br />
-    <input class="largerCheckbox" type= checkbox  name= col2  checked= checked  /> Hide/Show UCT-4 <br />
-    <input class="largerCheckbox" type= checkbox  name= col3  checked= checked  /> Hide/Show UCT+2 <br />
-    <input class="largerCheckbox" type= checkbox  name= col4  checked= checked  /> Hide/Show UCT+8 <br />
+<form id="hide-show-timezones">
+    <div>
+        <input class="largerCheckbox" type="checkbox" id="hs-col1" name="col1" checked="checked">
+        <label for="hs-col1">Hide/Show UCT-7</label>
+    </div>
+    <div>
+        <input class="largerCheckbox" type="checkbox" id="hs-col2" name="col2" checked="checked">
+        <label for="hs-col2">Hide/Show UCT-4</label>
+    </div>
+    <div>
+        <input class="largerCheckbox" type="checkbox" id="hs-col3" name="col3" checked="checked">
+        <label for="hs-col3">Hide/Show UCT+2</label>
+    </div>
+    <div>
+        <input class="largerCheckbox" type="checkbox" id="hs-col4" name="col4" checked="checked">
+        <label for="hs-col4">Hide/Show UCT+8</label>
+    </div>
 </form>
-    <br>
+
+<hr>
+
+<p>
     We gave our best to give every participant the opportunity for live interaction with the authors, regardless of the timezone. Therefore, each conference day is divided into two parts: The active part and the passive part.
-    The active part - the <b>prime time</b> - takes place in the time frame that is most convenient across all time zones and is marked in yellow. 
-    <br>During this active part, live spotlight presentations of and discussions with the authors of all accepted papers are scheduled. Additionally, the keynotes, virtual poster sessions as well as social events will take place during the active phase. Hence, participants from all over the world get the chance to discuss the presented research, meet new colleagues and old friends, and enjoy a live virtual event.
-<br>In the passive part, the full presentation videos of all accepted papers are shown in moderated sessions. Each presentation is streamed twice to address the different time zones, once the day before after the active phase and once right before the active phase where the paper is discussed. Questions that arise during these sessions will be collected and answered in the corresponding discussion session during the active phase. All presentation videos will also be accessible on the homepage so that they can also be enjoyed outside the moderated sessions.
-   <br>
-    Please also note, that for participants from the Americas, the video previewing happens on Tuesday starting at 12noon (UCT-7) or 3pm (UCT-4), with the sessions of Wednesday:<br>
+    The active part - the <b>prime time</b> - takes place in the time frame that is most convenient across all time zones and is marked in yellow.
+</p>
+<p>
+    During this active part, live spotlight presentations of and discussions with the authors of all accepted papers are scheduled. Additionally, the keynotes, virtual poster sessions as well as social events will take place during the active phase. Hence, participants from all over the world get the chance to discuss the presented research, meet new colleagues and old friends, and enjoy a live virtual event.
+</p>
+<p>
+    In the passive part, the full presentation videos of all accepted papers are shown in moderated sessions. Each presentation is streamed twice to address the different time zones, once the day before after the active phase and once right before the active phase where the paper is discussed. Questions that arise during these sessions will be collected and answered in the corresponding discussion session during the active phase. All presentation videos will also be accessible on the homepage so that they can also be enjoyed outside the moderated sessions.
+</p>
+<p>
+    Please also note, that for participants from the Americas, the video previewing happens on Tuesday starting at 12noon (UCT-7) or 3pm (UCT-4), with the sessions of Wednesday:
+</p>
+<p>
     15:00 (UCT-4) <a href='#shortB'>B1-9</a> Histopathology Videos and in parallel <a href='#shortA'>A4-12</a> Segmentation Videos<br>
     15:45 (UCT-4) <a href='#longA'>A1-3</a> Segmentation Long Videos<br>
 16:30 (UCT-4) <a href='#shortD'>D4-12</a> Detection and Diagnosis 1 Videos and in parallel <a href='#shortC'>C1-9</a> Endoscopy and Validation Studies Videos<br>
     17:15 (UCT-4) <a href='#longD'>D1-3</a> Unsupervised and Representation Learning Long Videos<br>
-17:45 (UCT-4) Study groups with Mentors (optional)<br>
+17:45 (UCT-4) Study groups with Mentors (optional)
+</p>
+
+<hr>
+
     <h2> Wednesday 7th July</h2>
 <a id="longA"></a><h3>A1-3 (long): Segmentation - 13:00 - 13:30 (UCT+2)</h3>
 A1: Alessa Hering - <a href="https://openreview.net/forum?id=hzbuHGhU02Z" target="_blank">Whole-Body Soft-Tissue Lesion Tracking and Segmentation in Longitudinal CT Imaging Studies</a><br>
@@ -332,6 +357,9 @@ D9: Jonathan Rubin - <a href="https://openreview.net/forum?id=dVUHL5QhDhL" targe
 D10: Dominik Mairhöfer - <a href="https://openreview.net/forum?id=bj04hJss_xZ" target="_blank">An AI-based Framework for Diagnostic Quality Assessment of Ankle Radiographs</a> - (full)<br>
 D11: Juan Carlos Prieto - <a href="https://openreview.net/forum?id=umb5xsy1-zS" target="_blank">Image Sequence Generation and Analysis via GRU and Attention for Trachomatous Trichiasis Classification</a> - (full)<br>
 D12: Hari Sowrirajan - <a href="https://openreview.net/forum?id=LO7Su0-dPJl" target="_blank">MoCo Pretraining Improves Representation and Transferability of Chest X-ray Models</a> - (full)<br>
+
+<hr>
+
 <h2> Thursday 8th July</h2>
 <a id="longE"></a><h3>E1-3 (long): Detection and Diagnosis - 13:00 - 13:30 (UCT+2)</h3>
 E1: David A. Wood - <a href="https://openreview.net/forum?id=gh8qD_lAADe" target="_blank">Automated triaging of head MRI examinations using convolutional neural networks</a><br>
@@ -381,6 +409,9 @@ H9: Laura Hellwege - <a href="https://openreview.net/forum?id=XCRthDLsCXn" targe
 H10: Rosana EL Jurdi - <a href="https://openreview.net/forum?id=NDEmtyb4cXu" target="_blank">A Surprisingly Effective Perimeter-based Loss for Medical Image Segmentation</a> - (full)<br>
 H11: Hang Zhang - <a href="https://openreview.net/forum?id=JbWMYLN5Hba" target="_blank">Memory U-Net: Memorizing Where to Vote for Lesion Instance Segmentation</a> - (full)<br>
 H12: Siyu Shi - <a href="https://openreview.net/forum?id=i-zxSlqneRu" target="_blank">Unseen Disease Detection for Deep Learning Interpretation of Chest X-rays</a> - (full)<br>
+
+<hr>
+
 <h2> Friday 9th July</h2>
 <a id="longI"></a><h3>I1-3 (long): Interpretability and Explainable AI - 13:00 - 13:30 (UCT+2)</h3>
 I1: Caner Ozer - <a href="https://openreview.net/forum?id=ln797A8lAb0" target="_blank">Explainable Image Quality Analysis of Chest X-Rays</a><br>
@@ -427,6 +458,3 @@ L6: Pauline Mouches - <a href="https://openreview.net/forum?id=9ClUQ2ELJap" targ
 L7: Chanh Nguyen - <a href="https://openreview.net/forum?id=boTEEpM8mu" target="_blank">GOAL: Gist-set Online Active Learning for Efficient Chest X-ray Image Annotation</a> - (full)<br>
 L8: Hassan Muhammad - <a href="https://openreview.net/forum?id=JSSwHS_GU63" target="_blank">EPIC-Survival: End-to-end Part Inferred Clustering for Survival Analysis, with Prognostic Stratification Boosting</a> - (full)<br>
 L9: Soham Uday Gadgil - <a href="https://openreview.net/forum?id=eA7PGMYmHFA" target="_blank">CheXseg: Combining Expert Annotations with DNN-generated Saliency Maps for X-ray Segmentation</a> - (full)<br>
-</body>
-</html>
-
