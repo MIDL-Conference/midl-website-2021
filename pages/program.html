@@ -1,14 +1,29 @@
 <style>
-form {
+#hide-show-timezones {
     font-size: 90%;
+    margin-top: 1em;
+    padding: 0 6px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    white-space: nowrap;
+    justify-content: space-between;
 }
-table, th, td {
-  border: 1px solid gray;
-       font-size: 87%;
-  border-collapse: separate;
-  /* offset-x | offset-y | blur-radius | spread-radius | color */
+#hide-show-timezones input.largerCheckbox {
+    transform : scale(1.5);
 }
-th, td {
+#hide-show-timezones label {
+    padding: 0 4px 0 8px;
+}
+
+#program, #program th, #program td {
+    border: 1px solid gray;
+    font-size: 87%;
+    border-collapse: separate;
+    border-spacing: 1px;
+}
+#program th, #program td {
   padding: 5px;
   text-align: left;
 }
@@ -152,9 +167,6 @@ th, td {
   background-color: #FFFFFF;
                   font-weight: 350
 
-}    
-input.largerCheckbox {
-    -webkit-transform : scale(1.5);
 }
 </style>
     
@@ -181,8 +193,8 @@ jQuery(document).ready(function($) {
   -webkit-clip-path: polygon(0% 0%, 120% 0%, 120% 120%, 0% 120%); /*bottom-right*/
 -->
 
-    <h1>Program at Glance</h1>
-    <table><thead><tr><th class='col1' id='t01'>West Coast UCT-7</th><th class='col2' id='t01'>East Coast UCT-4</th><th class='col3' id='t00'>L&uuml;beck UCT+2</th><th class='col4' id='t01'>China UCT+8</th><th colspan='2' id='t00'><b>Wednesday 7th July</b></th><th colspan='2' id='t00'><b>Thursday 8th July</b></th><th colspan='2' id='t00'><b>Friday 9th July</b></th></thead>
+<h1>Program at a Glance</h1>
+<table id="program"><thead><tr><th class='col1' id='t01'>West Coast UCT-7</th><th class='col2' id='t01'>East Coast UCT-4</th><th class='col3' id='t00'>L&uuml;beck UCT+2</th><th class='col4' id='t01'>China UCT+8</th><th colspan='2' id='t00'><b>Wednesday 7th July</b></th><th colspan='2' id='t00'><b>Thursday 8th July</b></th><th colspan='2' id='t00'><b>Friday 9th July</b></th></thead>
 <tr><th id='t01' class='col1'>00:00</th><th id='t01' class='col2'>3:00</th><th id='t00' class='col3'>9:00</th><th id='t01' class='col4'>15:00</th><th id='t02'><a href='#shortA'>A4-12</a> Videos</th><th id='t02'><a href='#shortB'>B1-9</a> Videos</th><th id='t02'><a href='#shortE'>E4-12</a> Videos</th><th id='t02'><a href='#shortF'>F1-9</a> Videos</th><th id='t02'><a href='#shortI'>I4-12</a> Videos</th><th id='t02'><a href='#shortJ'>J1-9</a> Videos</th>
 
 <tr><th id='t01' class='col1' >00:45</th><th id='t01' class='col2'>3:45</th><th id='t00' class='col3'>9:45</th><th id='t01' class='col4'>15:45</th><th colspan='2' id='t03'><a href='#longA'>A1-3</a> Long Videos</th><th colspan='2' id='t03'><a href='#longE'>E1-3</a> Long Videos</th><th colspan='2' id='t03'><a href='#longI'>I1-3</a> Long Videos</th>
@@ -246,12 +258,26 @@ jQuery(document).ready(function($) {
 <tr><th id='t01' class='col1' >14:15</th><th id='t01' class='col2'>17:15</th><th id='t00' class='col3'>23:15</th><th id='t01' class='col4'>5:15</th><th colspan='2' id='t03'><a href='#longH'>H1-3</a> Long Videos</th><th colspan='2' id='t03'><a href='#longL'>L1-3</a> Long Videos</th><th colspan='2'></th>
 <tr><th id='t01' class='col1' >14:45</th><th id='t01' class='col2'>17:45</th><th id='t00' class='col3'>23:45</th><th id='t01' class='col4'>5:45</th><th colspan='2' id='t04'>Study groups with Mentors (optional) Americas (for 45 min)</th><th colspan='2' id='t04'>Study groups with Mentors (optional) Americas (for 45 min)</th><th colspan='2'></th> </table>
 
-<form >
-    <input class="largerCheckbox" type= checkbox  name= col1  checked= checked> Hide/Show UCT-7 <br>
-    <input class="largerCheckbox" type= checkbox  name= col2  checked= checked> Hide/Show UCT-4 <br>
-    <input class="largerCheckbox" type= checkbox  name= col3  checked= checked> Hide/Show UCT+2 <br>
-    <input class="largerCheckbox" type= checkbox  name= col4  checked= checked> Hide/Show UCT+8 <br>
+<form id="hide-show-timezones">
+    <div>
+        <input class="largerCheckbox" type="checkbox" id="hs-col1" name="col1" checked="checked">
+        <label for="hs-col1">Hide/Show UCT-7</label>
+    </div>
+    <div>
+        <input class="largerCheckbox" type="checkbox" id="hs-col2" name="col2" checked="checked">
+        <label for="hs-col2">Hide/Show UCT-4</label>
+    </div>
+    <div>
+        <input class="largerCheckbox" type="checkbox" id="hs-col3" name="col3" checked="checked">
+        <label for="hs-col3">Hide/Show UCT+2</label>
+    </div>
+    <div>
+        <input class="largerCheckbox" type="checkbox" id="hs-col4" name="col4" checked="checked">
+        <label for="hs-col4">Hide/Show UCT+8</label>
+    </div>
 </form>
+
+<hr>
 
 <p>
     We gave our best to give every participant the opportunity for live interaction with the authors, regardless of the timezone. Therefore, each conference day is divided into two parts: The active part and the passive part.
@@ -273,6 +299,9 @@ jQuery(document).ready(function($) {
     17:15 (UCT-4) <a href='#longD'>D1-3</a> Unsupervised and Representation Learning Long Videos<br>
 17:45 (UCT-4) Study groups with Mentors (optional)
 </p>
+
+<hr>
+
     <h2> Wednesday 7th July</h2>
 <a id="longA"></a><h3>A1-3 (long): Segmentation - 13:00 - 13:30 (UCT+2)</h3>
 A1: Alessa Hering - <a href="https://openreview.net/forum?id=hzbuHGhU02Z" target="_blank">Whole-Body Soft-Tissue Lesion Tracking and Segmentation in Longitudinal CT Imaging Studies</a><br>
@@ -322,6 +351,9 @@ D9: Jonathan Rubin - <a href="https://openreview.net/forum?id=dVUHL5QhDhL" targe
 D10: Dominik Mairhöfer - <a href="https://openreview.net/forum?id=bj04hJss_xZ" target="_blank">An AI-based Framework for Diagnostic Quality Assessment of Ankle Radiographs</a> - (full)<br>
 D11: Juan Carlos Prieto - <a href="https://openreview.net/forum?id=umb5xsy1-zS" target="_blank">Image Sequence Generation and Analysis via GRU and Attention for Trachomatous Trichiasis Classification</a> - (full)<br>
 D12: Hari Sowrirajan - <a href="https://openreview.net/forum?id=LO7Su0-dPJl" target="_blank">MoCo Pretraining Improves Representation and Transferability of Chest X-ray Models</a> - (full)<br>
+
+<hr>
+
 <h2> Thursday 8th July</h2>
 <a id="longE"></a><h3>E1-3 (long): Detection and Diagnosis - 13:00 - 13:30 (UCT+2)</h3>
 E1: David A. Wood - <a href="https://openreview.net/forum?id=gh8qD_lAADe" target="_blank">Automated triaging of head MRI examinations using convolutional neural networks</a><br>
@@ -371,6 +403,9 @@ H9: Laura Hellwege - <a href="https://openreview.net/forum?id=XCRthDLsCXn" targe
 H10: Rosana EL Jurdi - <a href="https://openreview.net/forum?id=NDEmtyb4cXu" target="_blank">A Surprisingly Effective Perimeter-based Loss for Medical Image Segmentation</a> - (full)<br>
 H11: Hang Zhang - <a href="https://openreview.net/forum?id=JbWMYLN5Hba" target="_blank">Memory U-Net: Memorizing Where to Vote for Lesion Instance Segmentation</a> - (full)<br>
 H12: Siyu Shi - <a href="https://openreview.net/forum?id=i-zxSlqneRu" target="_blank">Unseen Disease Detection for Deep Learning Interpretation of Chest X-rays</a> - (full)<br>
+
+<hr>
+
 <h2> Friday 9th July</h2>
 <a id="longI"></a><h3>I1-3 (long): Interpretability and Explainable AI - 13:00 - 13:30 (UCT+2)</h3>
 I1: Caner Ozer - <a href="https://openreview.net/forum?id=ln797A8lAb0" target="_blank">Explainable Image Quality Analysis of Chest X-Rays</a><br>
