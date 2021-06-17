@@ -25,9 +25,10 @@ The decision notification will be sent via email by 14 June 2021.
 
 | Program                                              || Time Slot 		|
 | --------                                             || --------  		|
-| Opening                                              || 09:00 - 09:30     |
-| Talk: Model evaluation in applied machine learning   || 09:30 - 10:30     |
-| Break                                                || 10:30 - 10:45     |
+| Opening                                              || 09:00 - 09:15     |
+| Talk: Model evaluation in applied machine learning   || 09:15 - 10:15     |
+| Break                                                || 10:15 - 10:30     |
+| Presentation Euroimmun                               || 10:30 - 10:45     |
 | Talk: Visualization of Results                       || 10:45 - 11:15     |
 | Activity: Poster Karaoke                             || 11:15 - 12:30     |
 | Lunch Break                                          || 12:30 - 13:30     |
