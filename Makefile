@@ -5,7 +5,7 @@ DEBUG =
 
 TARGET = /usr/share/nginx/midl2021
 
-HOST = beta.2021.kervadec.science:
+HOST = kervadec.science:perso/midl2021
 PORT = 484
 
 .PHONY: clean generate deploy FORCE
@@ -23,10 +23,10 @@ generate: pages/papers/paper.template papers.json
 # # 	$(CC) fill_template.py $^ full $@
 # # pages/program/short-papers.md: pages/program/short-papers.template papers.json
 # # 	$(CC) fill_template.py $^ short $@
-# pages/scientific-program.md: pages/scientific-program.template papers.json
-# 	$(CC) fill_template.py $^ $@
+pages/dumb_list.md: pages/dumb_list.template papers.json
+	$(CC) fill_template.py $^ $@
 
-$(TARGET): FORCE #pages/scientific-program.md
+$(TARGET): FORCE pages/dumb_list.md
 	rm -rf $@
 	$(CC) $(CFLAGS) . $@ $(DEBUG)
 # 	chmod -R +x $@

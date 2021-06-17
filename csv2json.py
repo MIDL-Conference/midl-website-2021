@@ -43,7 +43,7 @@ if __name__ == "__main__":
                                              abstract=csv_line['abstract'],
                                              ignore_schedule=True)
 
-                # print(current_paper)
+                print(f"{{{{{current_paper.conf_id}}}}}")
 
                 papers.append(current_paper)
 
