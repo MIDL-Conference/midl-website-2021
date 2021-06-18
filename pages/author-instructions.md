@@ -15,16 +15,16 @@ We ask authors to prepare and upload a video recording of their presentation by 
  and **1-3 landscape** PDF slide(s) that serve as virtual poster.
 * **Full or Short paper ("short oral")** 4-6 minute presentation video,
  and **1-3 landscape** PDF slide(s) that serve as virtual poster.
- no teaser is required this year.
+ No teasers are required this year.
 
 Try to keep it lively and avoid cramming in too many details, there will be time for discussion in the live sessions. Refer to the paper for numerical results and implementation detail and aim to convey the gist of the method you propose or application you want to solve.
 
 While voice only over slides will be OK, it will be great to also have the presenter face embedded within the slides in the video. While we are unable to provide individualized technical support to help you create these videos, we will provide some examples/templates on how to record videos on this page. The recording has to meet the following requirements:
 
-16/9 aspect ratio, resolution at least 1440x720p
-Saved in .mp4 format, Audio channel in mono or stereo (no 5.1 or any creative codec)
-Less than 100 MByte (short oral) or 200 MByte (long oral)
-Slides of your poster should be in .pdf
+* 16/9 aspect ratio, resolution at least 1440x720p
+* Saved in .mp4 format, Audio channel in mono or stereo (no 5.1 or any creative codec)
+* Less than 100 MByte (short oral) or 200 MByte (long oral)
+* Slides (1-3) of your poster should be in .pdf
 Please adhere to the above duration and format requirements, otherwise the form of the presentation is up to you. However, please make sure the video includes the title of the paper, the authors’ names and affiliations, and a mention to MIDL 2021.
 
 ## Virtual conference 
@@ -32,14 +32,14 @@ Please adhere to the above duration and format requirements, otherwise the form 
 We believe that one of the most important aspects of conferences and particularly of MIDL is to get in touch and discuss recent methods and results.
 Hence we want to put a focus on discussions and interaction between all participants and the authors of the 123 accepted papers. 
 
-Given that this is an international conference and that we will have participants from many different time zones, we will have a 'prime-time' stretching for five hours that should give almost everybody an opportunity to join us. To make the best use of this time slot, we will focus on keynotes and joint discussions. Each of the three MIDL conference days will have: 
+Given that this is an international conference and that we will have participants from many different time zones, we will have a 'prime-time' stretching for six hours that should give almost everybody an opportunity to join us. To make the best use of this time slot, we will focus on keynotes and joint discussions. Each of the three MIDL conference days will have: 
 –	one keynote,
 –	two long oral discussion sessions (18 selected full papers in total, single track),
 –	two short oral discussion sessions (further 42 full papers and 63 short papers in total, in dual track), and
 –	two poster sessions (one slot for each paper, full and short on the same days).
 
 In addition, we ask all authors to prepare video presentations, which will be shown *twice* in two sessions before the 'prime time'. Participants are invited to attend either of these two separate videos viewing sessions in their respective time zones, or to view the videos individually. Your questions will be collected for the later discussions.
-During 'prime time', we will all meet live and discuss with the authors. Authors will briefly introduce their work and answer live questions (in panelist groups of three) as well as points brought up during the video viewing. To further foster interaction, there will be the possibility for individual personal interactions with other participants via GatherTown. All presenting authors are asked to be available in GatherTown with a few PDF slides at hand to discuss your questions in more detail.
+During 'prime time', we will all meet live and discuss with the authors. Authors will briefly introduce their work and answer live questions (in panelist groups of three) as well as points brought up during the video viewing. To further foster interaction, there will be the possibility for individual personal interactions with other participants via GatherTown. All presenting authors are asked to be available in GatherTown with a few PDF slides at hand to discuss your work in more detail.
 
 ### Video recording tips 
 To ensure everything looks nice, we would like you to use OBS Studio (see [OBS Project](https://obsproject.com/)) for preparing your video. We have prepared two template background images you can use for positioning your presentation and speaker view, for 4:3 and 16:9 presentations. You can download them here:
@@ -59,12 +59,12 @@ Twice during prime time you will be able to connect to authors via GatherTown to
 Study groups consisting of PhD students and a mentor meet before ‘prime time’ to warm-up for the discussions and to collect further questions.
 
 ### Video Viewing Sessions 
-Grab a coffee/drink sit back in your armchair and watch a series of pre-recorded talks of long orals short orals in the viewing session that fits your time zone: the night before each day (for the Americas) and morning before prime-time on the day (for Europe, Africa, Asia and Oceania). Authors do not have to be present, but we will take questions in the chat that can be answered in the live sessions later. All videos will also be available for registered attendees beforehand, i.e., you can watch the videos any time.
+Grab a coffee/drink sit back in your armchair and watch a series of pre-recorded talks of long orals short orals in the viewing session that fits your time zone: the night before each day (for the Americas) and morning before prime-time on the day (for Europe, Africa, Asia and Oceania). Authors do not have to be present, but we will take questions in the chat that can be answered in the live sessions later. All videos will also be available for **registered** attendees beforehand, i.e., you can watch the videos any time.
 
 ### Keynote sessions
 Each day we will have a live keynote with subsequent live questions. So be there!
 
-A detailed updatesd schedule will shortly be uploaded to https://2021.midl.io/dates.html
+A detailed schedule can be found at https://2021.midl.io/program.html
 
 Paper submission and reviewing has closed the proceedings are in preparation. The information below are only for reference.
 
