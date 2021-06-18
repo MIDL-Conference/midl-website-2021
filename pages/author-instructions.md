@@ -41,6 +41,13 @@ Given that this is an international conference and that we will have participant
 In addition, we ask all authors to prepare video presentations, which will be shown *twice* in two sessions before the 'prime time'. Participants are invited to attend either of these two separate videos viewing sessions in their respective time zones, or to view the videos individually. Your questions will be collected for the later discussions.
 During 'prime time', we will all meet live and discuss with the authors. Authors will briefly introduce their work and answer live questions (in panelist groups of three) as well as points brought up during the video viewing. To further foster interaction, there will be the possibility for individual personal interactions with other participants via GatherTown. All presenting authors are asked to be available in GatherTown with a few PDF slides at hand to discuss your questions in more detail.
 
+### Video recording tips 
+To ensure everything looks nice, we would like you to use OBS Studio (see [OBS Project](https://obsproject.com/)) for preparing your video. We have prepared two template background images you can use for positioning your presentation and speaker view, for 4:3 and 16:9 presentations. You can download them here:
+- [4:3 background template](/resources/MIDL-OBS-4by3.png)
+- [19:9 background template](/resources/MIDL-OBS-16by9.png)
+
+To facilitate using OBS, there is a short [video tutorial](https://www.youtube.com/watch?v=hDHmP17T61I) available. Further, we'll hold two support sessions (please refer to the email you received - if you can't find it, email us!).
+
 ### Group Discussion Sessions 
 Long and short oral discussions are in groups of 3 papers. Authors will give a brief introduction of themselves and their work. Subsequently, a moderated panel discussion will take live questions and also answer questions taken during the viewing sessions.
 
