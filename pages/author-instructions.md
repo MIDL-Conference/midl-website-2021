@@ -25,6 +25,7 @@ While voice only over slides will be OK, it will be great to also have the prese
 * Saved in .mp4 format, Audio channel in mono or stereo (no 5.1 or any creative codec)
 * Less than 100 MByte (short oral) or 200 MByte (long oral)
 * Slides (1-3) of your poster should be in .pdf
+
 Please adhere to the above duration and format requirements, otherwise the form of the presentation is up to you. However, please make sure the video includes the title of the paper, the authors’ names and affiliations, and a mention to MIDL 2021.
 
 ## Virtual conference 
