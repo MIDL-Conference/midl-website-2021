@@ -3,7 +3,7 @@ title: "Important Dates"
 ---
 
 # Important Dates
-## Program-at-Glance
+## Program-at-a-Glance
 <style>
 #program, #program th, #program td {
     border: 1px solid gray;
@@ -219,7 +219,6 @@ jQuery(document).ready(function($) {
   clip-path: polygon(0% 0%, 120% 0%, 120% 120%, 0% 120%); /*bottom-right*/
 -->
 
-<h1>Program at a Glance</h1>
 <table id="program"><thead><tr><th class='col1' id='t01'>PDT UTC-7</th><th class='col2' id='t01'>EDT UTC-4</th><th class='col3' id='t00'>L&uuml;beck UTC+2</th><th class='col4' id='t01'>HKT UTC+8</th><th colspan='2' id='t00'><b>Wednesday 7th July</b></th><th colspan='2' id='t00'><b>Thursday 8th July</b></th><th colspan='2' id='t00'><b>Friday 9th July</b></th></thead>
 <tr><th id='t01' class='col1'>00:00</th><th id='t01' class='col2'>3:00</th><th id='t00' class='col3'>9:00</th><th id='t01' class='col4'>15:00</th><th id='cshort_v'><a href='#shortA'>A4-12</a> Videos</th><th id='cshort_v'><a href='#shortB'>B1-9</a> Videos</th><th id='cshort_v'><a href='#shortE'>E4-12</a> Videos</th><th id='cshort_v'><a href='#shortF'>F1-9</a> Videos</th><th id='cshort_v'><a href='#shortI'>I4-12</a> Videos</th><th id='cshort_v'><a href='#shortJ'>J1-9</a> Videos</th>
 
