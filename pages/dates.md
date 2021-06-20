@@ -302,8 +302,6 @@ jQuery(document).ready(function($) {
     </div>
 </form>
 
-<hr>
-
 ---
 
 All deadlines are at 23:59, [UTC -12](https://www.timeanddate.com/time/map/) ([AoE](https://en.wikipedia.org/wiki/Anywhere_on_Earth) timezone).
