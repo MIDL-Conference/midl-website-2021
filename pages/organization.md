@@ -26,12 +26,12 @@ title: "Organization"
 * [Alexander Schlaefer](https://mtec.et8.tuhh.de/staff/alexander-schlaefer.html), Institute of Medical Technology and Intelligent Systems, Hamburg University of Technology, Germany
 
 ## Social Chairs
-* [Jannis Hagenah](https://www.rob.uni-luebeck.de/index.php?id=422&L=1), Institute for Robotics and Cognitive Sciences, Universität zu Lübeck, Germany
+* [Jannis Hagenah](https://eng.ox.ac.uk/chi/), CHI Lab, University of Oxford, UK
 * [Alessa Hering](https://www.mevis.fraunhofer.de/en/employees/alessa-hering.html), Fraunhofer MEVIS & Radboudumc Nijmegen
 
 ## Doctoral Symposium Chairs
 * [Alessa Hering](https://www.mevis.fraunhofer.de/en/employees/alessa-hering.html), Fraunhofer MEVIS & Radboudumc Nijmegen
-* [Jannis Hagenah](https://www.rob.uni-luebeck.de/index.php?id=422), University of Lübeck
+* [Jannis Hagenah](https://eng.ox.ac.uk/chi/), CHI Lab, University of Oxford, UK
 * [Floris Ernst](https://www.rob.uni-luebeck.de/index.php?id=320&L=1), University of Lübeck
 
 
