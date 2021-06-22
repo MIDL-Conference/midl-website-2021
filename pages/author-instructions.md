@@ -46,7 +46,7 @@ During 'prime time', we will all meet live and discuss with the authors. Authors
 To ensure everything looks nice, we would like you to use OBS Studio (see [OBS Project](https://obsproject.com/)) for preparing your video. We have prepared two template background images you can use for positioning your presentation and speaker view, for 4:3 and 16:9 presentations. You can download them here:
 
 - [4:3 background template](/images/MIDL-OBS-4by3.png)
-- [19:9 background template](/images/MIDL-OBS-16by9.png)
+- [16:9 background template](/images/MIDL-OBS-16by9.png)
 
 To facilitate using OBS, there is a short [video tutorial](https://www.youtube.com/watch?v=hDHmP17T61I) available. Further, we'll hold two support sessions (please refer to the email you received - if you can't find it, email us!).
 
