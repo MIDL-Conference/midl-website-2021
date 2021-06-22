@@ -57,7 +57,7 @@ Long and short oral discussions are in groups of 3 papers. Authors will give a b
 Twice during prime time you will be able to connect to authors via GatherTown to discuss all the questions still open after the group discussions. You can walk around with your avatar and do casual live video/audio chats with people at their virtual posters. A poster can be a single-page PDF or a few slides (**1-3  slides landscape**) and be visible to attendees throughout the conference. **Please note that the first slide will serve as preview in Gather.Town.** Discussions can be either individual (one-to-one) or with a group of people that dynamically gathers around the poster (just as in real live conferences).
 
 ### Study group sessions
-Study groups consisting of PhD students and a mentor meet before ‘prime time’ to warm-up for the discussions and to collect further questions.
+Study groups consisting of PhD students and a mentor meet before ‘prime time’ to warm-up for the discussions and to collect further questions. **Sign up to participate at** https://forms.gle/CNPTBZQ4fzWuFKY6A
 
 ### Video Viewing Sessions 
 Grab a coffee/drink sit back in your armchair and watch a series of pre-recorded talks of long orals short orals in the viewing session that fits your time zone: the night before each day (for the Americas) and morning before prime-time on the day (for Europe, Africa, Asia and Oceania). Authors do not have to be present, but we will take questions in the chat that can be answered in the live sessions later. All videos will also be available for **registered** attendees beforehand, i.e., you can watch the videos any time.
