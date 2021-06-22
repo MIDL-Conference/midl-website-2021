@@ -33,17 +33,19 @@ Paper registration is now closed. Thank you for all your submissions!
 ## Supported by
 
 [% .logos %]
+[![German Research Foundation](/sponsors/dfg_logo_schriftzug_blau_foerderung_en.jpg){: height="120"}](https://www.dfg.de/en/)
 [![Land SH](/sponsors/land_sh.png){: height="120"}](https://www.schleswig-holstein.de/EN/)
 [![MICCAI](/sponsors/miccai.jpeg){: height="90"}](http://www.miccai.org)
 [% / %]
 
+<!--
 ---
 
 ### Diamond sponsors
 
 [% .logos %]
-[% / %]
-
+[% / %] 
+//-->
 ---
 
 ### Gold sponsors
