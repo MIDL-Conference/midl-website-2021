@@ -51,6 +51,10 @@ nav:
   - title: "Program"
     path: "/program.html"
     icon: "plane"
+  - title: "Study Groups"
+    path: "/study.html"
+    icon: "bullhorn"
+
   - title: "Sponsorship"
     path: "/sponsorship-packages.html"
     icon: "star"
