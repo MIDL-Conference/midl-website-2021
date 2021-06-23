@@ -26,12 +26,12 @@ And of course, we do not want your throat to dry out. Don't worry: The barkeeper
 
 ## MIDL Run
 
-After it great initiation 2019 in Londons Hyde Park, the MIDL morning became the most appealing counterpart to sitting on a chair and listening to talks all day. Don't think about different continents and time zones: MIDL will run together! If you are willing to get yourself moving, join the Strava group [MIDL Run](https://www.strava.com/clubs/midl?utm_source=com.whatsapp&utm_medium=referral).
+After its great initiation 2019 in Londons Hyde Park, the MIDL morning became the most appealing counterpart to sitting on a chair and listening to talks all day. Don't think about different continents and time zones: MIDL will run together! If you are willing to get yourself moving, join the Strava group [MIDL Run](https://www.strava.com/clubs/midl?utm_source=com.whatsapp&utm_medium=referral).
 The basic Strava App is free to use and keeps track of our joint effort during the conference. Will the MIDL community run more than 500km?
 
 ## Active Breaks
 
-Sitting in frint of your computer the whole day watching scientific talks can be tiring. To boost up your energy for the last sessions, there will be active breaks everyday to get you rbody parts moving again. The breaks do not exceed 15 minutes and all exercises can be done in front of your desk without any tools. Join the active breaks, your back (and the authors from the last sessions) will be thankful!
+Sitting in front of your computer the whole day watching scientific talks can be tiring. To boost up your energy for the last sessions, there will be active breaks everyday to get you rbody parts moving again. The breaks do not exceed 15 minutes and all exercises can be done in front of your desk without any tools. Join the active breaks, your back (and the authors from the last sessions) will be thankful!
 
 ## Gaming Lounge
 
