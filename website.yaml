@@ -11,8 +11,8 @@ youtube: "channel/UCd87UPUTt-oqTeGi8fQw-_w"
 github: "MIDL-Conference"
 
 show_twitter_button: no
-show_twitter_feed: no
-num_tweets_in_feed: 1
+show_twitter_feed: yes
+num_tweets_in_feed: 3
 show_platform_icons: yes
 
 summary: "The Medical Imaging with Deep Learning conference will be held from 7 to 9 July 2021 in Lübeck, Germany"
