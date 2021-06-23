@@ -13,7 +13,7 @@ Science does not only live from research presentations but also from bringing to
 ## The Virtual Conference Center
 
 The conference will take place in a virtual conference center using the Gather.Town environment. This platfrom provides great opportunities for interactions, ranging from spontaneous chats during your way to the poster room to in-depth discussions at a white-board in a seminar room. We highly encourage everyone to make good use of the tool - it is the closest virtual analogy of an in-person conference we could find!
-Feel free to explore the virtual conference center. Meet other people preparing ther lunch in the kitchen, stroll around the posters and booths of our sponsors or enjoy the relaxing athmosphere of the beach. Maybe, you can even get a few glimpses of what Lübeck looks like...
+Feel free to explore the virtual conference center. Meet other people preparing their lunch in the kitchen, stroll around the posters and booths of our sponsors or enjoy the relaxing athmosphere of the beach. Maybe, you can even get a few glimpses of what Lübeck looks like...
 
 ## Get Together
 
