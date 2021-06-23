@@ -13,3 +13,5 @@ For attendees, the help of the mentor will support them in coming up with intrig
 While each group may flexibly decide upon an exact meeting time and space, we have allocated two slots per day in our conference schedule and special "study group" rooms in Gather.Town. These are 11:45 to 12:30 (UCT+2) for Europe/Africa/Asia, .. and 17:45 to 18:30 (ET, UCT-4) for Americas. See https://2021.midl.io/program.html 
 
 Sign up at [Google Form](https://forms.gle/Fx3KV6kBVdsF6HZcA) if you want to participate.
+
+{{ button("Sign Up for Study Groups", "https://forms.gle/Fx3KV6kBVdsF6HZcA") }}
