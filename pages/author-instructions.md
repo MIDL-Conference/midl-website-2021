@@ -7,7 +7,7 @@ title: "Author instructions"
 
 # Author instructions
 
-Since the program of this years MIDL might appear quite differently from what you expect, there is a [video](https://youtu.be/pz86G_rgstM) explaining how you will present your work and whyt you have to prepare for it!
+Since the program of this years MIDL might appear quite differently from what you expect, there is a [video](https://youtu.be/pz86G_rgstM) explaining how you will present your work and what you have to prepare for it!
 
 ## Presentation guidelines
 
