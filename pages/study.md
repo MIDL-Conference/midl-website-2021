@@ -2,6 +2,8 @@
 title: "Study Groups"
 ---
 
+{% from "_macros.html" import button %}
+
 # Study Groups
 
 New to MIDL 2021 and based on its success in recent IPMI conferences, we are introducing Study Groups: 
