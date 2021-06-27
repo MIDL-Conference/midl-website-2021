@@ -11,7 +11,7 @@ Since the program of this years MIDL might appear quite differently from what yo
 
 ## Presentation guidelines
 
-We ask authors to prepare and upload a video recording of their presentation by 26th of June (instructions on where to upload the files have been communicated by email).
+We ask authors to prepare and upload a video recording of their presentation by ~~26th of June~~ **Monday 28th of June midnight AoE (deadline has been extended**  (instructions on where to upload the files have been communicated by email). You can check whether your file was correctly received by looking at this [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1nZwlVFzRnDXITEj9uHJz_qBF5QevfkD0GfGwLYPxuy0) (**up to date as of 27/06 9:30 CEST**).
 
 * **Full paper ("long oral")** 10-13 minute presentation video
  and **1-3 landscape** PDF slide(s) that serve as virtual poster.
