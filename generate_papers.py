@@ -25,7 +25,7 @@ if __name__ == "__main__":
     with open(papers_path, 'r') as pf:
         raw_papers = json.load(pf)
 
-    papers: dict[int, Paper] = {int(k): Paper(**v) for (k, v) in raw_papers.items()}
+    papers: dict[str, Paper] = {k: Paper(**v) for (k, v) in raw_papers.items()}
 
     with open(template_path, 'r') as f:
         empty_template: str = f.read()
@@ -34,8 +34,7 @@ if __name__ == "__main__":
     for paper in papers.values():
         result: str = empty_template[:]
 
-        result = result.replace("CONF_ID", paper.conf_id)
-        result = result.replace("SMALLID", paper.conf_id.casefold())
+        result = result.replace("CONF_ID", paper.id)
         result = result.replace("TITLE", paper.title)
         result = result.replace("AUTHORS", ", ".join(paper.authors))
         result = result.replace("ORID", paper.or_id)
@@ -61,7 +60,7 @@ if __name__ == "__main__":
         # slides_path: Path = Path(paper.slides)
 
         if not (root_slides / paper.slides[1:]).exists():
-            print(f"\tPaper {paper.conf_id} without slides: {paper.url} {(root_slides / paper.slides)}")
+            print(f"\tPaper {paper.id} without slides: {paper.url} {(root_slides / paper.slides)}")
 
         # yt_link = paper.yt_teaser if paper.short else paper.yt_full
         yt_link = paper.yt_full
@@ -72,7 +71,7 @@ if __name__ == "__main__":
             result = result.replace("PRESENTATION", f"{{{{ youtube('{yt_link}') }}}}")
         else:
             result = result.replace("PRESENTATION", "")
-            print(f"\tPaper {paper.conf_id} with neither slides or presentation.")
+            print(f"\tPaper {paper.id} with neither slides or presentation.")
 
         oral_text: str
         if paper.oral:

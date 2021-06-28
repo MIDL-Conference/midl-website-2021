@@ -1,1 +1,3 @@
 .idea/
+pages/papers/*.md
+papers.json

@@ -7,7 +7,7 @@ class Paper():
     def __init__(self, id: str, title: str, authors: str, url: str, or_id: str, oral: str, short: str,
                  abstract: str, schedule: str = "", slides: str = "", yt_teaser: str = "",
                  yt_full: str = "", ignore_schedule: bool = False, award: str = "", pmlr_url=""):
-        self.id: int = int(id)
+        self.id: str = id
         self.title: str = title
         self.authors: list[str] = authors.split(', ')
         self.url: str = url
@@ -56,10 +56,6 @@ class Paper():
         sanitized_abstract = sanitized_abstract.replace('`', '')
         self.sanitized_abstract = sanitized_abstract
 
-        self.conf_sign: str = "O" if self.oral else ("S" if self.short else "P")
-
-        self.conf_id: str = f"{self.conf_sign}{self.id:03d}"
-
         # self.__class__.__name__: str = "Paper"
 
     def __str__(self) -> str:
@@ -74,7 +70,7 @@ class Paper():
         \'{f'{", ".join(self.authors)}'}\',
         openreview=\'{f'https://openreview.net/forum?id={self.or_id}'}\',
         pdf=\'{self.pdf_url}\',
-        id='{self.conf_id}',
+        id='{self.id}',
         paper='{self.url}',
         proceedings='{self.pmlr_url}',
         teaser=\'{f'https://youtu.be/{self.yt_teaser}' if self.yt_teaser else ""}\',
