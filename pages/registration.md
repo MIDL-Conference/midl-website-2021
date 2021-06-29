@@ -33,6 +33,11 @@ We have reserved rooms and arranged special rates for several hotels in central 
 * **Students:** We offer student discounts. To prove your student status, please provide a signed letter from supervisor (or other official) or a copy of your student ID. You need to be a full-time student at the time of registration.
 <!--* **PostDocs:** We offer a discount for early-career postdoctoral researchers (max. two years after degree conferral) when registering for virtual participation. To prove your status, please provide an official document stating the date your degree was conferred.-->
 
+**Scholarships:**
+MIDL aims at providing as open as possible access to scientific research. Especially early career scientists in/from lower income countries without extensive travel funding may struggle to pay for conference fees. 
+We therefore have a limited amount of scholarships in the form of registration fee waivers for student attendees. The selection process is aimed to balance the academic profile, motivation, and diverse background. 
+Therefore students from low income countries will be preferred. To apply please use [this application form](https://forms.gle/G8Vdr1Li2WGUJSny5) by July 2nd.
+
 <!-- break lists -->
 
 * By registering to the conference attendees confirm that they accept the [Code of Conduct](/code-of-conduct.html).
