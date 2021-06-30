@@ -41,14 +41,14 @@ class Paper():
         if self.short:
             assert not self.oral
 
-        if not ignore_schedule:
-            try:
-                if not self.oral:
-                    assert len(self.schedule) == 1
-                else:
-                    assert len(self.schedule) == 2
-            except AssertionError:
-                print(self.id, self.schedule)
+        # if not ignore_schedule:
+        #     try:
+        #         if not self.oral:
+        #             assert len(self.schedule) == 1
+        #         else:
+        #             assert len(self.schedule) == 2
+        #     except AssertionError:
+        #         print(self.id, self.schedule)
 
         sanitized_abstract: str = self.abstract.replace("'", "\\'")
         sanitized_abstract = sanitized_abstract.replace('"', '\\"')
@@ -64,9 +64,8 @@ class Paper():
         sanitized_abstract = sanitized_abstract.replace('\n', '')
         sanitized_abstract = sanitized_abstract.replace('`', '')
         sanitized_abstract = repr(sanitized_abstract)
-        # sanitized_abstract: str = repr(self.abstract)
 
-        return f'''{{{{ paper(\'{self.title}\',
+        return f'''{{{{ paper({repr(self.title)},
         \'{f'{", ".join(self.authors)}'}\',
         openreview=\'{f'https://openreview.net/forum?id={self.or_id}'}\',
         pdf=\'{self.pdf_url}\',
