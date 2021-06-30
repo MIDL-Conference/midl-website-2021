@@ -11,7 +11,7 @@ HOST = castelbrazelbub.net:
 
 all: generate $(TARGET)
 
-papers.json: long_papers.csv program.html
+papers.json: long_papers.csv short_papers.csv program.html
 	$(CC) csv2json.py
 
 
