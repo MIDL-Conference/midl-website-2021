@@ -25,11 +25,11 @@ class Paper():
         assert not (self.short and self.pmlr_url)
 
         self.pdf_url: str
-        if self.short:
-            self.pdf_url = f'https://openreview.net/pdf?id={self.or_id}'
-        else:
-            pmlr_id: str = self.pmlr_url.split('/')[-1].replace(".html", "")
-            self.pdf_url = f"http://proceedings.mlr.press/v121/{pmlr_id}/{pmlr_id}.pdf"
+        self.pdf_url = f'https://openreview.net/pdf?id={self.or_id}'
+        # if self.short:
+        # else:
+        #     pmlr_id: str = self.pmlr_url.split('/')[-1].replace(".html", "")
+        #     self.pdf_url = f"http://proceedings.mlr.press/v121/{pmlr_id}/{pmlr_id}.pdf"
 
         self.schedule: list[str]
         if not schedule:
@@ -73,7 +73,7 @@ class Paper():
         paper='{self.url}',
         proceedings='{self.pmlr_url}',
         teaser=\'{f'https://youtu.be/{self.yt_teaser}' if self.yt_teaser else ""}\',
-        video=\'{f'https://youtu.be/{self.yt_full}' if self.yt_full else ""}\',
+        video=\'{self.yt_full if self.yt_full else ""}\',
         abstract={sanitized_abstract})
 }}}}'''
 

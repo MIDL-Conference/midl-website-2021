@@ -1,3 +1,4 @@
 .idea/
 pages/papers/*.md
 papers.json
+static/contents/

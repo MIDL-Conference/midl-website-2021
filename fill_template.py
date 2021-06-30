@@ -37,7 +37,7 @@ if __name__ == "__main__":
     regexp: Pattern = re.compile("{{([A-L][0-9]+)}}")
     matches: List[Match] = list(regexp.finditer(template))
 
-    print(len(matches))
+    # print(len(matches))
     # print(matches)
     for m in matches:
         # id = m[1][2:-2]

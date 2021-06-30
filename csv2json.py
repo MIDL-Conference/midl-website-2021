@@ -1,6 +1,7 @@
 #!/usr/bin/env python3.9
 
 import json
+from pathlib import Path
 from pprint import pprint
 from typing import Optional
 
@@ -36,6 +37,9 @@ if __name__ == "__main__":
 
         # pprint(program_dict)
 
+        contents: list[Path] = list(Path("static/contents/").glob("*"))
+        print(contents[:10])
+
         df_long_papers: pd.DataFrame
         df_long_papers = pd.read_csv(long_file,
                                      sep=',',
@@ -53,6 +57,8 @@ if __name__ == "__main__":
                             "H1", "H2", "H3",
                             "L1", "L2", "L3"]
 
+        slides: str
+
         papers: list[Paper] = []
         for _, csv_line in df_long_papers.iterrows():
                 if csv_line['decision'] == "Reject":
@@ -67,6 +73,27 @@ if __name__ == "__main__":
 
                 oral: bool = id_ in orals
 
+                number: str = csv_line['number']
+
+                slide_candidates: list[Path] = list(filter(lambda p: p.match(f"[Ff]ull_{number}_poster*.pdf"),
+                                                           contents))
+                video_candidates: list[Path] = list(filter(lambda p: p.match(f"[Ff]ull_{number}_video*.mp4"),
+                                                           contents))
+
+                if slide_candidates:
+                        # Have to deal with duplicates later
+                        slides = "/" + str(slide_candidates[0].relative_to('static/'))
+                        print(slides)
+                else:
+                        slides = ""
+
+                if video_candidates:
+                        # Have to deal with duplicates later
+                        yt_full = "/" + str(video_candidates[0].relative_to('static/'))
+                        print(yt_full)
+                else:
+                        yt_full = ""
+
                 current_paper: Paper = Paper(id=id_,
                                              title=csv_line['title'],
                                              authors=', '.join(authors),
@@ -76,7 +103,8 @@ if __name__ == "__main__":
                                              short="False",
                                              abstract=csv_line['abstract'],
                                              schedule=schedule,
-                                             ignore_schedule=True)
+                                             slides=slides,
+                                             yt_full=yt_full)
 
                 # print(f"{{{{{current_paper.id}}}}}")
 
@@ -103,6 +131,27 @@ if __name__ == "__main__":
                 schedule
                 id_, schedule = program_dict[or_id]
 
+                number = csv_line['number']
+
+                slide_candidates = list(filter(lambda p: p.match(f"[Ss]hort_{number}_poster*.pdf"),
+                                               contents))
+                video_candidates = list(filter(lambda p: p.match(f"[Ss]hort_{number}_video*.mp4"),
+                                               contents))
+
+                if slide_candidates:
+                        # Have to deal with duplicates later
+                        slides = "/" + str(slide_candidates[0].relative_to('static/'))
+                        print(slides)
+                else:
+                        slides = ""
+
+                if video_candidates:
+                        # Have to deal with duplicates later
+                        yt_full = "/" + str(video_candidates[0].relative_to('static/'))
+                        print(yt_full)
+                else:
+                        yt_full = ""
+
                 current_paper = Paper(id=id_,
                                       title=csv_line['title'],
                                       authors=', '.join(authors),
@@ -112,9 +161,10 @@ if __name__ == "__main__":
                                       short="True",
                                       abstract=csv_line['abstract'],
                                       schedule=schedule,
-                                      ignore_schedule=True)
+                                      slides=slides,
+                                      yt_full=yt_full)
 
-                print(f"{{{{{current_paper.id}}}}}")
+                # print(f"{{{{{current_paper.id}}}}}")
 
                 papers.append(current_paper)
 
