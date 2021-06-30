@@ -13,21 +13,19 @@ Since the program of this years MIDL might appear quite differently from what yo
 
 We ask authors to prepare and upload a video recording of their presentation by ~~26th of June~~ **Monday 28th of June midnight AoE (deadline has been extended**  (instructions on where to upload the files have been communicated by email). You can check whether your file was correctly received by looking at this [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1nZwlVFzRnDXITEj9uHJz_qBF5QevfkD0GfGwLYPxuy0) (**up to date as of 27/06 9:30 CEST**).
 
-* **Full paper ("long oral")** 
+**Full paper ("long oral")** 
 * 10-13 minute presentation video
 * and **landscape** PDF slide(s) that serve as virtual poster.
 * Prepare a brief **(max 3 minutes) oral introduction** of yourself and your work to give live
  before the panel discussion starts
- 
-By **default your poster slides** will be shown during your live introduction. If you prefer a different set of slides, please upload them to our cloud with file ending intro.pdf. There is also the option to share your screen.
+* By **default your poster slides** will be shown during your live introduction. If you prefer a different set of slides, please upload them to our cloud with file ending intro.pdf. There is also the option to share your screen.
 
-* **Full or Short paper ("short oral")** 
+**Full or Short paper ("short oral")** 
 * 4-6 minute presentation video,
 * and **1-3 landscape** PDF slide(s) that serve as virtual poster.
 * Prepare a brief **(max 90 sec) oral introduction** of yourself and your work to give live
  before the panel discussion starts
- 
-By **default the first page of your poster slides** will be shown during your live introduction. If you prefer a different slide, please upload them to our cloud with file ending intro.pdf
+* By **default the first page of your poster slides** will be shown during your live introduction. If you prefer a different slide, please upload them to our cloud with file ending intro.pdf
 
 
 No teasers are required this year.
