@@ -120,4 +120,4 @@
 [[headers]]
   for = "/papers/*"
   [headers.values]
-  Basic-Auth = "someuser:somepassword test:test123 luebeck21:marzipan"
+  Basic-Auth = "someuser:somepassword luebeck21:marzipan"
