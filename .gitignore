@@ -1,4 +1,4 @@
 .idea/
-pages/papers/*.md
-papers.json
+# pages/papers/*.md
+# papers.json
 static/contents/

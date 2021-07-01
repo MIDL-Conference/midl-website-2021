@@ -3,7 +3,7 @@ title: "TITLE"
 page_class: "paper"
 ---
 
-{% from "_macros.html" import presentation, button, teaser, video %}
+{% from "_macros.html" import presentation, button, teaser %}
 
 # CONF_ID - TITLE
 
