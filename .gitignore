@@ -1,6 +1,7 @@
 .idea/
-# Local Netlify folder
+.python-version
 .netlify
+
 # pages/papers/*.md
 # papers.json
 static/contents/
