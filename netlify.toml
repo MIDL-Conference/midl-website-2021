@@ -118,6 +118,6 @@
   status = 302
 
 [[headers]]
-  for = "/secret/*"
+  for = "/papers/*"
   [headers.values]
   Basic-Auth = "someuser:somepassword test:test123 luebeck21:marzipan"
