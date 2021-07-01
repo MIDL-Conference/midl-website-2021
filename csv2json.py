@@ -105,9 +105,7 @@ if __name__ == "__main__":
                                              oral=str(oral),
                                              short="False",
                                              abstract=csv_line['abstract'],
-                                             schedule=schedule,
-                                             slides=slides,
-                                             yt_full=yt_full)
+                                             schedule=schedule)
 
                 # print(f"{{{{{current_paper.id}}}}}")
 
@@ -163,9 +161,7 @@ if __name__ == "__main__":
                                       oral="False",
                                       short="True",
                                       abstract=csv_line['abstract'],
-                                      schedule=schedule,
-                                      slides=slides,
-                                      yt_full=yt_full)
+                                      schedule=schedule)
 
                 # print(f"{{{{{current_paper.id}}}}}")
 
