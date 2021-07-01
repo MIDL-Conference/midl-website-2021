@@ -41,7 +41,7 @@ if __name__ == "__main__":
         # pprint(program_dict)
 
         contents: list[Path] = list(Path("static/contents/").glob("*"))
-        print(contents[:10])
+        # print(contents[:10])
 
         df_long_papers: pd.DataFrame
         df_long_papers = pd.read_csv(long_file,
@@ -86,14 +86,14 @@ if __name__ == "__main__":
                 if slide_candidates:
                         # Have to deal with duplicates later
                         slides = "/" + str(slide_candidates[0].relative_to('static/'))
-                        print(slides)
+                        # print(slides)
                 else:
                         slides = ""
 
                 if video_candidates:
                         # Have to deal with duplicates later
                         yt_full = "/" + str(video_candidates[0].relative_to('static/'))
-                        print(yt_full)
+                        # print(yt_full)
                 else:
                         yt_full = ""
 
@@ -105,7 +105,9 @@ if __name__ == "__main__":
                                              oral=str(oral),
                                              short="False",
                                              abstract=csv_line['abstract'],
-                                             schedule=schedule)
+                                             schedule=schedule,
+                                             slides=slides,
+                                             yt_full=yt_full)
 
                 # print(f"{{{{{current_paper.id}}}}}")
 
@@ -142,14 +144,14 @@ if __name__ == "__main__":
                 if slide_candidates:
                         # Have to deal with duplicates later
                         slides = "/" + str(slide_candidates[0].relative_to('static/'))
-                        print(slides)
+                        # print(slides)
                 else:
                         slides = ""
 
                 if video_candidates:
                         # Have to deal with duplicates later
                         yt_full = "/" + str(video_candidates[0].relative_to('static/'))
-                        print(yt_full)
+                        # print(yt_full)
                 else:
                         yt_full = ""
 
@@ -161,7 +163,9 @@ if __name__ == "__main__":
                                       oral="False",
                                       short="True",
                                       abstract=csv_line['abstract'],
-                                      schedule=schedule)
+                                      schedule=schedule,
+                                      slides=slides,
+                                      yt_full=yt_full)
 
                 # print(f"{{{{{current_paper.id}}}}}")
 

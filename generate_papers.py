@@ -66,10 +66,10 @@ if __name__ == "__main__":
         yt_link = paper.yt_full
 
         if yt_link and paper.slides and (root_slides / paper.slides[1:]).exists():
-            result = result.replace("PRESENTATION", f"{{{{ presentation('{yt_link}', '{paper.slides}', 720, 450) }}}}")
+            result = result.replace("PRESENTATION", f"{{{{ html_presentation('https://midl2021.kervadec.science{yt_link}', 'https://midl2021.kervadec.science{paper.slides}', 720, 450) }}}}")
             # print(f"\tPaper {paper.id} has both slides or presentation.")
         elif yt_link:
-            result = result.replace("PRESENTATION", f"{{{{ video('{yt_link}') }}}}")
+            result = result.replace("PRESENTATION", f"{{{{ video('https://midl2021.kervadec.science{yt_link}') }}}}")
         else:
             result = result.replace("PRESENTATION", "")
             print(f"\tPaper {paper.id} with neither slides or presentation.")
