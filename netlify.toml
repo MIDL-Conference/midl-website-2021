@@ -10,7 +10,7 @@
 [[redirects]]
   from = "/gather*"
   to = "https://gather.town/app/Y8zE5Ct0yJ6jkD97/MIDL2021_WS"
-  status = 301
+  status = 302
 
 [[headers]]
   for = "/secret/*"
