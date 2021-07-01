@@ -11,7 +11,7 @@
         "short": "False",
         "slides": "",
         "title": "Whole-Body Soft-Tissue Lesion Tracking and Segmentation in Longitudinal CT Imaging Studies",
-        "url": "papers/A1.html",
+        "url": "secret/A1.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -27,7 +27,7 @@
         "short": "False",
         "slides": "",
         "title": "Distill DSM: Computationally efficient method for segmentation of medical imaging volumes",
-        "url": "papers/A10.html",
+        "url": "secret/A10.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -43,7 +43,7 @@
         "short": "False",
         "slides": "",
         "title": "Stroke Lesion Outcome Prediction Based on 4D CT Perfusion Data Using Temporal Convolutional Networks",
-        "url": "papers/A11.html",
+        "url": "secret/A11.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -59,7 +59,7 @@
         "short": "False",
         "slides": "",
         "title": "Direct Inference of Cell Positions using Lens-Free Microscopy and Deep Learning",
-        "url": "papers/A12.html",
+        "url": "secret/A12.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -75,7 +75,7 @@
         "short": "False",
         "slides": "",
         "title": "Embedding-based Instance Segmentation in Microscopy",
-        "url": "papers/A2.html",
+        "url": "secret/A2.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -91,7 +91,7 @@
         "short": "False",
         "slides": "",
         "title": "Beyond pixel-wise supervision: semantic segmentation with higher-order shape descriptors",
-        "url": "papers/A3.html",
+        "url": "secret/A3.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -107,7 +107,7 @@
         "short": "True",
         "slides": "",
         "title": "Common limitations of performance metrics in biomedical image analysis",
-        "url": "papers/A4.html",
+        "url": "secret/A4.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -123,7 +123,7 @@
         "short": "True",
         "slides": "",
         "title": "VinDr-RibCXR: A Benchmark Dataset for Automatic Segmentation and Labeling of Individual Ribs on Chest X-rays",
-        "url": "papers/A5.html",
+        "url": "secret/A5.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -139,7 +139,7 @@
         "short": "True",
         "slides": "",
         "title": "Learning to predict cutting angles from histological human brain sections",
-        "url": "papers/A6.html",
+        "url": "secret/A6.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -155,7 +155,7 @@
         "short": "False",
         "slides": "",
         "title": "Localizing neurosurgical instruments across domains and in the wild",
-        "url": "papers/A7.html",
+        "url": "secret/A7.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -171,7 +171,7 @@
         "short": "False",
         "slides": "",
         "title": "Weakly Supervised Volumetric Segmentation via Self-taught Shape Denoising Model",
-        "url": "papers/A8.html",
+        "url": "secret/A8.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -187,7 +187,7 @@
         "short": "False",
         "slides": "",
         "title": "Benefits of Linear Conditioning for Segmentation using Metadata",
-        "url": "papers/A9.html",
+        "url": "secret/A9.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -203,7 +203,7 @@
         "short": "True",
         "slides": "",
         "title": "$\\mu$PEN: Multi-class PseudoEdgeNet for PD-L1 assessment",
-        "url": "papers/B1.html",
+        "url": "secret/B1.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -219,7 +219,7 @@
         "short": "True",
         "slides": "",
         "title": "Comparison of CNN models on a multi-scanner database in colon cancer histology",
-        "url": "papers/B2.html",
+        "url": "secret/B2.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -235,7 +235,7 @@
         "short": "True",
         "slides": "",
         "title": "Exploiting Adam-like Optimization Algorithms to Improve the Performance of Convolutional Neural Networks",
-        "url": "papers/B3.html",
+        "url": "secret/B3.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -251,7 +251,7 @@
         "short": "True",
         "slides": "",
         "title": "Gated CNNs for Nuclei Segmentation in H&E Breast Images",
-        "url": "papers/B4.html",
+        "url": "secret/B4.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -267,7 +267,7 @@
         "short": "True",
         "slides": "",
         "title": "Strength in Diversity: Understanding the impacts of diverse training sets in self-supervised pre-training for histology images",
-        "url": "papers/B5.html",
+        "url": "secret/B5.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -283,7 +283,7 @@
         "short": "True",
         "slides": "",
         "title": "Abnormality Detection in Histopathology via Density Estimation with Normalising Flows",
-        "url": "papers/B6.html",
+        "url": "secret/B6.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -299,7 +299,7 @@
         "short": "True",
         "slides": "",
         "title": "Learning to Represent Whole Slide Images by Selecting Cell Graphs of Patches",
-        "url": "papers/B7.html",
+        "url": "secret/B7.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -315,7 +315,7 @@
         "short": "True",
         "slides": "",
         "title": "Quality control of whole-slide images through multi-class semantic segmentation of artifacts",
-        "url": "papers/B8.html",
+        "url": "secret/B8.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -331,7 +331,7 @@
         "short": "False",
         "slides": "",
         "title": "Cluster-to-Conquer: A Framework for End-to-End Multi-Instance Learning for Whole Slide Image Classification",
-        "url": "papers/B9.html",
+        "url": "secret/B9.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -347,7 +347,7 @@
         "short": "True",
         "slides": "",
         "title": "Efficient biomedical image segmentation on Edge TPUs",
-        "url": "papers/C1.html",
+        "url": "secret/C1.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -363,7 +363,7 @@
         "short": "True",
         "slides": "",
         "title": "Deep ensembles based on Stochastic Activation Selection for Polyp Segmentation",
-        "url": "papers/C2.html",
+        "url": "secret/C2.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -379,7 +379,7 @@
         "short": "True",
         "slides": "",
         "title": "Self-supervised Visual Place Recognition for Colonoscopy Sequences",
-        "url": "papers/C3.html",
+        "url": "secret/C3.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -395,7 +395,7 @@
         "short": "True",
         "slides": "",
         "title": "Carbon footprint driven deep learning model selection for medical imaging",
-        "url": "papers/C4.html",
+        "url": "secret/C4.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -411,7 +411,7 @@
         "short": "False",
         "slides": "",
         "title": "SWNet: Surgical Workflow Recognition with Deep Convolutional Network",
-        "url": "papers/C5.html",
+        "url": "secret/C5.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -427,7 +427,7 @@
         "short": "False",
         "slides": "",
         "title": "\u201cTrain one, Classify one, Teach one\u201d - Cross-surgery transfer learning for surgical step recognition",
-        "url": "papers/C6.html",
+        "url": "secret/C6.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -443,7 +443,7 @@
         "short": "False",
         "slides": "",
         "title": "Predicting COVID-19 Lung Infiltrate Progression on Chest Radiographs Using Spatio-temporal LSTM based Encoder-Decoder Network",
-        "url": "papers/C7.html",
+        "url": "secret/C7.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -459,7 +459,7 @@
         "short": "False",
         "slides": "",
         "title": "Feature-based image registration in structured light endoscopy",
-        "url": "papers/C8.html",
+        "url": "secret/C8.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -475,7 +475,7 @@
         "short": "False",
         "slides": "",
         "title": "Intensity Correction and Standardization for Electron Microscopy Data",
-        "url": "papers/C9.html",
+        "url": "secret/C9.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -491,7 +491,7 @@
         "short": "False",
         "slides": "",
         "title": "Self-Rule to Adapt: Learning Generalized Features from Sparsely-Labeled Data Using Unsupervised Domain Adaptation for Colorectal Cancer Tissue Phenotyping",
-        "url": "papers/D1.html",
+        "url": "secret/D1.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -507,7 +507,7 @@
         "short": "False",
         "slides": "",
         "title": "An AI-based Framework for Diagnostic Quality Assessment of Ankle Radiographs",
-        "url": "papers/D10.html",
+        "url": "secret/D10.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -523,7 +523,7 @@
         "short": "False",
         "slides": "",
         "title": "Image Sequence Generation and Analysis via GRU and Attention for Trachomatous Trichiasis Classification",
-        "url": "papers/D11.html",
+        "url": "secret/D11.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -539,7 +539,7 @@
         "short": "False",
         "slides": "",
         "title": "MoCo Pretraining Improves Representation and Transferability of Chest X-ray Models",
-        "url": "papers/D12.html",
+        "url": "secret/D12.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -555,7 +555,7 @@
         "short": "False",
         "slides": "",
         "title": "Semantic similarity metrics for learned image registration",
-        "url": "papers/D2.html",
+        "url": "secret/D2.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -571,7 +571,7 @@
         "short": "False",
         "slides": "",
         "title": "Nuc2Vec: Learning Representations of Nuclei in Histopathology Images with Contrastive Loss",
-        "url": "papers/D3.html",
+        "url": "secret/D3.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -587,7 +587,7 @@
         "short": "True",
         "slides": "",
         "title": "Predicting molecular subtypes of breast cancer using multimodal deep learning and incorporation of the attention mechanism",
-        "url": "papers/D4.html",
+        "url": "secret/D4.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -603,7 +603,7 @@
         "short": "True",
         "slides": "",
         "title": "Double adversarial domain adaptation for whole-slide-imageclassification",
-        "url": "papers/D5.html",
+        "url": "secret/D5.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -619,7 +619,7 @@
         "short": "True",
         "slides": "",
         "title": "Virtual Bone Shape Aging",
-        "url": "papers/D6.html",
+        "url": "secret/D6.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -635,7 +635,7 @@
         "short": "True",
         "slides": "",
         "title": "Breast cancer patient stratification using domain adaptation based lymphocyte detection in HER2 stained tissue sections",
-        "url": "papers/D7.html",
+        "url": "secret/D7.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -651,7 +651,7 @@
         "short": "True",
         "slides": "",
         "title": "Cine-MRI detection of abdominal adhesions with spatio-temporal deep learning",
-        "url": "papers/D8.html",
+        "url": "secret/D8.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -667,7 +667,7 @@
         "short": "True",
         "slides": "",
         "title": "Efficient Video-Based Deep Learning for Ultrasound Guided Needle Insertion",
-        "url": "papers/D9.html",
+        "url": "secret/D9.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -683,7 +683,7 @@
         "short": "False",
         "slides": "",
         "title": "Automated triaging of head MRI examinations using convolutional neural networks",
-        "url": "papers/E1.html",
+        "url": "secret/E1.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -699,7 +699,7 @@
         "short": "True",
         "slides": "",
         "title": "Cycle Consistent Embedding of 3D Brains with Auto-Encoding Generative Adversarial Networks",
-        "url": "papers/E10.html",
+        "url": "secret/E10.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -715,7 +715,7 @@
         "short": "True",
         "slides": "",
         "title": "Efficient and Accurate Spatial-Temporal Denoising Network for Low-dose CT Scans",
-        "url": "papers/E11.html",
+        "url": "secret/E11.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -731,7 +731,7 @@
         "short": "True",
         "slides": "",
         "title": "Synthesis of Diabetic Retina Fundus Images Using Semantic Label Generation",
-        "url": "papers/E12.html",
+        "url": "secret/E12.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -747,7 +747,7 @@
         "short": "False",
         "slides": "",
         "title": "Balanced sampling for an object detection problem - application to fetal anatomies detection",
-        "url": "papers/E2.html",
+        "url": "secret/E2.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -763,7 +763,7 @@
         "short": "False",
         "slides": "",
         "title": "Unsupervised Brain Anomaly Detection and Segmentation with Transformers",
-        "url": "papers/E3.html",
+        "url": "secret/E3.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -779,7 +779,7 @@
         "short": "True",
         "slides": "",
         "title": "Rethinking the Design of Learning based Inter-Patient Registration using Deformable Supervoxels ",
-        "url": "papers/E4.html",
+        "url": "secret/E4.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -795,7 +795,7 @@
         "short": "True",
         "slides": "",
         "title": "Semi-supervised Image-to-Image translation for robust image registration",
-        "url": "papers/E5.html",
+        "url": "secret/E5.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -811,7 +811,7 @@
         "short": "True",
         "slides": "",
         "title": "ViT-V-Net: Vision Transformer for Unsupervised Volumetric Medical Image Registration",
-        "url": "papers/E6.html",
+        "url": "secret/E6.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -827,7 +827,7 @@
         "short": "True",
         "slides": "",
         "title": "Learning a Metric without Supervision: Multimodal Registration using Synthetic Cycle Discrepancy",
-        "url": "papers/E7.html",
+        "url": "secret/E7.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -843,7 +843,7 @@
         "short": "False",
         "slides": "",
         "title": "Learning Diffeomorphic and Modality-invariant Registration using B-splines",
-        "url": "papers/E8.html",
+        "url": "secret/E8.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -859,7 +859,7 @@
         "short": "True",
         "slides": "",
         "title": "A hybrid model- and deep learning-based framework for functional lung image synthesis from non-contrast multi-inflation CT",
-        "url": "papers/E9.html",
+        "url": "secret/E9.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -875,7 +875,7 @@
         "short": "True",
         "slides": "",
         "title": "Ex-vivo - to - In-vivo Learning in Cardiology",
-        "url": "papers/F1.html",
+        "url": "secret/F1.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -891,7 +891,7 @@
         "short": "True",
         "slides": "",
         "title": "Reconstruction and coil combination of undersampled concentric-ring MRSI data using a Graph U-Net",
-        "url": "papers/F2.html",
+        "url": "secret/F2.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -907,7 +907,7 @@
         "short": "True",
         "slides": "",
         "title": "ReconResNet: Regularised Residual Learning for MR Image Reconstruction of Undersampled Cartesian and Radial Data",
-        "url": "papers/F3.html",
+        "url": "secret/F3.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -923,7 +923,7 @@
         "short": "True",
         "slides": "",
         "title": "3D Scout Scans Using Projection Domain Denoising",
-        "url": "papers/F4.html",
+        "url": "secret/F4.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -939,7 +939,7 @@
         "short": "True",
         "slides": "",
         "title": "Recurrent Inference Machines as Inverse Problem Solvers for MR Relaxometry",
-        "url": "papers/F5.html",
+        "url": "secret/F5.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -955,7 +955,7 @@
         "short": "True",
         "slides": "",
         "title": "An artificial intelligence system for predicting the deterioration of COVID-19 patients in the emergency department",
-        "url": "papers/F6.html",
+        "url": "secret/F6.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -971,7 +971,7 @@
         "short": "True",
         "slides": "",
         "title": "ProtoBrainMaps: Prototypical Brain Maps for Alzheimer's Disease Progression Modeling",
-        "url": "papers/F7.html",
+        "url": "secret/F7.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -987,7 +987,7 @@
         "short": "True",
         "slides": "",
         "title": "Projection Domain Metal Artifact Reduction in Computed Tomography using Conditional Generative Adversarial Networks",
-        "url": "papers/F8.html",
+        "url": "secret/F8.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1003,7 +1003,7 @@
         "short": "False",
         "slides": "",
         "title": "Changing the Contrast of Magnetic Resonance Imaging Signals using Deep Learning",
-        "url": "papers/F9.html",
+        "url": "secret/F9.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1019,7 +1019,7 @@
         "short": "True",
         "slides": "",
         "title": "Me-NDT: Neural-backed Decision Tree for Visual Explainability of Deep Medical Models",
-        "url": "papers/G1.html",
+        "url": "secret/G1.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1035,7 +1035,7 @@
         "short": "True",
         "slides": "",
         "title": "ICAM-reg: Interpretable Classification and Regression with Feature Attribution for Mapping Neurological Phenotypes in Individual Scans",
-        "url": "papers/G2.html",
+        "url": "secret/G2.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1051,7 +1051,7 @@
         "short": "True",
         "slides": "",
         "title": "Radiographic Assessment of CVC Malpositioning: How can AI best support clinicians?",
-        "url": "papers/G3.html",
+        "url": "secret/G3.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1067,7 +1067,7 @@
         "short": "True",
         "slides": "",
         "title": "Test-Time Mixup Augmentation for Uncertainty Estimation in Skin Lesion Diagnosis",
-        "url": "papers/G4.html",
+        "url": "secret/G4.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1083,7 +1083,7 @@
         "short": "True",
         "slides": "",
         "title": "Interpretable Medical Image Classification with Self-Supervised Anatomical Embedding and Prior Knowledge",
-        "url": "papers/G5.html",
+        "url": "secret/G5.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1099,7 +1099,7 @@
         "short": "True",
         "slides": "",
         "title": "50 shades of overfitting:  towards MRI-based neurologicalmodels interpretation",
-        "url": "papers/G6.html",
+        "url": "secret/G6.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1115,7 +1115,7 @@
         "short": "False",
         "slides": "",
         "title": "Weakly-supervised High-resolution Segmentation of Mammography Images for Breast Cancer Diagnosis",
-        "url": "papers/G7.html",
+        "url": "secret/G7.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1131,7 +1131,7 @@
         "short": "False",
         "slides": "",
         "title": "The OOD Blind Spot of Unsupervised Anomaly Detection",
-        "url": "papers/G8.html",
+        "url": "secret/G8.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1147,7 +1147,7 @@
         "short": "False",
         "slides": "",
         "title": "A regularization term for slide correlation reduction in whole slide image analysis with deep learning",
-        "url": "papers/G9.html",
+        "url": "secret/G9.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1163,7 +1163,7 @@
         "short": "False",
         "slides": "",
         "title": "Hybrid optimization between iterative and network fine-tuning reconstructions for fast quantitative susceptibility mapping",
-        "url": "papers/H1.html",
+        "url": "secret/H1.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1179,7 +1179,7 @@
         "short": "False",
         "slides": "",
         "title": "A Surprisingly Effective Perimeter-based Loss for Medical Image Segmentation",
-        "url": "papers/H10.html",
+        "url": "secret/H10.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1195,7 +1195,7 @@
         "short": "False",
         "slides": "",
         "title": "Memory U-Net: Memorizing Where to Vote for Lesion Instance Segmentation",
-        "url": "papers/H11.html",
+        "url": "secret/H11.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1211,7 +1211,7 @@
         "short": "False",
         "slides": "",
         "title": "Unseen Disease Detection for Deep Learning Interpretation of Chest X-rays",
-        "url": "papers/H12.html",
+        "url": "secret/H12.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1227,7 +1227,7 @@
         "short": "False",
         "slides": "",
         "title": "A Mean-Field Variational Inference Approach to Deep Image Prior for Inverse Problems in Medical Imaging",
-        "url": "papers/H2.html",
+        "url": "secret/H2.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1243,7 +1243,7 @@
         "short": "False",
         "slides": "",
         "title": "Residual learning for 3D motion corrected quantitative MRI: Robust clinical T1, T2 and proton density mapping",
-        "url": "papers/H3.html",
+        "url": "secret/H3.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1259,7 +1259,7 @@
         "short": "True",
         "slides": "",
         "title": "Optimizing Operating Points for High Performance Lesion Detection and Segmentation Using Lesion Size Reweighting",
-        "url": "papers/H4.html",
+        "url": "secret/H4.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1275,7 +1275,7 @@
         "short": "True",
         "slides": "",
         "title": "Creating Anthropomorphic Phantoms via Unsupervised Convolutional Neural Networks",
-        "url": "papers/H5.html",
+        "url": "secret/H5.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1291,7 +1291,7 @@
         "short": "True",
         "slides": "",
         "title": "Transformers for Ischemic Stroke Infarct Core Segmentation from Spatio-temporal CT Perfusion Scans",
-        "url": "papers/H6.html",
+        "url": "secret/H6.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1307,7 +1307,7 @@
         "short": "True",
         "slides": "",
         "title": "Multichannel input pixelwise regression 3D U-Nets for medical image estimation with 3 applications in brain MRI",
-        "url": "papers/H7.html",
+        "url": "secret/H7.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1323,7 +1323,7 @@
         "short": "True",
         "slides": "",
         "title": "Morphology-based losses for weakly supervised segmentation of mammograms",
-        "url": "papers/H8.html",
+        "url": "secret/H8.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1339,7 +1339,7 @@
         "short": "True",
         "slides": "",
         "title": "Partial Convolution Network for Metal Artifact Reduction in CT Preprocessing: Preliminary Results",
-        "url": "papers/H9.html",
+        "url": "secret/H9.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1355,7 +1355,7 @@
         "short": "False",
         "slides": "",
         "title": "Explainable Image Quality Analysis of Chest X-Rays",
-        "url": "papers/I1.html",
+        "url": "secret/I1.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1371,7 +1371,7 @@
         "short": "False",
         "slides": "",
         "title": "Partial transfusion: on the expressive influence of trainable batch norm parameters for transfer learning",
-        "url": "papers/I10.html",
+        "url": "secret/I10.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1387,7 +1387,7 @@
         "short": "False",
         "slides": "",
         "title": "CNN and Deep Sets for End-to-End Whole Slide Image Representation Learning",
-        "url": "papers/I11.html",
+        "url": "secret/I11.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1403,7 +1403,7 @@
         "short": "False",
         "slides": "",
         "title": "Tailoring automated data augmentation to H&E-stained histopathology",
-        "url": "papers/I12.html",
+        "url": "secret/I12.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1419,7 +1419,7 @@
         "short": "False",
         "slides": "",
         "title": "Gifsplanation via Latent Shift: A Simple Autoencoder Approach to Counterfactual Generation for Chest X-rays",
-        "url": "papers/I2.html",
+        "url": "secret/I2.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1435,7 +1435,7 @@
         "short": "False",
         "slides": "",
         "title": "Understanding and Visualizing Generalization UNets",
-        "url": "papers/I3.html",
+        "url": "secret/I3.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1451,7 +1451,7 @@
         "short": "True",
         "slides": "",
         "title": "Scopeformer: n-CNN-ViT hybrid model for Intracranial hemorrhage subtypes classification",
-        "url": "papers/I4.html",
+        "url": "secret/I4.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1467,7 +1467,7 @@
         "short": "True",
         "slides": "",
         "title": "Robust medical image segmentation by adapting neural networks for each test image",
-        "url": "papers/I5.html",
+        "url": "secret/I5.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1483,7 +1483,7 @@
         "short": "True",
         "slides": "",
         "title": "Quantifying the Scanner-Induced Domain Gap in Mitosis Detection",
-        "url": "papers/I6.html",
+        "url": "secret/I6.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1499,7 +1499,7 @@
         "short": "True",
         "slides": "",
         "title": "Echocardiographic Phase Detection Using Neural Networks",
-        "url": "papers/I7.html",
+        "url": "secret/I7.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1515,7 +1515,7 @@
         "short": "False",
         "slides": "",
         "title": "HAD-Net: A Hierarchical Adversarial Knowledge Distillation Network for Improved Enhanced Tumour Segmentation Without Post-Contrast Images",
-        "url": "papers/I8.html",
+        "url": "secret/I8.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1531,7 +1531,7 @@
         "short": "False",
         "slides": "",
         "title": "An MRF-UNet Product of Experts for Image Segmentation",
-        "url": "papers/I9.html",
+        "url": "secret/I9.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1547,7 +1547,7 @@
         "short": "True",
         "slides": "",
         "title": "Multimodal Generative Learning on the MIMIC-CXR Database",
-        "url": "papers/J1.html",
+        "url": "secret/J1.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1563,7 +1563,7 @@
         "short": "True",
         "slides": "",
         "title": "TG-DGM: Clustering Brain Activity using a Temporal Graph Deep Generative Model",
-        "url": "papers/J2.html",
+        "url": "secret/J2.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1579,7 +1579,7 @@
         "short": "True",
         "slides": "",
         "title": "Comparison of Representation Learning Techniques for Tracking in time resolved 3D Ultrasound",
-        "url": "papers/J3.html",
+        "url": "secret/J3.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1595,7 +1595,7 @@
         "short": "True",
         "slides": "",
         "title": "Deep Clustering Activation Maps for Emphysema Subtyping",
-        "url": "papers/J4.html",
+        "url": "secret/J4.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1611,7 +1611,7 @@
         "short": "False",
         "slides": "",
         "title": "Discrete Pseudohealthy Synthesis: Aortic Root Shape Typification and Type Classification with Pathological Prior",
-        "url": "papers/J5.html",
+        "url": "secret/J5.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1627,7 +1627,7 @@
         "short": "False",
         "slides": "",
         "title": "Improving MRI-based Knee Disorder Diagnosis with Pyramidal Feature Details",
-        "url": "papers/J6.html",
+        "url": "secret/J6.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1643,7 +1643,7 @@
         "short": "False",
         "slides": "",
         "title": "Membership Inference Attacks on Deep Regression Models for Neuroimaging",
-        "url": "papers/J7.html",
+        "url": "secret/J7.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1659,7 +1659,7 @@
         "short": "False",
         "slides": "",
         "title": "Guided Filter Regularization for Improved Disentanglement of Shape and Appearance in Diffeomorphic Autoencoders",
-        "url": "papers/J8.html",
+        "url": "secret/J8.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1675,7 +1675,7 @@
         "short": "False",
         "slides": "",
         "title": "Self-supervised Out-of-distribution Detection for Cardiac CMR Segmentation",
-        "url": "papers/J9.html",
+        "url": "secret/J9.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1691,7 +1691,7 @@
         "short": "True",
         "slides": "",
         "title": "Semi-Supervised Siamese Network for Identifying Bad Data in Medical Imaging Datasets",
-        "url": "papers/K1.html",
+        "url": "secret/K1.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1707,7 +1707,7 @@
         "short": "True",
         "slides": "",
         "title": "mGEV: Extension of the GEV Activation to Multiclass Classification",
-        "url": "papers/K2.html",
+        "url": "secret/K2.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1723,7 +1723,7 @@
         "short": "True",
         "slides": "",
         "title": "Weakly supervised 3D ConvLSTMs for high precision Monte-Carlo radiotherapy dose simulations",
-        "url": "papers/K3.html",
+        "url": "secret/K3.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1739,7 +1739,7 @@
         "short": "True",
         "slides": "",
         "title": "DS6, Deformation-aware Semi-supervised Learning: Application to Small Vessel Segmentation with Noisy Training Data",
-        "url": "papers/K4.html",
+        "url": "secret/K4.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1755,7 +1755,7 @@
         "short": "True",
         "slides": "",
         "title": "Deep ensemble model for segmenting microscopy images in the presence of limited labeled data",
-        "url": "papers/K5.html",
+        "url": "secret/K5.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1771,7 +1771,7 @@
         "short": "False",
         "slides": "",
         "title": "Learning the Latent Heat Diffusion Process through Structural Brain Network from Longitudinal $\\beta$-Amyloid Data",
-        "url": "papers/K6.html",
+        "url": "secret/K6.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1787,7 +1787,7 @@
         "short": "False",
         "slides": "",
         "title": "Attention via Scattering Transforms for Segmentation of Small Intravascular Ultrasound Data Sets",
-        "url": "papers/K7.html",
+        "url": "secret/K7.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1803,7 +1803,7 @@
         "short": "False",
         "slides": "",
         "title": "Learning Interclass Relations for Intravenous Contrast Phase Classification in CT",
-        "url": "papers/K8.html",
+        "url": "secret/K8.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1819,7 +1819,7 @@
         "short": "False",
         "slides": "",
         "title": "Improving Weakly Supervised Lesion Segmentation using Multi-Task Learning",
-        "url": "papers/K9.html",
+        "url": "secret/K9.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1835,7 +1835,7 @@
         "short": "False",
         "slides": "",
         "title": "Untangling the Small Intestine in 3D cine-MRI using Deep Stochastic Tracking",
-        "url": "papers/L1.html",
+        "url": "secret/L1.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1851,7 +1851,7 @@
         "short": "False",
         "slides": "",
         "title": "M-GCN: A Multimodal Graph Convolutional Network to Integrate Functional and Structural Connectomics Data to Predict Multidimensional Phenotypic Characterizations",
-        "url": "papers/L2.html",
+        "url": "secret/L2.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1867,7 +1867,7 @@
         "short": "False",
         "slides": "",
         "title": "Improved model-based deep learning for quantitative susceptibility mapping",
-        "url": "papers/L3.html",
+        "url": "secret/L3.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1883,7 +1883,7 @@
         "short": "True",
         "slides": "",
         "title": "Prediction of Ki67 scores from H&E stained breast cancer sections using convolutional neural networks",
-        "url": "papers/L4.html",
+        "url": "secret/L4.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1899,7 +1899,7 @@
         "short": "False",
         "slides": "",
         "title": "Feedback Graph Attention Convolutional Network for MR Images Enhancement by Exploring Self-Similarity Features",
-        "url": "papers/L5.html",
+        "url": "secret/L5.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1915,7 +1915,7 @@
         "short": "False",
         "slides": "",
         "title": "Unifying Brain Age Prediction and Age-Conditioned Template Generation with a Deterministic Autoencoder",
-        "url": "papers/L6.html",
+        "url": "secret/L6.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1931,7 +1931,7 @@
         "short": "False",
         "slides": "",
         "title": "GOAL: Gist-set Online Active Learning for Efficient Chest X-ray Image Annotation",
-        "url": "papers/L7.html",
+        "url": "secret/L7.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1947,7 +1947,7 @@
         "short": "False",
         "slides": "",
         "title": "EPIC-Survival: End-to-end Part Inferred Clustering for Survival Analysis, with Prognostic Stratification Boosting",
-        "url": "papers/L8.html",
+        "url": "secret/L8.html",
         "yt_full": "",
         "yt_teaser": ""
     },
@@ -1963,7 +1963,7 @@
         "short": "False",
         "slides": "",
         "title": "CheXseg: Combining Expert Annotations with DNN-generated Saliency Maps for X-ray Segmentation",
-        "url": "papers/L9.html",
+        "url": "secret/L9.html",
         "yt_full": "",
         "yt_teaser": ""
     }
