@@ -1,3 +1,6 @@
 .idea/
 # Local Netlify folder
 .netlify
+# pages/papers/*.md
+# papers.json
+static/contents/

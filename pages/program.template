@@ -1,0 +1,542 @@
+<style>
+#program, #program th, #program td {
+    border: 1px solid gray;
+    font-size: 85%;
+    border-collapse: separate;
+    border-spacing: 1px;
+}
+@media (min-width: 1200px) {
+    #program {
+        margin-left: -50px;
+        margin-right: -50px;
+    }
+}
+#program th, #program td {
+  padding: 5px;
+  text-align: left;
+}
+#hide-show-timezones {
+    font-size: 90%;
+    margin-top: 1em;
+    padding: 0 6px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    white-space: nowrap;
+    justify-content: space-between;
+}
+#hide-show-timezones input.largerCheckbox {
+    transform : scale(1.5);
+}
+#hide-show-timezones label {
+    padding: 0 4px 0 8px;
+}
+ #program div{
+    color: white;
+    }
+#program a{
+    color: white;
+    }
+#r00{
+      background-color: #96B6BD;
+ /*   appearance: none;*/
+    box-shadow: 0 0 0px 8px gold;
+
+  clip-path: polygon(-20% 0%, 100% 0%, 100% 100%, -20% 100%); /*left*/
+
+}
+#r00t{
+      background-color: #96B6BD;
+        box-shadow: 0 0 0px 8px gold;
+        clip-path: polygon(-20% -20%, 100% -20%, 100% 100%, -20% 100%); /*top-left*/
+    }
+
+
+#t01b {
+  background-color: #BDC0BF;
+    box-shadow: 0 0 0px 8px gold;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 120%, 0% 120%); /*bottom*/
+  font-weight: 350
+}
+
+#t01t {
+  background-color: #BDC0BF;
+    box-shadow: 0 0 0px 8px gold;
+      clip-path: polygon(0% -20%, 100% -20%, 100% 100%, 0% 100%); /*top*/
+  font-weight: 350
+}
+#r00b{
+      background-color: #96B6BD;
+        box-shadow: 0 0 0px 8px gold;
+  clip-path: polygon(-20% 0%, 100% 0%, 100% 120%, -20% 120%); /*bottom--*/
+    }
+
+#r01 {
+    box-shadow: 0 0 0px 8px gold;
+      clip-path: polygon(0% 0%, 120% 0%, 120% 100%, 0% 100%); /*right*/
+      border: 1px;
+  background-color: #BDC0BF;
+  font-weight: 350
+
+}
+
+#r05 {
+    box-shadow: 0 0 0px 8px gold;
+      clip-path: polygon(0% 0%, 120% 0%, 120% 100%, 0% 100%); /*right*/
+      border: 1px;
+  background-color: #C4DFB3;
+}
+
+#r06 {
+    box-shadow: 0 0 0px 8px gold;
+      clip-path: polygon(0% 0%, 120% 0%, 120% 100%, 0% 100%); /*right*/
+      border: 1px;
+  background-color: #F9D368;
+}
+
+#r02 {
+    box-shadow: 0 0 0px 8px gold;
+      clip-path: polygon(0% 0%, 120% 0%, 120% 100%, 0% 100%); /*right*/
+      border: 1px;
+  background-color: #D9A9BC;
+}
+#r03 {
+    box-shadow: 0 0 0px 8px gold;
+      clip-path: polygon(0% 0%, 120% 0%, 120% 100%, 0% 100%); /*right*/
+      border: 1px;
+  background-color: #CDDFF0;
+}
+#t00 {
+  background-color: #96B6BD;
+}
+#t01 {
+  background-color: #BDC0BF;
+  font-weight: 350
+}
+
+#cshort_v {
+  background-color: #B9A3BE;
+}
+#clong_v {
+  background-color: #B8CEDB;
+}
+
+#cmentor {
+  background-color: #E8B8A2;
+}
+#cspecial {
+  background-color: #74A1A7;
+}
+    #cspecial_t{   background-color: #74A1A7; box-shadow: 0 0 0px 8px gold;
+      clip-path: polygon(0% -20%, 100% -20%, 100% 100%, 0% 100%); /*top*/
+      border: 1px;}
+     #cspecial_tr{   background-color: #74A1A7; box-shadow: 0 0 0px 8px gold;
+      clip-path: polygon(0% -20%, 120% -20%, 120% 100%, 0% 100%); /*top-right*/
+      border: 1px;}
+    #cspecial_br{   background-color: #74A1A7; box-shadow: 0 0 0px 8px gold;
+      clip-path: polygon(0% 0%, 120% 0%, 120% 120%, 0% 120%); /*bottom-right*/
+      border: 1px;}
+
+    #cspecial_b{   background-color: #74A1A7; box-shadow: 0 0 0px 8px gold;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 120%, 0% 120%); /*bottom*/
+      border: 1px;}
+
+    #title_legend{font-weight:300; font-size: 100%; text-align:left; color:white;}
+    #text_legend{font-weight:150; font-size: 80%; text-align:left}
+    #cbreak_r{   background-color: #AEAEAE; box-shadow: 0 0 0px 8px gold;
+      clip-path: polygon(0% 0%, 120% 0%, 120% 100%, 0% 100%); /*right*/
+      border: 1px;}
+
+    #cbreak{   background-color: #AEAEAE;}
+
+    #clong_tr{   background-color: #0083AC; box-shadow: 0 0 0px 8px gold;
+      clip-path: polygon(0% -20%, 120% -20%, 120% 100%, 0% 100%); /*top-right*/
+      border: 1px;}
+
+    #clong_t{   background-color: #0083AC; box-shadow: 0 0 0px 8px gold;
+      clip-path: polygon(0% -20%, 100% -20%, 100% 100%, 0% 100%); /*top*/
+      border: 1px;}
+
+    #clong_r{   background-color: #0083AC; box-shadow: 0 0 0px 8px gold;
+      clip-path: polygon(0% 0%, 120% 0%, 120% 100%, 0% 100%); /*right*/
+      border: 1px;}
+
+    #clong{   background-color: #0083AC;}
+
+    #ckeynote_r{   background-color: #016297; box-shadow: 0 0 0px 8px gold;
+      clip-path: polygon(0% 0%, 120% 0%, 120% 100%, 0% 100%); /*right*/
+      border: 1px;}
+
+    #ckeynote{   background-color: #016297;}
+
+    #cshort_r{   background-color: #82538B; box-shadow: 0 0 0px 8px gold;
+      clip-path: polygon(0% 0%, 120% 0%, 120% 100%, 0% 100%); /*right*/
+      border: 1px;}
+
+    #cshort{   background-color: #82538B;}
+
+    #cposter_r{   background-color: #248F85; box-shadow: 0 0 0px 8px gold;
+      clip-path: polygon(0% 0%, 120% 0%, 120% 100%, 0% 100%); /*right*/
+      border: 1px;}
+
+    #cposter_br{   background-color: #248F85; box-shadow: 0 0 0px 8px gold;
+      clip-path: polygon(0% 0%, 120% 0%, 120% 120%, 0% 120%); /*bottom-right*/
+      border: 1px;}
+
+    #cposter_b{   background-color: #248F85; box-shadow: 0 0 0px 8px gold;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 120%, 0% 120%); /*bottom*/
+      border: 1px;}
+
+    #cposter{   background-color: #248F85;}
+
+
+</style>
+
+<script>
+jQuery(document).ready(function($) {
+    $('input[type= checkbox ]').click(function() {
+        let index = $(this).attr('name').substr(3);
+        index--;
+        $('table tr').each(function() {
+            $('td:eq(' + index + ')',this).toggle();
+        });
+        $('th.' + $(this).attr('name')).toggle();
+    });
+});
+</script>
+<!--
+  clip-path: polygon(0% 0%, 100% 0%, 100% 120%, 0% 120%); /*bottom*/
+      clip-path: polygon(0% -20%, 100% -20%, 100% 120%, 0% 120%); /*bottom-top*/
+      clip-path: polygon(0% -20%, 100% -20%, 100% 100%, 0% 100%); /*top*/
+      clip-path: polygon(0% 0%, 120% 0%, 120% 100%, 0% 100%); /*right*/
+  clip-path: polygon(0% 0%, 120% 0%, 120% 120%, 0% 120%); /*bottom-right*/
+-->
+
+{% from "_macros.html" import paper %}
+
+# Program at a Glance
+
+<table id="program"><thead><tr><th class='col1' id='t01'>PDT UTC-7</th><th class='col2' id='t01'>EDT UTC-4</th><th class='col3' id='t00'>L&uuml;beck UTC+2</th><th class='col4' id='t01'>HKT UTC+8</th><th colspan='2' id='t00'><b>Wednesday 7th July</b></th><th colspan='2' id='t00'><b>Thursday 8th July</b></th><th colspan='2' id='t00'><b>Friday 9th July</b></th></thead>
+<tr><th id='t01' class='col1'>00:00</th><th id='t01' class='col2'>3:00</th><th id='t00' class='col3'>9:00</th><th id='t01' class='col4'>15:00</th><th id='cshort_v'><a href='#shortA'>A4-12</a> Videos</th><th id='cshort_v'><a href='#shortB'>B1-9</a> Videos</th><th id='cshort_v'><a href='#shortE'>E4-12</a> Videos</th><th id='cshort_v'><a href='#shortF'>F1-9</a> Videos</th><th id='cshort_v'><a href='#shortI'>I4-12</a> Videos</th><th id='cshort_v'><a href='#shortJ'>J1-9</a> Videos</th>
+
+<tr><th id='t01' class='col1' >00:45</th><th id='t01' class='col2'>3:45</th><th id='t00' class='col3'>9:45</th><th id='t01' class='col4'>15:45</th><th colspan='2' id='clong_v'><a href='#longA'>A1-3</a> Long Videos</th><th colspan='2' id='clong_v'><a href='#longE'>E1-3</a> Long Videos</th><th colspan='2' id='clong_v'><a href='#longI'>I1-3</a> Long Videos</th>
+<tr><th id='t01' class='col1' >01:20</th><th id='t01' class='col2'>4:20</th><th id='t00' class='col3'>10:20</th><th id='t01' class='col4'>16:20</th><th colspan='2' id='t01'>Break / GatherTown</th><th colspan='2' id='t01'>Break / GatherTown</th><th colspan='2' id='t01'>Break / GatherTown</th>
+<tr><th id='t01' class='col1'>01:30</th><th id='t01' class='col2'>4:30</th><th id='t00' class='col3'>10:30</th><th id='t01' class='col4'>16:30</th><th id='cshort_v'><a href='#shortC'>C1-9</a> Videos</th><th id='cshort_v'><a href='#shortD'>D4-12</a> Videos</th><th id='cshort_v'><a href='#shortG'>G1-9</a> Videos</th><th id='cshort_v'><a href='#shortH'>H4-12</a> Videos</th><th id='cshort_v'><a href='#shortK'>K1-9</a> Videos</th><th id='cshort_v'><a href='#shortL'>L4-12</a> Videos</th>
+
+<tr><th id='t01' class='col1' >02:15</th><th id='t01' class='col2'>5:15</th><th id='t00' class='col3'>11:15</th><th id='t01' class='col4'>17:15</th><th colspan='2' id='clong_v'><a href='#longD'>D1-3</a> Long Videos</th><th colspan='2' id='clong_v'><a href='#longH'>H1-3</a> Long Videos</th><th colspan='2' id='clong_v'><a href='#longL'>L1-3</a> Long Videos</th>
+<tr><th id='t01' class='col1' >02:45</th><th id='t01' class='col2'>5:45</th><th id='t00' class='col3'>11:45</th><th id='t01' class='col4'>17:45</th><th colspan='2' id='cmentor'>Study groups with Mentors (optional)</th><th colspan='2' id='cmentor'>Study groups with Mentors (optional)</th><th colspan='2' id='cmentor'>Study groups with Mentors (optional)</th>
+<tr><th id='t01' class='col1' >03:30</th><th id='t01' class='col2'>6:30</th><th id='r00t' class='col3'>12:30</th><th id='t01t' class='col4'>18:30</th><th colspan='2' id='cspecial_t'>Conference Opening</th><th colspan='2' id='cspecial_t'>Industry and Sponsor Event<br />BioMedTec, Qualcomm, GE Healthcare</th><th colspan='2' id='cspecial_tr'>Industry and Sponsor Event<br />GE Healthcare</th>
+
+
+<tr><th id='t01' class='col1' >04:00</th><th id='t01' class='col2'>7:00</th><th id='r00' class='col3'>13:00</th><th id='t01' class='col4'>19:00</th><th colspan='2' id='clong'><a href='#longA' style='color:white'><b>Long Oral A1-3 Segmentation</b></a> </th><th colspan='2' id='clong'><a href='#longE' style='color:white'><b>Long Oral E1-3 Detection and Diagnosis</b></a> </th><th colspan='2' id='clong_r'><a href='#longI' style='color:white'><b>Long Oral I1-3 Interpretability and Explainable AI</b></a></th>
+
+
+
+<tr><th id='t01' class='col1' >04:30</th><th id='t01' class='col2'>7:30</th><th id='r00' class='col3'>13:30</th><th id='t01' class='col4'>19:30</th><th colspan='2' id='cbreak'><div>Break: Meet in GatherTown</div></th><th colspan='2' id='cbreak'><div>Break: Meet in GatherTown</div></th><th colspan='2' id='cbreak_r'><div>Break: Meet in GatherTown</div></th>
+<tr><th id='t01' class='col1'>04:45</th><th id='t01' class='col2'>7:45</th><th id='r00' class='col3'>13:45</th><th id='t01' class='col4'>19:45</th><th id='cshort'><a href='#shortA' style='color:white'><b>Short Oral A4-12 Segmentation</b></a></th><th id='cshort'><a href='#shortB' style='color:white'><b>Short Oral B1-9 Histopathology</b></a></th><th id='cshort'><a href='#shortE' style='color:white'><b>Short Oral E4-12 Image Registration / Synthesis</b></a></th><th id='cshort'><a href='#shortF' style='color:white'><b>Short Oral F1-9 Imaging: Reconstruction and Clinical Data</b></a></th><th id='cshort'><a href='#shortI' style='color:white'><b>Short Oral I4-12 Transfer Learning and Domain Adaptation </b></a></th><th id='cshort_r'><a href='#shortJ' style='color:white'><b>Short Oral J1-9 Unsupervised and Representation Learning </b></a></th>
+
+
+
+<tr><th id='t01' class='col1' >05:30</th><th id='t01' class='col2'>8:30</th><th id='r00' class='col3'>14:30</th><th id='t01' class='col4'>20:30</th><th colspan='2' id='cposter'><div>Individual virtual poster rooms (21 papers)</div></th><th colspan='2' id='cposter'><div>Individual virtual poster rooms (21 papers)</div></th><th colspan='2' id='cposter_r'><div>Individual virtual poster rooms (21 papers)</div></th>
+
+
+<tr><th id='t01' class='col1' >06:00</th><th id='t01' class='col2'>9:00</th><th id='r00' class='col3'>15:00</th><th id='t01' class='col4'>21:00</th><th colspan='2' id='cbreak'><div>Break: Meet in GatherTown</div></th><th colspan='2' id='cbreak'><div>Break: Meet in GatherTown</div></th><th colspan='2' id='cbreak_r'><div>Break: Meet in GatherTown</div></th>
+
+
+<tr><th id='t01' class='col1' >06:15</th><th id='t01' class='col2'>9:15</th><th id='r00' class='col3'>15:15</th><th id='t01' class='col4'>21:15</th><th colspan='2' id='ckeynote'><div>Keynote</div></th><th colspan='2' id='ckeynote'><div>Keynote</div></th><th colspan='2' id='ckeynote_r'><div>Keynote</div></th>
+
+
+
+
+<tr><th id='t01' class='col1' >07:00</th><th id='t01' class='col2'>10:00</th><th id='r00' class='col3'>16:00</th><th id='t01' class='col4'>22:00</th><th colspan='2' id='clong'><a href='#longD' style='color:white'><b>Long Oral D1-3 Unsupervised and Representation Learning</b></a></th><th colspan='2' id='clong'><a href='#longH' style='color:white'><b>Long Oral H1-3 Image Acquisition and Reconstruction</b></a></th><th colspan='2' id='clong_r'><a href='#longL' style='color:white'><b>Long Oral L1-3 Learning with Noisy Labels and Limited Data</b></a></th>
+
+
+
+    <tr><th id='t01' class='col1' >07:30</th><th id='t01' class='col2'>10:30</th><th id='r00' class='col3'>16:30</th><th id='t01' class='col4'>22:30</th><th colspan='2' id='cbreak'><div>Break: Meet in GatherTown</div></th><th colspan='2' id='cbreak'><div>Break: Meet in GatherTown</div></th><th colspan='2' id='cbreak_r'><div>Break: Meet in GatherTown</div></th>
+
+<tr><th id='t01' class='col1'>07:45</th><th id='t01' class='col2'>10:45</th><th id='r00' class='col3'>16:45</th><th id='t01' class='col4'>22:45</th><th id='cshort'><a href='#shortC' style='color:white'><b>Short Oral C1-9 Endoscopy and Validation Studies</b></a></th><th id='cshort'><a href='#shortD' style='color:white'><b>Short Oral D4-12 Detection and Diagnosis 1</b></a></th><th id='cshort'><a href='#shortG' style='color:white'><b>Short Oral G1-9 Interpretability and Explainable AI</b></a></th><th id='cshort'><a href='#shortH' style='color:white'><b>Short Oral H4-12 Application: Radiology</b></a> </th><th id='cshort'><a href='#shortK' style='color:white'><b>Short Oral K1-9 Learning with Noisy Labels and Limited Data</b></a> </th><th id='cshort_r'><a href='#shortL' style='color:white'><b>Short Oral L4-9 Detection and Diagnosis 2</b></a> </th>
+
+
+
+
+
+    <tr><th id='t01' class='col1' >08:30</th><th id='t01' class='col2'>11:30</th><th id='r00' class='col3'>17:30</th><th id='t01' class='col4'>23:30</th><th colspan='2' id='cposter'><div>Individual virtual poster rooms (21 papers)</div></th><th colspan='2' id='cposter'><div>Individual virtual poster rooms (21 papers)</div></th><th colspan='2' id='cposter_r'><div>Individual virtual poster rooms (21 papers)</div></th>
+
+
+
+
+
+<tr><th id='t01' class='col1' >09:00</th><th id='t01' class='col2'>12:00</th><th id='r00b' class='col3'>18:00</th><th id='t01b' class='col4'>0:00</th><th colspan='2' id='cspecial_b'>Industry and Sponsor Event<br />Qualcomm</th><th colspan='2' id='cspecial_b'>Industry and Sponsor Event<br />SnkeOS, BioMedTec</th><th colspan='2' id='cspecial_br'>Closing</th>
+
+<tr><th id='t01' class='col1' >09:45</th><th id='t01' class='col2'></th><th id='t00' class='col3'>18:45</th><th id='t01' class='col4'></th><th colspan='2' id='t01'>Break / GatherTown</th><th colspan='2' id='t01'>Break / GatherTown</th><th colspan='2'></th>
+<tr><th id='t01' class='col1' >10:00</th><th id='t01' class='col2'>13:00</th><th id='t00' class='col3'>19:00</th><th id='t01' class='col4'>1:00</th><th colspan='2' id='t07'>Virtual Social Event / Drinks</th><th colspan='2' id='t07'>Virtual Gala Evening</th><th colspan='2'></th>
+
+<tr><th id='t01' class='col1'>12:00</th><th id='t01' class='col2'>15:00</th><th id='t00' class='col3'>21:00</th><th id='t01' class='col4'>3:00</th><th id='cshort_v'><a href='#shortE'>E4-12</a>  Videos</th><th id='cshort_v'><a href='#shortF'>F1-9</a> Videos</th><th id='cshort_v'><a href='#shortI'>I4-12</a> Videos</th><th id='cshort_v'><a href='#shortJ'>J1-9</a> Videos</th><th colspan='2'></th>
+
+<tr><th id='t01' class='col1' >12:45</th><th id='t01' class='col2'>15:45</th><th id='t00' class='col3'>21:45</th><th id='t01' class='col4'>3:45</th><th colspan='2' id='clong_v'><a href='#longE'>E1-3</a> Long Videos</th><th colspan='2' id='clong_v'><a href='#longI'>I1-3</a> Long Videos</th><th colspan='2'></th>
+<tr><th id='t01' class='col1' >13:20</th><th id='t01' class='col2'>16:20</th><th id='t00' class='col3'>22:20</th><th id='t01' class='col4'>4:20</th><th colspan='2' id='t01'>Break / GatherTown</th><th colspan='2' id='t01'>Break / GatherTown</th><th colspan='2'></th>
+<tr><th id='t01' class='col1'>13:30</th><th id='t01' class='col2'>16:30</th><th id='t00' class='col3'>22:30</th><th id='t01' class='col4'>4:30</th><th id='cshort_v'><a href='#shortG'>G1-9</a>  Videos</th><th id='cshort_v'><a href='#shortH'>H4-12</a>  Videos</th><th id='cshort_v'><a href='#shortK'>K1-9</a> Videos</th><th id='cshort_v'><a href='#shortL'>L4-12</a> Videos</th><th colspan='2'></th>
+
+<tr><th id='t01' class='col1' >14:15</th><th id='t01' class='col2'>17:15</th><th id='t00' class='col3'>23:15</th><th id='t01' class='col4'>5:15</th><th colspan='2' id='clong_v'><a href='#longH'>H1-3</a> Long Videos</th><th colspan='2' id='clong_v'><a href='#longL'>L1-3</a> Long Videos</th><th colspan='2'></th>
+<tr><th id='t01' class='col1' >14:45</th><th id='t01' class='col2'>17:45</th><th id='t00' class='col3'>23:45</th><th id='t01' class='col4'>5:45</th><th colspan='2' id='cmentor'>Study groups with Mentors (optional) Americas (for 45 min)</th><th colspan='2' id='cmentor'>Study groups with Mentors (optional) Americas (for 45 min)</th><th colspan='2'></th> </table>
+
+<form id="hide-show-timezones">
+    <div>
+        <input class="largerCheckbox" type="checkbox" id="hs-col1" name="col1" checked="checked">
+        <label for="hs-col1">Hide/Show UTC-7</label>
+    </div>
+    <div>
+        <input class="largerCheckbox" type="checkbox" id="hs-col2" name="col2" checked="checked">
+        <label for="hs-col2">Hide/Show UTC-4</label>
+    </div>
+    <div>
+        <input class="largerCheckbox" type="checkbox" id="hs-col3" name="col3" checked="checked">
+        <label for="hs-col3">Hide/Show UTC+2</label>
+    </div>
+    <div>
+        <input class="largerCheckbox" type="checkbox" id="hs-col4" name="col4" checked="checked">
+        <label for="hs-col4">Hide/Show UTC+8</label>
+    </div>
+</form>
+
+<hr>
+
+## Legend
+
+<table>
+<tr><th id='clong_v'><div id="title_legend">Long Videos</div></th><th><div id="text_legend">Passive viewing of long oral videos (10-13 minutes each).<br> Questions in chat are collected for later live discussion.</div></th>
+    <tr><th id='clong'><div id="title_legend">Long Oral Discussion</div></th><th><div id="text_legend"><b>(max.) 3</b> minute introduction of each speaker/paper<br> followed by 21 minute discussion (group of 3)</div></th>
+<tr><th id='cshort_v'><div id="title_legend">Short Videos</div></th><th><div id="text_legend">Passive viewing of short oral videos (4-6 minutes each).<br> Dual Track. Questions in chat are collected for later live discussion.</div></th>
+<tr><th id='cshort'><div id="title_legend">Short Oral Discussion</div></th><th><div id="text_legend">Split into three consecutive groups of 3. <b>(max.) 90 second</b> introduction<br> of each speaker/paper followed by 10.5 minute discussion (group of 3). Dual Track.</div></th>
+    <tr><th id='cposter'><div id="title_legend">Individual Poster Rooms</div></th><th><div id="text_legend">Virtual poster session in GatherTown (all papers of preceeding sessions)<br> Preview of poster PDF (slide) and ad-hoc video chat with presenters (other attendees) </div></th>
+<tr><th id='ckeynote'><div id="title_legend">Keynote</div></th><th><div id="text_legend">Live (virtual) presentation with following discussion in Webinar. </div></th>
+
+<tr><th id='cspecial'><div id="title_legend">Industry and Sponsors</div></th><th><div id="text_legend">Virtual booth and videos presenting supporting companies.<br>Networking and career opportunities. </div></th>
+<tr><th id='cmentor'><div id="title_legend">Study Groups / Mentors</div></th><th><div id="text_legend">(optional with prior sign-up: <a href="https://forms.gle/CNPTBZQ4fzWuFKY6A">Google Form</a>). Study groups assemble questions<br> for live discussion. Meet in deticated study rooms and also get great advice from mentors. </div></th>
+<tr><th id='cbreak'><div id="title_legend">Breaks: GatherTown</div></th><th><div id="text_legend">Meet new and old colleagues for ad-hoc (video) chats on the hallway<br>or in free meeting spaces. Have coffee or enjoy views over L&uuml;beck. </div></th>
+
+        </table>
+
+---
+
+We gave our best to give every participant the opportunity for live interaction with the authors, regardless of the timezone. Therefore, each conference day is divided into two parts: The active part and the passive part.
+The active part - the <b>prime time</b> - takes place in the time frame that is most convenient across all time zones and is marked in yellow.
+
+During this active part, live spotlight presentations of and discussions with the authors of all accepted papers are scheduled. Additionally, the keynotes, virtual poster sessions as well as social events will take place during the active phase. Hence, participants from all over the world get the chance to discuss the presented research, meet new colleagues and old friends, and enjoy a live virtual event.
+
+In the passive part, the full presentation videos of all accepted papers are shown in moderated sessions. Each presentation is streamed twice to address the different time zones, once the day before after the active phase and once right before the active phase where the paper is discussed. Questions that arise during these sessions will be collected and answered in the corresponding discussion session during the active phase. All presentation videos will also be accessible on the homepage so that they can also be enjoyed outside the moderated sessions.
+
+Please also note, that for participants from the Americas, the video previewing happens on Tuesday starting at 12noon (UCT-7) or 3pm (UCT-4), with the sessions of Wednesday:
+
+15:00 (UCT-4) <a href='#shortB'>B1-9</a> Histopathology Videos and in parallel <a href='#shortA'>A4-12</a> Segmentation Videos<br>
+15:45 (UCT-4) <a href='#longA'>A1-3</a> Segmentation Long Videos<br>
+16:30 (UCT-4) <a href='#shortD'>D4-12</a> Detection and Diagnosis 1 Videos and in parallel <a href='#shortC'>C1-9</a> Endoscopy and Validation Studies Videos<br>
+17:15 (UCT-4) <a href='#longD'>D1-3</a> Unsupervised and Representation Learning Long Videos<br>
+17:45 (UCT-4) Study groups with Mentors (optional)<br>
+
+---
+<h2> Wednesday 7th July</h2>
+<a id="longA"></a><h3>A1-3 (long): Segmentation - 13:00 - 13:30 (UCT+2)</h3>
+Chairs: Minjeong Kim, Jelmer Wolterink <br>
+[% .papers %]
+{{A1}}
+{{A2}}
+{{A3}}
+[% / %]
+<a id="shortA"></a><h3>A4-12 (short): Segmentation - 13:45 - 14:30 (UCT+2)</h3>
+Chairs: Francesco Caliva, Christian Desrosies <br>
+[% .papers %]
+{{A4}}
+{{A5}}
+{{A6}}
+{{A7}}
+{{A8}}
+{{A9}}
+{{A10}}
+{{A11}}
+{{A12}}
+[% / %]
+<a id="shortB"></a><h3>B1-9 (short): Application: Histopathology - 13:45 - 14:30 (UCT+2)</h3>
+Chairs: Mitko Veta, Jianhua Yao <br>
+[% .papers %]
+{{B1}}
+{{B2}}
+{{B3}}
+{{B4}}
+{{B5}}
+{{B6}}
+{{B7}}
+{{B8}}
+{{B9}}
+[% / %]
+<a id="longD"></a><h3>D1-3 (long): Unsupervised and Representation Learning - 16:00 - 16:30 (UCT+2)</h3>
+Chairs: Jannis Hagenah, Caroline Petitjean <br>
+[% .papers %]
+{{D1}}
+{{D2}}
+{{D3}}
+[% / %]
+<a id="shortC"></a><h3>C1-9 (short): Endoscopy and Validation Studies - 16:45 - 17:30 (UCT+2)</h3>
+Chairs: Sandy Engelhardt, Lena Maier-Hein <br>
+[% .papers %]
+{{C1}}
+{{C2}}
+{{C3}}
+{{C4}}
+{{C5}}
+{{C6}}
+{{C7}}
+{{C8}}
+{{C9}}
+[% / %]
+<a id="shortD"></a><h3>D4-12 (short): Detection and Diagnosis 1 - 16:45 - 17:30 (UCT+2)</h3>
+Chairs: Tal Arbel, Hans Meine <br>
+[% .papers %]
+{{D4}}
+{{D5}}
+{{D6}}
+{{D7}}
+{{D8}}
+{{D9}}
+{{D10}}
+{{D11}}
+{{D12}}
+[% / %]
+
+<hr>
+
+<h2> Thursday 8th July</h2>
+<a id="longE"></a><h3>E1-3 (long): Detection and Diagnosis - 13:00 - 13:30 (UCT+2)</h3>
+Chairs: Ivana Isgum, Carole Sudre <br>
+[% .papers %]
+{{E1}}
+{{E2}}
+{{E3}}
+[% / %]
+<a id="shortE"></a><h3>E4-12 (short): Image Registration / Synthesis - 13:45 - 14:30 (UCT+2)</h3>
+Chairs: Alessa Hering, Hervé Lombaert <br>
+[% .papers %]
+{{E4}}
+{{E5}}
+{{E6}}
+{{E7}}
+{{E8}}
+{{E9}}
+{{E10}}
+{{E11}}
+{{E12}}
+[% / %]
+<a id="shortF"></a><h3>F1-9 (short): Imaging: Reconstruction and Clinical Data - 13:45 - 14:30 (UCT+2)</h3>
+Chairs: Nicha Dvornek, Bram van Ginneken <br>
+[% .papers %]
+{{F1}}
+{{F2}}
+{{F3}}
+{{F4}}
+{{F5}}
+{{F6}}
+{{F7}}
+{{F8}}
+{{F9}}
+[% / %]
+<a id="longH"></a><h3>H1-3 (long): Image Acquisition and Reconstruction - 16:00 - 16:30 (UCT+2)</h3>
+Chairs: Angelica Aviles-Rivero, Antoine Théberge <br>
+[% .papers %]
+{{H1}}
+{{H2}}
+{{H3}}
+[% / %]
+<a id="shortG"></a><h3>G1-9 (short): Interpretability and Explainable AI - 16:45 - 17:30 (UCT+2)</h3>
+Chairs: Monika Grewal, Christian Ledig <br>
+[% .papers %]
+{{G1}}
+{{G2}}
+{{G3}}
+{{G4}}
+{{G5}}
+{{G6}}
+{{G7}}
+{{G8}}
+{{G9}}
+[% / %]
+<a id="shortH"></a><h3>H4-12 (short): Application: Radiology - 16:45 - 17:30 (UCT+2)</h3>
+Chairs: Raghav Mehta, Clarisa Sanchez <br>
+[% .papers %]
+{{H4}}
+{{H5}}
+{{H6}}
+{{H7}}
+{{H8}}
+{{H9}}
+{{H10}}
+{{H11}}
+{{H12}}
+[% / %]
+
+<hr>
+
+<h2> Friday 9th July</h2>
+<a id="longI"></a><h3>I1-3 (long): Interpretability and Explainable AI - 13:00 - 13:30 (UCT+2)</h3>
+Chairs: Ismail Ben Ayed, Arrate Muñoz-Barrutia <br>
+[% .papers %]
+{{I1}}
+{{I2}}
+{{I3}}
+[% / %]
+<a id="shortI"></a><h3>I4-12 (short): Transfer Learning and Domain Adaptation - 13:45 - 14:30 (UCT+2)</h3>
+Chairs: Katharina Breininger, Maria Vakalopoulou <br>
+[% .papers %]
+{{I4}}
+{{I5}}
+{{I6}}
+{{I7}}
+{{I8}}
+{{I9}}
+{{I10}}
+{{I11}}
+{{I12}}
+[% / %]
+<a id="shortJ"></a><h3>J1-9 (short): Unsupervised and Representation Learning - 13:45 - 14:30 (UCT+2)</h3>
+Chairs: Nikolas Lessmann, Nick Pawlowski <br>
+[% .papers %]
+{{J1}}
+{{J2}}
+{{J3}}
+{{J4}}
+{{J5}}
+{{J6}}
+{{J7}}
+{{J8}}
+{{J9}}
+[% / %]
+<a id="longL"></a><h3>L1-3 (long): Learning with Noisy Labels and Limited Data - 16:00 - 16:30 (UCT+2)</h3>
+Chairs: Geert Litjens, Ozan Oktay <br>
+[% .papers %]
+{{L1}}
+{{L2}}
+{{L3}}
+[% / %]
+<a id="shortK"></a><h3>K1-9 (short): Learning with Noisy Labels and Limited Data - 16:45 - 17:30 (UCT+2)</h3>
+Chairs: Hoel Kervadec, Max-Heinrich Laves <br>
+[% .papers %]
+{{K1}}
+{{K2}}
+{{K3}}
+{{K4}}
+{{K5}}
+{{K6}}
+{{K7}}
+{{K8}}
+{{K9}}
+[% / %]
+<a id="shortL"></a><h3>L4-9 (short): Detection and Diagnosis 2 - 16:45 - 17:30 (UCT+2)</h3>
+Chairs: Christian Baumgartner, Colin Jacobs <br>
+[% .papers %]
+{{L4}}
+{{L5}}
+{{L6}}
+{{L7}}
+{{L8}}
+{{L9}}
+[% / %]
