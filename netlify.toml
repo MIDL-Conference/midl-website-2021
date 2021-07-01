@@ -6,6 +6,11 @@
   from = "/cfp*"
   to = "/call-for-papers.html"
   status = 301
+  
+[[redirects]]
+  from = "/gather*"
+  to = "https://gather.town/app/Y8zE5Ct0yJ6jkD97/MIDL2021_WS"
+  status = 301
 
 [[headers]]
   for = "/secret/*"
