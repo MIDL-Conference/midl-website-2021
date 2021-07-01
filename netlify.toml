@@ -120,4 +120,4 @@
 [[headers]]
   for = "/secret/*"
   [headers.values]
-  Basic-Auth = "someuser:somepassword test:test123"
+  Basic-Auth = "someuser:somepassword test:test123 luebeck21:marzipan"
