@@ -19,7 +19,7 @@ if __name__ == "__main__":
 
     dest_path: Path = Path(argv[3])
 
-    root_slides: Path = Path(argv[4])
+    root_content: Path = Path(argv[4])
 
     raw_papers: dict[str, dict]
     with open(papers_path, 'r') as pf:
@@ -59,17 +59,24 @@ if __name__ == "__main__":
 
         # slides_path: Path = Path(paper.slides)
 
-        if not (root_slides / paper.slides[1:]).exists():
-            print(f"\tPaper {paper.id} without slides: {paper.url} {(root_slides / paper.slides)}")
+        # if not (root_content / paper.slides[1:]).exists():
+        #     print(f"\tPaper {paper.id} without slides: {paper.url} {(root_content / paper.slides)}")
+
+        slides_ok: bool = (root_content / paper.slides[1:]).exists()
+        video_ok: bool = (root_content / paper.yt_full[1:]).exists()
 
         # yt_link = paper.yt_teaser if paper.short else paper.yt_full
         yt_link = paper.yt_full
 
-        if yt_link and paper.slides and (root_slides / paper.slides[1:]).exists():
-            result = result.replace("PRESENTATION", f"{{{{ html_presentation('https://midl2021.kervadec.science{yt_link}', 'https://midl2021.kervadec.science{paper.slides}', 720, 450) }}}}")
+        if video_ok and slides_ok:
+            result = result.replace("PRESENTATION", f"{{{{ html_presentation('{yt_link}', '{paper.slides}', 720, 450) }}}}")
             # print(f"\tPaper {paper.id} has both slides or presentation.")
-        elif yt_link:
-            result = result.replace("PRESENTATION", f"{{{{ video('https://midl2021.kervadec.science{yt_link}') }}}}")
+        elif video_ok and not slides_ok:
+            result = result.replace("PRESENTATION", f"{{{{ video('{yt_link}') }}}}")
+            print(f"\tPaper {paper.id} without slides: {(root_content / paper.slides)}")
+        elif not video_ok and slides_ok:
+            # result = result.replace("PRESENTATION", f"{{{{ video('{yt_link}') }}}}")
+            print(f"\tPaper {paper.id} without video: {(root_content / yt_link)}")
         else:
             result = result.replace("PRESENTATION", "")
             print(f"\tPaper {paper.id} with neither slides or presentation.")

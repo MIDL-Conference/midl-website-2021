@@ -9,10 +9,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nA1-3 (long): Segmentation - 13:00 - 13:30 (UCT+2)",
         "short": "False",
-        "slides": "",
+        "slides": "/slides/full_12_poster.pdf",
         "title": "Whole-Body Soft-Tissue Lesion Tracking and Segmentation in Longitudinal CT Imaging Studies",
         "url": "secret/A1.html",
-        "yt_full": "/contents/full_12_video.mp4",
+        "yt_full": "/videos/full_12_video.mp4",
         "yt_teaser": ""
     },
     "A10": {
@@ -25,10 +25,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nA4-12 (short): Segmentation - 13:45 - 14:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_106_poster.pdf",
+        "slides": "/slides/full_106_poster.pdf",
         "title": "Distill DSM: Computationally efficient method for segmentation of medical imaging volumes",
         "url": "secret/A10.html",
-        "yt_full": "/contents/full_106_video.mp4",
+        "yt_full": "/videos/full_106_video.mp4",
         "yt_teaser": ""
     },
     "A11": {
@@ -41,10 +41,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nA4-12 (short): Segmentation - 13:45 - 14:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_85_poster.pdf",
+        "slides": "/slides/full_85_poster.pdf",
         "title": "Stroke Lesion Outcome Prediction Based on 4D CT Perfusion Data Using Temporal Convolutional Networks",
         "url": "secret/A11.html",
-        "yt_full": "/contents/full_85_video.mp4",
+        "yt_full": "/videos/full_85_video.mp4",
         "yt_teaser": ""
     },
     "A12": {
@@ -57,10 +57,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nA4-12 (short): Segmentation - 13:45 - 14:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_70_poster.pdf",
+        "slides": "/slides/full_70_poster.pdf",
         "title": "Direct Inference of Cell Positions using Lens-Free Microscopy and Deep Learning",
         "url": "secret/A12.html",
-        "yt_full": "/contents/full_70_video.mp4",
+        "yt_full": "/videos/full_70_video.mp4",
         "yt_teaser": ""
     },
     "A2": {
@@ -73,10 +73,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nA1-3 (long): Segmentation - 13:00 - 13:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_129_poster.pdf",
+        "slides": "/slides/full_129_poster.pdf",
         "title": "Embedding-based Instance Segmentation in Microscopy",
         "url": "secret/A2.html",
-        "yt_full": "/contents/full_129_video.mp4",
+        "yt_full": "/videos/full_129_video.mp4",
         "yt_teaser": ""
     },
     "A3": {
@@ -89,10 +89,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nA1-3 (long): Segmentation - 13:00 - 13:30 (UCT+2)",
         "short": "False",
-        "slides": "",
+        "slides": "/slides/full_139_poster.pdf",
         "title": "Beyond pixel-wise supervision: semantic segmentation with higher-order shape descriptors",
         "url": "secret/A3.html",
-        "yt_full": "",
+        "yt_full": "/videos/full_139_video.mp4",
         "yt_teaser": ""
     },
     "A4": {
@@ -105,10 +105,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nA4-12 (short): Segmentation - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_21_poster.pdf",
+        "slides": "/slides/short_21_poster.pdf",
         "title": "Common limitations of performance metrics in biomedical image analysis",
         "url": "secret/A4.html",
-        "yt_full": "/contents/short_21_video.mp4",
+        "yt_full": "/videos/short_21_video.mp4",
         "yt_teaser": ""
     },
     "A5": {
@@ -121,10 +121,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nA4-12 (short): Segmentation - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_36_poster.pdf",
+        "slides": "/slides/short_36_poster.pdf",
         "title": "VinDr-RibCXR: A Benchmark Dataset for Automatic Segmentation and Labeling of Individual Ribs on Chest X-rays",
         "url": "secret/A5.html",
-        "yt_full": "/contents/short_36_video.mp4",
+        "yt_full": "/videos/short_36_video.mp4",
         "yt_teaser": ""
     },
     "A6": {
@@ -137,10 +137,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nA4-12 (short): Segmentation - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_6_poster.pdf",
+        "slides": "/slides/short_6_poster.pdf",
         "title": "Learning to predict cutting angles from histological human brain sections",
         "url": "secret/A6.html",
-        "yt_full": "/contents/short_6_video.mp4",
+        "yt_full": "/videos/short_6_video.mp4",
         "yt_teaser": ""
     },
     "A7": {
@@ -153,10 +153,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nA4-12 (short): Segmentation - 13:45 - 14:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_114_poster.pdf",
+        "slides": "/slides/full_114_poster.pdf",
         "title": "Localizing neurosurgical instruments across domains and in the wild",
         "url": "secret/A7.html",
-        "yt_full": "/contents/full_114_video.mp4",
+        "yt_full": "/videos/full_114_video.mp4",
         "yt_teaser": ""
     },
     "A8": {
@@ -169,10 +169,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nA4-12 (short): Segmentation - 13:45 - 14:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_69_poster.pdf",
+        "slides": "/slides/full_69_poster.pdf",
         "title": "Weakly Supervised Volumetric Segmentation via Self-taught Shape Denoising Model",
         "url": "secret/A8.html",
-        "yt_full": "/contents/full_69_video.mp4",
+        "yt_full": "/videos/full_69_video.mp4",
         "yt_teaser": ""
     },
     "A9": {
@@ -185,10 +185,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nA4-12 (short): Segmentation - 13:45 - 14:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_80_poster.pdf",
+        "slides": "/slides/full_80_poster.pdf",
         "title": "Benefits of Linear Conditioning for Segmentation using Metadata",
         "url": "secret/A9.html",
-        "yt_full": "/contents/full_80_video.mp4",
+        "yt_full": "/videos/full_80_video.mp4",
         "yt_teaser": ""
     },
     "B1": {
@@ -201,10 +201,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nB1-9 (short): Application: Histopathology - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "",
+        "slides": "/slides/short_53_poster.pdf",
         "title": "$\\mu$PEN: Multi-class PseudoEdgeNet for PD-L1 assessment",
         "url": "secret/B1.html",
-        "yt_full": "/contents/short_53_video.mp4",
+        "yt_full": "/videos/short_53_video.mp4",
         "yt_teaser": ""
     },
     "B2": {
@@ -217,10 +217,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nB1-9 (short): Application: Histopathology - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_70_poster.pdf",
+        "slides": "/slides/short_70_poster.pdf",
         "title": "Comparison of CNN models on a multi-scanner database in colon cancer histology",
         "url": "secret/B2.html",
-        "yt_full": "/contents/short_70_video.mp4",
+        "yt_full": "/videos/short_70_video.mp4",
         "yt_teaser": ""
     },
     "B3": {
@@ -233,10 +233,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nB1-9 (short): Application: Histopathology - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_19_poster.pdf",
+        "slides": "/slides/short_19_poster.pdf",
         "title": "Exploiting Adam-like Optimization Algorithms to Improve the Performance of Convolutional Neural Networks",
         "url": "secret/B3.html",
-        "yt_full": "/contents/short_19_video.mp4",
+        "yt_full": "/videos/short_19_video.mp4",
         "yt_teaser": ""
     },
     "B4": {
@@ -249,10 +249,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nB1-9 (short): Application: Histopathology - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_144_poster.pdf",
+        "slides": "/slides/short_144_poster.pdf",
         "title": "Gated CNNs for Nuclei Segmentation in H&E Breast Images",
         "url": "secret/B4.html",
-        "yt_full": "/contents/short_144_video.mp4",
+        "yt_full": "/videos/short_144_video.mp4",
         "yt_teaser": ""
     },
     "B5": {
@@ -265,10 +265,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nB1-9 (short): Application: Histopathology - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_99_poster.pdf",
+        "slides": "/slides/short_99_poster.pdf",
         "title": "Strength in Diversity: Understanding the impacts of diverse training sets in self-supervised pre-training for histology images",
         "url": "secret/B5.html",
-        "yt_full": "/contents/short_99_video.mp4",
+        "yt_full": "/videos/short_99_video.mp4",
         "yt_teaser": ""
     },
     "B6": {
@@ -281,10 +281,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nB1-9 (short): Application: Histopathology - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_94_poster.pdf",
+        "slides": "/slides/short_94_poster.pdf",
         "title": "Abnormality Detection in Histopathology via Density Estimation with Normalising Flows",
         "url": "secret/B6.html",
-        "yt_full": "/contents/short_94_video.mp4",
+        "yt_full": "/videos/short_94_video.mp4",
         "yt_teaser": ""
     },
     "B7": {
@@ -297,10 +297,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nB1-9 (short): Application: Histopathology - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_73_poster.pdf",
+        "slides": "/slides/short_73_poster.pdf",
         "title": "Learning to Represent Whole Slide Images by Selecting Cell Graphs of Patches",
         "url": "secret/B7.html",
-        "yt_full": "/contents/short_73_video.mp4",
+        "yt_full": "/videos/short_73_video.mp4",
         "yt_teaser": ""
     },
     "B8": {
@@ -313,10 +313,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nB1-9 (short): Application: Histopathology - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_64_poster.pdf",
+        "slides": "/slides/short_64_poster.pdf",
         "title": "Quality control of whole-slide images through multi-class semantic segmentation of artifacts",
         "url": "secret/B8.html",
-        "yt_full": "/contents/short_64_video.mp4",
+        "yt_full": "/videos/short_64_video.mp4",
         "yt_teaser": ""
     },
     "B9": {
@@ -329,10 +329,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nB1-9 (short): Application: Histopathology - 13:45 - 14:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_161_poster.pdf",
+        "slides": "/slides/full_161_poster.pdf",
         "title": "Cluster-to-Conquer: A Framework for End-to-End Multi-Instance Learning for Whole Slide Image Classification",
         "url": "secret/B9.html",
-        "yt_full": "/contents/full_161_video.mp4",
+        "yt_full": "/videos/full_161_video.mp4",
         "yt_teaser": ""
     },
     "C1": {
@@ -345,10 +345,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nC1-9 (short): Endoscopy and Validation Studies - 16:45 - 17:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_55_poster.pdf",
+        "slides": "/slides/short_55_poster.pdf",
         "title": "Efficient biomedical image segmentation on Edge TPUs",
         "url": "secret/C1.html",
-        "yt_full": "/contents/short_55_video.mp4",
+        "yt_full": "/videos/short_55_video.mp4",
         "yt_teaser": ""
     },
     "C2": {
@@ -361,10 +361,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nC1-9 (short): Endoscopy and Validation Studies - 16:45 - 17:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_24_poster.pdf",
+        "slides": "/slides/short_24_poster.pdf",
         "title": "Deep ensembles based on Stochastic Activation Selection for Polyp Segmentation",
         "url": "secret/C2.html",
-        "yt_full": "/contents/short_24_video.mp4",
+        "yt_full": "/videos/short_24_video.mp4",
         "yt_teaser": ""
     },
     "C3": {
@@ -377,10 +377,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nC1-9 (short): Endoscopy and Validation Studies - 16:45 - 17:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_120_poster.pdf",
+        "slides": "/slides/short_120_poster.pdf",
         "title": "Self-supervised Visual Place Recognition for Colonoscopy Sequences",
         "url": "secret/C3.html",
-        "yt_full": "/contents/short_120_video.mp4",
+        "yt_full": "/videos/short_120_video.mp4",
         "yt_teaser": ""
     },
     "C4": {
@@ -393,10 +393,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nC1-9 (short): Endoscopy and Validation Studies - 16:45 - 17:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_15_poster.pdf",
+        "slides": "/slides/short_15_poster.pdf",
         "title": "Carbon footprint driven deep learning model selection for medical imaging",
         "url": "secret/C4.html",
-        "yt_full": "/contents/short_15_video.mp4",
+        "yt_full": "/videos/short_15_video.mp4",
         "yt_teaser": ""
     },
     "C5": {
@@ -409,10 +409,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nC1-9 (short): Endoscopy and Validation Studies - 16:45 - 17:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_27_poster.pdf",
+        "slides": "/slides/full_27_poster.pdf",
         "title": "SWNet: Surgical Workflow Recognition with Deep Convolutional Network",
         "url": "secret/C5.html",
-        "yt_full": "/contents/full_27_video.mp4",
+        "yt_full": "/videos/full_27_video.mp4",
         "yt_teaser": ""
     },
     "C6": {
@@ -425,10 +425,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nC1-9 (short): Endoscopy and Validation Studies - 16:45 - 17:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_44_poster (2).pdf",
+        "slides": "/slides/full_44_poster.pdf",
         "title": "\u201cTrain one, Classify one, Teach one\u201d - Cross-surgery transfer learning for surgical step recognition",
         "url": "secret/C6.html",
-        "yt_full": "/contents/full_44_video.mp4",
+        "yt_full": "/videos/full_44_video.mp4",
         "yt_teaser": ""
     },
     "C7": {
@@ -441,10 +441,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nC1-9 (short): Endoscopy and Validation Studies - 16:45 - 17:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_123_poster.pdf",
+        "slides": "/slides/full_123_poster.pdf",
         "title": "Predicting COVID-19 Lung Infiltrate Progression on Chest Radiographs Using Spatio-temporal LSTM based Encoder-Decoder Network",
         "url": "secret/C7.html",
-        "yt_full": "/contents/full_123_video.mp4",
+        "yt_full": "/videos/full_123_video.mp4",
         "yt_teaser": ""
     },
     "C8": {
@@ -457,10 +457,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nC1-9 (short): Endoscopy and Validation Studies - 16:45 - 17:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_110_poster.pdf",
+        "slides": "/slides/full_110_poster.pdf",
         "title": "Feature-based image registration in structured light endoscopy",
         "url": "secret/C8.html",
-        "yt_full": "/contents/full_110_video.mp4",
+        "yt_full": "/videos/full_110_video.mp4",
         "yt_teaser": ""
     },
     "C9": {
@@ -473,10 +473,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nC1-9 (short): Endoscopy and Validation Studies - 16:45 - 17:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_86_poster.pdf",
+        "slides": "/slides/full_86_poster.pdf",
         "title": "Intensity Correction and Standardization for Electron Microscopy Data",
         "url": "secret/C9.html",
-        "yt_full": "/contents/full_86_video.mp4",
+        "yt_full": "/videos/full_86_video.mp4",
         "yt_teaser": ""
     },
     "D1": {
@@ -489,10 +489,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nD1-3 (long): Unsupervised and Representation Learning - 16:00 - 16:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_16_poster.pdf",
+        "slides": "/slides/full_16_poster.pdf",
         "title": "Self-Rule to Adapt: Learning Generalized Features from Sparsely-Labeled Data Using Unsupervised Domain Adaptation for Colorectal Cancer Tissue Phenotyping",
         "url": "secret/D1.html",
-        "yt_full": "/contents/full_16_video.mp4",
+        "yt_full": "/videos/full_16_video.mp4",
         "yt_teaser": ""
     },
     "D10": {
@@ -505,10 +505,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nD4-12 (short): Detection and Diagnosis 1 - 16:45 - 17:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_171_poster.pdf",
+        "slides": "/slides/full_171_poster.pdf",
         "title": "An AI-based Framework for Diagnostic Quality Assessment of Ankle Radiographs",
         "url": "secret/D10.html",
-        "yt_full": "/contents/full_171_video.mp4",
+        "yt_full": "/videos/full_171_video.mp4",
         "yt_teaser": ""
     },
     "D11": {
@@ -521,10 +521,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nD4-12 (short): Detection and Diagnosis 1 - 16:45 - 17:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_144_poster.pdf",
+        "slides": "/slides/full_144_poster.pdf",
         "title": "Image Sequence Generation and Analysis via GRU and Attention for Trachomatous Trichiasis Classification",
         "url": "secret/D11.html",
-        "yt_full": "/contents/full_144_video.mp4",
+        "yt_full": "/videos/full_144_video.mp4",
         "yt_teaser": ""
     },
     "D12": {
@@ -537,10 +537,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nD4-12 (short): Detection and Diagnosis 1 - 16:45 - 17:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_56_poster.pdf",
+        "slides": "/slides/full_56_poster.pdf",
         "title": "MoCo Pretraining Improves Representation and Transferability of Chest X-ray Models",
         "url": "secret/D12.html",
-        "yt_full": "/contents/full_56_video.mp4",
+        "yt_full": "/videos/full_56_video.mp4",
         "yt_teaser": ""
     },
     "D2": {
@@ -553,10 +553,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nD1-3 (long): Unsupervised and Representation Learning - 16:00 - 16:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_28_poster.pdf",
+        "slides": "/slides/full_28_poster.pdf",
         "title": "Semantic similarity metrics for learned image registration",
         "url": "secret/D2.html",
-        "yt_full": "/contents/full_28_video.mp4",
+        "yt_full": "/videos/full_28_video.mp4",
         "yt_teaser": ""
     },
     "D3": {
@@ -569,10 +569,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nD1-3 (long): Unsupervised and Representation Learning - 16:00 - 16:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_125_poster.pdf",
+        "slides": "/slides/full_125_poster.pdf",
         "title": "Nuc2Vec: Learning Representations of Nuclei in Histopathology Images with Contrastive Loss",
         "url": "secret/D3.html",
-        "yt_full": "/contents/full_125_video.mp4",
+        "yt_full": "/videos/full_125_video.mp4",
         "yt_teaser": ""
     },
     "D4": {
@@ -585,10 +585,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nD4-12 (short): Detection and Diagnosis 1 - 16:45 - 17:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_33_poster.pdf",
+        "slides": "/slides/short_33_poster.pdf",
         "title": "Predicting molecular subtypes of breast cancer using multimodal deep learning and incorporation of the attention mechanism",
         "url": "secret/D4.html",
-        "yt_full": "/contents/short_33_video.mp4",
+        "yt_full": "/videos/short_33_video.mp4",
         "yt_teaser": ""
     },
     "D5": {
@@ -601,10 +601,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nD4-12 (short): Detection and Diagnosis 1 - 16:45 - 17:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_47_poster (2).pdf",
+        "slides": "/slides/short_47_poster.pdf",
         "title": "Double adversarial domain adaptation for whole-slide-imageclassification",
         "url": "secret/D5.html",
-        "yt_full": "/contents/short_47_video.mp4",
+        "yt_full": "/videos/short_47_video.mp4",
         "yt_teaser": ""
     },
     "D6": {
@@ -617,10 +617,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nD4-12 (short): Detection and Diagnosis 1 - 16:45 - 17:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_133_poster.pdf",
+        "slides": "/slides/short_133_poster.pdf",
         "title": "Virtual Bone Shape Aging",
         "url": "secret/D6.html",
-        "yt_full": "/contents/short_133_video.mp4",
+        "yt_full": "/videos/short_133_video.mp4",
         "yt_teaser": ""
     },
     "D7": {
@@ -633,10 +633,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nD4-12 (short): Detection and Diagnosis 1 - 16:45 - 17:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_138_poster.pdf",
+        "slides": "/slides/short_138_poster.pdf",
         "title": "Breast cancer patient stratification using domain adaptation based lymphocyte detection in HER2 stained tissue sections",
         "url": "secret/D7.html",
-        "yt_full": "/contents/short_138_video.mp4",
+        "yt_full": "/videos/short_138_video.mp4",
         "yt_teaser": ""
     },
     "D8": {
@@ -649,10 +649,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nD4-12 (short): Detection and Diagnosis 1 - 16:45 - 17:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_89_poster.pdf",
+        "slides": "/slides/short_89_poster.pdf",
         "title": "Cine-MRI detection of abdominal adhesions with spatio-temporal deep learning",
         "url": "secret/D8.html",
-        "yt_full": "/contents/short_89_video.mp4",
+        "yt_full": "/videos/short_89_video.mp4",
         "yt_teaser": ""
     },
     "D9": {
@@ -665,10 +665,10 @@
         "pmlr_url": "",
         "schedule": " Wednesday 7th July\nD4-12 (short): Detection and Diagnosis 1 - 16:45 - 17:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_34_poster.pdf",
+        "slides": "/slides/short_34_poster.pdf",
         "title": "Efficient Video-Based Deep Learning for Ultrasound Guided Needle Insertion",
         "url": "secret/D9.html",
-        "yt_full": "/contents/short_34_video.mp4",
+        "yt_full": "/videos/short_34_video.mp4",
         "yt_teaser": ""
     },
     "E1": {
@@ -681,10 +681,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nE1-3 (long): Detection and Diagnosis - 13:00 - 13:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_17_poster.pdf",
+        "slides": "/slides/full_17_poster.pdf",
         "title": "Automated triaging of head MRI examinations using convolutional neural networks",
         "url": "secret/E1.html",
-        "yt_full": "/contents/full_17_video.mp4",
+        "yt_full": "/videos/full_17_video.mp4",
         "yt_teaser": ""
     },
     "E10": {
@@ -697,10 +697,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nE4-12 (short): Image Registration / Synthesis - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_117_poster.pdf",
+        "slides": "/slides/short_117_poster.pdf",
         "title": "Cycle Consistent Embedding of 3D Brains with Auto-Encoding Generative Adversarial Networks",
         "url": "secret/E10.html",
-        "yt_full": "/contents/short_117_video.mp4",
+        "yt_full": "/videos/short_117_video.mp4",
         "yt_teaser": ""
     },
     "E11": {
@@ -713,10 +713,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nE4-12 (short): Image Registration / Synthesis - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_108_poster.pdf",
+        "slides": "/slides/short_108_poster.pdf",
         "title": "Efficient and Accurate Spatial-Temporal Denoising Network for Low-dose CT Scans",
         "url": "secret/E11.html",
-        "yt_full": "/contents/short_108_video.mp4",
+        "yt_full": "/videos/short_108_video.mp4",
         "yt_teaser": ""
     },
     "E12": {
@@ -729,10 +729,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nE4-12 (short): Image Registration / Synthesis - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_93_poster.pdf",
+        "slides": "/slides/short_93_poster.pdf",
         "title": "Synthesis of Diabetic Retina Fundus Images Using Semantic Label Generation",
         "url": "secret/E12.html",
-        "yt_full": "/contents/short_93_video.mp4",
+        "yt_full": "/videos/short_93_video.mp4",
         "yt_teaser": ""
     },
     "E2": {
@@ -745,10 +745,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nE1-3 (long): Detection and Diagnosis - 13:00 - 13:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_29_poster.pdf",
+        "slides": "/slides/full_29_poster.pdf",
         "title": "Balanced sampling for an object detection problem - application to fetal anatomies detection",
         "url": "secret/E2.html",
-        "yt_full": "/contents/full_29_video.mp4",
+        "yt_full": "/videos/full_29_video.mp4",
         "yt_teaser": ""
     },
     "E3": {
@@ -761,10 +761,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nE1-3 (long): Detection and Diagnosis - 13:00 - 13:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_42_poster.pdf",
+        "slides": "/slides/full_42_poster.pdf",
         "title": "Unsupervised Brain Anomaly Detection and Segmentation with Transformers",
         "url": "secret/E3.html",
-        "yt_full": "/contents/full_42_video.mp4",
+        "yt_full": "/videos/full_42_video.mp4",
         "yt_teaser": ""
     },
     "E4": {
@@ -777,10 +777,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nE4-12 (short): Image Registration / Synthesis - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_122_poster.pdf",
+        "slides": "/slides/short_122_poster.pdf",
         "title": "Rethinking the Design of Learning based Inter-Patient Registration using Deformable Supervoxels ",
         "url": "secret/E4.html",
-        "yt_full": "/contents/short_122_video.mp4",
+        "yt_full": "/videos/short_122_video.mp4",
         "yt_teaser": ""
     },
     "E5": {
@@ -793,10 +793,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nE4-12 (short): Image Registration / Synthesis - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_125_poster.pdf",
+        "slides": "/slides/short_125_poster.pdf",
         "title": "Semi-supervised Image-to-Image translation for robust image registration",
         "url": "secret/E5.html",
-        "yt_full": "/contents/short_125_video.mp4",
+        "yt_full": "/videos/short_125_video.mp4",
         "yt_teaser": ""
     },
     "E6": {
@@ -809,10 +809,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nE4-12 (short): Image Registration / Synthesis - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_4_poster.pdf",
+        "slides": "/slides/short_4_poster.pdf",
         "title": "ViT-V-Net: Vision Transformer for Unsupervised Volumetric Medical Image Registration",
         "url": "secret/E6.html",
-        "yt_full": "/contents/short_4_video.mp4",
+        "yt_full": "/videos/short_4_video.mp4",
         "yt_teaser": ""
     },
     "E7": {
@@ -825,10 +825,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nE4-12 (short): Image Registration / Synthesis - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_128_poster.pdf",
+        "slides": "/slides/short_128_poster.pdf",
         "title": "Learning a Metric without Supervision: Multimodal Registration using Synthetic Cycle Discrepancy",
         "url": "secret/E7.html",
-        "yt_full": "/contents/short_128_video.mp4",
+        "yt_full": "/videos/short_128_video.mp4",
         "yt_teaser": ""
     },
     "E8": {
@@ -841,10 +841,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nE4-12 (short): Image Registration / Synthesis - 13:45 - 14:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_34_poster.pdf",
+        "slides": "/slides/full_34_poster.pdf",
         "title": "Learning Diffeomorphic and Modality-invariant Registration using B-splines",
         "url": "secret/E8.html",
-        "yt_full": "/contents/full_34_video.mp4",
+        "yt_full": "/videos/full_34_video.mp4",
         "yt_teaser": ""
     },
     "E9": {
@@ -857,10 +857,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nE4-12 (short): Image Registration / Synthesis - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_121_poster.pdf",
+        "slides": "/slides/short_121_poster.pdf",
         "title": "A hybrid model- and deep learning-based framework for functional lung image synthesis from non-contrast multi-inflation CT",
         "url": "secret/E9.html",
-        "yt_full": "/contents/short_121_video.mp4",
+        "yt_full": "/videos/short_121_video.mp4",
         "yt_teaser": ""
     },
     "F1": {
@@ -873,10 +873,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nF1-9 (short): Imaging: Reconstruction and Clinical Data - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_113_poster.pdf",
+        "slides": "/slides/short_113_poster.pdf",
         "title": "Ex-vivo - to - In-vivo Learning in Cardiology",
         "url": "secret/F1.html",
-        "yt_full": "/contents/short_113_video.mp4",
+        "yt_full": "/videos/short_113_video.mp4",
         "yt_teaser": ""
     },
     "F2": {
@@ -889,10 +889,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nF1-9 (short): Imaging: Reconstruction and Clinical Data - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_145_poster.pdf",
+        "slides": "/slides/short_145_poster.pdf",
         "title": "Reconstruction and coil combination of undersampled concentric-ring MRSI data using a Graph U-Net",
         "url": "secret/F2.html",
-        "yt_full": "/contents/short_145_video.mp4",
+        "yt_full": "/videos/short_145_video.mp4",
         "yt_teaser": ""
     },
     "F3": {
@@ -905,10 +905,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nF1-9 (short): Imaging: Reconstruction and Clinical Data - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_110_poster.pdf",
+        "slides": "/slides/short_110_poster.pdf",
         "title": "ReconResNet: Regularised Residual Learning for MR Image Reconstruction of Undersampled Cartesian and Radial Data",
         "url": "secret/F3.html",
-        "yt_full": "/contents/short_110_video.mp4",
+        "yt_full": "/videos/short_110_video.mp4",
         "yt_teaser": ""
     },
     "F4": {
@@ -921,10 +921,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nF1-9 (short): Imaging: Reconstruction and Clinical Data - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_98_poster.pdf",
+        "slides": "/slides/short_98_poster.pdf",
         "title": "3D Scout Scans Using Projection Domain Denoising",
         "url": "secret/F4.html",
-        "yt_full": "/contents/short_98_video.mp4",
+        "yt_full": "/videos/short_98_video.mp4",
         "yt_teaser": ""
     },
     "F5": {
@@ -937,10 +937,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nF1-9 (short): Imaging: Reconstruction and Clinical Data - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "",
+        "slides": "/slides/short_67_poster.pdf",
         "title": "Recurrent Inference Machines as Inverse Problem Solvers for MR Relaxometry",
         "url": "secret/F5.html",
-        "yt_full": "/contents/short_67_video.mp4",
+        "yt_full": "/videos/short_67_video.mp4",
         "yt_teaser": ""
     },
     "F6": {
@@ -953,10 +953,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nF1-9 (short): Imaging: Reconstruction and Clinical Data - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_50_poster.pdf",
+        "slides": "/slides/short_50_poster.pdf",
         "title": "An artificial intelligence system for predicting the deterioration of COVID-19 patients in the emergency department",
         "url": "secret/F6.html",
-        "yt_full": "/contents/short_50_video.mp4",
+        "yt_full": "/videos/short_50_video.mp4",
         "yt_teaser": ""
     },
     "F7": {
@@ -969,10 +969,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nF1-9 (short): Imaging: Reconstruction and Clinical Data - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_37_poster.pdf",
+        "slides": "/slides/short_37_poster.pdf",
         "title": "ProtoBrainMaps: Prototypical Brain Maps for Alzheimer's Disease Progression Modeling",
         "url": "secret/F7.html",
-        "yt_full": "/contents/short_37_video.mp4",
+        "yt_full": "/videos/short_37_video.mp4",
         "yt_teaser": ""
     },
     "F8": {
@@ -985,10 +985,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nF1-9 (short): Imaging: Reconstruction and Clinical Data - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_28_poster.pdf",
+        "slides": "/slides/short_28_poster.pdf",
         "title": "Projection Domain Metal Artifact Reduction in Computed Tomography using Conditional Generative Adversarial Networks",
         "url": "secret/F8.html",
-        "yt_full": "/contents/short_28_video.mp4",
+        "yt_full": "/videos/short_28_video.mp4",
         "yt_teaser": ""
     },
     "F9": {
@@ -1001,10 +1001,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nF1-9 (short): Imaging: Reconstruction and Clinical Data - 13:45 - 14:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_99_poster.pdf",
+        "slides": "/slides/full_99_poster.pdf",
         "title": "Changing the Contrast of Magnetic Resonance Imaging Signals using Deep Learning",
         "url": "secret/F9.html",
-        "yt_full": "/contents/full_99_video.mp4",
+        "yt_full": "/videos/full_99_video.mp4",
         "yt_teaser": ""
     },
     "G1": {
@@ -1017,10 +1017,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nG1-9 (short): Interpretability and Explainable AI - 16:45 - 17:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_49_poster.pdf",
+        "slides": "/slides/short_49_poster.pdf",
         "title": "Me-NDT: Neural-backed Decision Tree for Visual Explainability of Deep Medical Models",
         "url": "secret/G1.html",
-        "yt_full": "/contents/short_49_video.mp4",
+        "yt_full": "/videos/short_49_video.mp4",
         "yt_teaser": ""
     },
     "G2": {
@@ -1033,10 +1033,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nG1-9 (short): Interpretability and Explainable AI - 16:45 - 17:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_20_poster.pdf",
+        "slides": "/slides/short_20_poster.pdf",
         "title": "ICAM-reg: Interpretable Classification and Regression with Feature Attribution for Mapping Neurological Phenotypes in Individual Scans",
         "url": "secret/G2.html",
-        "yt_full": "/contents/short_20_video.mp4",
+        "yt_full": "/videos/short_20_video.mp4",
         "yt_teaser": ""
     },
     "G3": {
@@ -1049,10 +1049,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nG1-9 (short): Interpretability and Explainable AI - 16:45 - 17:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_126_poster (2).pdf",
+        "slides": "/slides/short_126_poster.pdf",
         "title": "Radiographic Assessment of CVC Malpositioning: How can AI best support clinicians?",
         "url": "secret/G3.html",
-        "yt_full": "/contents/short_126_video.mp4",
+        "yt_full": "/videos/short_126_video.mp4",
         "yt_teaser": ""
     },
     "G4": {
@@ -1065,10 +1065,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nG1-9 (short): Interpretability and Explainable AI - 16:45 - 17:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_68_poster.pdf",
+        "slides": "/slides/short_68_poster.pdf",
         "title": "Test-Time Mixup Augmentation for Uncertainty Estimation in Skin Lesion Diagnosis",
         "url": "secret/G4.html",
-        "yt_full": "/contents/short_68_video.mp4",
+        "yt_full": "/videos/short_68_video.mp4",
         "yt_teaser": ""
     },
     "G5": {
@@ -1081,10 +1081,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nG1-9 (short): Interpretability and Explainable AI - 16:45 - 17:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_65_poster.pdf",
+        "slides": "/slides/short_65_poster.pdf",
         "title": "Interpretable Medical Image Classification with Self-Supervised Anatomical Embedding and Prior Knowledge",
         "url": "secret/G5.html",
-        "yt_full": "/contents/short_65_video.mp4",
+        "yt_full": "/videos/short_65_video.mp4",
         "yt_teaser": ""
     },
     "G6": {
@@ -1097,10 +1097,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nG1-9 (short): Interpretability and Explainable AI - 16:45 - 17:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_8_poster.pdf",
+        "slides": "/slides/short_8_poster.pdf",
         "title": "50 shades of overfitting:  towards MRI-based neurologicalmodels interpretation",
         "url": "secret/G6.html",
-        "yt_full": "/contents/short_8_video.mp4",
+        "yt_full": "/videos/short_8_video.mp4",
         "yt_teaser": ""
     },
     "G7": {
@@ -1113,10 +1113,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nG1-9 (short): Interpretability and Explainable AI - 16:45 - 17:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_52_poster (3).pdf",
+        "slides": "/slides/full_52_poster.pdf",
         "title": "Weakly-supervised High-resolution Segmentation of Mammography Images for Breast Cancer Diagnosis",
         "url": "secret/G7.html",
-        "yt_full": "/contents/full_52_video.mp4",
+        "yt_full": "/videos/full_52_video.mp4",
         "yt_teaser": ""
     },
     "G8": {
@@ -1129,10 +1129,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nG1-9 (short): Interpretability and Explainable AI - 16:45 - 17:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_40_poster.pdf",
+        "slides": "/slides/full_40_poster.pdf",
         "title": "The OOD Blind Spot of Unsupervised Anomaly Detection",
         "url": "secret/G8.html",
-        "yt_full": "/contents/full_40_video.mp4",
+        "yt_full": "/videos/full_40_video.mp4",
         "yt_teaser": ""
     },
     "G9": {
@@ -1145,10 +1145,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nG1-9 (short): Interpretability and Explainable AI - 16:45 - 17:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_5_poster.pdf",
+        "slides": "/slides/full_5_poster.pdf",
         "title": "A regularization term for slide correlation reduction in whole slide image analysis with deep learning",
         "url": "secret/G9.html",
-        "yt_full": "/contents/full_5_video.mp4",
+        "yt_full": "/videos/full_5_video.mp4",
         "yt_teaser": ""
     },
     "H1": {
@@ -1161,10 +1161,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nH1-3 (long): Image Acquisition and Reconstruction - 16:00 - 16:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_30_poster.pdf",
+        "slides": "/slides/full_30_poster.pdf",
         "title": "Hybrid optimization between iterative and network fine-tuning reconstructions for fast quantitative susceptibility mapping",
         "url": "secret/H1.html",
-        "yt_full": "/contents/full_30_video.mp4",
+        "yt_full": "/videos/full_30_video.mp4",
         "yt_teaser": ""
     },
     "H10": {
@@ -1177,10 +1177,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nH4-12 (short): Application: Radiology - 16:45 - 17:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_102_poster.pdf",
+        "slides": "/slides/full_102_poster.pdf",
         "title": "A Surprisingly Effective Perimeter-based Loss for Medical Image Segmentation",
         "url": "secret/H10.html",
-        "yt_full": "/contents/full_102_video.mp4",
+        "yt_full": "/videos/full_102_video.mp4",
         "yt_teaser": ""
     },
     "H11": {
@@ -1193,10 +1193,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nH4-12 (short): Application: Radiology - 16:45 - 17:30 (UCT+2)",
         "short": "False",
-        "slides": "",
+        "slides": "/slides/full_53_poster.pdf",
         "title": "Memory U-Net: Memorizing Where to Vote for Lesion Instance Segmentation",
         "url": "secret/H11.html",
-        "yt_full": "",
+        "yt_full": "/videos/full_53_video.mp4",
         "yt_teaser": ""
     },
     "H12": {
@@ -1209,10 +1209,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nH4-12 (short): Application: Radiology - 16:45 - 17:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_46_poster.pdf",
+        "slides": "/slides/full_46_poster.pdf",
         "title": "Unseen Disease Detection for Deep Learning Interpretation of Chest X-rays",
         "url": "secret/H12.html",
-        "yt_full": "/contents/full_46_video.mp4",
+        "yt_full": "/videos/full_46_video.mp4",
         "yt_teaser": ""
     },
     "H2": {
@@ -1225,10 +1225,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nH1-3 (long): Image Acquisition and Reconstruction - 16:00 - 16:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_78_poster.pdf",
+        "slides": "/slides/full_78_poster.pdf",
         "title": "A Mean-Field Variational Inference Approach to Deep Image Prior for Inverse Problems in Medical Imaging",
         "url": "secret/H2.html",
-        "yt_full": "/contents/full_78_video.mp4",
+        "yt_full": "/videos/full_78_video.mp4",
         "yt_teaser": ""
     },
     "H3": {
@@ -1241,10 +1241,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nH1-3 (long): Image Acquisition and Reconstruction - 16:00 - 16:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_101_poster.pdf",
+        "slides": "/slides/full_101_poster.pdf",
         "title": "Residual learning for 3D motion corrected quantitative MRI: Robust clinical T1, T2 and proton density mapping",
         "url": "secret/H3.html",
-        "yt_full": "/contents/full_101_video.mp4",
+        "yt_full": "/videos/full_101_video.mp4",
         "yt_teaser": ""
     },
     "H4": {
@@ -1257,10 +1257,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nH4-12 (short): Application: Radiology - 16:45 - 17:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_141_poster (3).pdf",
+        "slides": "/slides/short_141_poster.pdf",
         "title": "Optimizing Operating Points for High Performance Lesion Detection and Segmentation Using Lesion Size Reweighting",
         "url": "secret/H4.html",
-        "yt_full": "/contents/short_141_video.mp4",
+        "yt_full": "/videos/short_141_video.mp4",
         "yt_teaser": ""
     },
     "H5": {
@@ -1273,10 +1273,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nH4-12 (short): Application: Radiology - 16:45 - 17:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_101_poster.pdf",
+        "slides": "/slides/short_101_poster.pdf",
         "title": "Creating Anthropomorphic Phantoms via Unsupervised Convolutional Neural Networks",
         "url": "secret/H5.html",
-        "yt_full": "/contents/short_101_video.mp4",
+        "yt_full": "/videos/short_101_video.mp4",
         "yt_teaser": ""
     },
     "H6": {
@@ -1289,10 +1289,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nH4-12 (short): Application: Radiology - 16:45 - 17:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_59_poster.pdf",
+        "slides": "/slides/short_59_poster.pdf",
         "title": "Transformers for Ischemic Stroke Infarct Core Segmentation from Spatio-temporal CT Perfusion Scans",
         "url": "secret/H6.html",
-        "yt_full": "/contents/short_59_video.mp4",
+        "yt_full": "/videos/short_59_video.mp4",
         "yt_teaser": ""
     },
     "H7": {
@@ -1305,10 +1305,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nH4-12 (short): Application: Radiology - 16:45 - 17:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_46_poster.pdf",
+        "slides": "/slides/short_46_poster.pdf",
         "title": "Multichannel input pixelwise regression 3D U-Nets for medical image estimation with 3 applications in brain MRI",
         "url": "secret/H7.html",
-        "yt_full": "/contents/short_46_video.mp4",
+        "yt_full": "/videos/short_46_video.mp4",
         "yt_teaser": ""
     },
     "H8": {
@@ -1321,10 +1321,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nH4-12 (short): Application: Radiology - 16:45 - 17:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_31_poster (2).pdf",
+        "slides": "/slides/short_31_poster.pdf",
         "title": "Morphology-based losses for weakly supervised segmentation of mammograms",
         "url": "secret/H8.html",
-        "yt_full": "/contents/short_31_video.mp4",
+        "yt_full": "/videos/short_31_video.mp4",
         "yt_teaser": ""
     },
     "H9": {
@@ -1337,10 +1337,10 @@
         "pmlr_url": "",
         "schedule": " Thursday 8th July\nH4-12 (short): Application: Radiology - 16:45 - 17:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_25_poster.pdf",
+        "slides": "/slides/short_25_poster.pdf",
         "title": "Partial Convolution Network for Metal Artifact Reduction in CT Preprocessing: Preliminary Results",
         "url": "secret/H9.html",
-        "yt_full": "/contents/short_25_video.mp4",
+        "yt_full": "/videos/short_25_video.mp4",
         "yt_teaser": ""
     },
     "I1": {
@@ -1353,10 +1353,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nI1-3 (long): Interpretability and Explainable AI - 13:00 - 13:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_68_poster (0).pdf",
+        "slides": "/slides/full_68_poster.pdf",
         "title": "Explainable Image Quality Analysis of Chest X-Rays",
         "url": "secret/I1.html",
-        "yt_full": "/contents/full_68_video.mp4",
+        "yt_full": "/videos/full_68_video.mp4",
         "yt_teaser": ""
     },
     "I10": {
@@ -1369,10 +1369,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nI4-12 (short): Transfer Learning and Domain Adaptation - 13:45 - 14:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_41_poster.pdf",
+        "slides": "/slides/full_41_poster.pdf",
         "title": "Partial transfusion: on the expressive influence of trainable batch norm parameters for transfer learning",
         "url": "secret/I10.html",
-        "yt_full": "/contents/full_41_video.mp4",
+        "yt_full": "/videos/full_41_video.mp4",
         "yt_teaser": ""
     },
     "I11": {
@@ -1385,10 +1385,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nI4-12 (short): Transfer Learning and Domain Adaptation - 13:45 - 14:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_90_poster.pdf",
+        "slides": "/slides/full_90_poster.pdf",
         "title": "CNN and Deep Sets for End-to-End Whole Slide Image Representation Learning",
         "url": "secret/I11.html",
-        "yt_full": "/contents/full_90_video.mp4",
+        "yt_full": "/videos/full_90_video.mp4",
         "yt_teaser": ""
     },
     "I12": {
@@ -1401,10 +1401,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nI4-12 (short): Transfer Learning and Domain Adaptation - 13:45 - 14:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_72_poster.pdf",
+        "slides": "/slides/full_72_poster.pdf",
         "title": "Tailoring automated data augmentation to H&E-stained histopathology",
         "url": "secret/I12.html",
-        "yt_full": "/contents/full_72_video.mp4",
+        "yt_full": "/videos/full_72_video.mp4",
         "yt_teaser": ""
     },
     "I2": {
@@ -1417,10 +1417,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nI1-3 (long): Interpretability and Explainable AI - 13:00 - 13:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_91_poster.pdf",
+        "slides": "/slides/full_91_poster.pdf",
         "title": "Gifsplanation via Latent Shift: A Simple Autoencoder Approach to Counterfactual Generation for Chest X-rays",
         "url": "secret/I2.html",
-        "yt_full": "/contents/full_91_video.mp4",
+        "yt_full": "/videos/full_91_video.mp4",
         "yt_teaser": ""
     },
     "I3": {
@@ -1433,10 +1433,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nI1-3 (long): Interpretability and Explainable AI - 13:00 - 13:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_163_poster.pdf",
+        "slides": "/slides/full_163_poster.pdf",
         "title": "Understanding and Visualizing Generalization UNets",
         "url": "secret/I3.html",
-        "yt_full": "/contents/full_163_video.mp4",
+        "yt_full": "/videos/full_163_video.mp4",
         "yt_teaser": ""
     },
     "I4": {
@@ -1449,10 +1449,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nI4-12 (short): Transfer Learning and Domain Adaptation - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "",
+        "slides": "/slides/short_106_poster.pdf",
         "title": "Scopeformer: n-CNN-ViT hybrid model for Intracranial hemorrhage subtypes classification",
         "url": "secret/I4.html",
-        "yt_full": "/contents/short_106_video.mp4",
+        "yt_full": "/videos/short_106_video.mp4",
         "yt_teaser": ""
     },
     "I5": {
@@ -1465,10 +1465,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nI4-12 (short): Transfer Learning and Domain Adaptation - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_76_poster.pdf",
+        "slides": "/slides/short_76_poster.pdf",
         "title": "Robust medical image segmentation by adapting neural networks for each test image",
         "url": "secret/I5.html",
-        "yt_full": "",
+        "yt_full": "/videos/short_76_video.mp4",
         "yt_teaser": ""
     },
     "I6": {
@@ -1481,10 +1481,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nI4-12 (short): Transfer Learning and Domain Adaptation - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_13_poster.pdf",
+        "slides": "/slides/short_13_poster.pdf",
         "title": "Quantifying the Scanner-Induced Domain Gap in Mitosis Detection",
         "url": "secret/I6.html",
-        "yt_full": "/contents/short_13_video.mp4",
+        "yt_full": "/videos/short_13_video.mp4",
         "yt_teaser": ""
     },
     "I7": {
@@ -1497,10 +1497,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nI4-12 (short): Transfer Learning and Domain Adaptation - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_1_poster.pdf",
+        "slides": "/slides/short_1_poster.pdf",
         "title": "Echocardiographic Phase Detection Using Neural Networks",
         "url": "secret/I7.html",
-        "yt_full": "/contents/short_1_video.mp4",
+        "yt_full": "/videos/short_1_video.mp4",
         "yt_teaser": ""
     },
     "I8": {
@@ -1513,10 +1513,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nI4-12 (short): Transfer Learning and Domain Adaptation - 13:45 - 14:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_88_poster.pdf",
+        "slides": "/slides/full_88_poster.pdf",
         "title": "HAD-Net: A Hierarchical Adversarial Knowledge Distillation Network for Improved Enhanced Tumour Segmentation Without Post-Contrast Images",
         "url": "secret/I8.html",
-        "yt_full": "/contents/full_88_video.mp4",
+        "yt_full": "/videos/full_88_video.mp4",
         "yt_teaser": ""
     },
     "I9": {
@@ -1529,10 +1529,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nI4-12 (short): Transfer Learning and Domain Adaptation - 13:45 - 14:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_107_poster.pdf",
+        "slides": "/slides/full_107_poster.pdf",
         "title": "An MRF-UNet Product of Experts for Image Segmentation",
         "url": "secret/I9.html",
-        "yt_full": "/contents/full_107_video.mp4",
+        "yt_full": "/videos/full_107_video.mp4",
         "yt_teaser": ""
     },
     "J1": {
@@ -1545,10 +1545,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nJ1-9 (short): Unsupervised and Representation Learning - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_52_poster.pdf",
+        "slides": "/slides/short_52_poster.pdf",
         "title": "Multimodal Generative Learning on the MIMIC-CXR Database",
         "url": "secret/J1.html",
-        "yt_full": "/contents/short_52_video.mp4",
+        "yt_full": "/videos/short_52_video.mp4",
         "yt_teaser": ""
     },
     "J2": {
@@ -1561,10 +1561,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nJ1-9 (short): Unsupervised and Representation Learning - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_63_poster.pdf",
+        "slides": "/slides/short_63_poster.pdf",
         "title": "TG-DGM: Clustering Brain Activity using a Temporal Graph Deep Generative Model",
         "url": "secret/J2.html",
-        "yt_full": "/contents/short_63_video.mp4",
+        "yt_full": "/videos/short_63_video.mp4",
         "yt_teaser": ""
     },
     "J3": {
@@ -1577,10 +1577,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nJ1-9 (short): Unsupervised and Representation Learning - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_86_poster (2).pdf",
+        "slides": "/slides/short_86_poster.pdf",
         "title": "Comparison of Representation Learning Techniques for Tracking in time resolved 3D Ultrasound",
         "url": "secret/J3.html",
-        "yt_full": "/contents/short_86_video.mp4",
+        "yt_full": "/videos/short_86_video.mp4",
         "yt_teaser": ""
     },
     "J4": {
@@ -1593,10 +1593,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nJ1-9 (short): Unsupervised and Representation Learning - 13:45 - 14:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_5_poster.pdf",
+        "slides": "/slides/short_5_poster.pdf",
         "title": "Deep Clustering Activation Maps for Emphysema Subtyping",
         "url": "secret/J4.html",
-        "yt_full": "/contents/short_5_video.mp4",
+        "yt_full": "/videos/short_5_video.mp4",
         "yt_teaser": ""
     },
     "J5": {
@@ -1609,10 +1609,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nJ1-9 (short): Unsupervised and Representation Learning - 13:45 - 14:30 (UCT+2)",
         "short": "False",
-        "slides": "",
+        "slides": "/slides/full_120_poster.pdf",
         "title": "Discrete Pseudohealthy Synthesis: Aortic Root Shape Typification and Type Classification with Pathological Prior",
         "url": "secret/J5.html",
-        "yt_full": "",
+        "yt_full": "/videos/full_120_video.mp4",
         "yt_teaser": ""
     },
     "J6": {
@@ -1625,10 +1625,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nJ1-9 (short): Unsupervised and Representation Learning - 13:45 - 14:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_15_poster.pdf",
+        "slides": "/slides/full_15_poster.pdf",
         "title": "Improving MRI-based Knee Disorder Diagnosis with Pyramidal Feature Details",
         "url": "secret/J6.html",
-        "yt_full": "/contents/full_15_video.mp4",
+        "yt_full": "/videos/full_15_video.mp4",
         "yt_teaser": ""
     },
     "J7": {
@@ -1641,10 +1641,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nJ1-9 (short): Unsupervised and Representation Learning - 13:45 - 14:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_150_poster.pdf",
+        "slides": "/slides/full_150_poster.pdf",
         "title": "Membership Inference Attacks on Deep Regression Models for Neuroimaging",
         "url": "secret/J7.html",
-        "yt_full": "/contents/full_150_video.mp4",
+        "yt_full": "/videos/full_150_video.mp4",
         "yt_teaser": ""
     },
     "J8": {
@@ -1657,10 +1657,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nJ1-9 (short): Unsupervised and Representation Learning - 13:45 - 14:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_109_poster.pdf",
+        "slides": "/slides/full_109_poster.pdf",
         "title": "Guided Filter Regularization for Improved Disentanglement of Shape and Appearance in Diffeomorphic Autoencoders",
         "url": "secret/J8.html",
-        "yt_full": "/contents/full_109_video.mp4",
+        "yt_full": "/videos/full_109_video.mp4",
         "yt_teaser": ""
     },
     "J9": {
@@ -1673,10 +1673,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nJ1-9 (short): Unsupervised and Representation Learning - 13:45 - 14:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_64_poster.pdf",
+        "slides": "/slides/full_64_poster.pdf",
         "title": "Self-supervised Out-of-distribution Detection for Cardiac CMR Segmentation",
         "url": "secret/J9.html",
-        "yt_full": "/contents/full_64_video.mp4",
+        "yt_full": "/videos/full_64_video.mp4",
         "yt_teaser": ""
     },
     "K1": {
@@ -1689,10 +1689,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nK1-9 (short): Learning with Noisy Labels and Limited Data - 16:45 - 17:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_96_poster.pdf",
+        "slides": "/slides/short_96_poster.pdf",
         "title": "Semi-Supervised Siamese Network for Identifying Bad Data in Medical Imaging Datasets",
         "url": "secret/K1.html",
-        "yt_full": "/contents/short_96_video.mp4",
+        "yt_full": "/videos/short_96_video.mp4",
         "yt_teaser": ""
     },
     "K2": {
@@ -1705,10 +1705,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nK1-9 (short): Learning with Noisy Labels and Limited Data - 16:45 - 17:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_35_poster.pdf",
+        "slides": "/slides/short_35_poster.pdf",
         "title": "mGEV: Extension of the GEV Activation to Multiclass Classification",
         "url": "secret/K2.html",
-        "yt_full": "/contents/short_35_video.mp4",
+        "yt_full": "/videos/short_35_video.mp4",
         "yt_teaser": ""
     },
     "K3": {
@@ -1721,10 +1721,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nK1-9 (short): Learning with Noisy Labels and Limited Data - 16:45 - 17:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_112_poster.pdf",
+        "slides": "/slides/short_112_poster.pdf",
         "title": "Weakly supervised 3D ConvLSTMs for high precision Monte-Carlo radiotherapy dose simulations",
         "url": "secret/K3.html",
-        "yt_full": "/contents/short_112_video.mp4",
+        "yt_full": "/videos/short_112_video.mp4",
         "yt_teaser": ""
     },
     "K4": {
@@ -1737,10 +1737,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nK1-9 (short): Learning with Noisy Labels and Limited Data - 16:45 - 17:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_109_poster (2).pdf",
+        "slides": "/slides/short_109_poster.pdf",
         "title": "DS6, Deformation-aware Semi-supervised Learning: Application to Small Vessel Segmentation with Noisy Training Data",
         "url": "secret/K4.html",
-        "yt_full": "/contents/short_109_video.mp4",
+        "yt_full": "/videos/short_109_video.mp4",
         "yt_teaser": ""
     },
     "K5": {
@@ -1753,10 +1753,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nK1-9 (short): Learning with Noisy Labels and Limited Data - 16:45 - 17:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_62_poster.pdf",
+        "slides": "/slides/short_62_poster.pdf",
         "title": "Deep ensemble model for segmenting microscopy images in the presence of limited labeled data",
         "url": "secret/K5.html",
-        "yt_full": "/contents/short_62_video.mp4",
+        "yt_full": "/videos/short_62_video.mp4",
         "yt_teaser": ""
     },
     "K6": {
@@ -1769,10 +1769,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nK1-9 (short): Learning with Noisy Labels and Limited Data - 16:45 - 17:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_153_poster.pdf",
+        "slides": "/slides/full_153_poster.pdf",
         "title": "Learning the Latent Heat Diffusion Process through Structural Brain Network from Longitudinal $\\beta$-Amyloid Data",
         "url": "secret/K6.html",
-        "yt_full": "/contents/full_153_video.mp4",
+        "yt_full": "/videos/full_153_video.mp4",
         "yt_teaser": ""
     },
     "K7": {
@@ -1785,10 +1785,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nK1-9 (short): Learning with Noisy Labels and Limited Data - 16:45 - 17:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_45_poster.pdf",
+        "slides": "/slides/full_45_poster.pdf",
         "title": "Attention via Scattering Transforms for Segmentation of Small Intravascular Ultrasound Data Sets",
         "url": "secret/K7.html",
-        "yt_full": "/contents/full_45_video.mp4",
+        "yt_full": "/videos/full_45_video.mp4",
         "yt_teaser": ""
     },
     "K8": {
@@ -1801,10 +1801,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nK1-9 (short): Learning with Noisy Labels and Limited Data - 16:45 - 17:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_75_poster.pdf",
+        "slides": "/slides/full_75_poster.pdf",
         "title": "Learning Interclass Relations for Intravenous Contrast Phase Classification in CT",
         "url": "secret/K8.html",
-        "yt_full": "/contents/full_75_video.mp4",
+        "yt_full": "/videos/full_75_video.mp4",
         "yt_teaser": ""
     },
     "K9": {
@@ -1817,10 +1817,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nK1-9 (short): Learning with Noisy Labels and Limited Data - 16:45 - 17:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_50_poster.pdf",
+        "slides": "/slides/full_50_poster.pdf",
         "title": "Improving Weakly Supervised Lesion Segmentation using Multi-Task Learning",
         "url": "secret/K9.html",
-        "yt_full": "/contents/full_50_video.mp4",
+        "yt_full": "/videos/full_50_video.mp4",
         "yt_teaser": ""
     },
     "L1": {
@@ -1833,10 +1833,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nL1-3 (long): Learning with Noisy Labels and Limited Data - 16:00 - 16:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_142_poster.pdf",
+        "slides": "/slides/full_142_poster.pdf",
         "title": "Untangling the Small Intestine in 3D cine-MRI using Deep Stochastic Tracking",
         "url": "secret/L1.html",
-        "yt_full": "/contents/full_142_video.mp4",
+        "yt_full": "/videos/full_142_video.mp4",
         "yt_teaser": ""
     },
     "L2": {
@@ -1849,10 +1849,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nL1-3 (long): Learning with Noisy Labels and Limited Data - 16:00 - 16:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_143_poster (3).pdf",
+        "slides": "/slides/full_143_poster.pdf",
         "title": "M-GCN: A Multimodal Graph Convolutional Network to Integrate Functional and Structural Connectomics Data to Predict Multidimensional Phenotypic Characterizations",
         "url": "secret/L2.html",
-        "yt_full": "/contents/full_143_video.mp4",
+        "yt_full": "/videos/full_143_video.mp4",
         "yt_teaser": ""
     },
     "L3": {
@@ -1865,10 +1865,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nL1-3 (long): Learning with Noisy Labels and Limited Data - 16:00 - 16:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_32_poster.pdf",
+        "slides": "/slides/full_32_poster.pdf",
         "title": "Improved model-based deep learning for quantitative susceptibility mapping",
         "url": "secret/L3.html",
-        "yt_full": "/contents/full_32_video.mp4",
+        "yt_full": "/videos/full_32_video.mp4",
         "yt_teaser": ""
     },
     "L4": {
@@ -1881,10 +1881,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nL4-9 (short): Detection and Diagnosis 2 - 16:45 - 17:30 (UCT+2)",
         "short": "True",
-        "slides": "/contents/short_80_poster.pdf",
+        "slides": "/slides/short_80_poster.pdf",
         "title": "Prediction of Ki67 scores from H&E stained breast cancer sections using convolutional neural networks",
         "url": "secret/L4.html",
-        "yt_full": "/contents/short_80_video.mp4",
+        "yt_full": "/videos/short_80_video.mp4",
         "yt_teaser": ""
     },
     "L5": {
@@ -1897,10 +1897,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nL4-9 (short): Detection and Diagnosis 2 - 16:45 - 17:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_10_poster.pdf",
+        "slides": "/slides/full_10_poster.pdf",
         "title": "Feedback Graph Attention Convolutional Network for MR Images Enhancement by Exploring Self-Similarity Features",
         "url": "secret/L5.html",
-        "yt_full": "/contents/full_10_video.mp4",
+        "yt_full": "/videos/full_10_video.mp4",
         "yt_teaser": ""
     },
     "L6": {
@@ -1913,10 +1913,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nL4-9 (short): Detection and Diagnosis 2 - 16:45 - 17:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_145_poster.pdf",
+        "slides": "/slides/full_145_poster.pdf",
         "title": "Unifying Brain Age Prediction and Age-Conditioned Template Generation with a Deterministic Autoencoder",
         "url": "secret/L6.html",
-        "yt_full": "/contents/full_145_video.mp4",
+        "yt_full": "/videos/full_145_video.mp4",
         "yt_teaser": ""
     },
     "L7": {
@@ -1929,10 +1929,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nL4-9 (short): Detection and Diagnosis 2 - 16:45 - 17:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_92_poster.pdf",
+        "slides": "/slides/full_92_poster.pdf",
         "title": "GOAL: Gist-set Online Active Learning for Efficient Chest X-ray Image Annotation",
         "url": "secret/L7.html",
-        "yt_full": "/contents/full_92_video.mp4",
+        "yt_full": "/videos/full_92_video.mp4",
         "yt_teaser": ""
     },
     "L8": {
@@ -1945,10 +1945,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nL4-9 (short): Detection and Diagnosis 2 - 16:45 - 17:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_49_poster.pdf",
+        "slides": "/slides/full_49_poster.pdf",
         "title": "EPIC-Survival: End-to-end Part Inferred Clustering for Survival Analysis, with Prognostic Stratification Boosting",
         "url": "secret/L8.html",
-        "yt_full": "/contents/full_49_video.mp4",
+        "yt_full": "/videos/full_49_video.mp4",
         "yt_teaser": ""
     },
     "L9": {
@@ -1961,10 +1961,10 @@
         "pmlr_url": "",
         "schedule": " Friday 9th July\nL4-9 (short): Detection and Diagnosis 2 - 16:45 - 17:30 (UCT+2)",
         "short": "False",
-        "slides": "/contents/full_31_poster.pdf",
+        "slides": "/slides/full_31_poster.pdf",
         "title": "CheXseg: Combining Expert Annotations with DNN-generated Saliency Maps for X-ray Segmentation",
         "url": "secret/L9.html",
-        "yt_full": "/contents/full_31_video.mp4",
+        "yt_full": "/videos/full_31_video.mp4",
         "yt_teaser": ""
     }
 }

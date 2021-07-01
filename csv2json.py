@@ -40,7 +40,8 @@ if __name__ == "__main__":
 
         # pprint(program_dict)
 
-        contents: list[Path] = list(Path("static/contents/").glob("*"))
+        # all_videos: list[Path] = list(Path("static/contents/video_compressed").glob("*.mp4"))
+        # all_slides: list[Path] = list(Path("static/contents/slides_compressed").glob("*.pdf"))
         # print(contents[:10])
 
         df_long_papers: pd.DataFrame
@@ -78,24 +79,6 @@ if __name__ == "__main__":
 
                 number: str = csv_line['number']
 
-                slide_candidates: list[Path] = list(filter(lambda p: p.match(f"[Ff]ull_{number}_poster*.pdf"),
-                                                           contents))
-                video_candidates: list[Path] = list(filter(lambda p: p.match(f"[Ff]ull_{number}_video*.mp4"),
-                                                           contents))
-
-                if slide_candidates:
-                        # Have to deal with duplicates later
-                        slides = "/" + str(slide_candidates[0].relative_to('static/'))
-                        # print(slides)
-                else:
-                        slides = ""
-
-                if video_candidates:
-                        # Have to deal with duplicates later
-                        yt_full = "/" + str(video_candidates[0].relative_to('static/'))
-                        # print(yt_full)
-                else:
-                        yt_full = ""
 
                 current_paper: Paper = Paper(id=id_,
                                              title=csv_line['title'],
@@ -106,8 +89,8 @@ if __name__ == "__main__":
                                              short="False",
                                              abstract=csv_line['abstract'],
                                              schedule=schedule,
-                                             slides=slides,
-                                             yt_full=yt_full)
+                                             slides=f"/slides/full_{number}_poster.pdf",
+                                             yt_full=f"/videos/full_{number}_video.mp4")
 
                 # print(f"{{{{{current_paper.id}}}}}")
 
@@ -136,25 +119,6 @@ if __name__ == "__main__":
 
                 number = csv_line['number']
 
-                slide_candidates = list(filter(lambda p: p.match(f"[Ss]hort_{number}_poster*.pdf"),
-                                               contents))
-                video_candidates = list(filter(lambda p: p.match(f"[Ss]hort_{number}_video*.mp4"),
-                                               contents))
-
-                if slide_candidates:
-                        # Have to deal with duplicates later
-                        slides = "/" + str(slide_candidates[0].relative_to('static/'))
-                        # print(slides)
-                else:
-                        slides = ""
-
-                if video_candidates:
-                        # Have to deal with duplicates later
-                        yt_full = "/" + str(video_candidates[0].relative_to('static/'))
-                        # print(yt_full)
-                else:
-                        yt_full = ""
-
                 current_paper = Paper(id=id_,
                                       title=csv_line['title'],
                                       authors=', '.join(authors),
@@ -164,8 +128,8 @@ if __name__ == "__main__":
                                       short="True",
                                       abstract=csv_line['abstract'],
                                       schedule=schedule,
-                                      slides=slides,
-                                      yt_full=yt_full)
+                                      slides=f"/slides/short_{number}_poster.pdf",
+                                      yt_full=f"/videos/short_{number}_video.mp4")
 
                 # print(f"{{{{{current_paper.id}}}}}")
 
