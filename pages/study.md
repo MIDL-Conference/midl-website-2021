@@ -147,22 +147,22 @@ Sign up by filling out the [registration form](https://forms.gle/Fx3KV6kBVdsF6HZ
 * Session Chairs H:: Raghav Mehta, Clarisa Sanchez 
 
 #### This study group discusses the following papers
-* H6: Lucas de Vries - Transformers for Ischemic Stroke Infarct Core Segmentation from Spatio-temporal CT Perfusion Scans - (short)
-* H7: Jueqi Wang - Multichannel input pixelwise regression 3D U-Nets for medical image estimation with 3 applications in brain MRI - (short)
-* H8: Mickael Tardy - Morphology-based losses for weakly supervised segmentation of mammograms - (short)
-* H9: Laura Hellwege - Partial Convolution Network for Metal Artifact Reduction in CT Preprocessing: Preliminary Results - (short)
-* H10: Rosana EL Jurdi - A Surprisingly Effective Perimeter-based Loss for Medical Image Segmentation - (full)
-* H11: Hang Zhang - Memory U-Net: Memorizing Where to Vote for Lesion Instance Segmentation - (full)
+* H6: Lucas de Vries - [Transformers for Ischemic Stroke Infarct Core Segmentation from Spatio-temporal CT Perfusion Scans](https://2021.midl.io/papers/) - (short)
+* H7: Jueqi Wang - [Multichannel input pixelwise regression 3D U-Nets for medical image estimation with 3 applications in brain MRI](https://2021.midl.io/papers/) - (short)
+* H8: Mickael Tardy - [Morphology-based losses for weakly supervised segmentation of mammograms](https://2021.midl.io/papers/) - (short)
+* H9: Laura Hellwege - [Partial Convolution Network for Metal Artifact Reduction in CT Preprocessing: Preliminary Results](https://2021.midl.io/papers/) - (short)
+* H10: Rosana EL Jurdi - [A Surprisingly Effective Perimeter-based Loss for Medical Image Segmentation](https://2021.midl.io/papers/) - (full)
+* H11: Hang Zhang - [Memory U-Net: Memorizing Where to Vote for Lesion Instance Segmentation](https://2021.midl.io/papers/) - (full)
 
 ### Study Group 3-B
 * Mentor: Christian Baumgartner (3+1) 
 * Session Chairs L (Friday): Christian Baumgartner, Colin Jacobs
 
 #### This study group discusses the following papers
-* L4: Philippe Weitz - Prediction of Ki67 scores from H&E stained breast cancer sections using convolutional neural networks - (short)
-* L7: Chanh Nguyen - GOAL: Gist-set Online Active Learning for Efficient Chest X-ray Image Annotation - (full)
-* L8: Hassan Muhammad - EPIC-Survival: End-to-end Part Inferred Clustering for Survival Analysis, with Prognostic Stratification Boosting - (full)
-* L9: Soham Uday Gadgil - CheXseg: Combining Expert Annotations with DNN-generated Saliency Maps for X-ray Segmentation - (full)
+* L4: Philippe Weitz - [Prediction of Ki67 scores from H&E stained breast cancer sections using convolutional neural networks](https://2021.midl.io/papers/) - (short)
+* L7: Chanh Nguyen - [GOAL: Gist-set Online Active Learning for Efficient Chest X-ray Image Annotation](https://2021.midl.io/papers/) - (full)
+* L8: Hassan Muhammad - [EPIC-Survival: End-to-end Part Inferred Clustering for Survival Analysis, with Prognostic Stratification Boosting](https://2021.midl.io/papers/) - (full)
+* L9: Soham Uday Gadgil - [CheXseg: Combining Expert Annotations with DNN-generated Saliency Maps for X-ray Segmentation](https://2021.midl.io/papers/) - (full)
 
 ## Study Groups Thursday 11:45-12:30 (UCT+2)
 
@@ -171,57 +171,57 @@ Sign up by filling out the [registration form](https://forms.gle/Fx3KV6kBVdsF6HZ
 * Session Chairs G: Angelica Aviles-Rivero, Antoine Théberge
 This study group discusses the following papers
 
-* G4: Hansang Lee - Test-Time Mixup Augmentation for Uncertainty Estimation in Skin Lesion Diagnosis - (short)
-* G5: Ke Yan - Interpretable Medical Image Classification with Self-Supervised Anatomical Embedding and Prior Knowledge - (short)
-* G6: Polina Druzhinina - 50 shades of overfitting: towards MRI-based neurologicalmodels interpretation - (short)
-* G7: Kangning Liu - Weakly-supervised High-resolution Segmentation of Mammography Images for Breast Cancer Diagnosis - (full)
-* G8: Matthäus Heer - The OOD Blind Spot of Unsupervised Anomaly Detection - (full)
-* G9: Hongrun Zhang - A regularization term for slide correlation reduction in whole slide image analysis with deep learning - (full)
+* G4: Hansang Lee - [Test-Time Mixup Augmentation for Uncertainty Estimation in Skin Lesion Diagnosis](https://2021.midl.io/papers/) - (short)
+* G5: Ke Yan - [Interpretable Medical Image Classification with Self-Supervised Anatomical Embedding and Prior Knowledge](https://2021.midl.io/papers/) - (short)
+* G6: Polina Druzhinina - [50 shades of overfitting: towards MRI-based neurologicalmodels interpretation](https://2021.midl.io/papers/) - (short)
+* G7: Kangning Liu - [Weakly-supervised High-resolution Segmentation of Mammography Images for Breast Cancer Diagnosis](https://2021.midl.io/papers/) - (full)
+* G8: Matthäus Heer - [The OOD Blind Spot of Unsupervised Anomaly Detection](https://2021.midl.io/papers/) - (full)
+* G9: Hongrun Zhang - [A regularization term for slide correlation reduction in whole slide image analysis with deep learning](https://2021.midl.io/papers/) - (full)
 
 ### Study Group 4-B 
 * Mentor: Hugo Kuijf: (3+0)
 * Session Chairs: Angelica Aviles-Rivero, Antoine Théberge 
 
 #### This study group discusses the following papers
-* H1: Jinwei Zhang - Hybrid optimization between iterative and network fine-tuning reconstructions for fast quantitative susceptibility mapping
-* H2: Malte Tölle - A Mean-Field Variational Inference Approach to Deep Image Prior for Inverse Problems in Medical Imaging
-* H3: Carolin Pirkl - Residual learning for 3D motion corrected quantitative MRI: Robust clinical T1, T2 and proton density mapping
+* H1: Jinwei Zhang - [Hybrid optimization between iterative and network fine-tuning reconstructions for fast quantitative susceptibility mapping](https://2021.midl.io/papers/)
+* H2: Malte Tölle - [A Mean-Field Variational Inference Approach to Deep Image Prior for Inverse Problems in Medical Imaging](https://2021.midl.io/papers/)
+* H3: Carolin Pirkl - [Residual learning for 3D motion corrected quantitative MRI: Robust clinical T1, T2 and proton density mapping](https://2021.midl.io/papers/)
 
 ### Study Group 4-C
 * Mentor: Ivana Isgum (3+3) 
 * Session Chairs E: Ivana Isgum, Carole Sudre Chairs F: Nicha Dvornek, Bram van Ginneken 
 
-This study group discusses the following papers
-* E1: David A. Wood - Automated triaging of head MRI examinations using convolutional neural networks
-* E2: Antoine Olivier - Balanced sampling for an object detection problem - application to fetal anatomies detection
-* E3: Walter Hugo Lopez Pinaya - Unsupervised Brain Anomaly Detection and Segmentation with Transformers
-* F1: Alexander M. Zolotarev - Ex-vivo - to - In-vivo Learning in Cardiology - (short)
-* F2: Paul Weiser - Reconstruction and coil combination of undersampled concentric-ring MRSI data using a Graph U-Net - (short)
-* F3: Soumick Chatterjee - ReconResNet: Regularised Residual Learning for MR Image Reconstruction of Undersampled Cartesian and Radial Data - (short)
+#### This study group discusses the following papers
+* E1: David A. Wood - [Automated triaging of head MRI examinations using convolutional neural networks](https://2021.midl.io/papers/)
+* E2: Antoine Olivier - [Balanced sampling for an object detection problem - application to fetal anatomies detection](https://2021.midl.io/papers/)
+* E3: Walter Hugo Lopez Pinaya - [Unsupervised Brain Anomaly Detection and Segmentation with Transformers](https://2021.midl.io/papers/)
+* F1: Alexander M. Zolotarev - [Ex-vivo - to - In-vivo Learning in Cardiology](https://2021.midl.io/papers/) - (short)
+* F2: Paul Weiser - [Reconstruction and coil combination of undersampled concentric-ring MRSI data using a Graph U-Net](https://2021.midl.io/papers/) - (short)
+* F3: Soumick Chatterjee - [ReconResNet: Regularised Residual Learning for MR Image Reconstruction of Undersampled Cartesian and Radial Data](https://2021.midl.io/papers/) - (short)
 
 ### Study Group 4-D
 * Mentor: Bram van Ginneken (1+5) 
 * Session Chairs F: Nicha Dvornek, Bram van Ginneken
 
-This study group discusses the following papers
-* F4: Mikhail Bortnikov - 3D Scout Scans Using Projection Domain Denoising - (short)
-* F5: Emanoel Ribeiro Sabidussi - Recurrent Inference Machines as Inverse Problem Solvers for MR Relaxometry - (short)
-* F6: Farah Shamout - An artificial intelligence system for predicting the deterioration of COVID-19 patients in the emergency department - (short)
-* F7: Ahmad Wisnu Mulyadi - ProtoBrainMaps: Prototypical Brain Maps for Alzheimer's Disease Progression Modeling - (short)
-* F8: Nele Blum - Projection Domain Metal Artifact Reduction in Computed Tomography using Conditional Generative Adversarial Networks - (short)
-* F9: Attila Tibor Simko - Changing the Contrast of Magnetic Resonance Imaging Signals using Deep Learning - (full)
+#### This study group discusses the following papers
+* F4: Mikhail Bortnikov - [3D Scout Scans Using Projection Domain Denoising](https://2021.midl.io/papers/) - (short)
+* F5: Emanoel Ribeiro Sabidussi - [Recurrent Inference Machines as Inverse Problem Solvers for MR Relaxometry](https://2021.midl.io/papers/) - (short)
+* F6: Farah Shamout - [An artificial intelligence system for predicting the deterioration of COVID-19 patients in the emergency department](https://2021.midl.io/papers/) - (short)
+* F7: Ahmad Wisnu Mulyadi - [ProtoBrainMaps: Prototypical Brain Maps for Alzheimer's Disease Progression Modeling](https://2021.midl.io/papers/) - (short)
+* F8: Nele Blum - [Projection Domain Metal Artifact Reduction in Computed Tomography using Conditional Generative Adversarial Networks](https://2021.midl.io/papers/) - (short)
+* F9: Attila Tibor Simko - [Changing the Contrast of Magnetic Resonance Imaging Signals using Deep Learning](https://2021.midl.io/papers/) - (full)
 
 ### Study Group 4-E
 * Mentor: Sriprabha Ramanarayanan (1+5) 
 * Session Chairs G: Angelica Aviles-Rivero, Antoine Théberge, Chairs H: Raghav Mehta, Clarisa Sanchez 
 
-This study group discusses the following papers
-* G1: Guanghui FU - Me-NDT: Neural-backed Decision Tree for Visual Explainability of Deep Medical Models - (short)
-* G2: Cher Bass - ICAM-reg: Interpretable Classification and Regression with Feature Attribution for Mapping Neurological Phenotypes in Individual Scans - (short)
-* G3: Lasse Hansen - Radiographic Assessment of CVC Malpositioning: How can AI best support clinicians? - (short)
-* H4: Brennan Nichyporuk - Optimizing Operating Points for High Performance Lesion Detection and Segmentation Using Lesion Size Reweighting - (short)
-* H5: Junyu Chen - Creating Anthropomorphic Phantoms via Unsupervised Convolutional Neural Networks - (short)
-* H12: Siyu Shi - Unseen Disease Detection for Deep Learning Interpretation of Chest X-rays - (full)
+#### This study group discusses the following papers
+* G1: Guanghui FU - [Me-NDT: Neural-backed Decision Tree for Visual Explainability of Deep Medical Models](https://2021.midl.io/papers/) - (short)
+* G2: Cher Bass - [ICAM-reg: Interpretable Classification and Regression with Feature Attribution for Mapping Neurological Phenotypes in Individual Scans](https://2021.midl.io/papers/) - (short)
+* G3: Lasse Hansen - [Radiographic Assessment of CVC Malpositioning: How can AI best support clinicians?](https://2021.midl.io/papers/) - (short)
+* H4: Brennan Nichyporuk - [Optimizing Operating Points for High Performance Lesion Detection and Segmentation Using Lesion Size Reweighting](https://2021.midl.io/papers/) - (short)
+* H5: Junyu Chen -[ Creating Anthropomorphic Phantoms via Unsupervised Convolutional Neural Networks](https://2021.midl.io/papers/) - (short)
+* H12: Siyu Shi - [Unseen Disease Detection for Deep Learning Interpretation of Chest X-rays](https://2021.midl.io/papers/) - (full)
 
 ## Study Groups Thursday 23:45-0:30 (UCT+2)
 
@@ -229,67 +229,80 @@ This study group discusses the following papers
 * Mentor: Maria Vakalopoulou  (3+1)
 * Session Chairs: Vakalopoulou 
 
-This study group discusses the following papers
-* I7: Elisabeth Sarah Lane - Echocardiographic Phase Detection Using Neural Networks - (short)
-* I8: Saverio Vadacchino - HAD-Net: A Hierarchical Adversarial Knowledge Distillation Network for Improved Enhanced Tumour Segmentation Without Post-Contrast Images - (full)
-* I9: Mikael Brudfors - An MRF-UNet Product of Experts for Image Segmentation - (full)
-* I10: Fahdi Kanavati - Partial transfusion: on the expressive influence of trainable batch norm parameters for transfer learning - (full)
+#### This study group discusses the following papers
+* I7: Elisabeth Sarah Lane - [Echocardiographic Phase Detection Using Neural Networks](https://2021.midl.io/papers/) - (short)
+* I8: Saverio Vadacchino - [HAD-Net: A Hierarchical Adversarial Knowledge Distillation Network for Improved Enhanced Tumour Segmentation Without Post-Contrast Images](https://2021.midl.io/papers/) - (full)
+* I9: Mikael Brudfors - [An MRF-UNet Product of Experts for Image Segmentation](https://2021.midl.io/papers/) - (full)
+* I10: Fahdi Kanavati - [Partial transfusion: on the expressive influence of trainable batch norm parameters for transfer learning](https://2021.midl.io/papers/) - (full)
 
 ### Study Group 5-B 
 * Mentor: Tal Arbel (3+2) 
 * Session Chairs L: Geert Litjens, Ozan Oktay  Chairs K: Hoel Kervadec, Max-Heinrich Laves 
 
-This study group discusses the following papers
-* L1: Louis van Harten - Untangling the Small Intestine in 3D cine-MRI using Deep Stochastic Tracking
-* L2: Niharika Shimona Dsouza - M-GCN: A Multimodal Graph Convolutional Network to Integrate Functional and Structural Connectomics Data to Predict Multidimensional Phenotypic Characterizations
-* L3: JUAN LIU - Improved model-based deep learning for quantitative susceptibility mapping
-* K1: Niamh Belton - Semi-Supervised Siamese Network for Identifying Bad Data in Medical Imaging Datasets - (short)
-* K2: Joshua Thomas Bridge - mGEV: Extension of the GEV Activation to Multiclass Classification - (short)
+#### This study group discusses the following papers
+* L1: Louis van Harten - [Untangling the Small Intestine in 3D cine-MRI using Deep Stochastic Tracking](https://2021.midl.io/papers/)
+* L2: Niharika Shimona Dsouza - [M-GCN: A Multimodal Graph Convolutional Network to Integrate Functional and Structural Connectomics Data to Predict Multidimensional Phenotypic Characterizations](https://2021.midl.io/papers/)
+* L3: JUAN LIU - [Improved model-based deep learning for quantitative susceptibility mapping](https://2021.midl.io/papers/)
+* K1: Niamh Belton - [Semi-Supervised Siamese Network for Identifying Bad Data in Medical Imaging Datasets](https://2021.midl.io/papers/) - (short)
+* K2: Joshua Thomas Bridge - [mGEV: Extension of the GEV Activation to Multiclass Classification](https://2021.midl.io/papers/) - (short)
 
 ### Study Group 5-C 
 * Mentor: Hervé Lombaert (3+0)
 * Session Chairs: Ismail Ben Ayed, Arrate Muñoz-Barrutia 
-
-This study group discusses the following papers:
-* I1: Caner Ozer - Explainable Image Quality Analysis of Chest X-Rays
-* I2: Joseph Paul Cohen - Gifsplanation via Latent Shift: A Simple Autoencoder Approach to Counterfactual Generation for Chest X-rays
-* I3: Abhejit Rajagopal - Understanding and Visualizing Generalization UNets
+#### This study group discusses the following papers
+* I1: Caner Ozer - [Explainable Image Quality Analysis of Chest X-Rays](https://2021.midl.io/papers/)
+* I2: Joseph Paul Cohen - [Gifsplanation via Latent Shift: A Simple Autoencoder Approach to Counterfactual Generation for Chest X-rays](https://2021.midl.io/papers/)
+* I3: Abhejit Rajagopal - [Understanding and Visualizing Generalization UNets](https://2021.midl.io/papers/)
 
 ## Study Groups Friday 11:45-12:30 (UCT+2)
-### Study Group 6-A Katharina Breininger (2+3) Session Chairs: Katharina Breininger, Maria Vakalopoulou 
-This study group discusses the following papers
-I4: Yassine Barhoumi - Scopeformer: n-CNN-ViT hybrid model for Intracranial hemorrhage subtypes classification - (short)
-I5: Neerav Karani - Robust medical image segmentation by adapting neural networks for each test image - (short)
-I6: Marc Aubreville - Quantifying the Scanner-Induced Domain Gap in Mitosis Detection - (short)
-I11: Sobhan Hemati - CNN and Deep Sets for End-to-End Whole Slide Image Representation Learning - (full)
-I12: Khrystyna Faryna - Tailoring automated data augmentation to H&E-stained histopathology - (full)
+### Study Group 6-A 
+* Mentor: Katharina Breininger (2+3)
+* Session Chairs: Katharina Breininger, Maria Vakalopoulou 
+#### This study group discusses the following papers
+I4: Yassine Barhoumi - [Scopeformer: n-CNN-ViT hybrid model for Intracranial hemorrhage subtypes classification](https://2021.midl.io/papers/) - (short)
+I5: Neerav Karani - [Robust medical image segmentation by adapting neural networks for each test image](https://2021.midl.io/papers/) - (short)
+I6: Marc Aubreville - [Quantifying the Scanner-Induced Domain Gap in Mitosis Detection](https://2021.midl.io/papers/) - (short)
+I11: Sobhan Hemati - [CNN and Deep Sets for End-to-End Whole Slide Image Representation Learning](https://2021.midl.io/papers/) - (full)
+I12: Khrystyna Faryna - [Tailoring automated data augmentation to H&E-stained histopathology](https://2021.midl.io/papers/) - (full)
 
 
-### Study Group 6-B: Nikolas Lessmann (3+2) Session Chairs: Nikolas Lessmann, Nick Pawlowski 
-This study group discusses the following papers
-J1: Hendrik J. Klug - Multimodal Generative Learning on the MIMIC-CXR Database - (short)
-J2: Simeon Emilov Spasov - TG-DGM: Clustering Brain Activity using a Temporal Graph Deep Generative Model - (short)
-J5: Jannis Hagenah - Discrete Pseudohealthy Synthesis: Aortic Root Shape Typification and Type Classification with Pathological Prior - (full)
-J6: Matteo Dunnhofer - Improving MRI-based Knee Disorder Diagnosis with Pyramidal Feature Details - (full)
-J7: Umang Gupta - Membership Inference Attacks on Deep Regression Models for Neuroimaging - (full)
+### Study Group 6-B
+* Mentor: Nikolas Lessmann (3+2) 
+* Session Chairs: Nikolas Lessmann, Nick Pawlowski 
+
+#### This study group discusses the following papers
+* J1: Hendrik J. Klug - [Multimodal Generative Learning on the MIMIC-CXR Database](https://2021.midl.io/papers/) - (short)
+* J2: Simeon Emilov Spasov - [TG-DGM: Clustering Brain Activity using a Temporal Graph Deep Generative Model](https://2021.midl.io/papers/) - (short)
+* J5: Jannis Hagenah - [Discrete Pseudohealthy Synthesis: Aortic Root Shape Typification and Type Classification with Pathological Prior](https://2021.midl.io/papers/) - (full)
+* J6: Matteo Dunnhofer - [Improving MRI-based Knee Disorder Diagnosis with Pyramidal Feature Details](https://2021.midl.io/papers/) - (full)
+* J7: Umang Gupta - [Membership Inference Attacks on Deep Regression Models for Neuroimaging](https://2021.midl.io/papers/) - (full)
 
 
-### Study Group 6-C: Nick Pawlowski (2+2) Session Chairs: Nikolas Lessmann, Nick Pawlowski 
-J3: Daniel Wulff - Comparison of Representation Learning Techniques for Tracking in time resolved 3D Ultrasound - (short)
-J4: Weiyi Xie - Deep Clustering Activation Maps for Emphysema Subtyping - (short)
-J8: Hristina Uzunova - Guided Filter Regularization for Improved Disentanglement of Shape and Appearance in Diffeomorphic Autoencoders - (full)
-J9: Camila Gonzalez - Self-supervised Out-of-distribution Detection for Cardiac CMR Segmentation - (full)
+### Study Group 6-C
+* Mentor: Nick Pawlowski (2+2) 
+* Session Chairs: Nikolas Lessmann, Nick Pawlowski 
 
-### Study Group 6-D: Arrate Muñoz-Barrutia (3+0) Session Chairs: Ismail Ben Ayed, Arrate Muñoz-Barrutia 
-This study group discusses the following papers
-I1: Caner Ozer - Explainable Image Quality Analysis of Chest X-Rays
-I2: Joseph Paul Cohen - Gifsplanation via Latent Shift: A Simple Autoencoder Approach to Counterfactual Generation for Chest X-rays
-I3: Abhejit Rajagopal - Understanding and Visualizing Generalization UNets
+#### This study group discusses the following papers
+* J3: Daniel Wulff - [Comparison of Representation Learning Techniques for Tracking in time resolved 3D Ultrasound](https://2021.midl.io/papers/) - (short)
+* J4: Weiyi Xie - [Deep Clustering Activation Maps for Emphysema Subtyping](https://2021.midl.io/papers/) - (short)
+* J8: Hristina Uzunova - [Guided Filter Regularization for Improved Disentanglement of Shape and Appearance in Diffeomorphic Autoencoders](https://2021.midl.io/papers/) - (full)
+* J9: Camila Gonzalez - [Self-supervised Out-of-distribution Detection for Cardiac CMR Segmentation](https://2021.midl.io/papers/) - (full)
 
-### Study Group 6-E Ismail Ben Ayed (3+1) Session Chairs K: Hoel Kervadec, Max-Heinrich Laves 
+### Study Group 6-D
+* Mentor: Arrate Muñoz-Barrutia (3+0) 
+* Session Chairs: Ismail Ben Ayed, Arrate Muñoz-Barrutia 
 
-This study group discusses the following papers
-* K3: Sonia Martinot - Weakly supervised 3D ConvLSTMs for high precision Monte-Carlo radiotherapy dose simulations - (short)
-* K7: Lennart Bargsten - Attention via Scattering Transforms for Segmentation of Small Intravascular Ultrasound Data Sets - (full)
-* K8: Raouf Muhamedrahimov - Learning Interclass Relations for Intravenous Contrast Phase Classification in CT - (full)
-* K9: Tianshu Chu - Improving Weakly Supervised Lesion Segmentation using Multi-Task Learning - (full)
+#### This study group discusses the following papers
+I1: Caner Ozer - [Explainable Image Quality Analysis of Chest X-Rays](https://2021.midl.io/papers/)
+I2: Joseph Paul Cohen - [Gifsplanation via Latent Shift: A Simple Autoencoder Approach to Counterfactual Generation for Chest X-rays](https://2021.midl.io/papers/)
+I3: Abhejit Rajagopal - [Understanding and Visualizing Generalization UNets](https://2021.midl.io/papers/)
+
+### Study Group 6-E
+* Mentor: Ismail Ben Ayed (3+1) 
+* Session Chairs K: Hoel Kervadec, Max-Heinrich Laves 
+
+#### This study group discusses the following papers
+* K3: Sonia Martinot - [Weakly supervised 3D ConvLSTMs for high precision Monte-Carlo radiotherapy dose simulations](https://2021.midl.io/papers/) - (short)
+* K7: Lennart Bargsten - [Attention via Scattering Transforms for Segmentation of Small Intravascular Ultrasound Data Sets](https://2021.midl.io/papers/) - (full)
+* K8: Raouf Muhamedrahimov - [Learning Interclass Relations for Intravenous Contrast Phase Classification in CT](https://2021.midl.io/papers/) - (full)
+* K9: Tianshu Chu - [Improving Weakly Supervised Lesion Segmentation using Multi-Task Learning](https://2021.midl.io/papers/) - (full)
