@@ -21,11 +21,14 @@ if __name__ == "__main__":
         program_dict: dict[str, tuple[str, str]] = {}  # openreview key: [conf_id, Schedule]
 
         current_time: Optional[str] = None
+        current_day: Optional[str] = None
         conf_id: str
         openreview_id: str
         with open(program_file, 'r') as f:
                 for line in f:
-                        if "<h3>" in line:
+                        if "<h2>" in line:
+                                current_day = BeautifulSoup(line, 'html.parser').h2.text
+                        elif "<h3>" in line:
                                 current_time = BeautifulSoup(line, 'html.parser').h3.text
                         elif 'target="_blank">' in line:
                                 conf_id = line.split(':')[0]
@@ -33,7 +36,7 @@ if __name__ == "__main__":
                                 openreview_id = openreview_url.split("id=")[1]
 
                                 assert current_time is not None
-                                program_dict[openreview_id] = (conf_id, current_time)
+                                program_dict[openreview_id] = (conf_id, f"{current_day}\n{current_time}")
 
         # pprint(program_dict)
 
