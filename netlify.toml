@@ -12,6 +12,111 @@
   to = "https://gather.town/app/Y8zE5Ct0yJ6jkD97/MIDL2021_WS"
   status = 302
 
+[[redirects]]
+  from = "/webex-america-tue-a"
+  to = "https://uni-luebeck.webex.com/uni-luebeck/j.php?MTID=m5fd13b03bb547a3ad4be96cc83a1292b"
+  status = 302
+
+[[redirects]]
+  from = "/webex-america-tue-b"
+  to = "https://uni-luebeck.webex.com/uni-luebeck/j.php?MTID=m27b980aab0b5073eceb122b3d44849fb"
+  status = 302
+
+[[redirects]]
+  from = "/webex-america-wed-a"
+  to = "https://uni-luebeck.webex.com/uni-luebeck/j.php?MTID=m263e13ef6c112a22d912f41e160c34a7"
+  status = 302
+
+[[redirects]]
+  from = "/webex-america-wed-b"
+  to = "https://uni-luebeck.webex.com/uni-luebeck/j.php?MTID=m0bd2ccf8b5340f3a2a9f4109cbcb4128"
+  status = 302
+  
+[[redirects]]
+  from = "/webex-america-thu-a"
+  to = "https://uni-luebeck.webex.com/uni-luebeck/j.php?MTID=mec2d262c51a519a12d3cdd3755470829"
+  status = 302
+
+[[redirects]]
+  from = "/webex-america-thu-b"
+  to = "https://uni-luebeck.webex.com/uni-luebeck/j.php?MTID=m65403b42ccd747be53d9db255ea108b2"
+  status = 302
+  
+[[redirects]]
+  from = "/webex-row-wed-a"
+  to = "https://uni-luebeck.webex.com/uni-luebeck/j.php?MTID=maf1748b123e9be0b5aca33bb1a806321"
+  status = 302
+
+[[redirects]]
+  from = "/webex-row-wed-b"
+  to = "https://uni-luebeck.webex.com/uni-luebeck/j.php?MTID=m84993f241aa2715e0fd18f355a837b48"
+  status = 302
+  
+[[redirects]]
+  from = "/webex-row-thu-a"
+  to = "https://uni-luebeck.webex.com/uni-luebeck/j.php?MTID=m202640355f058383399ed2928aeccbe3"
+  status = 302
+
+[[redirects]]
+  from = "/webex-row-thu-b"
+  to = "https://uni-luebeck.webex.com/uni-luebeck/j.php?MTID=m46253c7a520a92f4e92d316f0e52bcaf"
+  status = 302
+
+[[redirects]]
+  from = "/webex-row-fri-a"
+  to = "https://uni-luebeck.webex.com/uni-luebeck/j.php?MTID=mec2d262c51a519a12d3cdd3755470829"
+  status = 302
+
+[[redirects]]
+  from = "/webex-row-fri-b"
+  to = "https://uni-luebeck.webex.com/uni-luebeck/j.php?MTID=m65403b42ccd747be53d9db255ea108b2"
+  status = 302
+
+[[redirects]]
+  from = "/webex-plenary-wed"
+  to = "https://uni-luebeck.webex.com/uni-luebeck/j.php?MTID=m8a6721919d56a012a03f92cae65d3025"
+  status = 302
+
+[[redirects]]
+  from = "/webex-plenary-thu"
+  to = "https://uni-luebeck.webex.com/uni-luebeck/j.php?MTID=m3d28a585a48ef384a07782d3d9315b2c"
+  status = 302
+
+[[redirects]]
+  from = "/webex-plenary-fri"
+  to = "https://uni-luebeck.webex.com/uni-luebeck/j.php?MTID=mb10936a0be1048f35d898bab8936a1d6"
+  status = 302
+
+[[redirects]]
+  from = "/webex-short-wed-a"
+  to = "https://uni-luebeck.webex.com/uni-luebeck/j.php?MTID=m64051374e5633a2d62b2339eedbe2bc6"
+  status = 302
+
+[[redirects]]
+  from = "/webex-short-wed-b"
+  to = "https://uni-luebeck.webex.com/uni-luebeck/j.php?MTID=m4c7211670c38d8a7c9bf72c36bb2df91"
+  status = 302
+
+[[redirects]]
+  from = "/webex-short-thu-a"
+  to = "https://uni-luebeck.webex.com/uni-luebeck/j.php?MTID=m588e85953fd7c42a0b5c08e9196fd542"
+  status = 302
+
+[[redirects]]
+  from = "/webex-short-thu-b"
+  to = "https://uni-luebeck.webex.com/uni-luebeck/j.php?MTID=m2c1cc4da38382edec55ba07c26b763d5"
+  status = 302
+
+[[redirects]]
+  from = "/webex-short-fri-a"
+  to = "https://uni-luebeck.webex.com/uni-luebeck/j.php?MTID=m2a666dde5eaf7373f5217ee85bc299b4"
+  status = 302
+
+[[redirects]]
+  from = "/webex-short-fri-b"
+  to = "https://uni-luebeck.webex.com/uni-luebeck/j.php?MTID=mf9bf4e81ac60d617b27b0a23092b0722"
+  status = 302
+
 [[headers]]
   for = "/secret/*"
   [headers.values]
