@@ -71,9 +71,11 @@ if __name__ == "__main__":
 
         if video_ok and slides_ok:
             result = result.replace("PRESENTATION", f"{{{{ html_presentation('{yt_link}', '{paper.slides}', 720, 450) }}}}")
+            # result = result.replace("PRESENTATION", f"{{{{ cloudflare_presentation('{paper.cloudflare_video_id}', '{paper.slides}', 720, 450) }}}}")
             # print(f"\tPaper {paper.id} has both slides or presentation.")
         elif video_ok and not slides_ok:
             result = result.replace("PRESENTATION", f"{{{{ video('{yt_link}') }}}}")
+            # result = result.replace("PRESENTATION", f"{{{{ cloudflare_video('{paper.cloudflare_video_id}') }}}}")
             print(f"\tPaper {paper.id} without slides: {(root_content / paper.slides)}")
         elif not video_ok and slides_ok:
             # result = result.replace("PRESENTATION", f"{{{{ video('{yt_link}') }}}}")
