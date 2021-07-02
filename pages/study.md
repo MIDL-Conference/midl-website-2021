@@ -147,7 +147,7 @@ Please note that the session chairs of the corresponding live discussion below a
 ## Study Groups Wednesday 23:45-0:30 (UCT+2)
 
 ### Study Group 3-A
-* Mentor: Maghac Meha (2+4) 
+* Mentor: Raghav Mehtaa (2+4) 
 * Session Chairs H:: Raghav Mehta, Clarisa Sanchez 
 
 #### This study group discusses the following papers
