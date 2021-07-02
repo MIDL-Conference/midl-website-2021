@@ -15,11 +15,13 @@ from paper import Paper, PaperEncoder
 if __name__ == "__main__":
         short_file: str = "short_papers.csv"
         long_file: str = "long_papers.csv"
+        pmlr_file: str = "midl2021_pmlr_map_openreview.csv"
         program_file: str = "program.html"
         output_file: str = "papers.json"
 
         program_dict: dict[str, tuple[str, str]] = {}  # openreview key: [conf_id, Schedule]
 
+        # Parse the schedule
         current_time: Optional[str] = None
         current_day: Optional[str] = None
         conf_id: str
@@ -40,10 +42,20 @@ if __name__ == "__main__":
 
         # pprint(program_dict)
 
-        # all_videos: list[Path] = list(Path("static/contents/video_compressed").glob("*.mp4"))
-        # all_slides: list[Path] = list(Path("static/contents/slides_compressed").glob("*.pdf"))
-        # print(contents[:10])
+        # Parse the proceedings IDs
+        df_pmlr_id: pd.DataFrame
+        df_pmlr_id = pd.read_csv(pmlr_file,
+                                 sep=',',
+                                 dtype={"number": int,
+                                        "Last Name": str,
+                                        "pmlr": str,
+                                        "forum": str})
 
+        pmlr_dict: dict[int, str] = {}
+        for _, csv_line in df_pmlr_id.iterrows():
+                pmlr_dict[csv_line["number"]] = csv_line["pmlr"]
+
+        # Parse the long papers
         df_long_papers: pd.DataFrame
         df_long_papers = pd.read_csv(long_file,
                                      sep=',',
@@ -77,25 +89,26 @@ if __name__ == "__main__":
 
                 oral: bool = id_ in orals
 
-                number: str = csv_line['number']
-
+                number: int = csv_line['number']
 
                 current_paper: Paper = Paper(id=id_,
                                              title=csv_line['title'],
                                              authors=', '.join(authors),
-                                             url=f"secret/{id_}.html",
+                                             url=f"papers/{id_}.html",
                                              or_id=or_id,
                                              oral=str(oral),
                                              short="False",
                                              abstract=csv_line['abstract'],
                                              schedule=schedule,
                                              slides=f"/slides/full_{number}_poster.pdf",
-                                             yt_full=f"/videos/full_{number}_video.mp4")
+                                             yt_full=f"/videos/full_{number}_video.mp4",
+                                             pdf=f"/proceedings/{pmlr_dict[number]}")
 
                 # print(f"{{{{{current_paper.id}}}}}")
 
                 papers.append(current_paper)
 
+        # parse the short papers
         df_short_papers: pd.DataFrame
         df_short_papers = pd.read_csv(short_file,
                                       sep=',',
@@ -122,7 +135,7 @@ if __name__ == "__main__":
                 current_paper = Paper(id=id_,
                                       title=csv_line['title'],
                                       authors=', '.join(authors),
-                                      url=f"secret/{id_}.html",
+                                      url=f"papers/{id_}.html",
                                       or_id=or_id,
                                       oral="False",
                                       short="True",

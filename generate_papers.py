@@ -38,6 +38,7 @@ if __name__ == "__main__":
         result = result.replace("TITLE", paper.title)
         result = result.replace("AUTHORS", ", ".join(paper.authors))
         result = result.replace("ORID", paper.or_id)
+        result = result.replace("PDF_URL", paper.pdf)
         result = result.replace("ABSTRACT", paper.sanitized_abstract)
         result = result.replace("SCHEDULE", "<br>".join(paper.schedule))
         result = result.replace("TEASER", paper.yt_teaser)
@@ -52,10 +53,10 @@ if __name__ == "__main__":
         else:
             result = result.replace("EMBEDEDTEASE", "")
 
-        if paper.short:
-            result = result.replace("PROCEEDINGS", "")
-        else:
-            result = result.replace("PROCEEDINGS", f'\n- <a href="{paper.pmlr_url}">Proceedings</a>')
+        result = result.replace("PROCEEDINGS", "")
+        # if paper.short:
+        # else:
+        #     result = result.replace("PROCEEDINGS", f'\n- <a href="{paper.pmlr_url}">Proceedings</a>')
 
         # slides_path: Path = Path(paper.slides)
 
@@ -79,13 +80,13 @@ if __name__ == "__main__":
             print(f"\tPaper {paper.id} without video: {(root_content / yt_link)}")
         else:
             result = result.replace("PRESENTATION", "")
-            print(f"\tPaper {paper.id} with neither slides or presentation.")
+            print(f"\tPaper {paper.id} with neither slides or presentation: {(root_content / paper.slides)} {(root_content / yt_link)}")
 
         oral_text: str
         if paper.oral:
             oral_text = "Oral presentation"
         elif paper.poster:
-            oral_text = "Spotlight presentation"
+            oral_text = "Poster presentation"
         elif paper.short:
             oral_text = "Short paper"
 

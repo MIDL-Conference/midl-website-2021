@@ -6,7 +6,8 @@ import json
 class Paper():
     def __init__(self, id: str, title: str, authors: str, url: str, or_id: str, oral: str, short: str,
                  abstract: str, schedule: str = "", slides: str = "", yt_teaser: str = "",
-                 yt_full: str = "", ignore_schedule: bool = False, award: str = "", pmlr_url=""):
+                 yt_full: str = "", ignore_schedule: bool = False, award: str = "",
+                 pdf: str = "", pmlr_url=""):
         self.id: str = id
         self.title: str = title
         self.authors: list[str] = authors.split(', ')
@@ -24,8 +25,9 @@ class Paper():
         self.pmlr_url: str = pmlr_url
         assert not (self.short and self.pmlr_url)
 
-        self.pdf_url: str
-        self.pdf_url = f'https://openreview.net/pdf?id={self.or_id}'
+        self.pdf: str
+        self.pdf = f'https://openreview.net/pdf?id={self.or_id}' if not pdf else pdf
+
         # if self.short:
         # else:
         #     pmlr_id: str = self.pmlr_url.split('/')[-1].replace(".html", "")
@@ -68,7 +70,7 @@ class Paper():
         return f'''{{{{ paper({repr(self.title)},
         \'{f'{", ".join(self.authors)}'}\',
         openreview=\'{f'https://openreview.net/forum?id={self.or_id}'}\',
-        pdf=\'{self.pdf_url}\',
+        pdf=\'{self.pdf}\',
         id='{self.id}',
         paper='{self.url}',
         proceedings='{self.pmlr_url}',
@@ -85,6 +87,7 @@ class PaperEncoder(json.JSONEncoder):
                     "title": paper.title,
                     "authors": ", ".join(paper.authors),
                     "url": paper.url,
+                    "pdf": paper.pdf,
                     "or_id": paper.or_id,
                     "oral": str(paper.oral),
                     "short": str(paper.short),
