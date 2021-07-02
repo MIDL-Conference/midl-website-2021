@@ -18,6 +18,10 @@ Sign up by filling out the [registration form](https://forms.gle/Fx3KV6kBVdsF6HZ
 
 {{ button("Sign up for a study group", "https://forms.gle/Fx3KV6kBVdsF6HZcA") }}
 
+**Participants of study groups will receive an individual email about their one assigned session.**  
+
+Please note that the session chairs of the corresponding live discussion below are only included for completeness and not present during the study group.
+
 ## Study Groups Tuesday 20.00-20.45 (UCT+2)
 ### Study Group 1-A
 * Mentor: Francesco Caliva (4+1) 
