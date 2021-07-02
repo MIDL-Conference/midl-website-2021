@@ -7,7 +7,7 @@ class Paper():
     def __init__(self, id: str, title: str, authors: str, url: str, or_id: str, oral: str, short: str,
                  abstract: str, schedule: str = "", slides: str = "", yt_teaser: str = "",
                  yt_full: str = "", ignore_schedule: bool = False, award: str = "",
-                 pdf: str = "", pmlr_url=""):
+                 pdf: str = "", pmlr_url="", cloudflare_video_id: str = ""):
         self.id: str = id
         self.title: str = title
         self.authors: list[str] = authors.split(', ')
@@ -21,6 +21,7 @@ class Paper():
         self.yt_teaser: str = yt_teaser
         self.yt_full: str = yt_full
         self.award: str = award
+        self.cloudflare_video_id: str = cloudflare_video_id
 
         self.pmlr_url: str = pmlr_url
         assert not (self.short and self.pmlr_url)
@@ -97,6 +98,7 @@ class PaperEncoder(json.JSONEncoder):
                     "yt_teaser": paper.yt_teaser,
                     "yt_full": paper.yt_full,
                     "award": paper.award,
-                    "pmlr_url": paper.pmlr_url}
+                    "pmlr_url": paper.pmlr_url,
+                    "cloudflare_video_id": paper.cloudflare_video_id}
 
         return json.JSONEncoder.default(self, paper)

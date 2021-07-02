@@ -1,6 +1,7 @@
 #!/usr/bin/env python3.9
 
 import json
+from collections import defaultdict
 from pathlib import Path
 from pprint import pprint
 from typing import Optional
@@ -16,6 +17,7 @@ if __name__ == "__main__":
         short_file: str = "short_papers.csv"
         long_file: str = "long_papers.csv"
         pmlr_file: str = "midl2021_pmlr_map_openreview.csv"
+        cloudflare_file: str = "cloudflare_stream.json"
         program_file: str = "program.html"
         output_file: str = "papers.json"
 
@@ -55,6 +57,13 @@ if __name__ == "__main__":
         for _, csv_line in df_pmlr_id.iterrows():
                 pmlr_dict[csv_line["number"]] = csv_line["pmlr"]
 
+        # Fetch the Cloudflare video IDS
+        with open(cloudflare_file, 'r') as cf:
+                cloudflare_dict: defaultdict[str, str] = defaultdict(str)
+                for k, v in json.load(cf).items():
+                        cloudflare_dict[k] = v
+        # pprint(cloudflare_dict)
+
         # Parse the long papers
         df_long_papers: pd.DataFrame
         df_long_papers = pd.read_csv(long_file,
@@ -91,6 +100,8 @@ if __name__ == "__main__":
 
                 number: int = csv_line['number']
 
+                video_name: str = f"full_{number}_video.mp4"
+
                 current_paper: Paper = Paper(id=id_,
                                              title=csv_line['title'],
                                              authors=', '.join(authors),
@@ -102,7 +113,8 @@ if __name__ == "__main__":
                                              schedule=schedule,
                                              slides=f"/slides/full_{number}_poster.pdf",
                                              yt_full=f"/videos/full_{number}_video.mp4",
-                                             pdf=f"/proceedings/{pmlr_dict[number]}")
+                                             pdf=f"/proceedings/{pmlr_dict[number]}",
+                                             cloudflare_video_id=cloudflare_dict[video_name])
 
                 # print(f"{{{{{current_paper.id}}}}}")
 
@@ -132,6 +144,8 @@ if __name__ == "__main__":
 
                 number = csv_line['number']
 
+                video_name = f"short_{number}_video.mp4"
+
                 current_paper = Paper(id=id_,
                                       title=csv_line['title'],
                                       authors=', '.join(authors),
@@ -142,7 +156,8 @@ if __name__ == "__main__":
                                       abstract=csv_line['abstract'],
                                       schedule=schedule,
                                       slides=f"/slides/short_{number}_poster.pdf",
-                                      yt_full=f"/videos/short_{number}_video.mp4")
+                                      yt_full=f"/videos/short_{number}_video.mp4",
+                                             cloudflare_video_id=cloudflare_dict[video_name])
 
                 # print(f"{{{{{current_paper.id}}}}}")
 
