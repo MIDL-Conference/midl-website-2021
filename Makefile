@@ -7,9 +7,9 @@ TARGET = /usr/share/nginx/midl2021
 
 HOST = castelbrazelbub.net:
 
-.PHONY: clean generate deploy FORCE
+.PHONY: clean generate generate_sessions deploy FORCE
 
-all: generate $(TARGET)
+all: generate generate_sessions $(TARGET)
 
 papers.json: long_papers.csv short_papers.csv program.html
 	$(CC) csv2json.py
@@ -17,6 +17,9 @@ papers.json: long_papers.csv short_papers.csv program.html
 
 generate: pages/papers/paper.template papers.json
 	$(CC) generate_papers.py $^ pages/ static/
+
+generate_sessions: pages/sessions/session.template papers.json
+	$(CC) generate_sessions.py $^ pages/sessions
 
 pages/dumb_list.md: pages/dumb_list.template papers.json
 	$(CC) fill_template.py $^ $@
