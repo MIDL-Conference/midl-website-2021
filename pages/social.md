@@ -24,6 +24,8 @@ At the first day of the conference, after listening to all the exciting presenta
 The second day of the conference is typically reserved for the gala dinner. Before the pandemic hit everyone around the globe, we planned for an exclusive dinner within the medieval St. Marien church. Unfortunately, we had to cancel this. But be prepared: You do not have to catch a flight to explore the medieval center of the hanseatic city of Lübeck...
 And of course, we do not want your throat to dry out. Don't worry: The barkeepers might also find their way to virtual Lübeck.
 
+To be prepared for the cocktails you can find everything you need to add to your [grocery list](static/resources/BK_MIDL_Recipes_20210707.pdf) here 
+
 ## MIDL Run
 
 After its great initiation in Londons Hyde Park in 2019, the MIDL morning became the most appealing counterpart to sitting on a chair and listening to talks all day. Don't think about different continents and time zones: MIDL will run together! If you are willing to get yourself moving, join the Strava group [MIDL Run](https://www.strava.com/clubs/midl?utm_source=com.whatsapp&utm_medium=referral).
