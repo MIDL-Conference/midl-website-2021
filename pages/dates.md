@@ -238,7 +238,7 @@ jQuery(document).ready(function($) {
 
 <tr><th id='t01' class='col1' >02:15</th><th id='t01' class='col2'>5:15</th><th id='t00' class='col3'>11:15</th><th id='t01' class='col4'>17:15</th><th colspan='2' id='clong_v'><a href='/program.html#longD'>D1-3</a> Long Videos</th><th colspan='2' id='clong_v'><a href='/program.html#longH'>H1-3</a> Long Videos</th><th colspan='2' id='clong_v'><a href='/program.html#longL'>L1-3</a> Long Videos</th>
 <tr><th id='t01' class='col1' >02:45</th><th id='t01' class='col2'>5:45</th><th id='t00' class='col3'>11:45</th><th id='t01' class='col4'>17:45</th><th colspan='2' id='cmentor'>Study groups with Mentors (optional)</th><th colspan='2' id='cmentor'>Study groups with Mentors (optional)</th><th colspan='2' id='cmentor'>Study groups with Mentors (optional)</th>
-<tr><th id='t01' class='col1' >03:30</th><th id='t01' class='col2'>6:30</th><th id='r00t' class='col3'>12:30</th><th id='t01t' class='col4'>18:30</th><th colspan='2' id='cspecial_t'>Conference Opening</th><th colspan='2' id='cspecial_t'>Industry and Sponsor Event<br />BioMedTec, Qualcomm, GE Healthcare, Heartflow</th><th colspan='2' id='cspecial_tr'>Industry and Sponsor Event<br />GE Healthcare</th>
+<tr><th id='t01' class='col1' >03:30</th><th id='t01' class='col2'>6:30</th><th id='r00t' class='col3'>12:30</th><th id='t01t' class='col4'>18:30</th><th colspan='2' id='cspecial_t'>Conference Opening</th><th colspan='2' id='cspecial_t'>Industry and Sponsor Event<br />BioMedTec, Qualcomm, GE Healthcare</th><th colspan='2' id='cspecial_tr'>Industry and Sponsor Event<br /></th>
     
     
 <tr><th id='t01' class='col1' >04:00</th><th id='t01' class='col2'>7:00</th><th id='r00' class='col3'>13:00</th><th id='t01' class='col4'>19:00</th><th colspan='2' id='clong'><a href='/program.html#longA' style='color:white'><b>Long Oral A1-3 Segmentation</b></a> </th><th colspan='2' id='clong'><a href='/program.html#longE' style='color:white'><b>Long Oral E1-3 Detection and Diagnosis</b></a> </th><th colspan='2' id='clong_r'><a href='/program.html#longI' style='color:white'><b>Long Oral I1-3 Interpretability and Explainable AI</b></a></th>
@@ -279,7 +279,7 @@ jQuery(document).ready(function($) {
 
 
 
-<tr><th id='t01' class='col1' >09:00</th><th id='t01' class='col2'>12:00</th><th id='r00b' class='col3'>18:00</th><th id='t01b' class='col4'>0:00</th><th colspan='2' id='cspecial_b'>Industry and Sponsor Event<br />Qualcomm, Heartflow</th><th colspan='2' id='cspecial_b'>Industry and Sponsor Event<br />SnkeOS, BioMedTec, Heartflow</th><th colspan='2' id='cspecial_br'>Closing</th>
+<tr><th id='t01' class='col1' >09:00</th><th id='t01' class='col2'>12:00</th><th id='r00b' class='col3'>18:00</th><th id='t01b' class='col4'>0:00</th><th colspan='2' id='cspecial_b'>Industry and Sponsor Event<br />Qualcomm, Heartflow, PaigeAI</th><th colspan='2' id='cspecial_b'>Industry and Sponsor Event<br />SnkeOS, BioMedTec, Heartflow, PaigeAI</th><th colspan='2' id='cspecial_br'>Closing</th>
 
 <tr><th id='t01' class='col1' >09:45</th><th id='t01' class='col2'></th><th id='t00' class='col3'>18:45</th><th id='t01' class='col4'></th><th colspan='2' id='t01'>Break / GatherTown</th><th colspan='2' id='t01'>Break / GatherTown</th><th colspan='2'></th>
 <tr><th id='t01' class='col1' >10:00</th><th id='t01' class='col2'>13:00</th><th id='t00' class='col3'>19:00</th><th id='t01' class='col4'>1:00</th><th colspan='2' id='t07'>Virtual Social Event / Drinks</th><th colspan='2' id='t07'>Virtual Gala Evening</th><th colspan='2'></th>
