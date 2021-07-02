@@ -17,14 +17,14 @@ Feel free to explore the virtual conference center. Meet other people preparing 
 
 ## Get Together
 
-At the first day of the conference, after listening to all the exciting presentations, we open the roof top bar for you! Enjoy a cocktail in a unique location above the roofs of Lübeck. And yes - there will be cocktails! There are barkeepers waiting for you to mix your favourite drink with you - live!
+At the first day of the conference, after listening to all the exciting presentations, we open the roof top bar for you! Enjoy a cocktail in a unique location above the roofs of Lübeck. And yes - there will be cocktails! There are barkeepers waiting for you to mix your favourite drink with you - live! 
+To be prepared for the cocktails you can find everything you need to add to your [grocery list](../static/resources/BK_MIDL_Recipes_20210707.pdf) here 
 
 ## Gala Event
 
 The second day of the conference is typically reserved for the gala dinner. Before the pandemic hit everyone around the globe, we planned for an exclusive dinner within the medieval St. Marien church. Unfortunately, we had to cancel this. But be prepared: You do not have to catch a flight to explore the medieval center of the hanseatic city of Lübeck...
 And of course, we do not want your throat to dry out. Don't worry: The barkeepers might also find their way to virtual Lübeck.
-
-To be prepared for the cocktails you can find everything you need to add to your [grocery list](static/resources/BK_MIDL_Recipes_20210707.pdf) here 
+Your [grocery list](../static/resources/BK_MIDL_Recipes_20210708.pdf) for Thursday  
 
 ## MIDL Run
 
