@@ -10,14 +10,11 @@ page_class: "keynotes"
 
 We proudly present the first MIDL satellite event, specifically designed for young researchers: the MIDL Doctoral Symposium 2021. Develop and train your scientific skill set, get to know fellow PhD students from all over the world and enjoy participating in the MIDL conference while already knowing some colleagues.
 
-The Doctoral Symposium will take place on 02.07.2021 as a virtual event. We will use Zoom and Gather.Town for optimal interaction during the day. Thanks to our sponsor, the participation is free of charge.
+The Doctoral Symposium will take place on 2 July 2021 as a virtual event. We will use Zoom and Gather.Town for optimal interaction during the day. Thanks to our sponsor, the participation is free of charge.
 
 The number of participants is restricted to 50. The selection process will focus on the candidate’s motivation, the integration of candidates in the early stage of their PhD thesis without broad conference experience or network opportunities as well as diversity.
 
-You can apply with the application form and your CV. The application deadline is 04 June 2021, 23:59 CET. The Doctoral Symposium is open to all PhD students, even if you do not participate in the MIDL conference. Please send your application to [doctoral.symposium@2021.midl.io](mailto:doctoral.symposium@2021.midl.io)
-The decision notification will be sent via email by 14 June 2021.
-
-{{ button("Apply for participation", "https://docs.google.com/forms/d/e/1FAIpQLSfHRXWWj0YFKKAbHG-7QGmWleb5-JJzmgIdl7dQd6bkm6fCEg/viewform") }}
+You can apply with the application form and your CV. The application deadline is 4 June 2021, 23:59 CET. The Doctoral Symposium is open to all PhD students, even if you do not participate in the MIDL conference. The decision notification will be sent via email by 14 June 2021.
 
 ## Program Schedule
 
@@ -103,11 +100,4 @@ Not convinced that virtual social events can be cool? Let’s prove you wrong! E
 
 [% .logos %]
 <center>[![Euroimmun](/sponsors/euroimmun.png){: height="120"}](https://euroimmun.de/en)</center>
-
-
-
-
-
-
-
-
+[% / %]
