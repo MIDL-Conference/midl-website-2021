@@ -25,6 +25,9 @@ title: "Organization"
 * [Max-Heinrich Laves](https://mtec.et8.tuhh.de/staff/max-heinrich-laves.html), Institute of Medical Technology and Intelligent Systems, Hamburg University of Technology, Germany
 * [Alexander Schlaefer](https://mtec.et8.tuhh.de/staff/alexander-schlaefer.html), Institute of Medical Technology and Intelligent Systems, Hamburg University of Technology, Germany
 
+## Website, Presentation Videos, Gather.Town, Proceedings and Email Communication
+* Mattias Heinrich, Alessa Hering, Jannis Hagenah, Felix von Haxthausen, Nikolas Lessmann, Hoel Kervadec
+
 ## Social Chairs
 * [Jannis Hagenah](https://eng.ox.ac.uk/chi/), CHI Lab, University of Oxford, UK
 * [Alessa Hering](https://www.mevis.fraunhofer.de/en/employees/alessa-hering.html), Fraunhofer MEVIS & Radboudumc Nijmegen
