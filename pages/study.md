@@ -156,7 +156,7 @@ Please note that the session chairs of the corresponding live discussion below a
 * H8: Mickael Tardy - [Morphology-based losses for weakly supervised segmentation of mammograms](https://2021.midl.io/papers/h8) - (short)
 * H9: Laura Hellwege - [Partial Convolution Network for Metal Artifact Reduction in CT Preprocessing: Preliminary Results](https://2021.midl.io/papers/h9) - (short)
 * H10: Rosana EL Jurdi - [A Surprisingly Effective Perimeter-based Loss for Medical Image Segmentation](https://2021.midl.io/papers/h10) - (full)
-* H11: Hang Zhang - [Memory U-Net: Memorizing Where to Vote for Lesion Instance Segmentation](https://2021.midl.io/papers/h11) - (full)
+* ~~H11: Hang Zhang - Memory U-Net: Memorizing Where to Vote for Lesion Instance Segmentation - (full)
 
 ### Study Group 3-B
 * Mentor: Christian Baumgartner (3+1) 
