@@ -456,7 +456,7 @@ Chairs: Francesco Caliva, Christian Desrosies <br>
 <a id="shortB"></a><h3>B1-9 (short): Application: Histopathology - 13:45 - 14:30 (UCT+2)</h3>
 Chairs: Mitko Veta, Jianhua Yao <br>
 [% .papers %]
-{{ paper('$\\mu$PEN: Multi-class PseudoEdgeNet for PD-L1 assessment',
+{{ paper('μPEN: Multi-class PseudoEdgeNet for PD-L1 assessment',
         'Jeroen Vermazeren, Leander van Eekelen, Luca Dulce Meesters, Monika Looijen-Salamon, Shoko Vos, Enrico Munari, Caner Mercan, Francesco Ciompi',
         openreview='https://openreview.net/forum?id=rHAiz2pnxkB',
         pdf='https://openreview.net/pdf?id=rHAiz2pnxkB',

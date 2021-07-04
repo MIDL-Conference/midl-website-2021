@@ -3,7 +3,7 @@ title: "TITLE"
 page_class: "paper"
 ---
 
-{% from "_macros.html" import html_presentation, button, teaser, video %}
+{% import "_macros.html" as macros %}
 
 # CONF_ID - TITLE
 
@@ -14,7 +14,6 @@ page_class: "paper"
 - <a class="toggle_visibility" data-selector=".schedule" data-level="3">Show schedule</a>PROCEEDINGS
 - <a href="PDF_URL">PDF</a>
 - <a href="https://openreview.net/forum?id=ORID">Reviews</a>
-{{ teaser('TEASER') }}
 
 <p>
     <span class="abstract">
