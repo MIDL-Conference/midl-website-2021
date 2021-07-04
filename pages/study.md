@@ -12,7 +12,7 @@ This stimulates the live discussion and encourages younger MIDL members to activ
 
 For attendees, the help of the mentor will support them in coming up with intriguing questions to ask at these group discussions. For many early-career scientists, it may be overwhelming to speak up yourself during a live session - being part of a study group makes it easier and also helps them meet new people in the field. 
 
-While each group may flexibly decide upon an exact meeting time and space, we have allocated two slots per day in our conference schedule and special "study group" rooms in Gather.Town. These are 11:45 to 12:30 (UCT+2) for Europe/Africa/Asia, .. and 17:45 to 18:30 (ET, UCT-4) for Americas. See [Program](/program.html)
+While each group may flexibly decide upon an exact meeting time and space, we have allocated two slots per day in our conference schedule and special "study group" rooms in Gather.Town. These are 11:45 to 12:30 (UTC+2) for Europe/Africa/Asia, .. and 17:45 to 18:30 (ET, UTC-4) for Americas. See [Program](/program.html)
 
 Sign up by filling out the [registration form](https://forms.gle/Fx3KV6kBVdsF6HZcA) if you want to participate:
 
@@ -22,7 +22,7 @@ Sign up by filling out the [registration form](https://forms.gle/Fx3KV6kBVdsF6HZ
 
 Please note that the session chairs of the corresponding live discussion below are only included for completeness and not present during the study group.
 
-## Study Groups Tuesday 20.00-20.45 (UCT+2)
+## Study Groups Tuesday 20.00-20.45 (UTC+2)
 ### Study Group 1-A
 * Mentor: Francesco Caliva (4+1) 
 * Session Chairs (A4-12): Francesco Caliva, Christian Desrosies 
@@ -83,7 +83,7 @@ Please note that the session chairs of the corresponding live discussion below a
 * E9: Joshua Russell Astley - [A hybrid model- and deep learning-based framework for functional lung image synthesis from non-contrast multi-inflation CT](https://2021.midl.io/papers/e9) - (short)
 
 
-## Study Groups Wednesday 11:45-12:30 (UCT+2)
+## Study Groups Wednesday 11:45-12:30 (UTC+2)
 ## Study Group 2-A: 
 * Mentor: Jelmer Wolterink (3+2)
 * Session Chairs: Minjeong Kim, Jelmer Wolterink 
@@ -144,7 +144,7 @@ Please note that the session chairs of the corresponding live discussion below a
 
 
 
-## Study Groups Wednesday 23:45-0:30 (UCT+2)
+## Study Groups Wednesday 23:45-0:30 (UTC+2)
 
 ### Study Group 3-A
 * Mentor: Raghav Mehtaa (2+4) 
@@ -168,7 +168,7 @@ Please note that the session chairs of the corresponding live discussion below a
 * L8: Hassan Muhammad - [EPIC-Survival: End-to-end Part Inferred Clustering for Survival Analysis, with Prognostic Stratification Boosting](https://2021.midl.io/papers/l8) - (full)
 * L9: Soham Uday Gadgil - [CheXseg: Combining Expert Annotations with DNN-generated Saliency Maps for X-ray Segmentation](https://2021.midl.io/papers/l9) - (full)
 
-## Study Groups Thursday 11:45-12:30 (UCT+2)
+## Study Groups Thursday 11:45-12:30 (UTC+2)
 
 ### Study Group 4-A 
 * Mentor: Christian Ledig (3+3) 
@@ -227,7 +227,7 @@ This study group discusses the following papers
 * H5: Junyu Chen -[ Creating Anthropomorphic Phantoms via Unsupervised Convolutional Neural Networks](https://2021.midl.io/papers/h5) - (short)
 * H12: Siyu Shi - [Unseen Disease Detection for Deep Learning Interpretation of Chest X-rays](https://2021.midl.io/papers/h12) - (full)
 
-## Study Groups Thursday 23:45-0:30 (UCT+2)
+## Study Groups Thursday 23:45-0:30 (UTC+2)
 
 ### Study Group 5-A 
 * Mentor: Maria Vakalopoulou  (3+1)
@@ -258,7 +258,7 @@ This study group discusses the following papers
 * I2: Joseph Paul Cohen - [Gifsplanation via Latent Shift: A Simple Autoencoder Approach to Counterfactual Generation for Chest X-rays](https://2021.midl.io/papers/i2)
 * I3: Abhejit Rajagopal - [Understanding and Visualizing Generalization UNets](https://2021.midl.io/papers/i3)
 
-## Study Groups Friday 11:45-12:30 (UCT+2)
+## Study Groups Friday 11:45-12:30 (UTC+2)
 ### Study Group 6-A 
 * Mentor: Katharina Breininger (2+3)
 * Session Chairs: Katharina Breininger, Maria Vakalopoulou 
