@@ -143,7 +143,7 @@
   clip-path: polygon(0% 0%, 100% 0%, 100% 120%, 0% 120%); /*bottom*/
       border: 1px;}
 
-    #title_legend{font-weight:300; font-size: 100%; text-align:left; color:white; padding-left: 6px; }
+    #title_legend{font-weight:300; font-size: 100%; text-align:left; color:white; padding-left: 6px; padding-right: 6px; white-space: nowrap; }
     #text_legend{font-weight:150; font-size: 80%; text-align:left; padding-left: 6px; }
     #cbreak_r{   background-color: #AEAEAE; box-shadow: 0 0 0px 8px gold;
       clip-path: polygon(0% 0%, 120% 0%, 120% 100%, 0% 100%); /*right*/
