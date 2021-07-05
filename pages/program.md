@@ -369,7 +369,7 @@ Chairs: Minjeong Kim, Jelmer Wolterink <br>
 }}
 [% / %]
 <a id="shortA"></a><h3>A4-12 (short): Segmentation - 13:45 - 14:30 (UCT+2)</h3>
-Chairs: Francesco Caliva, Christian Desrosies <br>
+Chairs: Francesco Caliva, Christian Desrosiers <br>
 [% .papers %]
 {{ paper('Common limitations of performance metrics in biomedical image analysis',
         'Annika Reinke, Matthias Eisenmann, Minu Dietlinde Tizabi, Carole H. Sudre, Tim Rädsch, Michela Antonelli, Tal Arbel, Spyridon Bakas, M. Jorge Cardoso, Veronika Cheplygina, Keyvan Farahani, Ben Glocker, Doreen Heckmann-Nötzel, Fabian Isensee, Pierre Jannin, Charles Kahn, Jens Kleesiek, Tahsin Kurc, Michal Kozubek, Bennett A. Landman, Geert Litjens, Klaus Maier-Hein, Anne Lousise Martel, bjoern menze, Henning Müller, Jens Petersen, Mauricio Reyes, Nicola Rieke, Bram Stieltjes, Ronald M. Summers, Sotirios A. Tsaftaris, Bram van Ginneken, Annette Kopp-Schneider, Paul Jäger, Lena Maier-Hein',
