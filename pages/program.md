@@ -219,7 +219,7 @@ jQuery(document).ready(function($) {
 
 # Program at a Glance
 
-Please also note, that for participants from the Americas, the video previewing happens on Tuesday starting at 12noon (UCT-7) or 3pm (UCT-4), with the sessions of Wednesday:
+Please note that for participants from the Americas, the video previewing happens on Tuesday starting at 12noon (UTC-7) or 3pm (UTC-4), with the sessions of Wednesday:
 
 14:00 (UTC-4) Study groups with Mentors (optional)<br>
 15:00 (UTC-4) <a href='#shortB'>B1-9</a> Histopathology Videos and in parallel <a href='#shortA'>A4-12</a> Segmentation Videos<br>
@@ -339,7 +339,7 @@ In the passive part, the full presentation videos of all accepted papers are sho
 
 ---
 <h2> Wednesday 7th July</h2>
-<a id="longA"></a><h3>A1-3 (long): Segmentation - 13:00 - 13:30 (UCT+2)</h3>
+<a id="longA"></a><h3>A1-3 (long): Segmentation - 13:00 - 13:30 (UTC+2)</h3>
 Chairs: Minjeong Kim, Jelmer Wolterink <br>
 [% .papers %]
 {{ paper('Whole-Body Soft-Tissue Lesion Tracking and Segmentation in Longitudinal CT Imaging Studies',
@@ -370,7 +370,7 @@ Chairs: Minjeong Kim, Jelmer Wolterink <br>
         abstract="Standard losses for training deep segmentation networks could be seen as individual classifications of pixels, instead of supervising the global shape of the predicted segmentations. While effective, they require exact knowledge of the label of each pixel in an image. This study investigates how effective global geometric shape descriptors could be, when used on their own as segmentation losses for training deep networks. Not only interesting theoretically, there exist deeper motivations to posing segmentation problems as a reconstruction of shape descriptors: First, annotations to obtain approximations of low-order shape moments could be much less cumbersome than their full-mask counterparts, and anatomical priors could be readily encoded into invariant shape descriptions, which might alleviate the annotation burden. Also, some shape descriptors could be readily used to encode\\'\\' biomarkers, leading to better interpretability. Finally, and most importantly, we hypothesize that, given a task, certain shape descriptions might be invariant across image acquisition protocols/modalities and subject populations, which might open interesting research avenues for generalization in medical image segmentation.We introduce and formulate a few shape descriptors in the context of deep segmentation, and evaluate their potential as stand-alone losses on two different, challenging tasks. Inspired by recent works in constrained optimization for deep networks, we propose a way to use those descriptors to supervise segmentation, without any pixel-level label. Very surprisingly, as little as 4 descriptors values per class can approach the performance of a segmentation mask with 65k individual discrete labels. We also found that shape descriptors can be a valid way to encode anatomical priors about the task, enabling to leverage expert knowledge without requiring additional annotations. Our implementation is publicly available and can be easily extended.")
 }}
 [% / %]
-<a id="shortA"></a><h3>A4-12 (short): Segmentation - 13:45 - 14:30 (UCT+2)</h3>
+<a id="shortA"></a><h3>A4-12 (short): Segmentation - 13:45 - 14:30 (UTC+2)</h3>
 Chairs: Francesco Caliva, Christian Desrosiers <br>
 [% .papers %]
 {{ paper('Common limitations of performance metrics in biomedical image analysis',
@@ -455,7 +455,7 @@ Chairs: Francesco Caliva, Christian Desrosiers <br>
         abstract='With in-line holography, it is possible to record biological cells over time in a three-dimensional hydrogel without the need for staining, providing the capability of observing cell behavior in a minimally invasive manner. However, this setup currently requires computationally intensive image-reconstruction algorithms to determine the required cell statistics. In this work, we directly extract cell positions from the holographic data by using deep neural networks and thus avoid several reconstruction steps. We show that our method is capable of substantially decreasing the time needed to extract information from the raw data without loss in quality.')
 }}
 [% / %]
-<a id="shortB"></a><h3>B1-9 (short): Application: Histopathology - 13:45 - 14:30 (UCT+2)</h3>
+<a id="shortB"></a><h3>B1-9 (short): Application: Histopathology - 13:45 - 14:30 (UTC+2)</h3>
 Chairs: Mitko Veta, Jianhua Yao <br>
 [% .papers %]
 {{ paper('μPEN: Multi-class PseudoEdgeNet for PD-L1 assessment',
@@ -540,7 +540,7 @@ Chairs: Mitko Veta, Jianhua Yao <br>
         abstract="In recent years, the availability of digitized Whole Slide Images (WSIs) has enabled the use of deep learning-based computer vision techniques for automated disease diagnosis. However, WSIs present unique computational and algorithmic challenges. WSIs are gigapixel-sized (approx. 100K pixels), making them infeasible to be used directly for training deep neural networks. Also, often only slide-level labels are available for training as detailed annotations are tedious and can be time-consuming for experts. Approaches using multiple-instance learning (MIL) frameworks have been shown to overcome these challenges. Current state-of-the-art approaches divide the learning framework into two decoupled parts: a convolutional neural network (CNN) for encoding the patches followed by an independent aggregation approach for slide-level prediction. In this approach, the aggregation step has no bearing on the representations learned by the CNN encoder. We have proposed an end-to-end framework that clusters the patches from a WSI into k-groups, samples k\\' patches from each group for training, and uses an adaptive attention mechanism for slide level prediction; Cluster-to-Conquer (C2C). We have demonstrated that dividing a WSI into clusters can improve the model training by exposing it to diverse discriminative features extracted from the patches. We regularized the clustering mechanism by introducing a KL-divergence loss between the attention weights of patches in a cluster and the uniform distribution. The framework is optimized end-to-end on slide-level cross-entropy, patch-level cross-entropy, and KL-divergence loss.")
 }}
 [% / %]
-<a id="longD"></a><h3>D1-3 (long): Unsupervised and Representation Learning - 16:00 - 16:30 (UCT+2)</h3>
+<a id="longD"></a><h3>D1-3 (long): Unsupervised and Representation Learning - 16:00 - 16:30 (UTC+2)</h3>
 Chairs: Jannis Hagenah, Caroline Petitjean <br>
 [% .papers %]
 {{ paper('Self-Rule to Adapt: Learning Generalized Features from Sparsely-Labeled Data Using Unsupervised Domain Adaptation for Colorectal Cancer Tissue Phenotyping',
@@ -571,7 +571,7 @@ Chairs: Jannis Hagenah, Caroline Petitjean <br>
         abstract='The tumor microenvironment is an area of intense interest in cancer research and may be a clinically actionable aspect of cancer care. One way to study the tumor microenvironment is to characterize the spatial interactions between various types of nuclei in cancer tissue from H&E whole slide images, which require nucleus segmentation and classification. Current methods of nucleus classification rely on extensive labeling from pathologists and are limited by the number of categories a nucleus can be classified into. In this work, leveraging existing nucleus segmentation and contrastive representation learning methods, we developed a method that learns vector embeddings of nuclei based on their morphology in histopathology images. We show that the embeddings learned by this model capture distinctive morphological features of nuclei and can be used to group them into meaningful subtypes. These embeddings can provide a much richer characterization of the statistics of the spatial distribution of nuclei in cancer and open new possibilities in the quantitative study of the tumor microenvironment.')
 }}
 [% / %]
-<a id="shortC"></a><h3>C1-9 (short): Endoscopy and Validation Studies - 16:45 - 17:30 (UCT+2)</h3>
+<a id="shortC"></a><h3>C1-9 (short): Endoscopy and Validation Studies - 16:45 - 17:30 (UTC+2)</h3>
 Chairs: Sandy Engelhardt, Lena Maier-Hein <br>
 [% .papers %]
 {{ paper('Efficient biomedical image segmentation on Edge TPUs',
@@ -656,7 +656,7 @@ Chairs: Sandy Engelhardt, Lena Maier-Hein <br>
         abstract='Intensity of acquired electron microscopy data is subjected to large variability due to the interplay of many different factors, such as microscope and camera settings used for data acquisition, sample thickness, specimen staining protocol and more. In this work, we developed an efficient method for performing intensity inhomogeneity correction on a single set of combined transmission electron microscopy (TEM) images and demonstrated its positive impact on training a neural network on these data. In addition, we investigated what impact different intensity standardization methods have on the training performance, both for data originating from a single source as well as from several different sources. As a concrete example, we considered the problem of segmenting mitochondria from EM data and demonstrated that we were able to obtain promising results when training our network on a large array of highly-variable in-house TEM data.')
 }}
 [% / %]
-<a id="shortD"></a><h3>D4-12 (short): Detection and Diagnosis 1 - 16:45 - 17:30 (UCT+2)</h3>
+<a id="shortD"></a><h3>D4-12 (short): Detection and Diagnosis 1 - 16:45 - 17:30 (UTC+2)</h3>
 Chairs: Tal Arbel, Hans Meine <br>
 [% .papers %]
 {{ paper('Predicting molecular subtypes of breast cancer using multimodal deep learning and incorporation of the attention mechanism',
@@ -745,7 +745,7 @@ Chairs: Tal Arbel, Hans Meine <br>
 <hr>
 
 <h2> Thursday 8th July</h2>
-<a id="longE"></a><h3>E1-3 (long): Detection and Diagnosis - 13:00 - 13:30 (UCT+2)</h3>
+<a id="longE"></a><h3>E1-3 (long): Detection and Diagnosis - 13:00 - 13:30 (UTC+2)</h3>
 Chairs: Ivana Isgum, Carole Sudre <br>
 [% .papers %]
 {{ paper('Automated triaging of head MRI examinations using convolutional neural networks',
@@ -776,7 +776,7 @@ Chairs: Ivana Isgum, Carole Sudre <br>
         abstract='Pathological brain appearances may be so heterogeneous as to be intelligible only as anomalies, defined by their deviation from normality rather than any specific pathological characteristic. Amongst the hardest tasks in medical imaging, detecting such anomalies requires models of the normal brain that combine compactness with the expressivity of the complex, long-range interactions that characterise its structural organisation. These are requirements transformers have arguably greater potential to satisfy than other current candidate architectures, but their application has been inhibited by their demands on data and computational resource. Here we combine the latent representation of vector quantised variational autoencoders with an ensemble of autoregressive transformers to enable unsupervised anomaly detection and segmentation defined by deviation from healthy brain imaging data, achievable at low computational cost, within relative modest data regimes. We compare our method to current state-of-the-art approaches across a series of experiments involving synthetic and real pathological lesions. On real lesions, we train our models on 15,000 radiologically normal participants from UK Biobank, and evaluate performance on four different brain MR datasets with small vessel disease, demyelinating lesions, and tumours. We demonstrate superior anomaly detection performance both image-wise and pixel-wise, achievable without post-processing. These results draw attention to the potential of transformers in this most challenging of imaging tasks.')
 }}
 [% / %]
-<a id="shortE"></a><h3>E4-12 (short): Image Registration / Synthesis - 13:45 - 14:30 (UCT+2)</h3>
+<a id="shortE"></a><h3>E4-12 (short): Image Registration / Synthesis - 13:45 - 14:30 (UTC+2)</h3>
 Chairs: Alessa Hering, Hervé Lombaert <br>
 [% .papers %]
 {{ paper('Rethinking the Design of Learning based Inter-Patient Registration using Deformable Supervoxels ',
@@ -861,7 +861,7 @@ Chairs: Alessa Hering, Hervé Lombaert <br>
         abstract='Automatic segmentation of retina lesions have been a long standing and challenging task for learning based models, mostly due to the lack of available and accurate lesion segmentation datasets. In this paper, we propose a two-step process for generating photo-realistic fundus images conditioned on synthetic \\"ground truth\\" semantic labels, and demonstrate its potential for further downstream tasks, such as, but not limited to; automated grading of diabetic retinopathy, dataset balancing, creating image examples for trainee ophthalmologists, etc.')
 }}
 [% / %]
-<a id="shortF"></a><h3>F1-9 (short): Imaging: Reconstruction and Clinical Data - 13:45 - 14:30 (UCT+2)</h3>
+<a id="shortF"></a><h3>F1-9 (short): Imaging: Reconstruction and Clinical Data - 13:45 - 14:30 (UTC+2)</h3>
 Chairs: Nicha Dvornek, Bram van Ginneken <br>
 [% .papers %]
 {{ paper('Ex-vivo - to - In-vivo Learning in Cardiology',
@@ -946,7 +946,7 @@ Chairs: Nicha Dvornek, Bram van Ginneken <br>
         abstract='The contrast settings to select before acquiring magnetic resonance imaging (MRI) signal depend heavily on the subsequent tasks. As each contrast highlights different tissues, automated segmentation tools for example might be optimized for a certain contrast. While for radiotherapy, multiple scans of the same region with different contrasts can achieve a better accuracy for delineating tumours and organs at risk. Unfortunately, the optimal contrast for the subsequent automated methods might not be known during the time of signal acquisition, and performing multiple scans with different contrasts increases the total examination time and registering the sequences introduces extra work and potential errors. Building on the recent achievements of deep learning in medical applications, the presented work describes a novel approach for transferring any contrast to any other.The novel model architecture incorporates the signal equation for spin echo sequences, and hence the model inherently learns the unknown quantitative maps for proton density, T1 and T2 relaxation times (PD, T1 and T2, respectively). This grants the model the ability to retrospectively reconstruct spin echo sequences by changing the contrast settings Echo and Repetition Time (TE and TR, respectively). The model learns to identify the contrast of pelvic MR images, therefore no paired data of the same anatomy from different contrasts is required for training. This means that the experiments are easily reproducible with other contrasts or other patient anatomies.Despite the contrast of the input image, the model achieves accurate results for reconstructing signal with contrasts available for evaluation. For the same anatomy, the quantitative maps are consistent for a range of contrasts of input images. Realized in practice, the proposed method would greatly simplify the modern radiotherapy pipeline. The trained model is made public together with a tool for testing the model on example images.')
 }}
 [% / %]
-<a id="longH"></a><h3>H1-3 (long): Image Acquisition and Reconstruction - 16:00 - 16:30 (UCT+2)</h3>
+<a id="longH"></a><h3>H1-3 (long): Image Acquisition and Reconstruction - 16:00 - 16:30 (UTC+2)</h3>
 Chairs: Angelica Aviles-Rivero, Antoine Théberge <br>
 [% .papers %]
 {{ paper('Hybrid optimization between iterative and network fine-tuning reconstructions for fast quantitative susceptibility mapping',
@@ -977,7 +977,7 @@ Chairs: Angelica Aviles-Rivero, Antoine Théberge <br>
         abstract='Subject motion is one of the major challenges in clinical routine MR imaging. Despite ongoing research, motion correction has remained a complex problem without a universal solution. In advanced quantitative MR techniques, such as MR Fingerprinting, motion does not only affect a single image, like in single-contrast MRI, but disrupts the entire temporal evolution of the magnetization and causes parameter quantification errors due to a mismatch between the acquired and simulated signals. In this work, we present a deep learning-empowered retrospective motion correction for rapid 3D whole-brain multiparametric MRI based on Quantitative Transient-state Imaging (QTI). We propose a patch-based 3D multiscale convolutional neural network (CNN) that learns the residual error, i.e. after initial navigator-based correction, between motion-affected quantitative T1, T2 and proton density maps and their motion-free counterparts. For efficient model training despite limited data availability, we propose a physics-informed simulation to apply continuous motion-patterns to motion-free data. We evaluate the performance of the residual CNN on 1.5T and 3T MRI data of ten healthy volunteers. We analyze the generalizability of the model when applied to real clinical cases, including pediatric and adult patients with large brain lesions. Our study demonstrates that image quality can be significantly improved after correcting for subject motion. This has important implications in clinical setups where large amounts of motion affected data must be discarded.')
 }}
 [% / %]
-<a id="shortG"></a><h3>G1-9 (short): Interpretability and Explainable AI - 16:45 - 17:30 (UCT+2)</h3>
+<a id="shortG"></a><h3>G1-9 (short): Interpretability and Explainable AI - 16:45 - 17:30 (UTC+2)</h3>
 Chairs: Monika Grewal, Christian Ledig <br>
 [% .papers %]
 {{ paper('Me-NDT: Neural-backed Decision Tree for Visual Explainability of Deep Medical Models',
@@ -1062,7 +1062,7 @@ Chairs: Monika Grewal, Christian Ledig <br>
         abstract='To develop deep learning-based models for automatic analysis of histopathology whole slide images (WSIs), the atomic entities to be directly processed are often the smaller patches cropped from WSIs as it is not always possible to feed a whole WSI to a model given its enormous size. However, a trained model tends to relate the slide-specific characteristics to diagnosis results because a large number of patches cropped from the same WSI will  share common slide features and thus have strong correlations between them, resulting in deteriorated generalization capability of the trained model. Current approaches to alleviate this issue include data pre-processing (stain normalization or color augmentation) and adversarial learning, both of which introduce extra complications in computations. Alternatively, we propose to reduce the impact of this issue by introducing a new regularization term to the standard loss function to reduce the correlation of the patches from the same WSI. It is intuitive and easy-to-implement and introduces comparably smaller  computation overhead compared to existing approaches. Experimental results prove that the proposed regularization term is able to enhance the generalization capability of learning models and consequently to achieve better performance. The code is available in:  \\url{https://github.com/hrzhang1123/SlideCorrelationReduction}.')
 }}
 [% / %]
-<a id="shortH"></a><h3>H4-12 (short): Application: Radiology - 16:45 - 17:30 (UCT+2)</h3>
+<a id="shortH"></a><h3>H4-12 (short): Application: Radiology - 16:45 - 17:30 (UTC+2)</h3>
 Chairs: Raghav Mehta, Clarisa Sanchez <br>
 [% .papers %]
 {{ paper('Optimizing Operating Points for High Performance Lesion Detection and Segmentation Using Lesion Size Reweighting',
@@ -1143,7 +1143,7 @@ Chairs: Raghav Mehta, Clarisa Sanchez <br>
 <hr>
 
 <h2> Friday 9th July</h2>
-<a id="longI"></a><h3>I1-3 (long): Interpretability and Explainable AI - 13:00 - 13:30 (UCT+2)</h3>
+<a id="longI"></a><h3>I1-3 (long): Interpretability and Explainable AI - 13:00 - 13:30 (UTC+2)</h3>
 Chairs: Ismail Ben Ayed, Arrate Muñoz-Barrutia <br>
 [% .papers %]
 {{ paper('Explainable Image Quality Analysis of Chest X-Rays',
@@ -1174,7 +1174,7 @@ Chairs: Ismail Ben Ayed, Arrate Muñoz-Barrutia <br>
         abstract="Fully-convolutional neural networks, such as the 2D or 3D UNet, are now pervasive in medical imaging for semantic segmentation, classification, image denoising, domain translation, and reconstruction. However, evaluation of UNet performance, as with most CNNs, has mostly been relegated to evaluation of a few performance metrics (e.g. accuracy, IoU, SSIM, etc.) using the network\\'s final predictions, which provides little insight into important issues such as dataset shift that occur in clinical application. In this paper, we propose techniques for understanding and visualizing the generalization performance of UNets in image classification and regression tasks, giving rise to metrics that are indicative of performance on a withheld test-set without the need for groundtruth annotations.")
 }}
 [% / %]
-<a id="shortI"></a><h3>I4-12 (short): Transfer Learning and Domain Adaptation - 13:45 - 14:30 (UCT+2)</h3>
+<a id="shortI"></a><h3>I4-12 (short): Transfer Learning and Domain Adaptation - 13:45 - 14:30 (UTC+2)</h3>
 Chairs: Katharina Breininger, Maria Vakalopoulou <br>
 [% .papers %]
 {{ paper('Scopeformer: n-CNN-ViT hybrid model for Intracranial hemorrhage subtypes classification',
@@ -1259,7 +1259,7 @@ Chairs: Katharina Breininger, Maria Vakalopoulou <br>
         abstract='Convolutional neural networks (CNN) are sensitive to domain shifts, which can result in poor generalization. In medical imaging, data acquisition conditions differ among institutions, which leads to variations in image properties and thus domain shift. Stain variation in histopathological slides is a prominent example. Data augmentation is one way to make CNNs robust to varying forms of domain shift, but requires extensive hyperparameter tuning. Due to the large search space, this is cumbersome and often leads to sub-optimal generalization performance. In this work, we focus on automated and computationally efficient data augmentation policy selection for histopathological slides. Building upon the RandAugment framework, we introduce several domain-specific modifications relevant to histopathological images, increasing generalizability. We test these modifications on H\\&E-stained histopathology slides from Camelyon17 dataset. Our proposed framework outperforms the state-of-the-art manually engineered data augmentation strategy, achieving an area under the ROC curve of 0.964 compared to 0.958, respectively.')
 }}
 [% / %]
-<a id="shortJ"></a><h3>J1-9 (short): Unsupervised and Representation Learning - 13:45 - 14:30 (UCT+2)</h3>
+<a id="shortJ"></a><h3>J1-9 (short): Unsupervised and Representation Learning - 13:45 - 14:30 (UTC+2)</h3>
 Chairs: Nikolas Lessmann, Nick Pawlowski <br>
 [% .papers %]
 {{ paper('Multimodal Generative Learning on the MIMIC-CXR Database',
@@ -1344,7 +1344,7 @@ Chairs: Nikolas Lessmann, Nick Pawlowski <br>
         abstract='The segmentation of cardiac structures in Cine Magnetic Resonance imaging (CMR) plays an important role in monitoring ventricular function, and many deep learning solutions have been introduced that successfully automate this task. Yet due to variabilities in the CMR acquisition process, images from different centers or acquisition protocols differ considerably. This causes deep learning models to fail silently. It is therefore crucial to identify out-of-distribution (OOD) samples for which the trained model is unsuitable. For models with a self-supervised proxy task, we propose a simple method to identify OOD samples that does not require adapting the model architecture or access to a separate OOD dataset during training. As the performance of self-supervised tasks can be assessed without ground truth information, it indicates during test time when a sample differs from the training distribution. The proposed method combines a voxel-wise uncertainty estimate with the self-supervision information. Our approach is validated across three CMR datasets and two different proxy tasks. We find that it is more effective at detecting OOD samples than state-of-the-art post-hoc OOD detection and uncertainty estimation approaches.')
 }}
 [% / %]
-<a id="longL"></a><h3>L1-3 (long): Learning with Noisy Labels and Limited Data - 16:00 - 16:30 (UCT+2)</h3>
+<a id="longL"></a><h3>L1-3 (long): Learning with Noisy Labels and Limited Data - 16:00 - 16:30 (UTC+2)</h3>
 Chairs: Geert Litjens, Ozan Oktay <br>
 [% .papers %]
 {{ paper('Untangling the Small Intestine in 3D cine-MRI using Deep Stochastic Tracking',
@@ -1375,7 +1375,7 @@ Chairs: Geert Litjens, Ozan Oktay <br>
         abstract='Quantitative susceptibility mapping (QSM) is a magnetic resonance imaging (MRI) technique that estimates magnetic susceptibility of tissue from MR phase measurements. Recently, several supervised deep learning (DL) techniques have demonstrated impressive performance in solving the challenging ill-posed field-to-source inverse QSM reconstruction problem. To address the lack of the inherent non-existent ground-truth QSM references, a model-based method was recently proposed using the well-established physical model. However, it fails to perform well at the regions with large susceptibility variations. Here, we proposed uQSM+ with data augmentation techniques to improve the model-based learning. The proposed method was evaluated on a multi-orientation QSM datasets and 2019 QSM reconstruction challenge datasets. Quantitative and qualitative evaluation showed that uQSM+ and zero-shot uQSM+ was capable of reconstructing high quality QSM. The code is available at \\inkhttps{https://github.com/juana313/uQSM-plus}.')
 }}
 [% / %]
-<a id="shortK"></a><h3>K1-9 (short): Learning with Noisy Labels and Limited Data - 16:45 - 17:30 (UCT+2)</h3>
+<a id="shortK"></a><h3>K1-9 (short): Learning with Noisy Labels and Limited Data - 16:45 - 17:30 (UTC+2)</h3>
 Chairs: Hoel Kervadec, Max-Heinrich Laves <br>
 [% .papers %]
 {{ paper('Semi-Supervised Siamese Network for Identifying Bad Data in Medical Imaging Datasets',
@@ -1460,7 +1460,7 @@ Chairs: Hoel Kervadec, Max-Heinrich Laves <br>
         abstract="We introduce the concept of multi-task learning to weakly-supervised lesion segmentation, one of the most critical and challenging tasks in medical imaging. Due to the lesions\\' heterogeneous nature, it is difficult for machine learning models to capture the corresponding variability. We propose to jointly train a lesion segmentation model and a lesion classifier in a multi-task learning fashion, where the supervision of the latter is obtained by clustering the RECIST measurements of the lesions. We evaluate our approach specifically on liver lesion segmentation and more generally on lesion segmentation in computed tomography (CT), as well as segmentation of skin lesions from dermatoscopic images. We show that the proposed joint training improves the quality of the lesion segmentation by 4% percent according to the Dice coefficient and 6% according to averaged Hausdorff distance (AVD), while reducing the training time required by up to 75%. ")
 }}
 [% / %]
-<a id="shortL"></a><h3>L4-9 (short): Detection and Diagnosis 2 - 16:45 - 17:30 (UCT+2)</h3>
+<a id="shortL"></a><h3>L4-9 (short): Detection and Diagnosis 2 - 16:45 - 17:30 (UTC+2)</h3>
 Chairs: Christian Baumgartner, Colin Jacobs <br>
 [% .papers %]
 {{ paper('Prediction of Ki67 scores from H&E stained breast cancer sections using convolutional neural networks',
