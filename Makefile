@@ -21,9 +21,6 @@ generate: pages/papers/paper.template papers.json
 generate_sessions: pages/sessions/session.template papers.json
 	$(CC) generate_sessions.py $^ pages/sessions
 
-pages/dumb_list.md: pages/dumb_list.template papers.json
-	$(CC) fill_template.py $^ $@
-
 pages/program.md: pages/program.template papers.json
 	$(CC) fill_template.py $^ $@
 
