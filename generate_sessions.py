@@ -49,8 +49,14 @@ if __name__ == "__main__":
                 result = result.replace("SESSION", session_id)
                 result = result.replace("TITLE", session_title)
                 result = result.replace("TIME", session_time)
+                result = result.replace("CHAIRS", session_papers[0].chairs)
 
                 for p in session_papers:
+                        result += '''
+
+---
+                        '''
+
                         result += f'''
 [% .papers %]
 {p}
