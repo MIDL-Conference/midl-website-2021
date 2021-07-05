@@ -30,7 +30,7 @@ All deadlines are at 23:59, [UTC -12](https://www.timeanddate.com/time/map/) ([A
 * **<s>Doctoral Symposium</s>** <s>2 July 2021</s>
 
 ### Conference dates
-* [**Doctoral Symposium**](/doctoral-symposium.html) <s>2 July 2021</s>
+* [**Doctoral Symposium**](/doctoral-symposium.html) 2 July 2021
 * [**MIDL 2021**](/program.html) 7-9 July 2021
 
 ### MedIA Special Issue
