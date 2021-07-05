@@ -7,7 +7,8 @@ class Paper():
     def __init__(self, id: str, title: str, authors: str, url: str, or_id: str, oral: str, short: str,
                  abstract: str, schedule: str = "", slides: str = "", yt_teaser: str = "",
                  yt_full: str = "", ignore_schedule: bool = False, award: str = "",
-                 pdf: str = "", pmlr_url="", cloudflare_video_id: str = ""):
+                 pdf: str = "", pmlr_url="", cloudflare_video_id: str = "",
+                 chairs: str = ""):
         self.id: str = id
         self.title: str = title
         self.authors: list[str] = authors.split(', ')
@@ -22,6 +23,7 @@ class Paper():
         self.yt_full: str = yt_full
         self.award: str = award
         self.cloudflare_video_id: str = cloudflare_video_id
+        self.chairs: str = chairs
 
         self.pmlr_url: str = pmlr_url
         assert not (self.short and self.pmlr_url)
@@ -65,6 +67,7 @@ class Paper():
         sanitized_abstract: str = self.abstract.replace("'", "\\'")
         sanitized_abstract = sanitized_abstract.replace('"', '\\"')
         sanitized_abstract = sanitized_abstract.replace('\n', '')
+        sanitized_abstract = sanitized_abstract.replace('\r', '')
         sanitized_abstract = sanitized_abstract.replace('`', '')
         sanitized_abstract = repr(sanitized_abstract)
 
@@ -99,6 +102,7 @@ class PaperEncoder(json.JSONEncoder):
                     "yt_full": paper.yt_full,
                     "award": paper.award,
                     "pmlr_url": paper.pmlr_url,
-                    "cloudflare_video_id": paper.cloudflare_video_id}
+                    "cloudflare_video_id": paper.cloudflare_video_id,
+                    "chairs": paper.chairs}
 
         return json.JSONEncoder.default(self, paper)

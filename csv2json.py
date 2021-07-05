@@ -22,10 +22,12 @@ if __name__ == "__main__":
         output_file: str = "papers.json"
 
         program_dict: dict[str, tuple[str, str]] = {}  # openreview key: [conf_id, Schedule]
+        chairs_dict: dict[str, str] = {}  # openreview key: [conf_id, chairs]
 
         # Parse the schedule
         current_time: Optional[str] = None
         current_day: Optional[str] = None
+        current_chairs: Optional[str] = None
         conf_id: str
         openreview_id: str
         with open(program_file, 'r') as f:
@@ -34,13 +36,18 @@ if __name__ == "__main__":
                                 current_day = BeautifulSoup(line, 'html.parser').h2.text
                         elif "<h3>" in line:
                                 current_time = BeautifulSoup(line, 'html.parser').h3.text
+                        elif "Chairs:" in line:
+                                current_chairs = line.removeprefix("Chairs: ").removesuffix(" <br>\n")
+                                print(current_time, current_chairs)
                         elif 'target="_blank">' in line:
                                 conf_id = line.split(':')[0]
                                 openreview_url = BeautifulSoup(line, 'html.parser').a['href']
                                 openreview_id = openreview_url.split("id=")[1]
 
                                 assert current_time is not None
+                                assert current_chairs is not None
                                 program_dict[openreview_id] = (conf_id, f"{current_day}\n{current_time}")
+                                chairs_dict[openreview_id] = current_chairs
 
         # pprint(program_dict)
 
@@ -114,7 +121,8 @@ if __name__ == "__main__":
                                              slides=f"/slides/full_{number}_poster.pdf",
                                              yt_full=f"/videos/full_{number}_video.mp4",
                                              pdf=f"/proceedings/{pmlr_dict[number]}",
-                                             cloudflare_video_id=cloudflare_dict[video_name])
+                                             cloudflare_video_id=cloudflare_dict[video_name],
+                                             chairs=chairs_dict[or_id])
 
                 # print(f"{{{{{current_paper.id}}}}}")
 
@@ -157,7 +165,8 @@ if __name__ == "__main__":
                                       schedule=schedule,
                                       slides=f"/slides/short_{number}_poster.pdf",
                                       yt_full=f"/videos/short_{number}_video.mp4",
-                                             cloudflare_video_id=cloudflare_dict[video_name])
+                                      cloudflare_video_id=cloudflare_dict[video_name],
+                                      chairs=chairs_dict[or_id])
 
                 # print(f"{{{{{current_paper.id}}}}}")
 
