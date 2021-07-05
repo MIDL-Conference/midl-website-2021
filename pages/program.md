@@ -32,12 +32,12 @@
 #hide-show-timezones label {
     padding: 0 4px 0 8px;
 }
- #program div{
+#program div, #program a {
     color: white;
-    }
-#program a{
-    color: white;
-    }
+}
+#program a:hover {
+    text-decoration: underline;
+}
 #r00{
       background-color: #96B6BD;
  /*   appearance: none;*/
@@ -148,7 +148,8 @@
       clip-path: polygon(0% 0%, 120% 0%, 120% 100%, 0% 100%); /*right*/
       border: 1px;}
 
-    #cbreak{   background-color: #AEAEAE;}
+    #cbreak{   background-color: #AEAEAE; }
+    #cbreak div, #cbreak_r div { color: #444444; } 
 
     #clong_tr{   background-color: #0083AC; box-shadow: 0 0 0px 8px gold;
       clip-path: polygon(0% -20%, 120% -20%, 120% 100%, 0% 100%); /*top-right*/
