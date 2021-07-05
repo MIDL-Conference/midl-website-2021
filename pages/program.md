@@ -4,6 +4,7 @@
     font-size: 85%;
     border-collapse: separate;
     border-spacing: 1px;
+    color: #222222;
 }
 @media (min-width: 1200px) {
     #program {
@@ -142,14 +143,14 @@
   clip-path: polygon(0% 0%, 100% 0%, 100% 120%, 0% 120%); /*bottom*/
       border: 1px;}
 
-    #title_legend{font-weight:300; font-size: 100%; text-align:left; color:white;}
-    #text_legend{font-weight:150; font-size: 80%; text-align:left}
+    #title_legend{font-weight:300; font-size: 100%; text-align:left; color:white; padding-left: 6px; }
+    #text_legend{font-weight:150; font-size: 80%; text-align:left; padding-left: 6px; }
     #cbreak_r{   background-color: #AEAEAE; box-shadow: 0 0 0px 8px gold;
       clip-path: polygon(0% 0%, 120% 0%, 120% 100%, 0% 100%); /*right*/
       border: 1px;}
 
     #cbreak{   background-color: #AEAEAE; }
-    #cbreak div, #cbreak_r div { color: #444444; } 
+    #cbreak div, #cbreak_r div { color: #222222; } 
 
     #clong_tr{   background-color: #0083AC; box-shadow: 0 0 0px 8px gold;
       clip-path: polygon(0% -20%, 120% -20%, 120% 100%, 0% 100%); /*top-right*/
