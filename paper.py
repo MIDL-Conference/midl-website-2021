@@ -58,6 +58,7 @@ class Paper():
         sanitized_abstract: str = self.abstract.replace("'", "\\'")
         sanitized_abstract = sanitized_abstract.replace('"', '\\"')
         sanitized_abstract = sanitized_abstract.replace('\n', '')
+        sanitized_abstract = sanitized_abstract.replace('\r', '')
         sanitized_abstract = sanitized_abstract.replace('`', '')
         self.sanitized_abstract = sanitized_abstract
 
