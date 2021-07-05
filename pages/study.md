@@ -55,7 +55,7 @@ Please note that the session chairs of the corresponding live discussion below a
 * A12: Philipp Gruening - [Direct Inference of Cell Positions using Lens-Free Microscopy and Deep Learning](https://2021.midl.io/papers/a12) - (full)
 * K4: Soumick Chatterjee - [DS6, Deformation-aware Semi-supervised Learning: Application to Small Vessel Segmentation with Noisy Training Data](https://2021.midl.io/papers/k4) - (short)
 * K5: Jan Mikolaj Kaminski - [Deep ensemble model for segmenting microscopy images in the presence of limited labeled data](https://2021.midl.io/papers/k5) - (short)
-* K6: Md Asadullah Turja - [Learning the Latent Heat Diffusion Process through Structural Brain Network from Longitudinal $\beta$-Amyloid Data](https://2021.midl.io/papers/k6) - (full)
+* K6: Md Asadullah Turja - [Learning the Latent Heat Diffusion Process through Structural Brain Network from Longitudinal β-Amyloid Data](https://2021.midl.io/papers/k6) - (full)
 
 ### Study Group 1-D: 
 * Mentor: Jannis Hagenah (3+3) 
