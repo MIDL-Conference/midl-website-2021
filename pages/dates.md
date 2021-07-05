@@ -348,11 +348,11 @@ All deadlines are at 23:59, [UTC -12](https://www.timeanddate.com/time/map/) ([A
 
 ### Doctoral Symposium
 * **<s>Application deadline</s>** <s>4 June 2021</s>
-* **Notification of acceptance** 14 June 2021
-* **Doctoral Symposium** 2 July 2021
+* **<s>Notification of acceptance</s>** <s>14 June 2021</s>
+* **<s>Doctoral Symposium</s>** <s>2 July 2021</s>
 
 ### Conference dates
-* **Doctoral Symposium** 2 July 2021
+* **<s>Doctoral Symposium</s>** <s>2 July 2021</s>
 * **MIDL 2021** 7-9 July 2021
 <!-- * **Main event** 7-9 July 2021
 * **Challenges** 9 July 2021 //-->
