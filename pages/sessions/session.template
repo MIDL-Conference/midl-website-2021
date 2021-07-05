@@ -3,7 +3,8 @@ title: "Session SESSION"
 page_class: "program"
 ---
 
-{% from "_macros.html" import button, paper, video %}
+{% from "_macros.html" import paper, cloudflare_video %}
+
 
 # SESSION - TITLE
 ## TIME
