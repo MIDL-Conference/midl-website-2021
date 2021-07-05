@@ -12,7 +12,7 @@ page_class: "keynotes"
 ## Prof. Bernhard Schölkopf ![Portrait of Bernhard Schoelkopf](/images/keynotes/schoelkopf.png){: width="180" }
 ### Max Planck Institute for Intelligent Systems
 
-## Toward causal learning for high dimensional observations
+## Toward causal learning for high dimensional observations - Thursday, 8 July, 15:15 CEST
 
 
 **Abstract of Keynote:** In machine learning, we use data to automatically find dependences in the world, with the goal of predicting future observations. Most machine learning methods build on statistics, but one can also try to go beyond this, assaying causal structures underlying statistical dependences. 
@@ -28,7 +28,7 @@ Bernhard co-founded the series of Machine Learning Summer Schools, and currently
 ## Prof. Polina Golland ![Portrait of Polina Golland](/images/keynotes/golland.png){: width="180" }
 ### Massachusetts Institute of Technology
 
-## From Pixels to Clinical Insight: Placental MRI Analysis
+## From Pixels to Clinical Insight: Placental MRI Analysis - Wednesday, 7 July, 15:15 CEST
 
 
 **Abstract of Keynote:** Placental shape and function present many opportunities and challenges
@@ -47,7 +47,7 @@ computational methods.
 ## Prof. Bernd Stahl ![Portrait of Bernd Stahl](/images/keynotes/stahl.png){: width="180" }
 ### De Montfort University Leicester
 
-## Artificial Intelligence for a Better Future - An Ecosystem Perspective on the Ethics of AI and Emerging Digital Technologies
+## Artificial Intelligence for a Better Future - An Ecosystem Perspective on the Ethics of AI and Emerging Digital Technologies - Friday, 9 July, 15:15 CEST
 
  
 **Abstract of Keynote** Smart information systems (SIS), those systems that incorporate artificial intelligence techniques, in particular machine learning and big data analytics, are widely expected to have a significant impact on our world. They raise significant hopes, for example to better understand and cure diseases, to revolutionize transport, to optimize business processes or reduce carbon emissions. At the same time, they raise many ethical and social concerns, ranging from worries about biases and resulting discrimination to the distribution of socio-economic and political power and their impact on democracy. A case in point is the discourse on the use of contact tracing apps during the novel coronavirus pandemic. Contact tracing has proven its effectiveness in disease containment for 500 years, but the application of advanced information technologies raises concerns about privacy, discrimination, and exclusion from essential public services to entirely new levels.
