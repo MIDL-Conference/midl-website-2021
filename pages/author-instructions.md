@@ -12,13 +12,15 @@ Since the program of this years MIDL might appear quite differently from what yo
 ## Presentation guidelines
 
 **Full paper ("long oral")** 
+
 * 10-13 minute presentation video
 * and **landscape** PDF slide(s) that serve as virtual poster.
 * Prepare a brief **(max 3 minutes) oral introduction** of yourself and your work to give live
  before the panel discussion starts
 * By **default your poster slides** will be shown during your live introduction. If you prefer a different set of slides, please upload them to our cloud with file ending intro.pdf. There is also the option to share your screen.
 
-**Full or Short paper ("short oral")** 
+**Full or Short paper ("short oral")**
+
 * 4-6 minute presentation video,
 * and **1-3 landscape** PDF slide(s) that serve as virtual poster.
 * Prepare a brief **(max 90 sec) oral introduction** of yourself and your work to give live
@@ -45,6 +47,7 @@ We believe that one of the most important aspects of conferences and particularl
 Hence we want to put a focus on discussions and interaction between all participants and the authors of the 123 accepted papers. 
 
 Given that this is an international conference and that we will have participants from many different time zones, we will have a 'prime-time' stretching for six hours that should give almost everybody an opportunity to join us. To make the best use of this time slot, we will focus on keynotes and joint discussions. Each of the three MIDL conference days will have: 
+
 * one keynote,
 * two long oral discussion sessions (18 selected full papers in total, single track),
 * two short oral discussion sessions (further 42 full papers and 63 short papers in total, in dual track), and
