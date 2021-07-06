@@ -263,11 +263,11 @@ This study group discusses the following papers
 * Mentor: Katharina Breininger (2+3)
 * Session Chairs: Katharina Breininger, Maria Vakalopoulou 
 #### This study group discusses the following papers
-I4: Yassine Barhoumi - [Scopeformer: n-CNN-ViT hybrid model for Intracranial hemorrhage subtypes classification](https://2021.midl.io/papers/i4) - (short)
-I5: Neerav Karani - [Robust medical image segmentation by adapting neural networks for each test image](https://2021.midl.io/papers/i5) - (short)
-I6: Marc Aubreville - [Quantifying the Scanner-Induced Domain Gap in Mitosis Detection](https://2021.midl.io/papers/i6) - (short)
-I11: Sobhan Hemati - [CNN and Deep Sets for End-to-End Whole Slide Image Representation Learning](https://2021.midl.io/papers/i11) - (full)
-I12: Khrystyna Faryna - [Tailoring automated data augmentation to H&E-stained histopathology](https://2021.midl.io/papers/i12) - (full)
+* I4: Yassine Barhoumi - [Scopeformer: n-CNN-ViT hybrid model for Intracranial hemorrhage subtypes classification](https://2021.midl.io/papers/i4) - (short)
+* I5: Neerav Karani - [Robust medical image segmentation by adapting neural networks for each test image](https://2021.midl.io/papers/i5) - (short)
+* I6: Marc Aubreville - [Quantifying the Scanner-Induced Domain Gap in Mitosis Detection](https://2021.midl.io/papers/i6) - (short)
+* I11: Sobhan Hemati - [CNN and Deep Sets for End-to-End Whole Slide Image Representation Learning](https://2021.midl.io/papers/i11) - (full)
+* I12: Khrystyna Faryna - [Tailoring automated data augmentation to H&E-stained histopathology](https://2021.midl.io/papers/i12) - (full)
 
 
 ### Study Group 6-B
@@ -297,9 +297,9 @@ I12: Khrystyna Faryna - [Tailoring automated data augmentation to H&E-stained hi
 * Session Chairs: Ismail Ben Ayed, Arrate Muñoz-Barrutia 
 
 #### This study group discusses the following papers
-I1: Caner Ozer - [Explainable Image Quality Analysis of Chest X-Rays](https://2021.midl.io/papers/i1)
-I2: Joseph Paul Cohen - [Gifsplanation via Latent Shift: A Simple Autoencoder Approach to Counterfactual Generation for Chest X-rays](https://2021.midl.io/papers/i2)
-I3: Abhejit Rajagopal - [Understanding and Visualizing Generalization UNets](https://2021.midl.io/papers/i3)
+* I1: Caner Ozer - [Explainable Image Quality Analysis of Chest X-Rays](https://2021.midl.io/papers/i1)
+* I2: Joseph Paul Cohen - [Gifsplanation via Latent Shift: A Simple Autoencoder Approach to Counterfactual Generation for Chest X-rays](https://2021.midl.io/papers/i2)
+* I3: Abhejit Rajagopal - [Understanding and Visualizing Generalization UNets](https://2021.midl.io/papers/i3)
 
 ### Study Group 6-E
 * Mentor: Ismail Ben Ayed (3+1) 
