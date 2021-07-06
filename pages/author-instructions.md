@@ -45,10 +45,10 @@ We believe that one of the most important aspects of conferences and particularl
 Hence we want to put a focus on discussions and interaction between all participants and the authors of the 123 accepted papers. 
 
 Given that this is an international conference and that we will have participants from many different time zones, we will have a 'prime-time' stretching for six hours that should give almost everybody an opportunity to join us. To make the best use of this time slot, we will focus on keynotes and joint discussions. Each of the three MIDL conference days will have: 
-–	one keynote,
-–	two long oral discussion sessions (18 selected full papers in total, single track),
-–	two short oral discussion sessions (further 42 full papers and 63 short papers in total, in dual track), and
-–	two poster sessions (one slot for each paper, full and short on the same days).
+* one keynote,
+* two long oral discussion sessions (18 selected full papers in total, single track),
+* two short oral discussion sessions (further 42 full papers and 63 short papers in total, in dual track), and
+* two poster sessions (one slot for each paper, full and short on the same days).
 
 In addition, we ask all authors to prepare video presentations, which will be shown *twice* in two sessions before the 'prime time'. Participants are invited to attend either of these two separate videos viewing sessions in their respective time zones, or to view the videos individually. Your questions will be collected for the later discussions.
 During 'prime time', we will all meet live and discuss with the authors. Authors will briefly introduce their work and answer live questions (in panelist groups of three) as well as points brought up during the video viewing. To further foster interaction, there will be the possibility for individual personal interactions with other participants via GatherTown. All presenting authors are asked to be available in GatherTown with a few PDF slides at hand to discuss your work in more detail.
@@ -56,8 +56,8 @@ During 'prime time', we will all meet live and discuss with the authors. Authors
 ### Video recording tips 
 To ensure everything looks nice, we would like you to use OBS Studio (see [OBS Project](https://obsproject.com/)) for preparing your video. We have prepared two template background images you can use for positioning your presentation and speaker view, for 4:3 and 16:9 presentations. You can download them here:
 
-- [4:3 background template](/images/MIDL-OBS-4by3.png)
-- [16:9 background template](/images/MIDL-OBS-16by9.png)
+* [4:3 background template](/images/MIDL-OBS-4by3.png)
+* [16:9 background template](/images/MIDL-OBS-16by9.png)
 
 To facilitate using OBS, there is a short [video tutorial](https://www.youtube.com/watch?v=hDHmP17T61I) available. Further, we'll hold two support sessions (please refer to the email you received - if you can't find it, email us!).
 
