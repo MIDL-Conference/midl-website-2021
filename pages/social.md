@@ -18,7 +18,7 @@ Feel free to explore the virtual conference center. Meet other people preparing 
 ## Get Together
 
 At the first day of the conference, after listening to all the exciting presentations, we open the roof top bar for you! Enjoy a cocktail in a unique location above the roofs of Lübeck. And yes - there will be cocktails! There are barkeepers waiting for you to mix your favourite drink with you - live! 
-To be prepared for the cocktails you can find everything you need to add to your [grocery list](resources/BK_MIDL_Recipes_20210707.pdf) here 
+To be prepared for the cocktails you can find everything you need to add to your [grocery list](resources/BK_MIDL_Recipes_20210707.pdf) and particular the unique signature drink [MIDL mule](resources/BK_MIDL_Mule.pdf) 
 
 ## Gala Event
 
