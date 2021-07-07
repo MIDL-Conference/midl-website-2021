@@ -14,3 +14,5 @@ Below you can find interesting job advertisements in the field of medical imagin
 * [Research associate at the Institute of Mathematics and Image Computing at the University of Lübeck](https://www.uni-luebeck.de/fileadmin/uzl_personal/stellenausschreibungen/1035_21_-_Ausschreibungstext_Wiss_MA_MIC__Langtext_.pdf)
 
 # Sponsors/Industry Job adverts
+
+* [(Senior) Machine Learning Engineer at Snke OS](/sponsors/snke_OS_Machine_Learning_Engineer.pdf)
