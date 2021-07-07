@@ -1,6 +1,6 @@
 ---
-page_class: "sponsors"
 title: "Organization"
+page_class: "sponsors"
 ---
 
 # Organization

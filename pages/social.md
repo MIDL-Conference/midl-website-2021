@@ -1,6 +1,5 @@
 ---
 title: "Social Program"
-page_class: "keynotes"
 ---
 
 {% from "_macros.html" import button %}
