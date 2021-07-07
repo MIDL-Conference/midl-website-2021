@@ -12,7 +12,7 @@ page_class: "sponsors"
     <img alt="City of Lübeck" src="/images/midl_2021_luebeck.jpg">
 </p>
 -->
-{{ youtube('KDd64T-Ww3w') }}
+{{ youtube('yqJyFJS3oY0') }}
 
 In 2021, MIDL will **virtually** come to Lübeck, Germany! [Take a glance](/resources/teaser_slides.pdf)
 
