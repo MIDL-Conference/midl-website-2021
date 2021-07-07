@@ -26,7 +26,7 @@ If you have registered, you can join us in [Gather.Town](https://2021.midl.io/ga
 
 ---
 
-## Supported by
+### Supported by
 
 [% .logos %]
 [![German Research Foundation](/sponsors/dfg_logo_schriftzug_blau_foerderung_en.jpg){: height="120"}](https://www.dfg.de/en/)
@@ -34,14 +34,6 @@ If you have registered, you can join us in [Gather.Town](https://2021.midl.io/ga
 [![MICCAI](/sponsors/miccai.jpeg){: height="90"}](http://www.miccai.org)
 [% / %]
 
-<!--
----
-
-### Diamond sponsors
-
-[% .logos %]
-[% / %] 
-//-->
 ---
 
 ### Gold sponsors
