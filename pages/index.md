@@ -13,10 +13,11 @@ In 2021, MIDL will come to Lübeck, Germany! [Take a first glance](/resources/te
 
 ## MIDL is live!
 
-If you have registered, you can join at https://2021.midl.io/gather
+If you have registered, you can join us in [Gather.Town](https://2021.midl.io/gather)!
 
-The opening ceremony is already available for you to watch!
+The opening ceremony is already available for you to watch on YouTube
 
+{% from "_macros.html" import youtube %}
 {{ macros.youtube('KDd64T-Ww3w') }}
 
 ## Paper Registration 
