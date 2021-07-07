@@ -11,9 +11,13 @@ page_class: "sponsors"
 
 In 2021, MIDL will come to Lübeck, Germany! [Take a first glance](/resources/teaser_slides.pdf)</a>. Due to the state of the pandemic, **MIDL 2021 will have to be a fully virtual event**.
 
-## Registration is now open!
+## MIDL is live!
 
-Registration has now opened. Please register for the conference on the [registration page](/registration.html).
+If you have registered, you can join at https://2021.midl.io/gather
+
+The opening ceremony is already available for you to watch!
+
+{{ macros.youtube('KDd64T-Ww3w') }}
 
 ## Paper Registration 
 
