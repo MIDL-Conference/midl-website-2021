@@ -330,6 +330,8 @@ Please note that for participants from the Americas, the video previewing happen
 
 ---
 
+Since the program of this years MIDL might appear quite differently from what you expect, there is a [video](https://youtu.be/Nlzt1LgOubc) explaining how you can enjoy the scientific presentations and discussions throughout the conference!
+
 We gave our best to give every participant the opportunity for live interaction with the authors, regardless of the timezone. Therefore, each conference day is divided into two parts: The active part and the passive part.
 The active part - the <b>prime time</b> - takes place in the time frame that is most convenient across all time zones and is marked in yellow.
 
