@@ -26,7 +26,7 @@ computational methods.
 ## Prof. Bernhard Schölkopf ![Portrait of Bernhard Schoelkopf](/images/keynotes/schoelkopf.png){: width="180" }
 ### Max Planck Institute for Intelligent Systems
 
-## Toward causal learning for high dimensional observations - Thursday, 8 July, 15:15 CEST
+#### Toward causal learning for high dimensional observations - Thursday, 8 July, 15:15 CEST
 
 
 **Abstract of Keynote:** In machine learning, we use data to automatically find dependences in the world, with the goal of predicting future observations. Most machine learning methods build on statistics, but one can also try to go beyond this, assaying causal structures underlying statistical dependences. 
