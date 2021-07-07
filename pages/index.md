@@ -14,11 +14,15 @@ page_class: "sponsors"
 -->
 {{ youtube('KDd64T-Ww3w') }}
 
-In 2021, MIDL will come to Lübeck, Germany! [Take a first glance](/resources/teaser_slides.pdf)</a>. Due to the state of the pandemic, **MIDL 2021 will have to be a fully virtual event**.
+In 2021, MIDL will ***virtually*** come to Lübeck, Germany! [Take a glance](/resources/teaser_slides.pdf)
 
 ## MIDL is live!
 
 If you have registered, you can join us in [Gather.Town](https://2021.midl.io/gather)!
+
+---
+
+{{ newsletter("2021.midl.io") }}
 
 ---
 
@@ -91,5 +95,3 @@ If you have registered, you can join us in [Gather.Town](https://2021.midl.io/ga
 <p class="small">
     All logos are trademarks and property of their respective owners.
 </p>
-
-{{ newsletter("2021.midl.io") }}
