@@ -219,14 +219,6 @@ jQuery(document).ready(function($) {
 
 # Program at a Glance
 
-Please note that for participants from the Americas, the video previewing happens on Tuesday starting at 12noon (UTC-7) or 3pm (UTC-4), with the sessions of Wednesday:
-
-14:00 (UTC-4) Study groups with Mentors (optional)<br>
-15:00 (UTC-4) <a href='#shortB'>B1-9</a> Histopathology Videos and in parallel <a href='#shortA'>A4-12</a> Segmentation Videos<br>
-15:45 (UTC-4) <a href='#longA'>A1-3</a> Segmentation Long Videos<br>
-16:30 (UTC-4) <a href='#shortD'>D4-12</a> Detection and Diagnosis 1 Videos and in parallel <a href='#shortC'>C1-9</a> Endoscopy and Validation Studies Videos<br>
-17:15 (UTC-4) <a href='#longD'>D1-3</a> Unsupervised and Representation Learning Long Videos<br>
-
 <table id="program"><thead><tr><th class='col1' id='t01'>PDT UTC-7</th><th class='col2' id='t01'>EDT UTC-4</th><th class='col3' id='t00'>L&uuml;beck UTC+2</th><th class='col4' id='t01'>HKT UTC+8</th><th colspan='2' id='t00'><b>Wednesday 7th July</b></th><th colspan='2' id='t00'><b>Thursday 8th July</b></th><th colspan='2' id='t00'><b>Friday 9th July</b></th></thead>
 <tr><th id='t01' class='col1'>00:00</th><th id='t01' class='col2'>3:00</th><th id='t00' class='col3'>9:00</th><th id='t01' class='col4'>15:00</th><th id='cshort_v'><a href='#shortA'>A4-12</a> Videos</th><th id='cshort_v'><a href='#shortB'>B1-9</a> Videos</th><th id='cshort_v'><a href='#shortE'>E4-12</a> Videos</th><th id='cshort_v'><a href='#shortF'>F1-9</a> Videos</th><th id='cshort_v'><a href='#shortI'>I4-12</a> Videos</th><th id='cshort_v'><a href='#shortJ'>J1-9</a> Videos</th>
 
