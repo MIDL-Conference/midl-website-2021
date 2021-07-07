@@ -2,6 +2,8 @@
 page_class: "sponsors"
 ---
 
+{% from "_macros.html" import youtube, button, newsletter %}
+
 <h1 class="midl">Medical&nbsp;Imaging with Deep&nbsp;Learning</h1>
 <h2 class="midl">Lübeck, 7 ‑ 9 July 2021</h2>
 
@@ -17,20 +19,17 @@ If you have registered, you can join us in [Gather.Town](https://2021.midl.io/ga
 
 The opening ceremony is already available for you to watch on YouTube
 
-{% from "_macros.html" import youtube %}
-{{ macros.youtube('KDd64T-Ww3w') }}
+{{ youtube('KDd64T-Ww3w') }}
 
 ## Paper Registration 
 
 Paper registration is now closed. Thank you for all your submissions!
 <!-- open on OpenReview, please register your manuscript using the below button.
 
-{% from "_macros.html" import button %}
 {{ button("OpenReview conference website", "https://openreview.net/group?id=MIDL.io/2021/Conference") }} //-->
 
 ---
 
-{% from "_macros.html" import newsletter %}
 {{ newsletter("2021.midl.io") }}
 
 ---
