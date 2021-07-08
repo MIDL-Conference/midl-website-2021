@@ -18,23 +18,23 @@ The MIDL 2021 best paper award recognizes the highest quality full-length paper 
 
 ### Finalists for Best Paper Award
 [% .papers %]
-{{ paper('Beyond pixel-wise supervision: semantic segmentation with higher-order shape descriptors',
-        'Hoel Kervadec, Houda Bahig, Laurent Letourneau-Guillon, Jose Dolz, Ismail Ben Ayed',
-        openreview='https://openreview.net/forum?id=nqe6e0oJ_fL',
-        pdf='https://openreview.net/pdf?id=nqe6e0oJ_fL',
-        id='A3',
-        paper='papers/a3.html',
-        teaser='',
-        video='',
-        abstract='')
-}}
-
 {{ paper('Embedding-based Instance Segmentation in Microscopy',
         'Manan Lalit, Pavel Tomancak, Florian Jug',
         openreview='https://openreview.net/forum?id=JM6GuFGayL5',
         pdf='https://openreview.net/pdf?id=JM6GuFGayL5',
         id='A2',
         paper='papers/a2.html',
+        teaser='',
+        video='',
+        abstract='')
+}}
+
+{{ paper('Beyond pixel-wise supervision: semantic segmentation with higher-order shape descriptors',
+        'Hoel Kervadec, Houda Bahig, Laurent Letourneau-Guillon, Jose Dolz, Ismail Ben Ayed',
+        openreview='https://openreview.net/forum?id=nqe6e0oJ_fL',
+        pdf='https://openreview.net/pdf?id=nqe6e0oJ_fL',
+        id='A3',
+        paper='papers/a3.html',
         teaser='',
         video='',
         abstract='')
