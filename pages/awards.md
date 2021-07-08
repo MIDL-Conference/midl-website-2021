@@ -78,7 +78,7 @@ The MIDL 2021 best paper award recognizes the highest quality full-length paper 
 
 ## Reviewers Awards
 
-Selection of reviewer awards were based on Area Chairs who scored the quality of reviews. The criterion to receive an outstanding reviewer award was to receive unanimously positive scores and at least 3 outstanding review scores. Receiving a honorable mention required at least 2 outstanding review scores.
+Selection of reviewer awards were based on Area Chairs who scored the quality of reviews.
 
 ### Outstanding reviewers
 * Christian F. Baumgartner
