@@ -27,6 +27,50 @@ The MIDL 2021 best paper award recognizes the highest quality full-length paper 
         video='',
         abstract='')
 }}
+
+{{ paper('Embedding-based Instance Segmentation in Microscopy',
+        'Manan Lalit, Pavel Tomancak, Florian Jug',
+        openreview='https://openreview.net/forum?id=JM6GuFGayL5',
+        pdf='https://openreview.net/pdf?id=JM6GuFGayL5',
+        id='A2',
+        paper='papers/a2.html',
+        teaser='',
+        video='',
+        abstract='')
+}}
+
+{{ paper('Semantic similarity metrics for learned image registration',
+        'Steffen Czolbe, Oswin Krause, Aasa Feragen',
+        openreview='https://openreview.net/forum?id=9M5cH--UdcC',
+        pdf='https://openreview.net/pdf?id=9M5cH--UdcC',
+        id='D2',
+        paper='papers/d2.html',
+        teaser='',
+        video='',
+        abstract='')
+}}
+
+{{ paper('Unsupervised Brain Anomaly Detection and Segmentation with Transformers',
+        'Walter Hugo Lopez Pinaya, Petru-Daniel Tudosiu, Robert Gray, Geraint Rees, Parashkev Nachev, Sébastien Ourselin, M. Jorge Cardoso',
+        openreview='https://openreview.net/forum?id=Z1tlNqbCpp_',
+        pdf='https://openreview.net/pdf?id=Z1tlNqbCpp_',
+        id='E3',
+        paper='papers/e3.html',
+        teaser='',
+        video='',
+        abstract='')
+}}
+
+{{ paper('Gifsplanation via Latent Shift: A Simple Autoencoder Approach to Counterfactual Generation for Chest X-rays',
+        'Joseph Paul Cohen, Rupert Brooks, Sovann En, Evan Zucker, Anuj Pareek, Matthew P. Lungren, Akshay Chaudhari',
+        openreview='https://openreview.net/forum?id=rnunjvgxAMt',
+        pdf='https://openreview.net/pdf?id=rnunjvgxAMt',
+        id='I2',
+        paper='papers/I2.html',
+        teaser='',
+        video='',
+        abstract='')
+}}
 [% / %]
 
 ---
