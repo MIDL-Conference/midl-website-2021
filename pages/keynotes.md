@@ -30,10 +30,9 @@ computational methods.
 ## Prof. Bernhard Schölkopf ![Portrait of Bernhard Schoelkopf](/images/keynotes/schoelkopf.png){: width="180" }
 ### Max Planck Institute for Intelligent Systems
 
-#### Toward causal learning for high dimensional observations<br>Thursday, 8 July, 15:15 CEST
+#### Toward causal learning for high dimensional observations <span class="datetime">Thursday, 8 July, 15:15 CEST</span>
 
-
-**Abstract of Keynote:** In machine learning, we use data to automatically find dependences in the world, with the goal of predicting future observations. Most machine learning methods build on statistics, but one can also try to go beyond this, assaying causal structures underlying statistical dependences. 
+In machine learning, we use data to automatically find dependences in the world, with the goal of predicting future observations. Most machine learning methods build on statistics, but one can also try to go beyond this, assaying causal structures underlying statistical dependences. 
 It turns out that causality can play a central role in addressing some of the hard open problems of machine learning, due to the fact that causal models are more robust to changes that occur in real world datasets. The talk will argue that causality has some shortcomings that are complementary to those of current machine learning, and the study of causal representation learning may help unify the advantages. It will also introduce some algorithms and applications in this field.
 
 ####
@@ -46,11 +45,11 @@ Bernhard co-founded the series of Machine Learning Summer Schools, and currently
 ## Prof. Bernd Stahl ![Portrait of Bernd Stahl](/images/keynotes/stahl.png){: width="180" }
 ### De Montfort University Leicester
 
-#### Artificial Intelligence for a Better Future - An Ecosystem Perspective on the Ethics of AI and Emerging Digital Technologies<br>Friday, 9 July, 15:15 CEST
- 
-**Abstract of Keynote** Smart information systems (SIS), those systems that incorporate artificial intelligence techniques, in particular machine learning and big data analytics, are widely expected to have a significant impact on our world. They raise significant hopes, for example to better understand and cure diseases, to revolutionize transport, to optimize business processes or reduce carbon emissions. At the same time, they raise many ethical and social concerns, ranging from worries about biases and resulting discrimination to the distribution of socio-economic and political power and their impact on democracy. A case in point is the discourse on the use of contact tracing apps during the novel coronavirus pandemic. Contact tracing has proven its effectiveness in disease containment for 500 years, but the application of advanced information technologies raises concerns about privacy, discrimination, and exclusion from essential public services to entirely new levels.
+#### Artificial Intelligence for a Better Future - An Ecosystem Perspective on the Ethics of AI and Emerging Digital Technologies <span class="datetime">Friday, 9 July, 15:15 CEST</span>
 
-Drawing on the findings of the SHERPA project (www.project-sherpa.eu), the presentation will suggest a categorisation of the concept of smart information systems and a resulting categorisation of ethical concerns that these systems raise. It will suggest that one perspective to better understand these systems and their social and ethical consequences is to use the metaphor of an ecosystem to describe them, a metaphor already widely used in the policy discourse on AI. The talk will analyse what the use of the ecosystem metaphor means for the evaluation of ethical issues of smart information systems and which conclusions can be drawn from it and how these can inform recommendations for policymakers and other stakeholders. 
+Smart information systems (SIS), those systems that incorporate artificial intelligence techniques, in particular machine learning and big data analytics, are widely expected to have a significant impact on our world. They raise significant hopes, for example to better understand and cure diseases, to revolutionize transport, to optimize business processes or reduce carbon emissions. At the same time, they raise many ethical and social concerns, ranging from worries about biases and resulting discrimination to the distribution of socio-economic and political power and their impact on democracy. A case in point is the discourse on the use of contact tracing apps during the novel coronavirus pandemic. Contact tracing has proven its effectiveness in disease containment for 500 years, but the application of advanced information technologies raises concerns about privacy, discrimination, and exclusion from essential public services to entirely new levels.
+
+Drawing on the findings of the [SHERPA project](https://www.project-sherpa.eu), the presentation will suggest a categorisation of the concept of smart information systems and a resulting categorisation of ethical concerns that these systems raise. It will suggest that one perspective to better understand these systems and their social and ethical consequences is to use the metaphor of an ecosystem to describe them, a metaphor already widely used in the policy discourse on AI. The talk will analyse what the use of the ecosystem metaphor means for the evaluation of ethical issues of smart information systems and which conclusions can be drawn from it and how these can inform recommendations for policymakers and other stakeholders. 
 
 The presentation is based on the material developed in a book with the same title, [which is freely available](https://link.springer.com/book/10.1007%2F978-3-030-69978-9).
 
