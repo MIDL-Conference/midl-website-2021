@@ -2,14 +2,15 @@
 title: "Awards"
 ---
 
-{% from "_macros.html" import paper %}
-{% from "_macros.html" import youtube %}
+{% from "_macros.html" import paper, button, youtube %}
 
 # Awards
 
 ## Audience Awards
 
-In addition to the best paper award there will be two audience awards for best long oral and best short oral presentation. Please use the following form (only once) https://forms.gle/JaMgMRtdi4Qdsnka9 to vote for these awards. You have one vote for best long oral and three (1st, 2nd, 3rd) for best short oral. Please enter the email that you used for MIDL registration. The deadline is Friday 17:30pm CEST. 
+In addition to the best paper award there will be two audience awards for best long oral and best short oral presentation. Please use the following button (only once) to vote for these awards. You have one vote for best long oral and three (1st, 2nd, 3rd) for best short oral. Please enter the email that you used for MIDL registration. The deadline is Friday 17:30pm CEST. 
+
+{{ button("Vote for Audience Award here!", "https://forms.gle/JaMgMRtdi4Qdsnka9") }}
 
 ## Best Paper Award
 
