@@ -34,7 +34,7 @@ The basic Strava App is free to use and keeps track of our joint effort during t
 
 Sitting in front of your computer the whole day watching scientific talks can be tiring. To boost up your energy for the last sessions, there will be active breaks everyday to get your body parts moving again. The breaks do not exceed 15 minutes and all exercises can be done in front of your desk without any tools. Join the active breaks, your back (and the authors from the last sessions) will be thankful!
 
-{{ youtube('lK9IIW9GcPw') }}
+{{ youtube('XLDTA3qIms8') }}
 
 ## Gaming Lounge
 
