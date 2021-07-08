@@ -3,6 +3,8 @@ title: "Keynotes"
 page_class: "keynotes"
 ---
 
+{% from "_macros.html" import youtube %}
+
 # Keynote speakers
 
 ## Prof. Polina Golland ![Portrait of Polina Golland](/images/keynotes/golland.png){: width="180" }
@@ -16,6 +18,8 @@ extracting clinically relevant measures of placental function using
 geometric and statistical analysis approaches and discuss open
 problems in enabling clinical research in placental function via
 computational methods.
+
+{{ youtube('lK9IIW9GcPw') }}
 
 #### 
 
