@@ -9,4 +9,4 @@ page_class: "sponsors"
 
 We would like to thank all our sponsors. Below, you can see the recordings of the Industry and Sponsor Events.
 
-{{ youtube(eTfZ6-XqdjY) }}
+{{ youtube('eTfZ6-XqdjY') }}
