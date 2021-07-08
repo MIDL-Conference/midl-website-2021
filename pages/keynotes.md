@@ -10,9 +10,9 @@ page_class: "keynotes"
 ## Prof. Polina Golland ![Portrait of Polina Golland](/images/keynotes/golland.png){: width="180" }
 ### Massachusetts Institute of Technology
 
-**From Pixels to Clinical Insight: Placental MRI Analysis<br>Wednesday, 7 July, 15:15 CEST**
+#### From Pixels to Clinical Insight: Placental MRI Analysis <span class="datetime">Wednesday, 7 July, 15:15 CEST</span>
 
-**Abstract of Keynote:** Placental shape and function present many opportunities and challenges
+Placental shape and function present many opportunities and challenges
 for medical image analysis. In this talk, I will discuss our work on
 extracting clinically relevant measures of placental function using
 geometric and statistical analysis approaches and discuss open
