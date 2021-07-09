@@ -23,7 +23,13 @@ To be prepared for the cocktails you can find everything you need to add to your
 
 The second day of the conference is typically reserved for the gala dinner. Before the pandemic hit everyone around the globe, we planned for an exclusive dinner within the medieval St. Marien church. Unfortunately, we had to cancel this. But be prepared: You do not have to catch a flight to explore the medieval center of the hanseatic city of Lübeck...
 And of course, we do not want your throat to dry out. Don't worry: The barkeepers might also find their way to virtual Lübeck.
-Your [grocery list](resources/BK_MIDL_Recipes_20210708.pdf) for Thursday  
+Your [grocery list](resources/BK_MIDL_Recipes_20210708.pdf) for Thursday
+
+{{ youtube('17sBrlDul8g') }}
+
+{{ youtube('EmL4_AbIO-Y') }}
+{{ youtube('Wws_kt-NGTA') }}
+{{ youtube('3s3mOtl2vr8') }}
 
 ## MIDL Run
 
