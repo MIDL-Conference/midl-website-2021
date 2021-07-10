@@ -11,7 +11,7 @@ youtube: "channel/UCd87UPUTt-oqTeGi8fQw-_w"
 github: "MIDL-Conference"
 
 show_twitter_button: no
-show_twitter_feed: yes
+show_twitter_feed: no
 num_tweets_in_feed: 1
 show_platform_icons: yes
 
@@ -51,18 +51,18 @@ nav:
   - title: "Author Instructions"
     path: "/author-instructions.html"
     icon: "pen-nib"
-  - title: "Covid-19 Pandemic"
-    path: "/covid-19.html"
-    icon: "comment-medical"
+#  - title: "Covid-19 Pandemic"
+#    path: "/covid-19.html"
+#    icon: "comment-medical"
   - title: "Job Adverts"
     path: "/jobs.html"
     icon: "bullhorn"
   - title: "Industry and Sponsor Events"
     path: "/sponsor-events.html"
     icon: "star"
-  - title: "Sponsorship"
-    path: "/sponsorship-packages.html"
-    icon: "star"
+#  - title: "Sponsorship"
+#    path: "/sponsorship-packages.html"
+#    icon: "star"
   - title: "Code of conduct"
     path: "/code-of-conduct.html"
     icon: "thumbs-up"    
