@@ -117,7 +117,4 @@
   to = "https://uni-luebeck.webex.com/uni-luebeck/j.php?MTID=mf9bf4e81ac60d617b27b0a23092b0722"
   status = 302
 
-[[headers]]
-  for = "/papers/*"
-  [headers.values]
-  Basic-Auth = "someuser:somepassword luebeck21:marzipan"
+
