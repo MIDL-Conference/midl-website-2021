@@ -35,6 +35,8 @@ computational methods.
 In machine learning, we use data to automatically find dependences in the world, with the goal of predicting future observations. Most machine learning methods build on statistics, but one can also try to go beyond this, assaying causal structures underlying statistical dependences. 
 It turns out that causality can play a central role in addressing some of the hard open problems of machine learning, due to the fact that causal models are more robust to changes that occur in real world datasets. The talk will argue that causality has some shortcomings that are complementary to those of current machine learning, and the study of causal representation learning may help unify the advantages. It will also introduce some algorithms and applications in this field.
 
+{{ youtube('lXBIBS-2iBk') }}
+
 ####
 
 **Biography:** Bernhard Schölkopf's scientific interests are in machine learning and causal inference. He has applied his methods to a number of different fields, ranging from biomedical problems to computational photography and astronomy. Bernhard has researched at AT&T Bell Labs, at GMD FIRST, Berlin, and at Microsoft Research Cambridge, UK, before becoming a Max Planck director in 2001. He is a member of the German Academy of Sciences (Leopoldina), has (co-)received the J.K. Aggarwal Prize of the International Association for Pattern Recognition, the Academy Prize of the Berlin-Brandenburg Academy of Sciences and Humanities, the Royal Society Milner Award, the Leibniz Award, the Koerber European Science Prize, the BBVA Foundation Frontiers of Knowledge Award, and is an Amazon Distinguished Scholar. He is Fellow of the ACM and of the CIFAR Program "Learning in Machines and Brains", and holds a Professorship at ETH Zurich.
