@@ -246,7 +246,7 @@ jQuery(document).ready(function($) {
 <tr><th id='t01' class='col1' >06:00</th><th id='t01' class='col2'>9:00</th><th id='r00' class='col3'>15:00</th><th id='t01' class='col4'>21:00</th><th colspan='2' id='cbreak'><div>Break: Meet in GatherTown</div></th><th colspan='2' id='cbreak'><div>Break: Meet in GatherTown</div></th><th colspan='2' id='cbreak_r'><div>Break: Meet in GatherTown</div></th>
 
 
-<tr><th id='t01' class='col1' >06:15</th><th id='t01' class='col2'>9:15</th><th id='r00' class='col3'>15:15</th><th id='t01' class='col4'>21:15</th><th colspan='2' id='ckeynote'><div><a href="https://youtu.be/lK9IIW9GcPw" style='color:white'>Keynote - Polina Golland</a></div></th><th colspan='2' id='ckeynote'><div>Keynote - Bernhard Schölkopf</div></th><th colspan='2' id='ckeynote_r'><div>Keynote - Bernd Stahl</div></th>
+<tr><th id='t01' class='col1' >06:15</th><th id='t01' class='col2'>9:15</th><th id='r00' class='col3'>15:15</th><th id='t01' class='col4'>21:15</th><th colspan='2' id='ckeynote'><div><a href="https://youtu.be/lK9IIW9GcPw" style='color:white'>Keynote - Polina Golland</a></div></th><th colspan='2' id='ckeynote'><div><a href="https://youtu.be/lXBIBS-2iBk" style='color:white'>Keynote - Bernhard Schölkopf</a></div></th><th colspan='2' id='ckeynote_r'><div>Keynote - Bernd Stahl</div></th>
 
 
 
