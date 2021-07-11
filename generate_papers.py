@@ -70,12 +70,12 @@ if __name__ == "__main__":
         yt_link = paper.yt_full
 
         if video_ok and slides_ok:
-            # result = result.replace("PRESENTATION", f"{{{{ macros.html_presentation('{yt_link}', '{paper.slides}', 720, 450) }}}}")
-            result = result.replace("PRESENTATION", f"{{{{ macros.cloudflare_presentation('{paper.cloudflare_video_id}', '{paper.slides}', 720, 450) }}}}")
+            result = result.replace("PRESENTATION", f"{{{{ macros.html_presentation('{yt_link}', '{paper.slides}', 720, 450) }}}}")
+            # result = result.replace("PRESENTATION", f"{{{{ macros.cloudflare_presentation('{paper.cloudflare_video_id}', '{paper.slides}', 720, 450) }}}}")
             # print(f"\tPaper {paper.id} has both slides or presentation.")
         elif video_ok and not slides_ok:
-            # result = result.replace("PRESENTATION", f"{{{{ macros.video('{yt_link}') }}}}")
-            result = result.replace("PRESENTATION", f"{{{{ macros.cloudflare_video('{paper.cloudflare_video_id}') }}}}")
+            result = result.replace("PRESENTATION", f"{{{{ macros.video('{yt_link}') }}}}")
+            # result = result.replace("PRESENTATION", f"{{{{ macros.cloudflare_video('{paper.cloudflare_video_id}') }}}}")
             print(f"\tPaper {paper.id} without slides: {(root_content / paper.slides)}")
         elif not video_ok and slides_ok:
             result = result.replace("PRESENTATION", "Presentation missing")
