@@ -55,6 +55,8 @@ Drawing on the findings of the [SHERPA project](https://www.project-sherpa.eu), 
 
 The presentation is based on the material developed in a book with the same title, [which is freely available](https://link.springer.com/book/10.1007%2F978-3-030-69978-9).
 
+{{ youtube('XiAbR8Nt_is') }}
+
 #### 
 
 **Biography:** Bernd Carsten Stahl is Professor of Critical Research in Technology and Director of the Centre for Computing and Social Responsibility at De Montfort University, Leicester, UK. His interests cover philosophical issues arising from the intersections of business, technology, and information. This includes the ethics of information and communications technology and critical approaches to information systems.
