@@ -79,10 +79,10 @@ class Paper():
         id='{self.id}',
         paper='{self.url}',
         proceedings='{self.pmlr_url}',
+        video=\'{self.yt_full if self.yt_full else ""}\',
         abstract={sanitized_abstract})
 }}}}'''
         # teaser=\'{f'https://youtu.be/{self.yt_teaser}' if self.yt_teaser else ""}\',
-        # video=\'{self.yt_full if self.yt_full else ""}\',
 
 
 class PaperEncoder(json.JSONEncoder):
