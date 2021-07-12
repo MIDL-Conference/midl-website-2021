@@ -9,7 +9,7 @@ HOST = castelbrazelbub.net:
 
 .PHONY: clean generate generate_sessions deploy FORCE
 
-all: generate generate_sessions $(TARGET)
+all: generate $(TARGET)
 
 papers.json: long_papers.csv short_papers.csv program.html
 	$(CC) csv2json.py
