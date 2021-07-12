@@ -38,7 +38,7 @@ if __name__ == "__main__":
                                 current_time = BeautifulSoup(line, 'html.parser').h3.text
                         elif "Chairs:" in line:
                                 current_chairs = line.removeprefix("Chairs: ").removesuffix(" <br>\n")
-                                print(current_time, current_chairs)
+                                # print(current_time, current_chairs)
                         elif 'target="_blank">' in line:
                                 conf_id = line.split(':')[0]
                                 openreview_url = BeautifulSoup(line, 'html.parser').a['href']
