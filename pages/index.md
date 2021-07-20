@@ -14,7 +14,7 @@ page_class: "sponsors"
 -->
 {{ youtube('yqJyFJS3oY0') }}
 
-A big thank you to everyone who attended MIDL 2021 *virtually* in Lübeck, Germany! We hope to see many of you at [MIDL 2022 in Zürich](https://2022.midl.io).
+A big thank you to everyone who attended MIDL 2021 virtually in Lübeck, Germany! We hope to see many of you at [MIDL 2022 in Zürich](https://2022.midl.io).
 
 All [papers, posters and presentations](/program.html) are now freely available online.
 
