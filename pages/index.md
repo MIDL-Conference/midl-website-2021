@@ -14,11 +14,11 @@ page_class: "sponsors"
 -->
 {{ youtube('yqJyFJS3oY0') }}
 
-In 2021, MIDL will **virtually** come to Lübeck, Germany! [Take a glance](/resources/teaser_slides.pdf)
+A big thank you to everyone who attended MIDL 2021 *virtually* in Lübeck, Germany! We hope to see many of you at [MIDL 2022 in Zürich](https://2022.midl.io).
 
-## MIDL is live!
+All papers, posters and presentations are now freely available. [Check out the program](/program.html)
 
-If you have registered, you can join us in [Gather.Town](https://2021.midl.io/gather)!
+Until the end of July 2021, anyone can still [explore the virtual conference venue in Gather.Town](https://2021.midl.io/gather).
 
 ---
 
