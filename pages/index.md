@@ -16,9 +16,9 @@ page_class: "sponsors"
 
 A big thank you to everyone who attended MIDL 2021 *virtually* in Lübeck, Germany! We hope to see many of you at [MIDL 2022 in Zürich](https://2022.midl.io).
 
-All papers, posters and presentations are now freely available. [Check out the program](/program.html)
+All [papers, posters and presentations]((/program.html) are now freely available online.
 
-Until the end of July 2021, anyone can still [explore the virtual conference venue in Gather.Town](https://2021.midl.io/gather).
+Until the end of July, the virtual conference venue can still be explored in [Gather.Town](https://2021.midl.io/gather).
 
 ---
 
