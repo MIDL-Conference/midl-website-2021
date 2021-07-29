@@ -6,6 +6,8 @@ title: "Awards"
 
 # Awards
 
+{{ youtube('JF_jOA2JqiM') }}
+
 ## Best Paper Award
 
 The **MIDL 2021 best paper award** recognizes the highest quality full-length paper presented at the conference. The focus lies on novel methodological concepts with great potential of medical impact. All long papers that are presented as long papers at MIDL 2021 were eligible. The award was decided by an independent committee that had no conflicts of interest.
