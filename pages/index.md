@@ -14,9 +14,11 @@ page_class: "sponsors"
 -->
 {{ youtube('yqJyFJS3oY0') }}
 
+{{ youtube('POKlkkH14Uc') }}
+
 A big thank you to everyone who attended MIDL 2021 virtually in Lübeck, Germany! We hope to see many of you at [MIDL 2022 in Zürich](https://2022.midl.io).
 
-All [papers, posters and presentations](/program.html) are now freely available online.
+All [papers, posters and presentations](/program.html) are now freely available online. Recordings of all sessions, including the keynotes, the industry and sponsor events as well as the virtual gala event, are available on [YouTube](https://www.youtube.com/c/MIDLSociety).
 
 Until the end of July, the virtual conference venue can still be explored in [Gather.Town](https://2021.midl.io/gather).
 
