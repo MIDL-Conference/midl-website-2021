@@ -25,11 +25,7 @@ The second day of the conference is typically reserved for the gala dinner. Befo
 And of course, we do not want your throat to dry out. Don't worry: The barkeepers might also find their way to virtual Lübeck.
 Your [grocery list](resources/BK_MIDL_Recipes_20210708.pdf) for Thursday
 
-{{ youtube('17sBrlDul8g') }}
-
-{{ youtube('EmL4_AbIO-Y') }}
-{{ youtube('Wws_kt-NGTA') }}
-{{ youtube('3s3mOtl2vr8') }}
+{{ youtube('0_EYzCwbT0k') }}
 
 ## MIDL Run
 
