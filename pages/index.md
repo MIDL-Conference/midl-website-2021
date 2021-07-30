@@ -12,7 +12,10 @@ page_class: "sponsors"
     <img alt="City of Lübeck" src="/images/midl_2021_luebeck.jpg">
 </p>
 -->
+
+<!--
 {{ youtube('yqJyFJS3oY0') }}
+-->
 
 {{ youtube('POKlkkH14Uc') }}
 
