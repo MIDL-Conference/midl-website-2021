@@ -124,7 +124,7 @@ In addition to the best paper award there were two audience awards for best long
 ### Audience Award - Best long oral presentation - Winner
 [% .papers %]
 
-{{ paper('Understanding and Visualizing Generalization UNets',
+{{ paper('Understanding and Visualizing Generalization in UNets',
         'Abhejit Rajagopal, Vamshi Chowdary Madala, Thomas A Hope, Peder Larson',
         openreview='https://openreview.net/forum?id=V-a5DJCh4Hk',
         pdf='https://openreview.net/pdf?id=V-a5DJCh4Hk',
