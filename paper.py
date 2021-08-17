@@ -5,9 +5,9 @@ import json
 
 class Paper():
     def __init__(self, id: str, title: str, authors: str, url: str, or_id: str, oral: str, short: str,
-                 abstract: str, schedule: str = "", slides: str = "", yt_teaser: str = "",
-                 yt_full: str = "", ignore_schedule: bool = False, award: str = "",
-                 pdf: str = "", pmlr_url="", cloudflare_video_id: str = "",
+                 abstract: str, schedule: str = "", slides: str = "", video: str = "",
+                 ignore_schedule: bool = False, award: str = "",
+                 pdf: str = "", pmlr_url="", youtube_video_id: str = "", cloudflare_video_id: str = "",
                  chairs: str = ""):
         self.id: str = id
         self.title: str = title
@@ -17,10 +17,10 @@ class Paper():
         self.oral: bool = oral == "True"
         self.short: bool = short == "True"
         self.poster: bool = (not self.short) and (not self.oral)
-        self.abstract: str = abstract
+        self.abstract: str = abstract.replace('\r\n', '\n').replace('\r','\n').strip()
         self.slides: str = slides
-        self.yt_teaser: str = yt_teaser
-        self.yt_full: str = yt_full
+        self.video: str = video
+        self.youtube_video_id: str = youtube_video_id
         self.award: str = award
         self.cloudflare_video_id: str = cloudflare_video_id
         self.chairs: str = chairs
@@ -79,7 +79,7 @@ class Paper():
         id='{self.id}',
         paper='{self.url}',
         proceedings='{self.pmlr_url}',
-        video=\'{self.yt_full if self.yt_full else ""}\',
+        video=\'{"https://www.youtube.com/watch?v=" + self.youtube_video_id if self.youtube_video_id else self.video}\',
         abstract={sanitized_abstract})
 }}}}'''
         # teaser=\'{f'https://youtu.be/{self.yt_teaser}' if self.yt_teaser else ""}\',
@@ -99,10 +99,10 @@ class PaperEncoder(json.JSONEncoder):
                     "abstract": paper.abstract,
                     "schedule": "\n".join(paper.schedule),
                     "slides": paper.slides,
-                    "yt_teaser": paper.yt_teaser,
-                    "yt_full": paper.yt_full,
+                    "video": paper.video,
                     "award": paper.award,
                     "pmlr_url": paper.pmlr_url,
+                    "youtube_video_id": paper.youtube_video_id,
                     "cloudflare_video_id": paper.cloudflare_video_id,
                     "chairs": paper.chairs}
 

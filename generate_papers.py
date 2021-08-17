@@ -41,18 +41,13 @@ if __name__ == "__main__":
         result = result.replace("PDF_URL", paper.pdf)
         result = result.replace("ABSTRACT", paper.sanitized_abstract)
         result = result.replace("SCHEDULE", "<br>".join(paper.schedule))
-        #result = result.replace("TEASER", paper.yt_teaser)
 
         if paper.award:
             result = result.replace("AWARD", f"## {paper.award}")
         else:
             result = result.replace("AWARD", "")
 
-        if paper.yt_teaser:
-            result = result.replace("EMBEDEDTEASE", f"{{{{ youtube('{paper.yt_teaser}') }}}}")
-        else:
-            result = result.replace("EMBEDEDTEASE", "")
-
+        result = result.replace("EMBEDEDTEASE", "")
         result = result.replace("PROCEEDINGS", "")
         # if paper.short:
         # else:
@@ -63,26 +58,24 @@ if __name__ == "__main__":
         # if not (root_content / paper.slides[1:]).exists():
         #     print(f"\tPaper {paper.id} without slides: {paper.url} {(root_content / paper.slides)}")
 
+        yt_link = paper.youtube_video_id
         slides_ok: bool = (root_content / paper.slides[1:]).exists()
-        video_ok: bool = (root_content / paper.yt_full[1:]).exists()
-
-        # yt_link = paper.yt_teaser if paper.short else paper.yt_full
-        yt_link = paper.yt_full
+        video_ok: bool = yt_link != ""
 
         if video_ok and slides_ok:
-            result = result.replace("PRESENTATION", f"{{{{ macros.html_presentation('{yt_link}', '{paper.slides}', 720, 450) }}}}")
+            result = result.replace("PRESENTATION", f"{{{{ macros.presentation('{yt_link}', '{paper.slides}', 720, 450) }}}}")
             # result = result.replace("PRESENTATION", f"{{{{ macros.cloudflare_presentation('{paper.cloudflare_video_id}', '{paper.slides}', 720, 450) }}}}")
             # print(f"\tPaper {paper.id} has both slides or presentation.")
         elif video_ok and not slides_ok:
-            result = result.replace("PRESENTATION", f"{{{{ macros.video('{yt_link}') }}}}")
+            result = result.replace("PRESENTATION", f"{{{{ macros.youtube('{yt_link}') }}}}")
             # result = result.replace("PRESENTATION", f"{{{{ macros.cloudflare_video('{paper.cloudflare_video_id}') }}}}")
             print(f"\tPaper {paper.id} without slides: {(root_content / paper.slides)}")
         elif not video_ok and slides_ok:
             result = result.replace("PRESENTATION", "Presentation missing")
-            print(f"\tPaper {paper.id} without video: {(root_content / yt_link)}")
+            print(f"\tPaper {paper.id} has no video on YouTube!")
         else:
             result = result.replace("PRESENTATION", "")
-            print(f"\tPaper {paper.id} with neither slides or presentation: {(root_content / paper.slides)} {(root_content / yt_link)}")
+            print(f"\tPaper {paper.id} with neither slides or presentation: {(root_content / paper.slides)}")
 
         oral_text: str
         if paper.oral:

@@ -64,7 +64,7 @@ if __name__ == "__main__":
                         '''
 
                         result += f'''
-{{{{ cloudflare_video('{p.cloudflare_video_id}') }}}}
+{{{{ youtube('{p.youtube_video_id}') }}}}
                         '''
 
                 with open(dest_path / f"{session_id}.md", 'w') as sink:

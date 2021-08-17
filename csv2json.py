@@ -17,6 +17,7 @@ if __name__ == "__main__":
         short_file: str = "short_papers.csv"
         long_file: str = "long_papers.csv"
         pmlr_file: str = "midl2021_pmlr_map_openreview.csv"
+        youtube_file: str = "youtube.json"
         cloudflare_file: str = "cloudflare_stream.json"
         program_file: str = "program.html"
         output_file: str = "papers.json"
@@ -64,12 +65,14 @@ if __name__ == "__main__":
         for _, csv_line in df_pmlr_id.iterrows():
                 pmlr_dict[csv_line["number"]] = csv_line["pmlr"]
 
-        # Fetch the Cloudflare video IDS
+        # Fetch the video IDS
+        with open(youtube_file, 'r') as fp:
+            youtube_dict: dict[str, str] = json.load(fp)
+
         with open(cloudflare_file, 'r') as cf:
                 cloudflare_dict: defaultdict[str, str] = defaultdict(str)
                 for k, v in json.load(cf).items():
                         cloudflare_dict[k] = v
-        # pprint(cloudflare_dict)
 
         # Parse the long papers
         df_long_papers: pd.DataFrame
@@ -119,8 +122,9 @@ if __name__ == "__main__":
                                              abstract=csv_line['abstract'],
                                              schedule=schedule,
                                              slides=f"/slides/full_{number}_poster.pdf",
-                                             yt_full=f"/videos/full_{number}_video.mp4",
+                                             video=f"/videos/full_{number}_video.mp4",
                                              pdf=f"/proceedings/{pmlr_dict[number]}",
+                                             youtube_video_id=youtube_dict[id_],
                                              cloudflare_video_id=cloudflare_dict[video_name],
                                              chairs=chairs_dict[or_id])
 
@@ -164,7 +168,8 @@ if __name__ == "__main__":
                                       abstract=csv_line['abstract'],
                                       schedule=schedule,
                                       slides=f"/slides/short_{number}_poster.pdf",
-                                      yt_full=f"/videos/short_{number}_video.mp4",
+                                      video=f"/videos/short_{number}_video.mp4",
+                                      youtube_video_id=youtube_dict[id_],
                                       cloudflare_video_id=cloudflare_dict[video_name],
                                       chairs=chairs_dict[or_id])
 
