@@ -16,7 +16,7 @@ All deadlines are at 23:59, [UTC -12](https://www.timeanddate.com/time/map/) ([A
 * **<s>Rebuttals due</s>** <s>17 March 2021</s>
 * **<s>Discussion phase</s>** <s>18 to 22 March 2021</s>
 * **<s>Notification of acceptance</s>** <s>31 March 2021</s>
-* **Deadline for uploading videos** 28 June 20201
+* **<s>Deadline for uploading videos</s>** <s>28 June 20201</s>
 
 ### Short Papers
 * **<s>Paper registration open</s>** <s>1 January 2021</s>
