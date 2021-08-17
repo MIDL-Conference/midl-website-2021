@@ -4,7 +4,7 @@ page_class: "program"
 sidebar: false
 ---
 
-{% from "_macros.html" import paper, cloudflare_video %}
+{% from "_macros.html" import paper, youtube %}
 
 
 # SESSION - TITLE
