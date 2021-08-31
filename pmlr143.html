@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Search Engine Info --><!-- Solution from http://stackoverflow.com/questions/31593297/using-execcommand-javascript-to-copy-hidden-text-to-clipboard -->
+<script async="" src="pmlr143_files/analytics.js"></script><script src="pmlr143_files/copy_input.js"></script>
+<script src="pmlr143_files/jquery_002.js"></script>
+<script src="pmlr143_files/download.js"></script>
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Proceedings of Machine Learning Research | Proceedings of the 
+Fourth Conference on Medical Imaging with Deep Learning Held in Lübeck, 
+Germany on 07-09 July 2021 Published as Volume 143 by the Proceedings of
+ Machine Learning Research on 25 August 2021. Volume Edited by: Mattias 
+Heinrich Qi Dou Marleen de Bruijne Jan Lellmann Alexander Schläfer 
+Floris Ernst Series Editors: Neil D. Lawrence Mark Reid</title>
+<meta name="generator" content="Jekyll v3.9.0">
+<meta property="og:title" content="Proceedings of Machine Learning Research">
+<meta name="author" content="PMLR">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="Proceedings of the Fourth Conference on Medical Imaging with Deep Learning Held in Lübeck, Germany on 07-09 July 2021 Published as Volume 143 by the Proceedings of Machine Learning Research on 25 August 2021. Volume Edited by: Mattias Heinrich Qi Dou Marleen de Bruijne Jan Lellmann Alexander Schläfer Floris Ernst Series Editors: Neil D. Lawrence Mark Reid">
+<meta property="og:description" content="Proceedings of the Fourth Conference on Medical Imaging with Deep Learning Held in Lübeck, Germany on 07-09 July 2021 Published as Volume 143 by the Proceedings of Machine Learning Research on 25 August 2021. Volume Edited by: Mattias Heinrich Qi Dou Marleen de Bruijne Jan Lellmann Alexander Schläfer Floris Ernst Series Editors: Neil D. Lawrence Mark Reid">
+<link rel="canonical" href="https://proceedings.mlr.press/v143/">
+<meta property="og:url" content="https://proceedings.mlr.press/v143/">
+<meta property="og:site_name" content="Proceedings of Machine Learning Research">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Proceedings of Machine Learning Research">
+<script type="application/ld+json">
+{"author":{"@type":"Person","name":"PMLR"},"description":"Proceedings of the Fourth Conference on Medical Imaging with Deep Learning Held in Lübeck, Germany on 07-09 July 2021 Published as Volume 143 by the Proceedings of Machine Learning Research on 25 August 2021. Volume Edited by: Mattias Heinrich Qi Dou Marleen de Bruijne Jan Lellmann Alexander Schläfer Floris Ernst Series Editors: Neil D. Lawrence Mark Reid","url":"https://proceedings.mlr.press/v143/","@type":"WebSite","headline":"Proceedings of Machine Learning Research","name":"Proceedings of Machine Learning Research","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- Style Info -->
+  <link rel="stylesheet" type="text/css" href="pmlr143_files/pmlr.css">
+  <style>.hero-text {
+    color: #303030;
+  }</style>
+
+  <!-- Icon Info -->
+  <link rel="shortcut icon" href="https://proceedings.mlr.press/v143/assets/images/favicon-pmlr.ico" type="image/x-icon">
+  <link rel="icon" href="https://proceedings.mlr.press/v143/assets/images/favicon-pmlr.ico" type="image/x-icon">
+
+  <!-- Feed Info --><link type="application/atom+xml" rel="alternate" href="https://proceedings.mlr.press/v143/feed.xml" title="Proceedings of Machine Learning Research"><!-- Scripting info --><!-- Solution from http://stackoverflow.com/questions/31593297/using-execcommand-javascript-to-copy-hidden-text-to-clipboard -->
+<script src="pmlr143_files/copy_input.js"></script>
+<script src="pmlr143_files/jquery_002.js"></script>
+<script src="pmlr143_files/download.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-92432422-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script type="text/x-mathjax-config;executed=true">
+  MathJax.Hub.Config({
+    TeX: {
+      equationNumbers: {
+          autoNumber: "AMS"
+        }
+      },
+      tex2jax: {
+      inlineMath: [ ['$','$'], ['\\(', '\\)'] ],
+      displayMath: [ ['$$','$$'], ['\\[', '\\]'] ],
+      processEscapes: true,
+    }
+  });
+</script>
+
+
+
+  <!-- User custom header -->
+<script type="text/javascript" async="" src="pmlr143_files/MathJax.js"></script><style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Menu_Button .MathJax_Hover_Arrow {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; -khtml-border-radius: 4px; font-family: 'Courier New',Courier; font-size: 9px; color: #F0F0F0}
+.MathJax_Menu_Button .MathJax_Hover_Arrow span {display: block; background-color: #AAA; border: 1px solid; border-radius: 3px; line-height: 0; padding: 4px}
+.MathJax_Hover_Arrow:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_Hover_Arrow:hover span {background-color: #CCC!important}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_About.MathJax_MousePost {outline: none}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; padding-top: .25em; color: #666666; font-size: .75em}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuArrow.RTL {left: .5em; right: auto}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck.RTL {right: .7em; left: auto}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_MenuDisabled:focus, .MathJax_MenuLabel:focus {background-color: #E8E8E8}
+.MathJax_ContextMenu:focus {outline: none}
+.MathJax_ContextMenu .MathJax_MenuItem:focus {outline: none}
+#MathJax_AboutClose {top: .2em; right: .2em}
+.MathJax_Menu .MathJax_MenuClose {top: -10px; left: -10px}
+.MathJax_MenuClose {position: absolute; cursor: pointer; display: inline-block; border: 2px solid #AAA; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; font-family: 'Courier New',Courier; font-size: 24px; color: #F0F0F0}
+.MathJax_MenuClose span {display: block; background-color: #AAA; border: 1.5px solid; border-radius: 18px; -webkit-border-radius: 18px; -moz-border-radius: 18px; -khtml-border-radius: 18px; line-height: 0; padding: 8px 0 6px}
+.MathJax_MenuClose:hover {color: white!important; border: 2px solid #CCC!important}
+.MathJax_MenuClose:hover span {background-color: #CCC!important}
+.MathJax_MenuClose:hover:focus {outline: none}
+</style><style type="text/css">.MathJax_Preview .MJXf-math {color: inherit!important}
+</style><style type="text/css">.MJX_Assistive_MathML {position: absolute!important; top: 0; left: 0; clip: rect(1px, 1px, 1px, 1px); padding: 1px 0 0 0!important; border: 0!important; height: 1px!important; width: 1px!important; overflow: hidden!important; display: block!important; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none}
+.MJX_Assistive_MathML.MJX_Assistive_MathML_Block {width: 100%!important}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; -webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1px; bottom: 2px; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style><style type="text/css">.MJXp-script {font-size: .8em}
+.MJXp-right {-webkit-transform-origin: right; -moz-transform-origin: right; -ms-transform-origin: right; -o-transform-origin: right; transform-origin: right}
+.MJXp-bold {font-weight: bold}
+.MJXp-italic {font-style: italic}
+.MJXp-scr {font-family: MathJax_Script,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-frak {font-family: MathJax_Fraktur,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-sf {font-family: MathJax_SansSerif,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-cal {font-family: MathJax_Caligraphic,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-mono {font-family: MathJax_Typewriter,'Times New Roman',Times,STIXGeneral,serif}
+.MJXp-largeop {font-size: 150%}
+.MJXp-largeop.MJXp-int {vertical-align: -.2em}
+.MJXp-math {display: inline-block; line-height: 1.2; text-indent: 0; font-family: 'Times New Roman',Times,STIXGeneral,serif; white-space: nowrap; border-collapse: collapse}
+.MJXp-display {display: block; text-align: center; margin: 1em 0}
+.MJXp-math span {display: inline-block}
+.MJXp-box {display: block!important; text-align: center}
+.MJXp-box:after {content: " "}
+.MJXp-rule {display: block!important; margin-top: .1em}
+.MJXp-char {display: block!important}
+.MJXp-mo {margin: 0 .15em}
+.MJXp-mfrac {margin: 0 .125em; vertical-align: .25em}
+.MJXp-denom {display: inline-table!important; width: 100%}
+.MJXp-denom > * {display: table-row!important}
+.MJXp-surd {vertical-align: top}
+.MJXp-surd > * {display: block!important}
+.MJXp-script-box > *  {display: table!important; height: 50%}
+.MJXp-script-box > * > * {display: table-cell!important; vertical-align: top}
+.MJXp-script-box > *:last-child > * {vertical-align: bottom}
+.MJXp-script-box > * > * > * {display: block!important}
+.MJXp-mphantom {visibility: hidden}
+.MJXp-munderover, .MJXp-munder {display: inline-table!important}
+.MJXp-over {display: inline-block!important; text-align: center}
+.MJXp-over > * {display: block!important}
+.MJXp-munderover > *, .MJXp-munder > * {display: table-row!important}
+.MJXp-mtable {vertical-align: .25em; margin: 0 .125em}
+.MJXp-mtable > * {display: inline-table!important; vertical-align: middle}
+.MJXp-mtr {display: table-row!important}
+.MJXp-mtd {display: table-cell!important; text-align: center; padding: .5em 0 0 .5em}
+.MJXp-mtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-mlabeledtr {display: table-row!important}
+.MJXp-mlabeledtr > .MJXp-mtd:first-child {padding-left: 0}
+.MJXp-mlabeledtr:first-child > .MJXp-mtd {padding-top: 0}
+.MJXp-merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MJXp-scale0 {-webkit-transform: scaleX(.0); -moz-transform: scaleX(.0); -ms-transform: scaleX(.0); -o-transform: scaleX(.0); transform: scaleX(.0)}
+.MJXp-scale1 {-webkit-transform: scaleX(.1); -moz-transform: scaleX(.1); -ms-transform: scaleX(.1); -o-transform: scaleX(.1); transform: scaleX(.1)}
+.MJXp-scale2 {-webkit-transform: scaleX(.2); -moz-transform: scaleX(.2); -ms-transform: scaleX(.2); -o-transform: scaleX(.2); transform: scaleX(.2)}
+.MJXp-scale3 {-webkit-transform: scaleX(.3); -moz-transform: scaleX(.3); -ms-transform: scaleX(.3); -o-transform: scaleX(.3); transform: scaleX(.3)}
+.MJXp-scale4 {-webkit-transform: scaleX(.4); -moz-transform: scaleX(.4); -ms-transform: scaleX(.4); -o-transform: scaleX(.4); transform: scaleX(.4)}
+.MJXp-scale5 {-webkit-transform: scaleX(.5); -moz-transform: scaleX(.5); -ms-transform: scaleX(.5); -o-transform: scaleX(.5); transform: scaleX(.5)}
+.MJXp-scale6 {-webkit-transform: scaleX(.6); -moz-transform: scaleX(.6); -ms-transform: scaleX(.6); -o-transform: scaleX(.6); transform: scaleX(.6)}
+.MJXp-scale7 {-webkit-transform: scaleX(.7); -moz-transform: scaleX(.7); -ms-transform: scaleX(.7); -o-transform: scaleX(.7); transform: scaleX(.7)}
+.MJXp-scale8 {-webkit-transform: scaleX(.8); -moz-transform: scaleX(.8); -ms-transform: scaleX(.8); -o-transform: scaleX(.8); transform: scaleX(.8)}
+.MJXp-scale9 {-webkit-transform: scaleX(.9); -moz-transform: scaleX(.9); -ms-transform: scaleX(.9); -o-transform: scaleX(.9); transform: scaleX(.9)}
+.MathJax_PHTML .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style><style type="text/css">.MathJax_Display {text-align: center; margin: 1em 0em; position: relative; display: block!important; text-indent: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; width: 100%}
+.MathJax .merror {background-color: #FFFF88; color: #CC0000; border: 1px solid #CC0000; padding: 1px 3px; font-style: normal; font-size: 90%}
+.MathJax .MJX-monospace {font-family: monospace}
+.MathJax .MJX-sans-serif {font-family: sans-serif}
+#MathJax_Tooltip {background-color: InfoBackground; color: InfoText; border: 1px solid black; box-shadow: 2px 2px 5px #AAAAAA; -webkit-box-shadow: 2px 2px 5px #AAAAAA; -moz-box-shadow: 2px 2px 5px #AAAAAA; -khtml-box-shadow: 2px 2px 5px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true'); padding: 3px 4px; z-index: 401; position: absolute; left: 0; top: 0; width: auto; height: auto; display: none}
+.MathJax {display: inline; font-style: normal; font-weight: normal; line-height: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0; min-height: 0; border: 0; padding: 0; margin: 0}
+.MathJax:focus, body :focus .MathJax {display: inline-table}
+.MathJax.MathJax_FullWidth {text-align: center; display: table-cell!important; width: 10000em!important}
+.MathJax img, .MathJax nobr, .MathJax a {border: 0; padding: 0; margin: 0; max-width: none; max-height: none; min-width: 0; min-height: 0; vertical-align: 0; line-height: normal; text-decoration: none}
+img.MathJax_strut {border: 0!important; padding: 0!important; margin: 0!important; vertical-align: 0!important}
+.MathJax span {display: inline; position: static; border: 0; padding: 0; margin: 0; vertical-align: 0; line-height: normal; text-decoration: none; box-sizing: content-box}
+.MathJax nobr {white-space: nowrap!important}
+.MathJax img {display: inline!important; float: none!important}
+.MathJax * {transition: none; -webkit-transition: none; -moz-transition: none; -ms-transition: none; -o-transition: none}
+.MathJax_Processing {visibility: hidden; position: fixed; width: 0; height: 0; overflow: hidden}
+.MathJax_Processed {display: none!important}
+.MathJax_test {font-style: normal; font-weight: normal; font-size: 100%; font-size-adjust: none; text-indent: 0; text-transform: none; letter-spacing: normal; word-spacing: normal; overflow: hidden; height: 1px}
+.MathJax_test.mjx-test-display {display: table!important}
+.MathJax_test.mjx-test-inline {display: inline!important; margin-right: -1px}
+.MathJax_test.mjx-test-default {display: block!important; clear: both}
+.MathJax_ex_box {display: inline-block!important; position: absolute; overflow: hidden; min-height: 0; max-height: none; padding: 0; border: 0; margin: 0; width: 1px; height: 60ex}
+.MathJax_em_box {display: inline-block!important; position: absolute; overflow: hidden; min-height: 0; max-height: none; padding: 0; border: 0; margin: 0; width: 1px; height: 60em}
+.mjx-test-inline .MathJax_left_box {display: inline-block; width: 0; float: left}
+.mjx-test-inline .MathJax_right_box {display: inline-block; width: 0; float: right}
+.mjx-test-display .MathJax_right_box {display: table-cell!important; width: 10000em!important; min-width: 0; max-width: none; padding: 0; border: 0; margin: 0}
+.MathJax .MathJax_HitBox {cursor: text; background: white; opacity: 0; filter: alpha(opacity=0)}
+.MathJax .MathJax_HitBox * {filter: none; opacity: 1; background: transparent}
+#MathJax_Tooltip * {filter: none; opacity: 1; background: transparent}
+@font-face {font-family: MathJax_Blank; src: url('about:blank')}
+.MathJax .noError {vertical-align: ; font-size: 90%; text-align: left; color: black; padding: 1px 3px; border: 1px solid}
+</style></head>
+
+
+
+
+
+
+<body><div style="visibility: hidden; overflow: hidden; position: absolute; top: 0px; height: 1px; width: auto; padding: 0px; border: 0px none; margin: 0px; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal;"><div id="MathJax_Hidden"></div></div><div id="MathJax_Message" style="display: none;"></div>
+
+
+<header class="site-header">
+  <div class="wrapper">
+    
+
+
+<div class="hero-image">
+  <div class="hero-text">
+    <a href="http://proceedings.mlr.press/" target="_top"><img src="pmlr143_files/logo-pmlr.svg" alt="[Medical Imaging with Deep Learning Logo]"></a>
+    Proceedings of Machine Learning Research
+  </div>
+</div>
+
+
+    <nav class="site-nav">
+  <input type="checkbox" id="nav-trigger" class="nav-trigger">
+  <label for="nav-trigger">
+  <span class="menu-icon"><svg viewBox="0 0 18 15" width="18px" height="15px">
+  <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"></path>
+</svg>
+</span>
+  </label>
+  <div class="trigger"><a class="page-link" href="http://proceedings.mlr.press/">PMLR</a><a class="page-link" href="http://www.jmlr.org/">JMLR</a> 
+    <a class="page-link" href="http://www.jmlr.org/mloss">MLOSS</a>
+    <a class="page-link" href="http://proceedings.mlr.press/faq.html">FAQ</a>
+    <a class="page-link" href="http://proceedings.mlr.press/spec.html">Submission Format</a>
+    <a class="page-link" href="https://proceedings.mlr.press//v143/assets/rss/feed.xml">
+      <img src="pmlr143_files/RSS.gif" class="rss" alt="RSS Feed">
+    </a>
+  </div>
+</nav>
+
+  </div>
+</header>
+
+
+
+
+
+<main class="page-content" aria-label="Content"><div class="wrapper">
+
+
+<p style="text-align:right">[<a href="https://github.com/mlresearch/v143/edit/gh-pages/index.html" target="_blank" onclick="ga('send', 'event', 'Edit Page', 'Edit', 'https://github.com/mlresearch/v143/edit/gh-pages/index.html', 13);">edit</a>]</p>
+
+
+
+
+
+
+
+<h2>Volume 143: Medical Imaging with Deep Learning, 7-9 July 2021, Lübeck, Germany</h2>
+
+
+<p style="text-align:right">[<a href="https://github.com/mlresearch/v143/edit/gh-pages/_config.yml" target="_blank" onclick="ga('send', 'event', 'Edit Page', 'Edit', 'https://github.com/mlresearch/v143/edit/gh-pages/_config.yml', 13);">edit</a>]</p>
+
+
+  
+<p><strong>Editors: Mattias Heinrich,&nbsp;Qi Dou,&nbsp;Marleen de Bruijne,&nbsp;Jan Lellmann,&nbsp;Alexander Schläfer,&nbsp;Floris Ernst</strong></p>
+<p>[<a href="http://proceedings.mlr.press/v143/assets/bib/bibliography.bib" target="_blank" onclick="ga('send', 'event', 'Download File', 'Download', 'https://proceedings.mlr.press/v143/assets/bib/bibliography.bib', 14);">bib</a>][<a href="http://proceedings.mlr.press/v143/assets/bib/citeproc.yaml" target="_blank" onclick="ga('send', 'event', 'Download File', 'Download', 'https://proceedings.mlr.press/v143/assets/bib/citeproc.yaml', 14);">citeproc</a>]</p>
+<div id="sectionnav">
+  <p>
+  <label for="search-authors">Filter Authors:</label>
+  <input type="search" name="filter-authors" id="search-authors">
+  <label for="search-titles">Filter Titles:</label>
+  <input type="search" name="filter-titles" id="search-titles">
+  </p>
+</div>
+
+
+
+
+
+
+
+<div class="paper">
+  <p class="title">Preface</p>
+  <p class="details">
+    <span class="authors">Mattias Heinrich,&nbsp;Qi Dou,&nbsp;Marleen de Bruijne,&nbsp;Jan Lellmann,&nbsp;Alexander Schläfer,&nbsp;Floris Ernst</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:1-4</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/heinrich21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/heinrich21a/heinrich21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/heinrich21a/heinrich21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Self-Rule to Adapt: Learning Generalized Features 
+from Sparsely-Labeled Data Using Unsupervised Domain Adaptation for 
+Colorectal Cancer Tissue Phenotyping</p>
+  <p class="details">
+    <span class="authors">Christian Abbet,&nbsp;Linda 
+Studer,&nbsp;Andreas Fischer,&nbsp;Heather Dawson,&nbsp;Inti 
+Zlobec,&nbsp;Behzad Bozorgtabar,&nbsp;Jean-Philippe Thiran</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:5-21</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/abbet21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/abbet21a/abbet21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/abbet21a/abbet21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Stroke Lesion Outcome Prediction Based on 4D CT Perfusion Data Using Temporal Convolutional Networks</p>
+  <p class="details">
+    <span class="authors">Kimberly Amador,&nbsp;Matthias Wilms,&nbsp;Anthony Winder,&nbsp;Jens Fiehler,&nbsp;Nils Forkert</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:22-33</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/amador21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/amador21a/amador21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/amador21a/amador21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Attention via Scattering Transforms for Segmentation of Small Intravascular Ultrasound Data Sets</p>
+  <p class="details">
+    <span class="authors">Lennart Bargsten,&nbsp;Katharina A. 
+Riedl,&nbsp;Tobias Wissel,&nbsp;Fabian J. Brunner,&nbsp;Klaus 
+Schaefers,&nbsp;Michael Grass,&nbsp;Stefan Blankenberg,&nbsp;Moritz 
+Seiffert,&nbsp;Alexander Schlaefer</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:34-47</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/bargsten21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/bargsten21a/bargsten21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/bargsten21a/bargsten21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">An MRF-UNet Product of Experts for Image Segmentation</p>
+  <p class="details">
+    <span class="authors">Mikael Brudfors,&nbsp;Yaël 
+Balbastre,&nbsp;John Ashburner,&nbsp;Geraint Rees,&nbsp;Parashkev 
+Nachev,&nbsp;Sebastien Ourselin,&nbsp;M. Jorge Cardoso</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:48-59</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/brudfors21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/brudfors21a/brudfors21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/brudfors21a/brudfors21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Improving Weakly Supervised Lesion Segmentation using Multi-Task Learning</p>
+  <p class="details">
+    <span class="authors">Tianshu Chu,&nbsp;Xinmeng Li,&nbsp;Huy V. Vo,&nbsp;Ronald M. Summers,&nbsp;Elena Sizikova</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:60-73</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/chu21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/chu21a/chu21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/chu21a/chu21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Gifsplanation via Latent Shift: A Simple Autoencoder Approach to Counterfactual Generation for Chest X-rays</p>
+  <p class="details">
+    <span class="authors">Joseph Paul Cohen,&nbsp;Rupert 
+Brooks,&nbsp;Sovann En,&nbsp;Evan Zucker,&nbsp;Anuj Pareek,&nbsp;Matthew
+ P. Lungren,&nbsp;Akshay Chaudhari</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:74-104</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/cohen21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/cohen21a/cohen21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/cohen21a/cohen21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Semantic similarity metrics for learned image registration</p>
+  <p class="details">
+    <span class="authors">Steffen Czolbe,&nbsp;Oswin Krause,&nbsp;Aasa Feragen</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:105-118</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/czolbe21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/czolbe21a/czolbe21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/czolbe21a/czolbe21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">M-GCN: A Multimodal Graph Convolutional Network to 
+Integrate Functional and Structural Connectomics Data to Predict 
+Multidimensional Phenotypic Characterizations</p>
+  <p class="details">
+    <span class="authors">Niharika Shimona Dsouza,&nbsp;Mary Beth 
+Nebel,&nbsp;Deana Crocetti,&nbsp;Joshua Robinson,&nbsp;Stewart 
+Mostofsky,&nbsp;Archana Venkataraman</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:119-130</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/dsouza21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/dsouza21a/dsouza21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/dsouza21a/dsouza21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Improving MRI-based Knee Disorder Diagnosis with Pyramidal Feature Details</p>
+  <p class="details">
+    <span class="authors">Matteo Dunnhofer,&nbsp;Niki Martinel,&nbsp;Christian Micheloni</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:131-147</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/dunnhofer21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/dunnhofer21a/dunnhofer21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/dunnhofer21a/dunnhofer21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Intensity Correction and Standardization for Electron Microscopy Data</p>
+  <p class="details">
+    <span class="authors">Oleh Dzyubachyk,&nbsp;Roman I Koning,&nbsp;Aat A Mulder,&nbsp;M. Christina Avramut,&nbsp;Frank GA Faas,&nbsp;Abraham J Koster</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:148-157</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/dzyubachyk21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/dzyubachyk21a/dzyubachyk21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/dzyubachyk21a/dzyubachyk21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">A Surprisingly Effective Perimeter-based Loss for Medical Image Segmentation</p>
+  <p class="details">
+    <span class="authors">Rosana EL Jurdi,&nbsp;Caroline Petitjean,&nbsp;Paul Honeine,&nbsp;Veronika Cheplygina,&nbsp;Fahed Abdallah</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:158-167</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/el-jurdi21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/el-jurdi21a/el-jurdi21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/el-jurdi21a/el-jurdi21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Tailoring automated data augmentation to H&amp;E-stained histopathology</p>
+  <p class="details">
+    <span class="authors">Khrystyna Faryna,&nbsp;Jeroen van der Laak,&nbsp;Geert Litjens</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:168-178</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/faryna21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/faryna21a/faryna21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/faryna21a/faryna21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Nuc2Vec: Learning Representations of Nuclei in Histopathology Images with Contrastive Loss</p>
+  <p class="details">
+    <span class="authors">Chao Feng,&nbsp;Chad Vanderbilt,&nbsp;Thomas Fuchs</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:179-189</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/feng21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/feng21a/feng21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/feng21a/feng21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">CheXseg: Combining Expert Annotations with DNN-generated Saliency Maps for X-ray Segmentation</p>
+  <p class="details">
+    <span class="authors">Soham Uday Gadgil,&nbsp;Mark Endo,&nbsp;Emily Wen,&nbsp;Andrew Y. Ng,&nbsp;Pranav Rajpurkar</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:190-204</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/gadgil21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/gadgil21a/gadgil21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/gadgil21a/gadgil21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Self-supervised Out-of-distribution Detection for Cardiac CMR Segmentation</p>
+  <p class="details">
+    <span class="authors">Camila Gonzalez,&nbsp;Anirban Mukhopadhyay</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:205-218</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/gonzalez21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/gonzalez21a/gonzalez21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/gonzalez21a/gonzalez21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Direct Inference of Cell Positions using Lens-Free Microscopy and Deep Learning</p>
+  <p class="details">
+    <span class="authors">Philipp Gruening,&nbsp;Falk Nette,&nbsp;Noah Heldt,&nbsp;Ana Cristina Guerra de Souza,&nbsp;Erhardt Barth</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:219-227</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/gruening21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/gruening21a/gruening21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/gruening21a/gruening21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Membership Inference Attacks on Deep Regression Models for Neuroimaging</p>
+  <p class="details">
+    <span class="authors">Umang Gupta,&nbsp;Dimitris Stripelis,&nbsp;Pradeep K. Lam,&nbsp;Paul Thompson,&nbsp;Jose Luis Ambite,&nbsp;Greg Ver Steeg</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:228-251</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/gupta21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/gupta21a/gupta21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/gupta21a/gupta21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Discrete Pseudohealthy Synthesis: Aortic Root Shape Typification and Type Classification with Pathological Prior</p>
+  <p class="details">
+    <span class="authors">Jannis Hagenah,&nbsp;Floris Ernst</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:252-267</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/hagenah21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/hagenah21a/hagenah21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/hagenah21a/hagenah21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Weakly Supervised Volumetric Segmentation via Self-taught Shape Denoising Model</p>
+  <p class="details">
+    <span class="authors">Qian He,&nbsp;Shuailin Li,&nbsp;Xuming He</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:268-285</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/he21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/he21a/he21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/he21a/he21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">The OOD Blind Spot of Unsupervised Anomaly Detection</p>
+  <p class="details">
+    <span class="authors">Matthäus Heer,&nbsp;Janis Postels,&nbsp;Xiaoran Chen,&nbsp;Ender Konukoglu,&nbsp;Shadi Albarqouni</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:286-300</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/heer21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/heer21a/heer21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/heer21a/heer21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">CNN and Deep Sets for End-to-End Whole Slide Image Representation Learning</p>
+  <p class="details">
+    <span class="authors">Sobhan Hemati,&nbsp;Shivam Kalra,&nbsp;Cameron Meaney,&nbsp;Morteza Babaie,&nbsp;Ali Ghodsi,&nbsp;Hamid Tizhoosh</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:301-311</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/hemati21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/hemati21a/hemati21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/hemati21a/hemati21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Whole-Body Soft-Tissue Lesion Tracking and Segmentation in Longitudinal CT Imaging Studies</p>
+  <p class="details">
+    <span class="authors">Alessa Hering,&nbsp;Felix Peisen,&nbsp;Teresa 
+Amaral,&nbsp;Sergios Gatidis,&nbsp;Thomas Eigentler,&nbsp;Ahmed 
+Othman,&nbsp;Jan Hendrik Moltz</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:312-326</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/hering21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/hering21a/hering21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/hering21a/hering21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Feedback Graph Attention Convolutional Network for MR Images Enhancement by Exploring Self-Similarity Features</p>
+  <p class="details">
+    <span class="authors">Xiaobin Hu,&nbsp;Yanyang Yan,&nbsp;Wenqi Ren,&nbsp;Hongwei Li,&nbsp;Amirhossein Bayat,&nbsp;Yu Zhao,&nbsp;Bjoern Menze</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:327-337</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/hu21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/hu21a/hu21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/hu21a/hu21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Partial transfusion: on the expressive influence of trainable batch norm parameters for transfer learning</p>
+  <p class="details">
+    <span class="authors">Fahdi Kanavati,&nbsp;Masayuki Tsuneki</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:338-353</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/kanavati21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/kanavati21a/kanavati21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/kanavati21a/kanavati21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Beyond pixel-wise supervision for segmentation: A few global shape descriptors might be surprisingly good!</p>
+  <p class="details">
+    <span class="authors">Hoel Kervadec,&nbsp;Houda Bahig,&nbsp;Laurent Letourneau-Guillon,&nbsp;Jose Dolz,&nbsp;Ismail Ben Ayed</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:354-368</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/kervadec21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/kervadec21a/kervadec21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/kervadec21a/kervadec21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Feature-based image registration in structured light endoscopy</p>
+  <p class="details">
+    <span class="authors">Andreas M Kist,&nbsp;Julian Zilker,&nbsp;Michael Döllinger,&nbsp;Marion Semmler</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:369-383</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/kist21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/kist21a/kist21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/kist21a/kist21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Predicting COVID-19 Lung Infiltrate Progression on Chest Radiographs Using Spatio-temporal LSTM based Encoder-Decoder Network</p>
+  <p class="details">
+    <span class="authors">Aishik Konwer,&nbsp;Joseph Bae,&nbsp;Gagandeep
+ Singh,&nbsp;Rishabh Gattu,&nbsp;Syed Ali,&nbsp;Jeremy Green,&nbsp;Tej 
+Phatak,&nbsp;Amit Gupta,&nbsp;Chao Chen,&nbsp;Joel Saltz,&nbsp;Prateek 
+Prasanna</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:384-398</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/konwer21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/konwer21a/konwer21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/konwer21a/konwer21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Embedding-based Instance Segmentation in Microscopy</p>
+  <p class="details">
+    <span class="authors">Manan Lalit,&nbsp;Pavel Tomancak,&nbsp;Florian Jug</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:399-415</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/lalit21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/lalit21a/lalit21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/lalit21a/lalit21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Benefits of Linear Conditioning for Segmentation using Metadata</p>
+  <p class="details">
+    <span class="authors">Andreanne Lemay,&nbsp;Charley Gros,&nbsp;Olivier Vincent,&nbsp;Yaou Liu,&nbsp;Joseph Paul Cohen,&nbsp;Julien Cohen-Adad</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:416-430</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/lemay21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/lemay21a/lemay21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/lemay21a/lemay21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Improved model-based deep learning for quantitative susceptibility mapping</p>
+  <p class="details">
+    <span class="authors">Juan Liu</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:431-450</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/liu21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/liu21a/liu21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/liu21a/liu21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Weakly-supervised High-resolution Segmentation of Mammography Images for Breast Cancer Diagnosis</p>
+  <p class="details">
+    <span class="authors">Kangning Liu,&nbsp;Yiqiu Shen,&nbsp;Nan Wu,&nbsp;Jakub Piotr Chłędowski,&nbsp;Carlos Fernandez-Granda,&nbsp;Krzysztof J. Geras</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:451-472</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/liu21b.html">abs</a>][<a href="https://proceedings.mlr.press/v143/liu21b/liu21b.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/liu21b/liu21b.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Distill DSM: Computationally efficient method for segmentation of medical imaging volumes</p>
+  <p class="details">
+    <span class="authors">Harsh Maheshwari,&nbsp;Vidit Goel,&nbsp;Ramanathan Sethuraman,&nbsp;Debdoot Sheet</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:473-483</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/maheshwari21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/maheshwari21a/maheshwari21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/maheshwari21a/maheshwari21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">An AI-based Framework for Diagnostic Quality Assessment of Ankle Radiographs</p>
+  <p class="details">
+    <span class="authors">Dominik Mairhöfer,&nbsp;Manuel 
+Laufer,&nbsp;Paul Martin Simon,&nbsp;Malte Sieren,&nbsp;Arpad 
+Bischof,&nbsp;Thomas Käster,&nbsp;Erhardt Barth,&nbsp;Jörg 
+Barkhausen,&nbsp;Thomas Martinetz</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:484-496</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/mairhofer21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/mairhofer21a/mairhofer21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/mairhofer21a/mairhofer21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Unifying Brain Age Prediction and Age-Conditioned Template Generation with a Deterministic Autoencoder</p>
+  <p class="details">
+    <span class="authors">Pauline Mouches,&nbsp;Matthias Wilms,&nbsp;Deepthi Rajashekar,&nbsp;Sonke Langner,&nbsp;Nils Forkert</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:497-506</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/mouches21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/mouches21a/mouches21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/mouches21a/mouches21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Learning Interclass Relations for Intravenous Contrast Phase Classification in CT</p>
+  <p class="details">
+    <span class="authors">Raouf Muhamedrahimov,&nbsp;Amir Bar,&nbsp;Ayelet Akselrod-Ballin</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:507-519</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/muhamedrahimov21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/muhamedrahimov21a/muhamedrahimov21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/muhamedrahimov21a/muhamedrahimov21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">EPIC-Survival: End-to-end Part Inferred Clustering for Survival Analysis, with Prognostic Stratification Boosting</p>
+  <p class="details">
+    <span class="authors">Hassan Muhammad,&nbsp;Chensu Xie,&nbsp;Carlie S
+ Sigel,&nbsp;Michael Doukas,&nbsp;Lindsay Alpert,&nbsp;Amber Lea 
+Simpson,&nbsp;Thomas J Fuchs</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:520-531</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/muhammad21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/muhammad21a/muhammad21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/muhammad21a/muhammad21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">“Train one, Classify one, Teach one” - Cross-surgery transfer learning for surgical step recognition</p>
+  <p class="details">
+    <span class="authors">Daniel Neimark,&nbsp;Omri Bar,&nbsp;Maya Zohar,&nbsp;Gregory D. Hager,&nbsp;Dotan Asselmann</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:532-544</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/neimark21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/neimark21a/neimark21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/neimark21a/neimark21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">GOAL: Gist-set Online Active Learning for Efficient Chest X-ray Image Annotation</p>
+  <p class="details">
+    <span class="authors">Chanh Nguyen,&nbsp;Minh Thanh Huynh,&nbsp;Minh
+ Quan Tran,&nbsp;Ngoc Hoang Nguyen,&nbsp;Mudit Jain,&nbsp;Van Doan 
+Ngo,&nbsp;Tan Duc Vo,&nbsp;Trung Bui,&nbsp;Steven Quoc Hung Truong</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:545-553</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/nguyen21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/nguyen21a/nguyen21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/nguyen21a/nguyen21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Balanced sampling for an object detection problem - application to fetal anatomies detection</p>
+  <p class="details">
+    <span class="authors">Antoine Olivier,&nbsp;Caroline Raynaud</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:554-566</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/olivier21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/olivier21a/olivier21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/olivier21a/olivier21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Explainable Image Quality Analysis of Chest X-Rays</p>
+  <p class="details">
+    <span class="authors">Caner Ozer,&nbsp;Ilkay Oksuz</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:567-580</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/ozer21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/ozer21a/ozer21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/ozer21a/ozer21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Localizing Neurosurgical Instruments Across Domains and in the Wild</p>
+  <p class="details">
+    <span class="authors">Markus Philipp,&nbsp;Anna 
+Alperovich,&nbsp;Marielena Gutt-Will,&nbsp;Andrea Mathis,&nbsp;Stefan 
+Saur,&nbsp;Andreas Raabe,&nbsp;Franziska Mathis-Ullrich</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:581-595</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/philipp21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/philipp21a/philipp21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/philipp21a/philipp21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Unsupervised Brain Anomaly Detection and Segmentation with Transformers</p>
+  <p class="details">
+    <span class="authors">Walter Hugo Lopez Pinaya,&nbsp;Petru-Daniel 
+Tudosiu,&nbsp;Robert Gray,&nbsp;Geraint Rees,&nbsp;Parashkev 
+Nachev,&nbsp;Sébastien Ourselin,&nbsp;M. Jorge Cardoso</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:596-617</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/pinaya21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/pinaya21a/pinaya21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/pinaya21a/pinaya21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Residual learning for 3D motion corrected quantitative MRI: Robust clinical T1, T2 and proton density mapping</p>
+  <p class="details">
+    <span class="authors">Carolin Pirkl,&nbsp;Matteo Cencini,&nbsp;Jan 
+W. Kurzawski,&nbsp;Diana Waldmannstetter,&nbsp;Hongwei Li,&nbsp;Anjany 
+Sekuboyina,&nbsp;Sebastian Endt,&nbsp;Luca Peretti,&nbsp;Graziella 
+Donatelli,&nbsp;Rosa Pasquariello,&nbsp;Michela Tosetti,&nbsp;Mauro 
+Costagli,&nbsp;Guido Buonincontri,&nbsp;Marion I. Menzel,&nbsp;Bjoern H.
+ Menze</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:618-632</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/pirkl21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/pirkl21a/pirkl21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/pirkl21a/pirkl21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Image Sequence Generation and Analysis via GRU and Attention for Trachomatous Trichiasis Classification</p>
+  <p class="details">
+    <span class="authors">Juan Carlos Prieto,&nbsp;Hina Shah,&nbsp;Kasey
+ Jones,&nbsp;Robert F Chew,&nbsp;Hashiya M. Kana,&nbsp;Jerusha 
+Weaver,&nbsp;Rebecca M. Flueckiger,&nbsp;Scott McPherson,&nbsp;Emily W. 
+Gower</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:633-644</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/prieto21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/prieto21a/prieto21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/prieto21a/prieto21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Learning Diffeomorphic and Modality-invariant Registration using B-splines</p>
+  <p class="details">
+    <span class="authors">Huaqi Qiu,&nbsp;Chen Qin,&nbsp;Andreas Schuh,&nbsp;Kerstin Hammernik,&nbsp;Daniel Rueckert</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:645-664</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/qiu21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/qiu21a/qiu21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/qiu21a/qiu21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Understanding and Visualizing Generalization in UNets</p>
+  <p class="details">
+    <span class="authors">Abhejit Rajagopal,&nbsp;Vamshi Chowdary Madala,&nbsp;Thomas A Hope,&nbsp;Peder Larson</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:665-681</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/rajagopal21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/rajagopal21a/rajagopal21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/rajagopal21a/rajagopal21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Cluster-to-Conquer: A Framework for End-to-End Multi-Instance Learning for Whole Slide Image Classification</p>
+  <p class="details">
+    <span class="authors">Yash Sharma,&nbsp;Aman Shrivastava,&nbsp;Lubaina Ehsan,&nbsp;Christopher A. Moskaluk,&nbsp;Sana Syed,&nbsp;Donald Brown</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:682-698</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/sharma21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/sharma21a/sharma21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/sharma21a/sharma21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Unseen Disease Detection for Deep Learning Interpretation of Chest X-rays</p>
+  <p class="details">
+    <span class="authors">Siyu Shi,&nbsp;Ishaan Malhi,&nbsp;Kevin Tran,&nbsp;Andrew Y. Ng,&nbsp;Pranav Rajpurkar</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:699-712</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/shi21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/shi21a/shi21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/shi21a/shi21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Changing the Contrast of Magnetic Resonance Imaging Signals using Deep Learning</p>
+  <p class="details">
+    <span class="authors">Attila Tibor Simko,&nbsp;Tommy Löfstedt,&nbsp;Anders Garpebring,&nbsp;Mikael Bylund,&nbsp;Tufve Nyholm,&nbsp;Joakim Jonsson</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:713-727</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/simko21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/simko21a/simko21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/simko21a/simko21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">MoCo Pretraining Improves Representation and Transferability of Chest X-ray Models</p>
+  <p class="details">
+    <span class="authors">Hari Sowrirajan,&nbsp;Jingbo Yang,&nbsp;Andrew Y. Ng,&nbsp;Pranav Rajpurkar</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:728-744</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/sowrirajan21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/sowrirajan21a/sowrirajan21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/sowrirajan21a/sowrirajan21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">A Mean-Field Variational Inference Approach to Deep Image Prior for Inverse Problems in Medical Imaging</p>
+  <p class="details">
+    <span class="authors">Malte Tölle,&nbsp;Max-Heinrich Laves,&nbsp;Alexander Schlaefer</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:745-760</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/tolle21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/tolle21a/tolle21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/tolle21a/tolle21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Learning the Latent Heat Diffusion Process through Structural Brain Network from Longitudinal <span class="MathJax_Preview" style="color: inherit;"></span><span class="MathJax" id="MathJax-Element-1-Frame" tabindex="0" style="position: relative;" data-mathml="&lt;math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;&gt;&lt;mi&gt;&amp;#x03B2;&lt;/mi&gt;&lt;/math&gt;" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-1" style="width: 0.708em; display: inline-block;"><span style="display: inline-block; position: relative; width: 0.554em; height: 0px; font-size: 124%;"><span style="position: absolute; clip: rect(1.513em, 1000.55em, 2.714em, -1000em); top: -2.369em; left: 0em;"><span class="mrow" id="MathJax-Span-2"><span class="mi" id="MathJax-Span-3" style="font-family: MathJax_Math; font-style: italic;">β<span style="display: inline-block; overflow: hidden; height: 1px; width: 0.007em;"></span></span></span><span style="display: inline-block; width: 0px; height: 2.369em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.303em; border-left: 0px solid; width: 0px; height: 1.24em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>β</mi></math></span></span><script type="math/tex" id="MathJax-Element-1">\beta</script>-Amyloid Data</p>
+  <p class="details">
+    <span class="authors">Md Asadullah Turja,&nbsp;Guorong Wu,&nbsp;Defu Yang,&nbsp;Martin Andreas Styner</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:761-773</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/turja21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/turja21a/turja21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/turja21a/turja21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Guided Filter Regularization for Improved Disentanglement of Shape and Appearance in Diffeomorphic Autoencoders</p>
+  <p class="details">
+    <span class="authors">Hristina Uzunova,&nbsp;Heinz Handels,&nbsp;Jan Ehrhardt</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:774-786</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/uzunova21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/uzunova21a/uzunova21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/uzunova21a/uzunova21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">HAD-Net: A Hierarchical Adversarial Knowledge 
+Distillation Network for Improved Enhanced Tumour Segmentation Without 
+Post-Contrast Images</p>
+  <p class="details">
+    <span class="authors">Saverio Vadacchino,&nbsp;Raghav 
+Mehta,&nbsp;Nazanin Mohammadi Sepahvand,&nbsp;Brennan 
+Nichyporuk,&nbsp;James J. Clark,&nbsp;Tal Arbel</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:787-801</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/vadacchino21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/vadacchino21a/vadacchino21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/vadacchino21a/vadacchino21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Untangling the Small Intestine in 3D cine-MRI using Deep Stochastic Tracking</p>
+  <p class="details">
+    <span class="authors">Louis van Harten,&nbsp;Catharina de Jonge,&nbsp;Jaap Stoker,&nbsp;Ivana Isgum</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:802-812</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/harten21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/harten21a/harten21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/harten21a/harten21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Automated triaging of head MRI examinations using convolutional neural networks</p>
+  <p class="details">
+    <span class="authors">David A. Wood,&nbsp;Sina Kafiabadi,&nbsp;Aisha
+ Al Busaidi,&nbsp;Emily Guilhem,&nbsp;Antanas Montvila,&nbsp;Siddarth 
+Agarwal,&nbsp;Jeremy Lynch,&nbsp;Matthew Townend,&nbsp;Gareth 
+Barker,&nbsp;Sebastian Ourselin,&nbsp;James H. Cole,&nbsp;Thomas C. 
+Booth</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:813-841</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/wood21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/wood21a/wood21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/wood21a/wood21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">A regularization term for slide correlation reduction in whole slide image analysis with deep learning</p>
+  <p class="details">
+    <span class="authors">Hongrun Zhang,&nbsp;Yanda Meng,&nbsp;Xuesheng Qian,&nbsp;Xiaoyun Yang,&nbsp;Sarah E. Coupland,&nbsp;Yalin Zheng</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:842-854</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/zhang21a.html">abs</a>][<a href="https://proceedings.mlr.press/v143/zhang21a/zhang21a.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/zhang21a/zhang21a.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">SWNet: Surgical Workflow Recognition with Deep Convolutional Network</p>
+  <p class="details">
+    <span class="authors">Bokai Zhang,&nbsp;Amer Ghanem,&nbsp;Alexander Simes,&nbsp;Henry Choi,&nbsp;Andrew Yoo,&nbsp;Andrew Min</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:855-869</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/zhang21b.html">abs</a>][<a href="https://proceedings.mlr.press/v143/zhang21b/zhang21b.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/zhang21b/zhang21b.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+<div class="paper">
+  <p class="title">Hybrid optimization between iterative and network fine-tuning reconstructions for fast quantitative susceptibility mapping</p>
+  <p class="details">
+    <span class="authors">Jinwei Zhang,&nbsp;Hang Zhang,&nbsp;Pascal Spincemaille,&nbsp;Thanh Nguyen,&nbsp;Mert R. Sabuncu,&nbsp;Yi Wang</span>;
+    <span class="info"><i>Proceedings of the Fourth Conference on Medical Imaging with Deep Learning</i>, PMLR 143:870-880</span>
+  </p>
+  <p class="links">
+    [<a href="https://proceedings.mlr.press/v143/zhang21c.html">abs</a>][<a href="https://proceedings.mlr.press/v143/zhang21c/zhang21c.pdf" target="_blank" onclick="ga('send', 'event', 'PDF Downloads', 'Download', 'https://proceedings.mlr.press/v143/zhang21c/zhang21c.pdf', 10);">Download PDF</a>]</p>
+</div>
+
+
+<p class="rss-subscribe">subscribe <a href="http://proceedings.mlr.press/v143/assets/rss/feed.xml">via RSS</a></p>
+
+<!-- Search Widget -->
+<script src="pmlr143_files/jquery.js"></script>
+<script src="pmlr143_files/search.js"></script>
+
+
+
+
+
+
+
+      </div>
+    </main>
+
+
+<footer class="site-footer">
+  <div class="wrapper">
+    <p>This site last compiled Fri, 27 Aug 2021 12:46:59 +0000</p>
+      <div class="footer-left"><i><a href="https://github.com/mlresearch/v143">Github Account</a></i>
+      </div>
+      <div class="footer-right">Copyright © <a href="https://proceedings.mlr.press/">The authors and PMLR</a> 2021.<a href="https://twitter.com/MLResearchPress"><i class="icon-twitter"></i>&nbsp;MLResearchPress</a></div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+<div style="position: absolute; width: 0px; height: 0px; overflow: hidden; padding: 0px; border: 0px none; margin: 0px;"><div id="MathJax_Font_Test" style="position: absolute; visibility: hidden; top: 0px; left: 0px; width: auto; min-width: 0px; max-width: none; padding: 0px; border: 0px none; margin: 0px; white-space: nowrap; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; font-size: 40px; font-weight: normal; font-style: normal; font-size-adjust: none; font-family: MathJax_Size4, sans-serif;"></div></div></body><style id="stylus-3" type="text/css" class="stylus">p {
+        text-align: justify;
+        text-justify: auto;
+        hyphens: auto;
+    }</style></html>
