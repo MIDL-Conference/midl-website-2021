@@ -48,10 +48,10 @@ if __name__ == "__main__":
             result = result.replace("AWARD", "")
 
         result = result.replace("EMBEDEDTEASE", "")
-        result = result.replace("PROCEEDINGS", "")
-        # if paper.short:
-        # else:
-        #     result = result.replace("PROCEEDINGS", f'\n- <a href="{paper.pmlr_url}">Proceedings</a>')
+        if paper.short:
+            result = result.replace("PROCEEDINGS", "")
+        else:
+            result = result.replace("PROCEEDINGS", f'\n- <a href="{paper.pmlr_url}">Proceedings</a>')
 
         # slides_path: Path = Path(paper.slides)
 
