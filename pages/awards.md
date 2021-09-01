@@ -124,15 +124,15 @@ In addition to the best paper award there were two audience awards for best long
 ### Audience Award - Best long oral presentation - Winner
 [% .papers %]
 
-{{ paper('Understanding and Visualizing Generalization in UNets',
+{{ paper('Understanding and Visualizing Generalization UNets',
         'Abhejit Rajagopal, Vamshi Chowdary Madala, Thomas A Hope, Peder Larson',
         openreview='https://openreview.net/forum?id=V-a5DJCh4Hk',
-        pdf='https://openreview.net/pdf?id=V-a5DJCh4Hk',
+        pdf='/proceedings/rajagopal21.pdf',
         id='I3',
-        paper='papers/i3.html',
-        teaser='',
-        video='',
-        abstract='')
+        paper='papers/I3.html',
+        proceedings='https://proceedings.mlr.press/v143/rajagopal21a.html',
+        video='https://www.youtube.com/watch?v=jJn0oMAAg0o',
+        abstract="Fully-convolutional neural networks, such as the 2D or 3D UNet, are now pervasive in medical imaging for semantic segmentation, classification, image denoising, domain translation, and reconstruction. However, evaluation of UNet performance, as with most CNNs, has mostly been relegated to evaluation of a few performance metrics (e.g. accuracy, IoU, SSIM, etc.) using the network\\'s final predictions, which provides little insight into important issues such as dataset shift that occur in clinical application. In this paper, we propose techniques for understanding and visualizing the generalization performance of UNets in image classification and regression tasks, giving rise to metrics that are indicative of performance on a withheld test-set without the need for groundtruth annotations.")
 }}
 [% / %]
 
