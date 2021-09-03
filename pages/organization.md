@@ -42,3 +42,28 @@ page_class: "sponsors"
 [![University of Lübeck](/images/uzl.png){: width="300"}](https://www.uni-luebeck.de/)
 [![Hamburg University of Technology](/images/tuhh.png){: width="200"}](https://www.tuhh.de/)
 [% / %]
+
+## Area Chairs (Program Committee)
+* Aasa Feragen (University of Copenhagen, Denmark)
+* Adrian Dalca (Harvard University, USA)
+* Albert CS Chung (The Hong Kong University of Science and Technology)
+* Angelica I. Aviles-Rivero(Cambridge University)
+* Bjoern H Menze (Technical University Munich, Germany)
+* Carole Sudre (King's College London, UK)
+* Caroline Petitjean (University of Rouen, France)
+* Clarisa Sanchez(Radboud University Medical Center)
+* Diana Mateus(Ecole Centrale Nantes)
+* Geert Litjens (Radboud University Medical Center, The Netherlands)
+* Gustavo Carneiro (The University of Adelaide, Australia)
+* Holger Roth (NVIDIA)
+* Ipek Oguz (University of North Carolina at Chapel Hill, USA)
+* Juan Eugenio Iglesias (University College London)
+* Klaus Maier-Hein (German Cancer Research Center)
+* Maria Vakalopoulou (Centrale Supélec, France)
+* Miaomiao Zhang (Washington University in St. Louis)
+* Pierrick Coupé (University of Bordeaux, France)
+* S. Kevin Zhou (Chinese Academy of Sciences, China)
+* Shanshan Wang (Shenzhen Institutes of Advanced Technology, China)
+* Suyash Awate (Indian Institute of Technology (IIT) Bombay)
+* Tom Vercauteren (King's College London, UK)<img width="91" alt="image" src="https://user-images.githubusercontent.com/11568065/132008593-70e18d47-13a0-42ca-ae6f-54c9684ee8ea.png">
+
