@@ -65,5 +65,5 @@ page_class: "sponsors"
 * S. Kevin Zhou (Chinese Academy of Sciences, China)
 * Shanshan Wang (Shenzhen Institutes of Advanced Technology, China)
 * Suyash Awate (Indian Institute of Technology (IIT) Bombay)
-* Tom Vercauteren (King's College London, UK)<img width="91" alt="image" src="https://user-images.githubusercontent.com/11568065/132008593-70e18d47-13a0-42ca-ae6f-54c9684ee8ea.png">
+* Tom Vercauteren (King's College London, UK)
 
