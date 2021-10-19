@@ -763,7 +763,7 @@ Chairs: Tal Arbel, Hans Meine <br>
         id='D11',
         paper='papers/D11.html',
         proceedings='https://proceedings.mlr.press/v143/prieto21a.html',
-        video='https://www.youtube.com/watch?v=l_MyuuD_HXg',
+        video='https://www.youtube.com/watch?v=zAmT3xAepVs',
         abstract='Chlamydia trachomatous is an infectious ocular condition that can cause the eyelid to turn inward so that one or more eyelashes touch the eyeball, a condition call trachomatous trichiasis (TT), which can lead to blindness. Community-based screeners are used in rural areas to identify patients with TT, who can then be referred for proper medical care. Having automatic methods to detect TT will reduce the amount of time required to train screeners and improve accuracy of detection. This paper proposes a method to automatically identify regions of an eye and identify TT, using photographs taken with smartphones in the field. The attention-based gated deep learning networks in combination with a regionidentification network can identify TT with an accuracy of 91%, sensitivity of 92% and specificity of 87%, showing that these methods have the potential to be deployed in the field.')
 }}
 {{ paper('MoCo Pretraining Improves Representation and Transferability of Chest X-ray Models',
