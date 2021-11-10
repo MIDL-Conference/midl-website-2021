@@ -2,8 +2,10 @@
 .python-version
 .netlify
 
-pages/program.md
-
 # pages/papers/*.md
 # papers.json
 static/contents/
+static/proceedings/
+static/videos/
+static/slides/
+contents/
