@@ -1,55 +1,8 @@
 ---
-title: "Important Dates"
+title: "Program at a glance"
 ---
 
-# Important Dates
-
-All deadlines are at 23:59, [UTC -12](https://www.timeanddate.com/time/map/) ([AoE](https://en.wikipedia.org/wiki/Anywhere_on_Earth) timezone).
-
-[% .deadlines %]
-### Full Papers
-* **<s>Paper registration open</s>** <s>1 January 2021</s>
-* **<s>Paper registration deadline</s>** <s>10 February 2021</s>
-* **<s>Paper submission deadline</s>** <s>17 February 2021</s>
-* **<s>Reviews available</s>** <s>10 March 2021</s>
-* **<s>Rebuttal / discussion period</s>** <s>10 March to 22 March 2021</s>
-* **<s>Rebuttals due</s>** <s>17 March 2021</s>
-* **<s>Discussion phase</s>** <s>18 to 22 March 2021</s>
-* **<s>Notification of acceptance</s>** <s>31 March 2021</s>
-* **<s>Deadline for uploading videos</s>** <s>28 June 20201</s>
-
-### Short Papers
-* **<s>Paper registration open</s>** <s>1 January 2021</s>
-* **<s>Paper registration deadline</s>** <s>6 April 2021</s> <s>9 April 2021</s>
-* **<s>Paper submission deadline</s>** <s>13 April 2021</s>
-* **<s>Notification of acceptance</s>** <s>12 May 2021</s>
-
-### Doctoral Symposium
-* **<s>Application deadline</s>** <s>4 June 2021</s>
-* **<s>Notification of acceptance</s>** <s>14 June 2021</s>
-* **<s>Doctoral Symposium</s>** <s>2 July 2021</s>
-
-### Conference dates
-* [**<s>Doctoral Symposium</s>**](/doctoral-symposium.html) <s>2 July 2021</s>
-* [**<s>MIDL 2021</s>**](/program.html) <s>7-9 July 2021</s>
-
-### MedIA Special Issue
-* **<s>Paper submission deadline</s>** <s>August 2021</s>
-* **Publication** January/February 2022 (if no major revisions are required)
-
-[% / %]
-
----
-
-## iCalendar
-An online iCalendar with all dates and schedule is [available](https://www.rob.uni-luebeck.de/midl2021_cal/MIDL%202021.ics).
-It can conveniently be subscribed to and integrated in many calendar applications:
-
-* [Google Calendar](https://support.google.com/calendar/answer/37100?hl=en&co=GENIE.Platform=Desktop)
-* [Thunderbird](https://support.mozilla.org/en-US/kb/creating-new-calendars#w_icalendar-ics)
-* [Apple Calendar](https://support.apple.com/guide/calendar/subscribe-to-calendars-icl1022/mac)
-
----
+# Program at a glance
 
 <style>
 #program, #program th, #program td {
@@ -268,8 +221,6 @@ jQuery(document).ready(function($) {
   clip-path: polygon(0% 0%, 120% 0%, 120% 120%, 0% 120%); /*bottom-right*/
 -->
 
-## Program at a Glance
-
 <table id="program"><thead><tr><th class='col1' id='t01'>PDT UTC-7</th><th class='col2' id='t01'>EDT UTC-4</th><th class='col3' id='t00'>L&uuml;beck UTC+2</th><th class='col4' id='t01'>HKT UTC+8</th><th colspan='2' id='t00'><b>Wednesday 7th July</b></th><th colspan='2' id='t00'><b>Thursday 8th July</b></th><th colspan='2' id='t00'><b>Friday 9th July</b></th></thead>
 <tr><th id='t01' class='col1'>00:00</th><th id='t01' class='col2'>3:00</th><th id='t00' class='col3'>9:00</th><th id='t01' class='col4'>15:00</th><th id='cshort_v'><a href='#shortA'>A4-12</a> Videos</th><th id='cshort_v'><a href='#shortB'>B1-9</a> Videos</th><th id='cshort_v'><a href='#shortE'>E4-12</a> Videos</th><th id='cshort_v'><a href='#shortF'>F1-9</a> Videos</th><th id='cshort_v'><a href='#shortI'>I4-12</a> Videos</th><th id='cshort_v'><a href='#shortJ'>J1-9</a> Videos</th>
 
@@ -366,10 +317,9 @@ jQuery(document).ready(function($) {
 <tr><th id='ckeynote'><div id="title_legend">Keynote</div></th><th><div id="text_legend">Live (virtual) presentation with following discussion in Webinar. </div></th>
 
 <tr><th id='cspecial'><div id="title_legend">Industry and Sponsors</div></th><th><div id="text_legend">Virtual booth and videos presenting supporting companies.<br>Networking and career opportunities. </div></th>
-<tr><th id='cmentor'><div id="title_legend">Study Groups / Mentors</div></th><th><div id="text_legend">(optional with prior sign-up: <a href="https://forms.gle/CNPTBZQ4fzWuFKY6A">Google Form</a>). Study groups assemble questions<br> for live discussion. Meet in deticated study rooms and also get great advice from mentors. </div></th>
-<tr><th id='cbreak'><div id="title_legend">Breaks: GatherTown</div></th><th><div id="text_legend">Meet new and old colleagues for ad-hoc (video) chats on the hallway<br>or in free meeting spaces. Have coffee or enjoy views over L&uuml;beck. </div></th>
-
-        </table>
+<tr><th id='cmentor'><div id="title_legend">Study Groups / Mentors</div></th><th><div id="text_legend">(optional with prior sign-up: <a href="https://forms.gle/CNPTBZQ4fzWuFKY6A">Google Form</a>). Study groups assemble questions<br> for live discussion. Meet in dedicated study rooms and also get great advice from mentors. </div></th>
+<tr><th id='cbreak'><div id="title_legend">Breaks: GatherTown</div></th><th><div id="text_legend">Meet new and old colleagues for ad-hoc (video) chats on the hallway<br>or in free meeting spaces. Have coffee or enjoy views over L&uuml;beck.</div></th></tr>
+</table>
 
 ---
 
@@ -381,3 +331,52 @@ The active part - the <b>prime time</b> - takes place in the time frame that is 
 During this active part, live spotlight presentations of and discussions with the authors of all accepted papers are scheduled. Additionally, the keynotes, virtual poster sessions as well as social events will take place during the active phase. Hence, participants from all over the world get the chance to discuss the presented research, meet new colleagues and old friends, and enjoy a live virtual event.
 
 In the passive part, the full presentation videos of all accepted papers are shown in moderated sessions. Each presentation is streamed twice to address the different time zones, once the day before after the active phase and once right before the active phase where the paper is discussed. Questions that arise during these sessions will be collected and answered in the corresponding discussion session during the active phase. All presentation videos will also be accessible on the homepage so that they can also be enjoyed outside the moderated sessions.
+
+---
+
+## Important dates
+
+All deadlines are at 23:59, [UTC -12](https://www.timeanddate.com/time/map/) ([AoE](https://en.wikipedia.org/wiki/Anywhere_on_Earth) timezone).
+
+[% .deadlines %]
+### Full Papers
+* **<s>Paper registration open</s>** <s>1 January 2021</s>
+* **<s>Paper registration deadline</s>** <s>10 February 2021</s>
+* **<s>Paper submission deadline</s>** <s>17 February 2021</s>
+* **<s>Reviews available</s>** <s>10 March 2021</s>
+* **<s>Rebuttal / discussion period</s>** <s>10 March to 22 March 2021</s>
+* **<s>Rebuttals due</s>** <s>17 March 2021</s>
+* **<s>Discussion phase</s>** <s>18 to 22 March 2021</s>
+* **<s>Notification of acceptance</s>** <s>31 March 2021</s>
+* **<s>Deadline for uploading videos</s>** <s>28 June 20201</s>
+
+### Short Papers
+* **<s>Paper registration open</s>** <s>1 January 2021</s>
+* **<s>Paper registration deadline</s>** <s>6 April 2021</s> <s>9 April 2021</s>
+* **<s>Paper submission deadline</s>** <s>13 April 2021</s>
+* **<s>Notification of acceptance</s>** <s>12 May 2021</s>
+
+### Doctoral Symposium
+* **<s>Application deadline</s>** <s>4 June 2021</s>
+* **<s>Notification of acceptance</s>** <s>14 June 2021</s>
+* **<s>Doctoral Symposium</s>** <s>2 July 2021</s>
+
+### Conference dates
+* [**<s>Doctoral Symposium</s>**](/doctoral-symposium.html) <s>2 July 2021</s>
+* [**<s>MIDL 2021</s>**](/program.html) <s>7-9 July 2021</s>
+
+### MedIA Special Issue
+* **<s>Paper submission deadline</s>** <s>August 2021</s>
+* **Publication** January/February 2022 (if no major revisions are required)
+
+[% / %]
+
+---
+
+## iCalendar
+An online iCalendar with all dates and schedule is [available](https://www.rob.uni-luebeck.de/midl2021_cal/MIDL%202021.ics).
+It can conveniently be subscribed to and integrated in many calendar applications:
+
+* [Google Calendar](https://support.google.com/calendar/answer/37100?hl=en&co=GENIE.Platform=Desktop)
+* [Thunderbird](https://support.mozilla.org/en-US/kb/creating-new-calendars#w_icalendar-ics)
+* [Apple Calendar](https://support.apple.com/guide/calendar/subscribe-to-calendars-icl1022/mac)
