@@ -1,13 +1,3 @@
 [build]
   command = "python -m mwb . output/"
   publish = "output/"
-
-[[redirects]]
-  from = "/cfp*"
-  to = "/call-for-papers.html"
-  status = 301
-  
-[[redirects]]
-  from = "/gather*"
-  to = "https://gather.town/app/Y8zE5Ct0yJ6jkD97/MIDL2021_WS"
-  status = 302
