@@ -1,7 +1,5 @@
 ---
 title: "Scientific program"
-opengraph:image: "images/winter-workshop/background_cropped.jpg"
-twitter_card: "images/winter-workshop/background_cropped.jpg"
 ---
 
 {% from "_macros.html" import paper %}

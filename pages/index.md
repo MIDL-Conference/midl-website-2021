@@ -19,6 +19,11 @@ page_class: "sponsors"
 
 {{ youtube('POKlkkH14Uc') }}
 
+<p class="centered">
+    <a href="/program.html" class="button">Scientific program</a>
+    <a href="https://www.sciencedirect.com/journal/medical-image-analysis/special-issue/10S9LW6PT3G" class="button">MedIA special issue</a>
+</p>
+
 A big thank you to everyone who attended MIDL 2021 virtually in Lübeck, Germany! We hope to see many of you at [MIDL 2022 in Zürich](https://2022.midl.io).
 
 All [papers, posters and presentations](/program.html) are now freely available online. Recordings of all sessions, including the keynotes, the industry and sponsor events as well as the virtual gala event, are available on [YouTube](https://www.youtube.com/c/MIDLSociety).
